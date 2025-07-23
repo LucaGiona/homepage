@@ -1,0 +1,7 @@
+﻿Über mich
+
+Mein beruflicher Werdegang begann in der gehobenen Gastronomie, wo ich über viele Jahre hinweg umfangreiche Erfahrungen als Bar Manager und Führungskraft gesammelt habe. In dieser Zeit war ich unter anderem verantwortlich für die Konzeption, Leitung und Weiterentwicklung anspruchsvoller Barbetriebe – darunter die Monkey Bar Berlin sowie meine eigene Bar. Dabei lag mein Fokus stets auf Qualität, Teamdynamik, wirtschaftlichem Denken und einer gastorientierten Servicekultur.
+
+Parallel zu meiner Tätigkeit in der Hotellerie entwickelte sich ein wachsendes Interesse an Technologie und digitaler Innovation. Diese Neugier hat dazu geführt, dass ich mich heute intensiv mit Webentwicklung, APIs, Datenbanken und modernen Programmiersprachen beschäftige. Mein Schwerpunkt liegt aktuell auf JavaScript (inkl. Vue.js), Python (Flask, FastAPI), Go und SQL. Darüber hinaus arbeite ich mit Frameworks wie LangChain und setze mich mit Themen wie Retrieval-Augmented Generation (RAG), Agentensystemen und künstlicher Intelligenz auseinander.
+
+Ziel meiner aktuellen Ausrichtung ist es, meine unternehmerischen und kreativen Fähigkeiten mit technologischer Kompetenz zu verbinden. Ob bei der Entwicklung digitaler Anwendungen, der Umsetzung datenbasierter Lösungen oder der Konzeption neuer Projekte: Ich bringe analytisches Denken, Umsetzungsstärke und ein hohes Maß an Eigeninitiative mit.
