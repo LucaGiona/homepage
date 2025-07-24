@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="script.js" defer></script>
+    <script src="/nav.js" defer></script>
+    <title>Drinks</title>
+</head>
+<body>
+      <header>
+        <nav id="nav-container"></nav>
+    </header>
+    <main>
+        <h1>Cocktails</h1>
+            <section>
+            <h3>Choose your Drink</h3>
+            <label>Choose the season </label>
+                <select name="season" id="season">
+                    <option value="all">All</option>
+                    <option value="spring">Frühling</option>
+                    <option value="summer">Sommer</option>  
+                    <option value="autmn">Herbst</option>
+                    <option value="winter">Winter</option>
+                </select>
+                <label for="">Alkohol</label>
+                <select name="alcoholic" id="alcoholic">
+                    <option value="all">All</option>
+                    <option value="alcoholicYes">mit Alkohol</option>
+                    <option value="alcoholicNo">ohne Alkohol</option>   
+                </select>
+                <!-- Drink card 1-->
+                <div class="drink" data-season="summer spring" data-alcohol="alcoholicYes">
+                    <h2>Daiquiri</h2>
+                    <p>Rum, Limette, Zucker</p>
+                </div>
+                <!-- Drink card 2-->
+                <div class="drink" data-season="winter" data-alcohol="alcoholicYes">
+                    <h2>Hot Buttered Rum</h2>
+                    <p>Rum, Butter, Gewürze, heißes Wasserr</p>
+                </div>
+                <!-- Drink card 3-->
+                <div class="drink" data-season="summer spring" data-alcohol="alcoholicNo">
+                    <h2>Virgin Mojito</h2>
+                    <p>Minze, Limette, Zucker, Soda</p>
+                </div>
+                <!-- Drink card 4-->
+                <div class="drink" data-season="autmn winter" data-alcohol="alcoholicYes">
+                    <h2>Boulevardier</h2>
+                    <p>Bourbon, Camapari, roter Wermut</p>
+                </div>
+                <!-- Drink card 5-->
+                <div class="drink" data-season="winter" data-alcohol="alcoholicYes">
+                    <h2>Irish Coffee</h2>
+                    <p>Rum, Limette, Zucker</p>
+                </div>
+                <!-- Drink card 6-->
+                <div class="drink" data-season="spring summer" data-alcohol="alcoholicNo">
+                    <h2>Cucumber Lemonade</h2>
+                    <p>Gurke, Zitrone, Zucker, Soda</p>
+                </div>
+                <!-- Drink card -->
+                <div class="drink" data-season="summer" data-alcohol="alcoholicYes">
+                    <h2>Margarita</h2>
+                    <p>Tequila, Cointreau, Limettensaft, Salz</p>
+                </div>
+                <!-- Drink card -->
+                <div class="drink" data-season="autmn winter" data-alcohol="alcoholicYes">
+                    <h2>Manhattan</h2>
+                    <p>Rye Whiskey, roter Wermut, Angostura Bitters</p>
+                </div>
+                <!-- Drink card -->
+                <div class="drink" data-season="summer spring" data-alcohol="alcoholicNo">
+                    <h2>Virign Basil Smash</h2>
+                    <p>Basilikum, Limette, Zucker, alkoholfreier Gin</p>
+                </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

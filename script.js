@@ -11,5 +11,5 @@
   setInterval(() => {
     document.title = titles[i % titles.length];
     i++;
-  }, 1000); // alle 3 Sekunden wechseln
+  }, 10000); // alle 3 Sekunden wechseln
 
