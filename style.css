@@ -3,3 +3,8 @@ ul {
     gap: 2rem;
   
 }
+
+summary {
+    color: aqua;
+    background-color: pink;;
+}
