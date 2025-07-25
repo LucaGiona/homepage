@@ -11,6 +11,8 @@ All steps necessary for implementation and deployment will be documented here.*
 
 ## Features
 - HTML + CSS + JS
+  
+[link to page](https://lucagionahomepage.netlify.app/)
 
 ## work on Deployment 
  via Netlify
