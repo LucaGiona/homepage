@@ -11,11 +11,11 @@ const pngs = [
   "/pngs/functional-js-fundamentals.png",
   "/pngs/getting-started-css.png",
   "/pngs/getting-started-javascript-v2.png",
-  "/pngs/intermediate-python.png",
+  "/pngs/Python Intermediate.png",
   "/pngs/javascript-first-steps.png",
   "/pngs/mongodb.png",
   "/pngs/openai-node.png",
-  "/pngs/python_oneweek.png",
+  "/pngs/Python Intro.png",
   "/pngs/sqlite.png",
   "/pngs/vite.png",
   "/pngs/web-development-v3.png"
@@ -33,6 +33,7 @@ function formatTitle(path) {
     api: "API",
     css: "CSS",
     js: "JS",
+    javascript: "JS",
     sql: "SQL",
     ai: "AI",
     db: "DB",
@@ -41,15 +42,16 @@ function formatTitle(path) {
     sqlite: "SQLite",
     vite: "Vite",
     openai: "OpenAI",
-    python: "Python"
+    python: "Python",
+    chatgpt: "ChatGPT"
   };
    return words
     .map(word => {
       const lower = word.toLowerCase();
-       console.log("Wort gefunden:", word, "→ Klein:", lower);
+       //console.log("Wort gefunden:", word, "→ Klein:", lower);
 
       if (specialWords[lower]) {
-        console.log("→ Spezialwort ersetzt mit:", specialWords[lower]);
+        //console.log("→ Spezialwort ersetzt mit:", specialWords[lower]);
          
         return specialWords[lower];
       }
@@ -57,6 +59,14 @@ function formatTitle(path) {
     })
     .join(" ");
 }
+
+//alles alphabetisch sortieren 
+
+pngs.sort((a, b) => {
+  const titleA = formatTitle(a).toLowerCase();
+  const titleB = formatTitle(b).toLowerCase();
+  return titleA.localeCompare(titleB);
+});
 
 //onlcick fpr png
 
