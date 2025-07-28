@@ -62,19 +62,21 @@ function formatTitle(path) {
     python: "Python"
   };
    return words
-    .map(w => {
-      const lower = w.toLowerCase();
-       console.log("Wort gefunden:", w, "→ Klein:", lower);
+    .map(word => {
+      const lower = word.toLowerCase();
+       console.log("Wort gefunden:", word, "→ Klein:", lower);
 
       if (specialWords[lower]) {
         console.log("→ Spezialwort ersetzt mit:", specialWords[lower]);
          
         return specialWords[lower];
       }
-      return w.charAt(0).toUpperCase() + w.slice(1);
+      return word.charAt(0).toUpperCase() + word.slice(1);
     })
     .join(" ");
 }
+
+//onlcick fpr png
 
 pngs.forEach(png => {
   const li = document.createElement("li")
