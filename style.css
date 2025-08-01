@@ -44,3 +44,13 @@ body {
   border: 1px solid #ccc;
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
+
+
+/* Fotos  */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
