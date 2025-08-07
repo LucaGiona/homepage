@@ -15,66 +15,261 @@
     <main>
         <h1>Cocktails</h1>
             <section>
-            <h3>Choose your Drink</h3>
-            <label>Choose the season </label>
+            <h3>Wähle Deinen Drink!</h3>
+            <label>Nach Saison </label>
                 <select name="season" id="season">
-                    <option value="all">All</option>
+                    <option value="all">Alle</option>
                     <option value="spring">Frühling</option>
                     <option value="summer">Sommer</option>  
                     <option value="autumn">Herbst</option>
                     <option value="winter">Winter</option>
                 </select>
-                <label for="">Alkohol</label>
+                <label for="">mit oder ohne Alkohol</label>
                 <select name="alcoholic" id="alcoholic">
-                    <option value="all">All</option>
+                    <option value="all">Alle</option>
                     <option value="alcoholicYes">mit Alkohol</option>
                     <option value="alcoholicNo">ohne Alkohol</option>   
                 </select>
+                <h2>Hinzufügen</h2>
                 <!-- Drink card 1-->
-                <div class="drink" data-season="summer spring" data-alcohol="alcoholicYes">
-                    <h2>Daiquiri</h2>
-                    <p>Rum, Limette, Zucker</p>
-                </div>
+                    <div class="card" hidden>
+                        <h3 class="drink__name">Daiquri</h3>
+                        <ul class="drink-list" role="list" aria-label="Drink Characteristics">
+                            <li data-alcohol="alcoholic">
+                                <span class="visually-hidden">Dieser Drink enthält</span>
+                                Alkohol
+                            </li>
+                            <li data-season="spring summer">
+                                <span class="visually-hidden">Beste Jahreszeit für diesen Drink sind</span>
+                                Frühling und Sommer
+                            </li>
+                        </ul>
+                         <p>Rum, Limette, Zucker</p>
+                        <div class="rezeptur">
+                            <strong>Rezeptur:</strong>
+                            5cl weißer Rum, 3 cl Limettensaft, 2 cl Zucker
+                            <strong>Zubereitung:</strong>
+                            Auf Eis shaken und double strain in Coupette
+                            <strong>Deko:</strong>
+                            Limettenzeste oder gedörrte Limette
+                            <strong>Tip:</strong>
+                            kann man mit verschiedenen Früchten kombinieren
+                        </div>         
+                    </div>
                 <!-- Drink card 2-->
-                <div class="drink" data-season="winter" data-alcohol="alcoholicYes">
-                    <h2>Hot Buttered Rum</h2>
-                    <p>Rum, Butter, Gewürze, heißes Wasser</p>
-                </div>
-                <!-- Drink card 3-->
-                <div class="drink" data-season="summer spring" data-alcohol="alcoholicNo">
-                    <h2>Virgin Mojito</h2>
-                    <p>Minze, Limette, Zucker, Soda</p>
-                </div>
-                <!-- Drink card 4-->
-                <div class="drink" data-season="autumn winter" data-alcohol="alcoholicYes">
-                    <h2>Boulevardier</h2>
-                    <p>Bourbon, Camapari, roter Wermut</p>
-                </div>
-                <!-- Drink card 5-->
-                <div class="drink" data-season="winter" data-alcohol="alcoholicYes">
-                    <h2>Irish Coffee</h2>
-                    <p>Rum, Limette, Zucker</p>
-                </div>
-                <!-- Drink card 6-->
-                <div class="drink" data-season="spring summer" data-alcohol="alcoholicNo">
-                    <h2>Cucumber Lemonade</h2>
-                    <p>Gurke, Zitrone, Zucker, Soda</p>
-                </div>
-                <!-- Drink card -->
-                <div class="drink" data-season="summer" data-alcohol="alcoholicYes">
-                    <h2>Margarita</h2>
-                    <p>Tequila, Cointreau, Limettensaft, Salz</p>
-                </div>
-                <!-- Drink card -->
-                <div class="drink" data-season="autumn winter" data-alcohol="alcoholicYes">
-                    <h2>Manhattan</h2>
-                    <p>Rye Whiskey, roter Wermut, Angostura Bitters</p>
-                </div>
-                <!-- Drink card -->
-                <div class="drink" data-season="summer spring" data-alcohol="alcoholicNo">
-                    <h2>Virign Basil Smash</h2>
-                    <p>Basilikum, Limette, Zucker, alkoholfreier Gin</p>
-                </div>
+                    <div class="card" hidden >
+                        <h3 class="drink__name">Hot Buttered Rum</h3>
+                        <ul class="drink-list" role="list" aria-label="Drink Characteristics">
+                            <li data-alcohol="alcoholic">
+                                <span class="visually-hidden">Dieser Drink enthält</span>
+                                Alkohol
+                            </li>
+                            <li data-season="winter">
+                                <span class="visually-hidden">Beste Jahreszeit für diesen Drink ist der</span>
+                                Winter
+                            </li>
+                        </ul>
+                         <p>Rum, Butter, Gewürze, heißes Wasser</p>
+                        <div class="rezeptur">
+                            <strong>Rezeptur:</strong>
+                            5cl aged Rum, ein Löffel gewürzte Butter, heißes Wasser
+                            <strong>Zubereitung:</strong>
+                           Rum im Glas eingißen mit heißem Wasser auffüllen, Butter dazu geben,
+                           alles verrühren
+                            <strong>Deko:</strong>
+                            Zimtstange (optional : anfeuern)
+                             <strong>Tip:</strong>
+                            auch im Sommer heiß geniessbar
+                        </div>         
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="card" hidden >
+                        <h3 class="drink__name">Virgin Mojito</h3>
+                        <ul class="drink-list" role="list" aria-label="Drink Characteristics">
+                            <li data-alcohol="alcoholic">
+                                <span class="visually-hidden">Dieser Drink ist</span>
+                                ohne Alkohol
+                            </li>
+                            <li data-season="spring summer">
+                                <span class="visually-hidden">Beste Jahreszeit für diesen Drink ist der</span>
+                                 Frühling Sommer
+                            </li>
+                        </ul>
+                         <p>Minze, Limettensaft, Zucker, Soda Wasser</p>
+                        <div class="rezeptur">
+                            <strong>Rezeptur:</strong>
+                           viele Minzblätter, 3cl Limettensaft, 2cl Zuckersirup
+                            <strong>Zubereitung:</strong>
+                           Minze ein Longsdrinkglas geben, Limettensaft und Zuckersirup dazugeben. Alles anstösseln, sanft, so dass die Aromen aus den Blättern kommen
+                           Crushed Ice ins Glas geben und alles sanft verrühren
+                            <strong>Deko:</strong>
+                           Minzblattkrone und Limettenspalte
+                             <strong>Tip:</strong>
+                            Statt Soda Wasser kann man auch Ginger Ale dazugeben
+                        </div>         
+                    </div>
+                    <!-- card 4 -->
+                    <div class="card" hidden >
+                        <h3 class="drink__name">Boulvardier</h3>
+                        <ul class="drink-list" role="list" aria-label="Drink Characteristics">
+                            <li data-alcohol="alcoholic">
+                                <span class="visually-hidden">Dieser Drink ist mit</span>
+                               Alkohol
+                            </li>
+                            <li data-season="autmn">
+                                <span class="visually-hidden">Beste Jahreszeit für diesen Drink ist der</span>
+                                Herbst
+                            </li>
+                        </ul>
+                         <p>5cl Bourbon, 2cl Campari, 2cl roter Wermut</p>
+                        <div class="rezeptur">
+                            <strong>Rezeptur:</strong>
+                           5cl Bourbon, 2cl Campari, 2cl roter Wermut
+                            <strong>Zubereitung:</strong>
+                           Alles in ein Rührglas geben. Auf Eis verrühren. In einen Cocktailspitz (Martininglas) abseiben.
+                            <strong>Deko:</strong>
+                           eingelegte Kirsche
+                             <strong>Tip:</strong>
+                            kann man auch auf Eis im Tumbler(Whiskeyglas) servieren
+                        </div>         
+                    </div>
+                    <!-- card 5 -->
+                    <div class="card" hidden >
+                        <h3 class="drink__name">Irish Coffee</h3>
+                        <ul class="drink-list" role="list" aria-label="Drink Characteristics">
+                            <li data-alcohol="alcoholic">
+                                <span class="visually-hidden">Dieser Drink ist mit</span>
+                               Alkohol
+                            </li>
+                            <li data-season="winter">
+                                <span class="visually-hidden">Beste Jahreszeit für diesen Drink ist der</span>
+                                Winter
+                            </li>
+                        </ul>
+                         <p>5cl Irish Whiskey, heißes Wasser, Sahne</p>
+                        <div class="rezeptur">
+                            <strong>Rezeptur:</strong>
+                           5cl Irish Whiskey, heißes Wasser, geschlagene Sahne
+                            <strong>Zubereitung:</strong>
+                           Whiskey in ein hitzebeständiges Glas geben. Mit heißem Wasser auffüllen und etwas (Daumen breit) Platz lassen für die Sahne.
+                           Sahne in einer Schale mit einem Schwingbesen schlagen. Vorsichtig mit Hilfe eine Löffels in das Glas gießen, so dass die Sahne geschichtet über den Rest liegt.
+                            <strong>Deko:</strong>
+                           Muskatnuss reiben
+                             <strong>Tip:</strong>
+                        Statt des Whiskeys Bailey`s benutzten. Statt der Hand geschlagenen Sahne, Schlagsahne aus der Tube benutzen
+                        </div>         
+                    </div>
+                    <!-- card 6 -->
+                    <div class="card" hidden >
+                        <h3 class="drink__name">Cucumber Lemonade</h3>
+                        <ul class="drink-list" role="list" aria-label="Drink Characteristics">
+                            <li data-alcohol="alcoholic">
+                                <span class="visually-hidden">Dieser Drink ist </span>
+                               ohne Alkohol
+                            </li>
+                            <li data-season="summer">
+                                <span class="visually-hidden">Beste Jahreszeit für diesen Drink ist der</span>
+                                Sommer
+                            </li>
+                        </ul>
+                         <p>Gurke, Zitronensaft, Zuckersirup, Soda Wasser</p>
+                        <div class="rezeptur">
+                            <strong>Rezeptur:</strong>
+                          Gurkenstücken, 3 cl Zitronensaft, 2cl Zuckersirup, Soda
+
+                            <strong>Zubereitung:</strong>
+                            In Stäbchen oder Vierecke geschnitten Gurkenstücken (5-7 Stück) in ein Shaker geben.
+                           Zuckersirup und Zitronensaft dazugeben. Alles mit ein Muddler fein drücken. 
+                           Auf Eis stark shaken. Double strain in ein Longdrinkglas sieben. Eis ins Glas geben und mit Soda auffüllen.
+                            <strong>Deko:</strong>
+                           Gurkenzeste oder Gurkenscheibe schön angerichtet
+                             <strong>Tip:</strong>
+                            Statt Soda geht auch Ginger Ale oder Ginger Beer. Mit Ginger Beer hat man eine schöne alkoholfreie Moscow Mule Variante.
+                         </div>         
+                    </div>
+                    <!-- card 7 -->
+                    <div class="card" hidden >
+                        <h3 class="drink__name">Margarita</h3>
+                        <ul class="drink-list" role="list" aria-label="Drink Characteristics">
+                            <li data-alcohol="alcoholic">
+                                <span class="visually-hidden">Dieser Drink ist mit</span>
+                               Alkohol
+                            </li>
+                            <li data-season="summer spring">
+                                <span class="visually-hidden">Beste Jahreszeit für diesen Drink ist der</span>
+                                Frühling oder Sommer
+                            </li>
+                        </ul>
+                         <p>Tequila, Orangenlikör, Limettensaft, (optional Zucker)</p>
+                        <div class="rezeptur">
+                            <strong>Rezeptur:</strong>
+                           5cl Tequila, 3cl Limettensaft, 2cl Cointreau, 0.5cl Zuckersirup, Salz
+                            <strong>Zubereitung:</strong>
+                            Alles in einen Shaker geben, shaken und double strain in eine Coupette, welche einen Salzrand hat
+                            <strong>Deko:</strong>
+                           Limettenzeste
+                             <strong>Tip:</strong>
+                        Die Margarita lässt viel Spielraum zum Experimentieren. Erdbeeren mit in dem Shaker geben machen den Drink fruchtiger.
+                        Einen Paprikaschote mit in dem Shaker geben , machen den Drink scharf.
+                        Etwas scharfes Paprikapulver mit dem Salz vermischen, gibt dem Salzrand eine extra Kick.
+                        Am besten den Salzrand nicht ganz um das Glas auftragen,so dass man selber entscheiden kann, wann man die Flüssigkeit mit oder ohne Salz geniessen möchte.
+                        </div>         
+                    </div>
+                   <!-- <h1>Card 8</h1> -->
+                    <div class="card" hidden >
+                        <h3 class="drink__name">Manhattan</h3>
+                        <ul class="drink-list" role="list" aria-label="Drink Characteristics">
+                            <li data-alcohol="alcoholic">
+                                <span class="visually-hidden">Dieser Drink ist mit</span>
+                               Alkohol
+                            </li>
+                            <li data-season="winter autumn">
+                                <span class="visually-hidden">Beste Jahreszeit für diesen Drink ist der</span>
+                                Winter und Herbst
+                            </li>
+                        </ul>
+                         <p>Rye Whiskey, roter Wermut, Angostura Bitters</p>
+                        <div class="rezeptur">
+                            <strong>Rezeptur:</strong>
+                           5cl Rye Whiskey, 3cl roter Wermut, 5 Dahes Angstura Bitters
+                            <strong>Zubereitung:</strong>
+                           Alles in  ein Rührglas geben und auf Eis etwa 20 Sekunden verrühren. In ein Cocktailgals abseiben.
+                            <strong>Deko:</strong>
+                           eingelegte Kirsche, Cocktailkirsche
+                             <strong>Tip:</strong>  
+                           Wichtig im Drink ist die Qulität des Wermuts und der Bitters.
+                           Den Wermut kann man auch je nach Geschmack gut verschneiden, also blenden.
+                           Zum Beispiel mit einen Wermut mit starkem Körper mit einem der etwas süffiger ist vermischen.                     
+                         </div>         
+                    </div>
+                    <!-- <h1>Card 9</h1> -->
+                    <div class="card" hidden >
+                        <h3 class="drink__name">Virgin Basil Smash</h3>
+                        <ul class="drink-list" role="list" aria-label="Drink Characteristics">
+                            <li data-alcohol="alcoholic">
+                                <span class="visually-hidden">Dieser Drink ist</span>
+                               ohne Alkohol
+                            </li>
+                            <li data-season="summer">
+                                <span class="visually-hidden">Beste Jahreszeit für diesen Drink ist der</span>
+                                Sommer
+                            </li>
+                        </ul>
+                         <p>alkholfreier Gin, Limettensaft oder Zitronensaft, Zuckersirup, Basilikum</p>
+                        <div class="rezeptur">
+                            <strong>Rezeptur:</strong>
+                           5cl alkoholfreier Gin, 3cl Limmettensaft, 2cl Zuckersirup, 5-8 Basilikumblätter
+                            <strong>Zubereitung:</strong>
+                           Alle Flüssigkeiten in den Shaker geben. Die Blätter dazugeben und sanft die Blätter anstossen mit einem Stössel.
+                           Auf Eis Shaken und in einen kleinen Tumbler mit Eis doppelt abseiben.
+                            <strong>Deko:</strong>
+                           Basilikumblatt
+                             <strong>Tip:</strong>
+                         Man kann den Drink auch in ein Longdrinkglas mit Eis geben und mit Soda, Ginger Ale oder Ginger Beer auffüllen.
+                         Wer mag kann auch Eiweiß in den Drink tun und mit Shaken. Dafür muss man etwas länger shaken, damit das Eiweiß schön flufig wird.
+                        </div>         
+                    </div>
         </section>
     </main>
     <footer></footer>

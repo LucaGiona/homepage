@@ -54,3 +54,7 @@ img {
   display: block;
 }
 
+
+.visually-hidden {
+display: none;
+}
