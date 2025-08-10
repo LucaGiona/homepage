@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,7 @@
               <div class="wrapper">
                  <div class="flow">
                     <h3>Wähle Deinen Drink!</h3>
-                    <label>Nach Saison </label>
+                    <label for="season">Nach Saison</label>
                         <select name="season" id="season">
                             <option value="all">Alle</option>
                             <option value="spring">Frühling</option>
@@ -28,13 +28,81 @@
                             <option value="autumn">Herbst</option>
                             <option value="winter">Winter</option>
                         </select>
-                        <label for="">mit oder ohne Alkohol</label>
+                        <label for="alcoholic">mit oder ohne Alkohol</label>
                         <select name="alcoholic" id="alcoholic">
                             <option value="all">Alle</option>
                             <option value="alcoholic">mit Alkohol</option>
                             <option value="non-alcoholic">ohne Alkohol</option>   
                         </select>
-                        <h2>Hinzufügen</h2>
+            <section>
+                <div>
+                    <h2>Eigene Drinks hinzufügen:</h2>
+                    <button type="button" id="toggle-add-drink" aria-expanded="false" aria-controls="add-drink-form">
+                        Drink hinzufügen</button>
+
+                    <form class="add-drink" id="add-drink-form" hidden>
+                        <div>
+                            <label for="drinkName">Name:</label>
+                            <input type="text" id="drinkName" name="name" required />
+                        </div>
+
+                        <div>
+                            <fieldset>
+                                <legend>Alkohol:</legend>
+                                <label><input type="radio" name="alcohol" value="alcoholic" id="alcohol-yes" required> mit Alkohol</label>
+                                <label><input type="radio" name="alcohol" value="non-alcoholic" id="alcohol-no"> ohne Alkohol</label>
+                            </fieldset>
+                        </div>
+
+                        <div>
+                            <fieldset>
+                                <legend>Jahreszeit <small>(eine oder mehrere)</small></legend>
+                                <label><input type="checkbox" name="seasons" value="spring" id="season-spring">Frühling</label>
+                                <label><input type="checkbox" name="seasons" value="summer" id="season-summer">Sommer</label>
+                                <label><input type="checkbox" name="seasons" value="autumn" id="season-autumn">Herbst</label>
+                                <label><input type="checkbox" name="seasons" value="winter" id="season-winter">Winter</label>
+                            </fieldset>
+                        </div>
+
+                        <div>
+                            <label for="ingredients">Zutaten <small>(kurze Übersicht)</small>:</label>
+                            <input type="text" id="ingredients" name="ingredients" placeholder="Nur die Zutaten...." aria-describedby="ingredients-help">   
+                            <div id="ingredients-help" class="help-text">Beispiel: Rum, Limette, Zucker</div>
+                        </div>
+            <!--   detaillierte Rezeptur -->
+                        <div>
+                            <label for="recipe">Rezeptur <small>(genaue Mengen)</small>:</label>
+                            <textarea name="recipe" id="recipe" rows="3" required aria-describedby="recipe-help"></textarea>
+                            <div id="recipe-help" class="help-text">Beispiel: 5cl Rum, 3cl Limettensaft, 2cl Zuckersirup</div>
+                        </div>
+                        <!-- Zubereitung -->
+                        <div>
+                            <label for="preparation">Zubereitung:</label>
+                            <textarea name="preparation" id="preparation" rows="3" required aria-describedby="preparation-help"></textarea>
+                            <div id="preparation-help" class="help-text">Beispiel: Auf Eis shaken und double strain in Coupette</div>
+                        </div>
+                        <!-- Garnitur -->
+                         <div>
+                            <label for="garnish">Garnitur / Deko:</label>
+                            <textarea name="garnish" id="garnish" rows="2" aria-describedby="garnish-help"></textarea>
+                            <div id="garnish-help" class="help-text">Beispiel: Limettenzeste oder "keine"</div>
+                         </div>
+                         <!-- Tipp -->
+                         <div>
+                            <label for="tip">Tipp <small>(optional)</small>:</label>
+                            <textarea name="tip" id="tip" rows="2" aria-describedby="tip-help"></textarea>
+                            <div id="tip-help" class="help-text">Zusätzliche Hinweise oder Variationen</div>
+                         </div>
+
+                         <!-- Buttons -->
+                          <button type="submit">Drink speichern</button>
+                          <button type="button" id="clearMyDrinks">Meine Drinks löschen</button>
+
+                    </form>
+                </div>
+            </section>
+            <!-- Drink Cards hardcoded -->
+            <section>          
                         <!-- Drink card 1-->
                             <div class="card" hidden>
                                 <h3 class="drink__name">Daiquiri</h3>
@@ -56,7 +124,7 @@
                                     Auf Eis shaken und double strain in Coupette
                                     <strong>Deko:</strong>
                                     Limettenzeste oder gedörrte Limette
-                                    <strong>Tip:</strong>
+                                    <strong>Tipp:</strong>
                                     kann man mit verschiedenen Früchten kombinieren
                                 </div>         
                             </div>
@@ -78,11 +146,11 @@
                                     <strong>Rezeptur:</strong>
                                     5cl aged Rum, ein Löffel gewürzte Butter, heißes Wasser
                                     <strong>Zubereitung:</strong>
-                                Rum im Glas eingißen mit heißem Wasser auffüllen, Butter dazu geben,
+                                Rum im Glas eingießen mit heißem Wasser auffüllen, Butter dazu geben,
                                 alles verrühren
                                     <strong>Deko:</strong>
                                     Zimtstange (optional : anfeuern)
-                                    <strong>Tip:</strong>
+                                    <strong>Tipp:</strong>
                                     auch im Sommer heiß genießbar
                                 </div>         
                             </div>
@@ -105,11 +173,11 @@
                                     <strong>Rezeptur:</strong>
                                 viele Minzblätter, 3cl Limettensaft, 2cl Zuckersirup
                                     <strong>Zubereitung:</strong>
-                                Minze ein Longsdrinkglas geben, Limettensaft und Zuckersirup dazugeben. Alles anstösseln, sanft, so dass die Aromen aus den Blättern kommen
+                                Minze in ein Longdrinkglas geben, Limettensaft und Zuckersirup dazugeben. Alles anstoßen, sanft, so dass die Aromen aus den Blättern kommen
                                 Crushed Ice ins Glas geben und alles sanft verrühren
                                     <strong>Deko:</strong>
                                 Minzblattkrone und Limettenspalte
-                                    <strong>Tip:</strong>
+                                    <strong>Tipp:</strong>
                                     Statt Soda Wasser kann man auch Ginger Ale dazugeben
                                 </div>         
                             </div>
@@ -134,7 +202,7 @@
                                 Alles in ein Rührglas geben. Auf Eis verrühren. In einen Cocktailspitz (Martininglas) abseiben.
                                     <strong>Deko:</strong>
                                 eingelegte Kirsche
-                                    <strong>Tip:</strong>
+                                    <strong>Tipp:</strong>
                                     kann man auch auf Eis im Tumbler(Whiskeyglas) servieren
                                 </div>         
                             </div>
@@ -157,11 +225,11 @@
                                 5cl Irish Whiskey, heißes Wasser, geschlagene Sahne
                                     <strong>Zubereitung:</strong>
                                 Whiskey in ein hitzebeständiges Glas geben. Mit heißem Wasser auffüllen und etwas (Daumen breit) Platz lassen für die Sahne.
-                                Sahne in einer Schale mit einem Schwingbesen schlagen. Vorsichtig mit Hilfe eine Löffels in das Glas gießen, so dass die Sahne geschichtet über den Rest liegt.
+                                Sahne in einer Schale mit einem Schwingbesen schlagen. Vorsichtig mit Hilfe eines Löffels in das Glas gießen, so dass die Sahne geschichtet über den Rest liegt.
                                     <strong>Deko:</strong>
                                 Muskatnuss reiben
-                                    <strong>Tip:</strong>
-                                Statt des Whiskeys Bailey`s benutzten. Statt der Hand geschlagenen Sahne, Schlagsahne aus der Tube benutzen
+                                    <strong>Tipp:</strong>
+                                Statt des Whiskeys Bailey's benutzen. Statt der hand geschlagenen Sahne, Schlagsahne aus der Tube benutzen
                                 </div>         
                             </div>
                             <!-- card 6 -->
@@ -180,15 +248,15 @@
                                 <p>Gurke, Zitronensaft, Zuckersirup, Soda Wasser</p>
                                 <div class="rezeptur">
                                     <strong>Rezeptur:</strong>
-                                Gurkenstücken, 3 cl Zitronensaft, 2cl Zuckersirup, Soda
+                                Gurkenstücke, 3 cl Zitronensaft, 2cl Zuckersirup, Soda
 
                                     <strong>Zubereitung:</strong>
-                                    In Stäbchen oder Vierecke geschnitten Gurkenstücken (5-7 Stück) in ein Shaker geben.
-                                Zuckersirup und Zitronensaft dazugeben. Alles mit ein Muddler fein drücken. 
+                                    In Stäbchen oder Vierecke geschnittene Gurkenstücke (5-7 Stück) in einen Shaker geben.
+                                Zuckersirup und Zitronensaft dazugeben. Alles mit einem Muddler fein drücken. 
                                 Auf Eis stark shaken. Double strain in ein Longdrinkglas sieben. Eis ins Glas geben und mit Soda auffüllen.
                                     <strong>Deko:</strong>
                                 Gurkenzeste oder Gurkenscheibe schön angerichtet
-                                    <strong>Tip:</strong>
+                                    <strong>Tipp:</strong>
                                     Statt Soda geht auch Ginger Ale oder Ginger Beer. Mit Ginger Beer hat man eine schöne alkoholfreie Moscow Mule Variante.
                                 </div>         
                             </div>
@@ -213,11 +281,11 @@
                                     Alles in einen Shaker geben, shaken und double strain in eine Coupette, welche einen Salzrand hat
                                     <strong>Deko:</strong>
                                 Limettenzeste
-                                    <strong>Tip:</strong>
-                                Die Margarita lässt viel Spielraum zum Experimentieren. Erdbeeren mit in dem Shaker geben machen den Drink fruchtiger.
-                                Einen Paprikaschote mit in dem Shaker geben , machen den Drink scharf.
-                                Etwas scharfes Paprikapulver mit dem Salz vermischen, gibt dem Salzrand eine extra Kick.
-                                Am besten den Salzrand nicht ganz um das Glas auftragen,so dass man selber entscheiden kann, wann man die Flüssigkeit mit oder ohne Salz geniessen möchte.
+                                    <strong>Tipp:</strong>
+                                Die Margarita lässt viel Spielraum zum Experimentieren. Erdbeeren mit in den Shaker geben macht den Drink fruchtiger.
+                                Eine Paprikaschote mit in den Shaker geben, macht den Drink scharf.
+                                Etwas scharfes Paprikapulver mit dem Salz vermischen, gibt dem Salzrand einen extra Kick.
+                                Am besten den Salzrand nicht ganz um das Glas auftragen, so dass man selber entscheiden kann, wann man die Flüssigkeit mit oder ohne Salz genießen möchte.
                                 </div>         
                             </div>
                         <!-- <h1>Card 8</h1> -->
@@ -236,15 +304,15 @@
                                 <p>Rye Whiskey, roter Wermut, Angostura Bitters</p>
                                 <div class="rezeptur">
                                     <strong>Rezeptur:</strong>
-                                5cl Rye Whiskey, 3cl roter Wermut, 5 Dahes Angstura Bitters
+                                5cl Rye Whiskey, 3cl roter Wermut, 5 Dashes Angostura Bitters
                                     <strong>Zubereitung:</strong>
-                                Alles in  ein Rührglas geben und auf Eis etwa 20 Sekunden verrühren. In ein Cocktailglas abseiben.
+                                Alles in ein Rührglas geben und auf Eis etwa 20 Sekunden verrühren. In ein Cocktailglas abseiben.
                                     <strong>Deko:</strong>
                                 eingelegte Kirsche, Cocktailkirsche
-                                    <strong>Tip:</strong>  
-                                Wichtig im Drink ist die qualität des Wermuts und der Bitters.
+                                    <strong>Tipp:</strong>  
+                                Wichtig im Drink ist die Qualität des Wermuts und der Bitters.
                                 Den Wermut kann man auch je nach Geschmack gut verschneiden, also blenden.
-                                Zum Beispiel mit einen Wermut mit starkem Körper mit einem der etwas süffiger ist vermischen.                     
+                                Zum Beispiel mit einem Wermut mit starkem Körper mit einem der etwas süffiger ist vermischen.                     
                                 </div>         
                             </div>
                             <!-- <h1>Card 9</h1> -->
@@ -260,23 +328,25 @@
                                         Sommer
                                     </li>
                                 </ul>
-                                <p>alkholfreier Gin, Limettensaft oder Zitronensaft, Zuckersirup, Basilikum</p>
+                                <p>alkoholfreier Gin, Limettensaft oder Zitronensaft, Zuckersirup, Basilikum</p>
                                 <div class="rezeptur">
                                     <strong>Rezeptur:</strong>
-                                5cl alkoholfreier Gin, 3cl Limmettensaft, 2cl Zuckersirup, 5-8 Basilikumblätter
+                                5cl alkoholfreier Gin, 3cl Limettensaft, 2cl Zuckersirup, 5-8 Basilikumblätter
                                     <strong>Zubereitung:</strong>
-                                Alle Flüssigkeiten in den Shaker geben. Die Blätter dazugeben und sanft die Blätter anstossen mit einem Stössel.
-                                Auf Eis Shaken und in einen kleinen Tumbler mit Eis doppelt abseiben.
+                                Alle Flüssigkeiten in den Shaker geben. Die Blätter dazugeben und sanft die Blätter anstoßen mit einem Stößel.
+                                Auf Eis shaken und in einen kleinen Tumbler mit Eis doppelt abseiben.
                                     <strong>Deko:</strong>
                                 Basilikumblatt
-                                    <strong>Tip:</strong>
+                                    <strong>Tipp:</strong>
                                 Man kann den Drink auch in ein Longdrinkglas mit Eis geben und mit Soda, Ginger Ale oder Ginger Beer auffüllen.
-                                Wer mag kann auch Eiweiß in den Drink tun und mit Shaken. Dafür muss man etwas länger shaken, damit das Eiweiß schön flufig wird.
+                                Wer mag kann auch Eiweiß in den Drink tun und mit shaken. Dafür muss man etwas länger shaken, damit das Eiweiß schön fluffig wird.
                                 </div>         
                             </div>
                      <div class="no-matches" hidden>Keine Drinks zu diesen Filtern</div>
-                 </div> 
-            </div>       
+
+             </section>  
+                 </div>    
+            </div>               
         </section>
     </main>
     <footer></footer>
