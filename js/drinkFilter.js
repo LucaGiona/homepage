@@ -2,6 +2,9 @@ const seasonalFilter = document.querySelector("#season");
 const withOrWithoutAlcohol = document.querySelector("#alcoholic");
 const noResultMessage = document.querySelector(".no-matches");
 
+const applyButton = document.querySelector("#apply-filters");
+const resetButton = document.querySelector("#reset-filters");
+
 let initiallyHidden = true; // Start: alles ausblenden
 
 const currentFilters = {
@@ -93,3 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initViewTransitions();
   filterCards();
 });
+
+
+console.log(applyButton)
+console.log(resetButton)
