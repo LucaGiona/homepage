@@ -1,75 +1,95 @@
-const cards = document.querySelectorAll(".drink-selection .card")
-// console.log(cards)
+const seasonalFilter = document.querySelector("#season");
+const withOrWithoutAlcohol = document.querySelector("#alcoholic");
+const noResultMessage = document.querySelector(".no-matches");
 
-const seasonalFilter = document.querySelector("#season")
-const withOrWithoutAlcohol = document.querySelector("#alcoholic")
-const noResultMessage = document.querySelector(".no-matches")
-
-// console.log(seasonalFilter, withOrWithoutAlcohol)
+let initiallyHidden = true; // Start: alles ausblenden
 
 const currentFilters = {
-    season: "all",
-    alcoholic: "all",
+  season: "all",
+  alcoholic: "all",
+};
+
+function initViewTransitions() {
+  document.querySelectorAll(".drink-selection .card").forEach((card, i) => {
+    try {
+      card.style.viewTransitionName = `drink-card-${i + 1}`;
+    } catch {}
+  });
 }
 
-cards.forEach((card, index) => {
-    const drinkId = `drink-${index +1}`;
-    card.style.viewTransitionName = `drink-card-${drinkId}`
-    // console.log(drinkId)
-})
+function updateFilter(e) {
+  const filterType = e.target.name;
+  const filterValue = e.target.value;
 
+  console.log(`Filter geändert - ${filterType}:`, filterValue);
 
-// seasonalFilter.addEventListener("change", (event) => {
-//    // console.log(event.target.value)
-//     currentFilters.season = event.target.value;
-//     //console.log("Current: ", currentFilters)
-// })
-
-//Event Listener
-seasonalFilter.addEventListener("change", updateFilter);
-withOrWithoutAlcohol.addEventListener("change", updateFilter);
-
- function updateFilter(e){
-    const filterType = e.target.name;
-    const filterValue = e.target.value;
-
-    console.log(`Filter geändert - ${filterType}:`, filterValue)
-
-    currentFilters[filterType] = filterValue;
-
-    console.log("Aktuelle Filter: ", currentFilters)
-
-    filterCards()
- }
-
-
-function filterCards(){
-    let hasVisibleCards = false;
-
-    cards.forEach((card, index) =>{
-        const seasonElement = card.querySelector("[data-season]")
-        const alcoholElement = card.querySelector("[data-alcohol]")
-        
-        if (!seasonElement || !alcoholElement){
-            console.warn(`Karte ${index + 1}: Fehlende data-Attribute`)
-            return
-        }
-
-        const seasons = seasonElement.dataset.season
-        const alcoholic = alcoholElement.dataset.alcohol
-
-
-        const matchesSeason = currentFilters.season === "all" || 
-                             seasons.includes(currentFilters.season)
-        
-        const matchesAlcohol = currentFilters.alcoholic === "all" || 
-                              alcoholic === currentFilters.alcoholic
-        
-        const shouldShow = matchesSeason && matchesAlcohol
-
-        card.hidden =!shouldShow
-        if (shouldShow) hasVisibleCards = true
-        
-    })
-     noResultMessage.hidden = hasVisibleCards;
+  currentFilters[filterType] = filterValue;
+  initiallyHidden = false; // Ab jetzt darf angezeigt werden
+  filterCards();
 }
+
+function filterCards() {
+  const cards = document.querySelectorAll(".drink-selection .card");
+
+  let hasVisibleCards = false;
+
+  cards.forEach((card, index) => {
+    const seasonElement = card.querySelector("[data-season]");
+    const alcoholElement = card.querySelector("[data-alcohol]");
+
+    if (!seasonElement || !alcoholElement) {
+      console.warn(`Karte ${index + 1}: Fehlende data-Attribute`);
+      card.hidden = true;
+      return;
+    }
+
+    // Falls initial verstecken
+    if (initiallyHidden) {
+      card.hidden = true;
+      return;
+    }
+
+    const seasonsTokens = (seasonElement.dataset.season || "")
+      .toLowerCase()
+      .split(/\s+/)
+      .filter(Boolean);
+
+    const alcohol = (alcoholElement.dataset.alcohol || "").toLowerCase();
+
+    const matchesSeason =
+      currentFilters.season === "all" ||
+      seasonsTokens.includes(currentFilters.season.toLowerCase());
+
+    const matchesAlcohol =
+      currentFilters.alcoholic === "all" ||
+      alcohol === currentFilters.alcoholic.toLowerCase();
+
+    const shouldShow = matchesSeason && matchesAlcohol;
+
+    card.hidden = !shouldShow;
+    if (shouldShow) hasVisibleCards = true;
+  });
+
+  if (noResultMessage) noResultMessage.hidden = hasVisibleCards;
+}
+
+// --- Event Listener ---
+// Filter ändern
+seasonalFilter?.addEventListener("change", updateFilter);
+withOrWithoutAlcohol?.addEventListener("change", updateFilter);
+
+// Nur klicken, ohne Wert zu ändern → trotzdem anzeigen
+seasonalFilter?.addEventListener("click", () => {
+  initiallyHidden = false;
+  filterCards();
+});
+withOrWithoutAlcohol?.addEventListener("click", () => {
+  initiallyHidden = false;
+  filterCards();
+});
+
+// Initial
+document.addEventListener("DOMContentLoaded", () => {
+  initViewTransitions();
+  filterCards();
+});

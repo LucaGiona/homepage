@@ -58,6 +58,7 @@
                         <div>
                             <fieldset>
                                 <legend>Jahreszeit <small>(eine oder mehrere)</small></legend>
+                                <label><input type="checkbox" name="seasons" value="all" id="season-all">Ganzes Jahr</label>
                                 <label><input type="checkbox" name="seasons" value="spring" id="season-spring">Frühling</label>
                                 <label><input type="checkbox" name="seasons" value="summer" id="season-summer">Sommer</label>
                                 <label><input type="checkbox" name="seasons" value="autumn" id="season-autumn">Herbst</label>
@@ -343,7 +344,9 @@
                                 Wer mag kann auch Eiweiß in den Drink tun und mit shaken. Dafür muss man etwas länger shaken, damit das Eiweiß schön fluffig wird.
                                 </div>         
                             </div>
-                     <div class="no-matches" hidden>Keine Drinks zu diesen Filtern</div>
+                     <div class="no-matches" id="no-matches" role="status" aria-live="polite" hidden>
+                            Keine Drinks zu diesen Filtern</div>
+
 
              </section>  
                  </div>    
