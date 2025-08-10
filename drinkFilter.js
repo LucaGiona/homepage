@@ -9,12 +9,12 @@ const noResultMessage = document.querySelector(".no-matches")
 
 const currentFilters = {
     season: "all",
-    alcoholic: "alcoholic",
+    alcoholic: "all",
 }
 
 cards.forEach((card, index) => {
     const drinkId = `drink-${index +1}`;
-    card.style.viewTranistionName = `drink-card-${drinkId}`
+    card.style.viewTransitionName = `drink-card-${drinkId}`
     // console.log(drinkId)
 })
 
@@ -25,21 +25,51 @@ cards.forEach((card, index) => {
 //     //console.log("Current: ", currentFilters)
 // })
 
+//Event Listener
 seasonalFilter.addEventListener("change", updateFilter);
 withOrWithoutAlcohol.addEventListener("change", updateFilter);
 
  function updateFilter(e){
     const filterType = e.target.name;
-    console.log(e.target.name)
+    const filterValue = e.target.value;
+
+    console.log(`Filter geändert - ${filterType}:`, filterValue)
+
+    currentFilters[filterType] = filterValue;
+
+    console.log("Aktuelle Filter: ", currentFilters)
+
+    filterCards()
  }
 
 
 function filterCards(){
     let hasVisibleCards = false;
 
-    cards.forEach(card =>{
-        console.log(card)
-        const matchesSeason = currentFilters.season === season
-        console.log(matchesSeason)
+    cards.forEach((card, index) =>{
+        const seasonElement = card.querySelector("[data-season]")
+        const alcoholElement = card.querySelector("[data-alcohol]")
+        
+        if (!seasonElement || !alcoholElement){
+            console.warn(`Karte ${index + 1}: Fehlende data-Attribute`)
+            return
+        }
+
+        const seasons = seasonElement.dataset.season
+        const alcoholic = alcoholElement.dataset.alcohol
+
+
+        const matchesSeason = currentFilters.season === "all" || 
+                             seasons.includes(currentFilters.season)
+        
+        const matchesAlcohol = currentFilters.alcoholic === "all" || 
+                              alcoholic === currentFilters.alcoholic
+        
+        const shouldShow = matchesSeason && matchesAlcohol
+
+        card.hidden =!shouldShow
+        if (shouldShow) hasVisibleCards = true
+        
     })
+     noResultMessage.hidden = hasVisibleCards;
 }
