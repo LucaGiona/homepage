@@ -1,25 +1,26 @@
 const pngs = [
-  "/pngs/accessibility-v2.png",
-  "/pngs/ai-agents.png",
-  "/pngs/backend-architectures.png",
-  "/pngs/chatgpt-api.png",
-  "/pngs/content-strategy.png",
-  "/pngs/css-foundations.png",
-  "/pngs/css-grid-flexbox-v2.png",
-  "/pngs/databases.png",
-  "/pngs/functional-first-steps-dark.png",
-  "/pngs/functional-js-fundamentals.png",
-  "/pngs/getting-started-css.png",
-  "/pngs/getting-started-javascript-v2.png",
-  "/pngs/Python Intermediate.png",
-  "/pngs/javascript-first-steps.png",
-  "/pngs/mongodb.png",
-  "/pngs/openai-node.png",
-  "/pngs/Python Intro.png",
-  "/pngs/sqlite.png",
-  "/pngs/vite.png",
-  "/pngs/web-development-v3.png"
+  "/assets/pngs/accessibility-v2.png",
+  "/assets/pngs/ai-agents.png",
+  "/assets/pngs/backend-architectures.png",
+  "/assets/pngs/chatgpt-api.png",
+  "/assets/pngs/content-strategy.png",
+  "/assets/pngs/css-foundations.png",
+  "/assets/pngs/css-grid-flexbox-v2.png",
+  "/assets/pngs/databases.png",
+  "/assets/pngs/functional-first-steps-dark.png",
+  "/assets/pngs/functional-js-fundamentals.png",
+  "/assets/pngs/getting-started-css.png",
+  "/assets/pngs/getting-started-javascript-v2.png",
+  "/assets/pngs/Python Intermediate.png",
+  "/assets/pngs/javascript-first-steps.png",
+  "/assets/pngs/mongodb.png",
+  "/assets/pngs/openai-node.png",
+  "/assets/pngs/Python Intro.png",
+  "/assets/pngs/sqlite.png",
+  "/assets/pngs/vite.png",
+  "/assets/pngs/web-development-v3.png"
 ];
+
 
 
 const list = document.getElementById("pngList")
