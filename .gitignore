@@ -29,7 +29,10 @@ npm-debug.log*
 .env
 .env.local
 
-# *.txt
+# LibreOffice/OpenOffice-Sperrdateien
+.~lock.*#
+
+*.txt
 
 /Ideen-Artikel-Sammlung
 /text
