@@ -10,9 +10,27 @@
 .Spotlight-V100
 .Trashes
 
+# Windows-Systemdateien
+Thumbs.db
+desktop.ini
+
+# Editor-/IDE-Ordner
+.vscode/
+.idea/
+
+# Netlify (lokaler CLI-Cache/Build-Output)
+.netlify/
+
+# Node (falls später npm-Tools/Build-Prozess dazukommen)
+node_modules/
+npm-debug.log*
+
+# Umgebungsvariablen / Secrets
+.env
+.env.local
+
 # *.txt
 
 /Ideen-Artikel-Sammlung
 /text
-
 
