@@ -1,0 +1,350 @@
+:root {
+  --color-start:  #2ecc71;
+  --color-pause:  #f1c40f;
+  --color-stop:   #e74c3c;
+  --color-accent: #6480e0;
+  --color-edit:   #f1c40f;
+  --color-delete: #e74c3c;
+  --color-error:  #e00d0d;
+  --color-save:   #4212de;
+  --color-cancel: #444466;
+  --bg-body:      #1a1a2e;
+  --bg-card:      #12122a;
+  --border:       #333a5c;
+  --text:         #e0e0e0;
+  --text-muted:   #aaaaaa;
+}
+
+body.light {
+  --bg-body:      #f5f6fa;
+  --bg-card:      #ffffff;
+  --border:       #dcdfe6;
+  --text:         #1a1a1a;
+  --text-muted:   #666666;
+  --color-accent: #4c6ef5;
+  --color-start:  #2ecc71;
+  --color-pause:  #e6a800;
+  --color-stop:   #e74c3c;
+  --color-save:   #4212de;
+  --color-cancel: #888899;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background: var(--bg-body);
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 40px 20px 60px;
+}
+
+/* ─────────────────────────────
+   HEADER / TITEL
+───────────────────────────── */
+
+.app-header {
+  position: relative;
+  text-align: center;
+  padding: 20px 12px 12px;
+  border-bottom: 3px solid var(--border);
+  margin-bottom: 2rem;
+}
+
+/* ─── Header-Buttons (Theme + Info) ───────────────────────────────────────── */
+
+.btn-theme {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--text);
+  border: none;
+  border-radius: 50%;
+  color: var(--bg-body);
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-theme:hover { opacity: 0.8; }
+
+.btn-theme svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 2;
+  pointer-events: none;
+}
+
+.header-actions-right {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#langSelect {
+  height: 36px;
+  padding: 0 8px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background: var(--bg-card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  text-align: center;
+  transition: border-color 0.2s;
+}
+
+#langSelect:hover {
+  border-color: var(--text-muted);
+}
+
+.btn-info {
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--text);
+  border: none;
+  border-radius: 50%;
+  color: var(--bg-body);
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-info:hover {
+  opacity: 0.8;
+}
+
+.btn-info svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 2;
+  pointer-events: none;
+}
+
+/* ─── Info Modal ───────────────────────────────────────────────────────────── */
+
+.info-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.info-modal.hidden {
+  display: none;
+}
+
+.info-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.info-modal__panel {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 0;
+  animation: modal-fade-in 0.2s ease;
+}
+
+@keyframes modal-fade-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.info-modal__header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 20px 16px;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+}
+
+.info-modal__title {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: clamp(1.1rem, 3vw, 1.3rem);
+  font-weight: bold;
+  color: var(--text);
+  letter-spacing: 1px;
+}
+
+.info-modal__close {
+  position: static;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: 6px;
+  transition: color 0.2s, background 0.2s;
+  flex-shrink: 0;
+}
+
+.info-modal__close:hover {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.info-modal__close svg {
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+}
+
+.info-modal__body {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 20px;
+}
+
+.info-modal__body p {
+  font-size: clamp(0.85rem, 2vw, 0.95rem);
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.info-modal__figure {
+  margin: 4px 0 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-modal__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.info-modal__image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+.info-modal__body figcaption {
+  margin-top: 8px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.info-note {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-align: center;
+  opacity: 0.8;
+}
+
+.app-title {
+  font-size: clamp(2rem, 2.5vw, 2.4rem);
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.app-subtitle {
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  color: var(--text-muted);
+  margin-top: 6px;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+button {
+  width: clamp(90px, 25vw, 120px);
+  height: clamp(44px, 10vw, 50px);
+  font-size: clamp(11px, 3.5vw, 13px);
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.1s, opacity 0.2s;
+  touch-action: manipulation;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@media (min-width: 735px) and (max-width: 950px) {
+  .app-header {
+    padding-top: 70px;
+  }
+}
+
+/* ─────────────────────────────
+   ZURÜCK ZU PROJEKTE (Einbettung in die Homepage)
+───────────────────────────── */
+
+.back-to-projekte {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+}
+
+.back-to-projekte a {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.back-to-projekte a:hover,
+.back-to-projekte a:focus-visible {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+

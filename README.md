@@ -45,7 +45,13 @@ Kurzer Verlauf, was wann gemacht wurde. Ältere Historie davor: siehe `git log`.
 - Nav-Reihenfolge nochmal angepasst, About ans Ende: Home, Services, Projekte, Galerie, Drinks, Blog, Zertifikationen, About.
 - Nav-Reihenfolge nochmal angepasst, Galerie hinter Blog: Home, Services, Projekte, Drinks, Blog, Galerie, Zertifikationen, About.
 
+### 2026-09-15
+- Zweites echtes Projekt in `projekte.html`: "Timer mit Kalkulation" (separates Repo `Cost_Calculation_Stoppwatch`) — Zeiterfassung von Arbeitsschritten + Umsatzkalkulation, verbindet Gastro-Erfahrung mit Code.
+- App als eigenständige, funktionierende Unterseite unter `projekte/timer/` eingebettet (eigenes Dark-Theme, eigene Pfade, kein Homepage-Styling) statt nur Screenshot — mit "Zurück zu Projekte"-Leiste oben, damit man wieder rausfindet.
+- Detailansicht in `projekte.html` unterstützt jetzt optionale Aktions-Links ("App live ausprobieren", "Original auf GitHub").
+
 ### Ideen / offene Punkte (noch nicht umgesetzt)
+- Drittes Projekt für `projekte.html` noch offen (eine App wurde geprüft und verworfen, "calculation-App"/Vue — passte nicht).
 - Kontaktformular als eigene Injection (`templates/contact-form.html`), nur auf einer Kontakt-Seite, nicht überall.
 - Ordner `Zertifikate` (Yoga, Bridgehouse, Excel, Product Owner, Kaufmännische Fachkraft) noch nicht integriert — bräuchte eigene Kategorie(n) jenseits von CSS/JS/DB/AI/Python.
 - `html/galerie.html`: Tippfehler `green_water_ducks02.webpp` (doppeltes p) — Bild lädt bei größeren Viewports nicht (echtes Broken-Image).

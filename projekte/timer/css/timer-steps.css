@@ -1,0 +1,363 @@
+/* ─── timer-steps.css ────────────────────────────────────────────────────────
+   Styling für die Step-Session: aktiv, done, pending, Zeitbadge, Total
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* ─── Schritt-Zustände ───────────────────────────────────────────────────────*/
+
+#stepList li.step--active {
+  border-color: var(--color-accent);
+  background: rgba(100, 128, 224, 0.12);
+  box-shadow: 0 0 0 1px var(--color-accent);
+}
+
+#stepList li.step--active::before {
+  background: var(--color-accent);
+  box-shadow: 0 0 8px rgba(100, 128, 224, 0.6);
+  animation: pulse-badge 1.2s ease-in-out infinite;
+}
+
+#stepList li.step--done {
+  opacity: 0.6;
+  border-color: var(--color-save);
+}
+
+#stepList li.step--done::before {
+  background: var(--color-save);
+}
+
+#stepList li.step--pending {
+  opacity: 0.4;
+}
+
+@keyframes pulse-badge {
+  0%, 100% { transform: scale(1);    opacity: 1; }
+  50%       { transform: scale(1.15); opacity: 0.8; }
+}
+
+/* ─── Zeit-Badge neben dem Schritt ───────────────────────────────────────────*/
+
+.step-time {
+  margin-left: auto;
+  font-size: clamp(0.75rem, 2vw, 0.875rem);
+  font-family: 'IBM Plex Mono', monospace;
+  color: #a0b8ff;
+  background: rgba(100, 128, 224, 0.15);
+  border: 1px solid rgba(160, 184, 255, 0.5);
+  border-radius: 5px;
+  padding: 2px 8px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ─── Total ──────────────────────────────────────────────────────────────────*/
+
+.session-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  padding: 12px 16px;
+  background: rgba(100, 128, 224, 0.08);
+  border: 1px solid var(--color-accent);
+  border-radius: 8px;
+  animation: fade-in 0.4s ease;
+}
+
+.session-total.hidden {
+  display: none;
+}
+
+.session-total__label {
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.session-total__time {
+  font-size: clamp(18px, 5vw, 24px);
+  font-weight: bold;
+  color: var(--color-accent);
+  letter-spacing: 2px;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── Session-Buttons ────────────────────────────────────────────────────────*/
+
+.session-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+#btnSessionStart {
+  margin-bottom: 2rem;
+  background: var(--color-start);
+  color: #fff;
+  flex: 1;
+  min-width: 140px;
+  height: clamp(44px, 10vw, 48px);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: clamp(13px, 3vw, 15px);
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.1s, opacity 0.2s;
+  touch-action: manipulation;
+}
+
+#btnSessionStart:hover  { opacity: 0.85; }
+#btnSessionStart:active { transform: scale(0.95); }
+
+/* ─── Session Drawer ─────────────────────────────────────────────────────────*/
+
+.session-drawer {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: flex-end;
+}
+
+.session-drawer.hidden {
+  display: none;
+}
+
+.session-drawer__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.session-drawer__panel {
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  background: var(--bg-card, #1a1a2e);
+  border-radius: 20px 20px 0 0;
+  padding: 28px 20px 36px;
+  max-height: 88vh;
+  overflow-y: auto;
+  animation: drawer-slide-up 0.28s cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+@keyframes drawer-slide-up {
+  from { transform: translateY(100%); opacity: 0.6; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+/* Griff-Linie oben */
+.session-drawer__panel::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+  margin: 0 auto 24px;
+}
+
+/* ─── Timer im Drawer ────────────────────────────────────────────────────────*/
+
+.session-drawer__timer {
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: clamp(36px, 9vw, 56px);
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #ffffff;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ─── Schritt-Liste im Drawer ────────────────────────────────────────────────*/
+
+.session-drawer__steps {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.session-drawer__steps li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: clamp(13px, 3.5vw, 15px);
+  transition: background 0.2s, border-color 0.2s, opacity 0.2s;
+}
+
+.session-drawer__steps li.step--active {
+  border-color: #a0b8ff;
+  background: rgba(100, 128, 224, 0.22);
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.session-drawer__steps li.step--active .step-num {
+  color: var(--color-accent);
+}
+
+.session-drawer__steps li.step--active::after {
+  content: '▶';
+  font-size: 10px;
+  color: #ffffff;
+  margin-left: 4px;
+  animation: pulse-badge 1.2s ease-in-out infinite;
+}
+
+.session-drawer__steps li.step--done {
+  color: #777777;
+  border-color: rgba(66, 18, 222, 0.4);
+}
+
+.session-drawer__steps li.step--done .step-num {
+  color: #555555;
+}
+
+.session-drawer__steps li.step--pending {
+  color: #7a7a9a;
+}
+
+.session-drawer__steps li.step--pending .step-num {
+  color: #6a6a8a;
+}
+
+.session-drawer__steps li .step-num {
+  font-size: clamp(0.75rem, 2vw, 0.9rem);
+  color: var(--text-muted);
+  flex-shrink: 0;
+  min-width: 20px;
+}
+
+.session-drawer__steps li .step-label {
+  flex: 1;
+}
+
+.session-drawer__steps li .step-time {
+  margin-left: auto;
+  font-size: clamp(0.75rem, 2vw, 0.875rem);
+  font-family: 'IBM Plex Mono', monospace;
+  color: #a0b8ff;
+  background: rgba(100, 128, 224, 0.15);
+  border: 1px solid rgba(160, 184, 255, 0.5);
+  border-radius: 5px;
+  padding: 2px 8px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ─── Total im Drawer ────────────────────────────────────────────────────────*/
+
+.session-drawer__total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+  background: rgba(100, 128, 224, 0.08);
+  border: 1px solid var(--color-accent);
+  border-radius: 10px;
+  animation: fade-in 0.4s ease;
+}
+
+.session-drawer__total.hidden { display: none; }
+
+.session-drawer__total-label {
+  font-size: clamp(0.75rem, 2vw, 0.875rem);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.session-drawer__total-time {
+  font-size: clamp(20px, 5vw, 26px);
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+/* ─── Export-Button ──────────────────────────────────────────────────────────*/
+
+.session-drawer__export {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 12px;
+  background: transparent;
+  color: #a0b8ff;
+  border: 1px solid rgba(160, 184, 255, 0.5);
+  border-radius: 10px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: clamp(0.875rem, 3vw, 1rem);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+  touch-action: manipulation;
+}
+
+.session-drawer__export:hover {
+  background: rgba(100, 128, 224, 0.12);
+}
+
+.session-drawer__export:active {
+  opacity: 0.8;
+}
+
+/* ─── Drawer Action Buttons ──────────────────────────────────────────────────*/
+
+.session-drawer__actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+#btnSessionNext {
+  background: var(--color-accent);
+  color: #fff;
+  flex: 1;
+  height: clamp(50px, 12vw, 58px);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: clamp(14px, 3.5vw, 16px);
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.1s, opacity 0.2s;
+  touch-action: manipulation;
+}
+
+#btnSessionCancel {
+  background: var(--color-delete);
+  color: #fff;
+  flex: 1;
+  height: clamp(50px, 12vw, 58px);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: clamp(11px, 2.5vw, 13px);
+  font-weight: bold;
+  white-space: nowrap;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.1s, opacity 0.2s;
+  touch-action: manipulation;
+}
+
+#btnSessionNext:hover,
+#btnSessionCancel:hover  { opacity: 0.85; }
+
+#btnSessionNext:active,
+#btnSessionCancel:active { transform: scale(0.97); }

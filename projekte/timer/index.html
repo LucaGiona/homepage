@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulation Produktion Stoppuhr</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/steps.css">
+  <link rel="stylesheet" href="css/accordion.css">
+  <link rel="stylesheet" href="css/timer-steps.css">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="js/theme.js" defer></script>
+  <script src="js/translations.js" defer></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/appState.js" defer></script>
+  <script src="js/stopwatch.js" defer></script>
+  <script src="js/storage.js" defer></script>
+  <script src="js/steps.js" defer></script>
+  <script src="js/accordion.js" defer></script>
+  <script src="js/kalkulation.js" defer></script>
+  <script src="js/costKalkulation.js" defer></script>
+  <script src="js/timer-steps.js" defer></script>
+  <script src="js/ui.js" defer></script>
+  <script src="js/modal.js" defer></script>
+</head>
+<body>
+<div class="back-to-projekte">
+  <a href="/html/projekte.html">&larr; Zurück zu Projekte</a>
+</div>
+<header class="app-header">
+  <button class="btn-theme" id="btnThemeToggle" aria-label="Theme wechseln">
+    <i data-lucide="sun"></i>
+  </button>
+  <div class="header-actions-right">
+    <select id="langSelect" aria-label="Sprache wählen">
+      <option value="de">DE</option>
+      <option value="en">EN</option>
+    </select>
+    <button class="btn-info" id="btnInfo" aria-label="Kurze Erklärung zur App">
+      <i data-lucide="info"></i>
+    </button>
+  </div>
+  <h1 class="app-title" data-i18n="appTitle">Zeitbasierte Produktionskalkulation</h1>
+  <p class="app-subtitle" data-i18n="appSubtitle">
+    Workflow-Tracking und Kostenberechnung auf Basis real gemessener Zeit
+  </p>
+</header>
+
+<!-- Info Modal -->
+<div id="infoModal" class="info-modal hidden" role="dialog" aria-modal="true" aria-labelledby="infoModalTitle">
+  <div class="info-modal__backdrop" id="infoModalBackdrop"></div>
+  <div class="info-modal__panel">
+    <div class="info-modal__header">
+      <h2 id="infoModalTitle" class="info-modal__title" data-i18n="infoTitle">Kurze Erklärung</h2>
+      <button class="info-modal__close" id="btnInfoClose" aria-label="Modal schließen">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+    <div class="info-modal__body">
+      <p><strong data-i18n="infoP1Strong">Arbeitszeit messen. Preise fundiert kalkulieren.</strong></p>
+
+      <p data-i18n="infoP1">Diese App verbindet präzise Zeiterfassung mit einer direkten Kalkulation, damit du deine Arbeit realistisch bewerten kannst – egal ob für Rezepturen, Dienstleistungen oder wiederkehrende Prozesse.</p>
+
+      <p data-i18n="infoP2">Lege einen Titel an, definiere deine Arbeitsschritte und stoppe die Zeit für jeden einzelnen Schritt. Alle Zeiten werden automatisch zusammengeführt und können mit einem Klick in die Kalkulation übernommen werden.</p>
+      <p class="info-note"><em data-i18n="infoScreensNote"></em></p>
+
+      <figure class="info-modal__figure">
+        <img class="info-modal__image" src="img/Arbeitstitel.png" alt="Arbeitstitel anlegen">
+        <figcaption data-i18n="infoCaption1">Arbeitstitel anlegen und auswählen</figcaption>
+      </figure>
+      <figure class="info-modal__figure">
+        <img class="info-modal__image" src="img/Schritte_eingeben.png" alt="Arbeitsschritte eingeben">
+        <figcaption data-i18n="infoCaption2">Arbeitsschritte definieren und speichern</figcaption>
+      </figure>
+      <figure class="info-modal__figure">
+        <img class="info-modal__image" src="img/Stoppuhr.png" alt="Stoppuhr starten">
+        <figcaption data-i18n="infoCaption3">Stoppuhr für jeden Schritt starten</figcaption>
+      </figure>
+
+      <p data-i18n="infoP3">In der Kalkulation bestimmst du deinen Zielpreis und die geplante Produktionszeit. Die App berechnet daraus deinen Brutto-Umsatz und gibt dir eine klare Orientierung für deine Preisstruktur.</p>
+      <figure class="info-modal__figure">
+        <img class="info-modal__image" src="img/Kalkulation1.png" alt="Kalkulation mit Brutto-Preis">
+        <figcaption data-i18n="infoCaption4">Preis kalkulieren und Umsatz berechnen</figcaption>
+      </figure>
+
+      <p data-i18n="infoP4">Für schnelle Einschätzungen kannst du die Kalkulation auch unabhängig von der Zeiterfassung nutzen und Zeiten manuell eingeben.</p>
+      <figure class="info-modal__figure">
+        <img class="info-modal__image" src="img/Schnelltest.png" alt="Zeit manuell eingeben">
+        <figcaption data-i18n="infoCaption5">Zeit manuell eingeben</figcaption>
+      </figure>
+
+      <p><strong data-i18n="infoP5Strong">Für bessere Entscheidungen bei Zeit, Preis und Wirtschaftlichkeit.</strong></p>
+    </div>
+  </div>
+</div>
+
+<main class="container">
+
+  <!-- Arbeitsschritte -->
+  <section class="steps-section" aria-labelledby="stepsHeading">
+
+    <h2 id="stepsHeading" data-i18n="sectionHeading">Arbeitstitel</h2>
+
+    <div class="job-title-group">
+      <div class="job-title-label-row">
+        <label for="jobTitleInput" data-i18n="labelJobTitle">Arbeitstitel</label>
+        <button id="btnNewTitle" class="btn-new-title" aria-label="Neuen Arbeitstitel anlegen" data-i18n="btnNew">Neu</button>
+      </div>
+      <div class="job-title-row">
+        <input
+          type="text"
+          id="jobTitleInput"
+          name="jobTitleInput"
+          placeholder="z.B. Rezeptur nachmachen"
+          data-i18n-placeholder="placeholderJobTitle"
+          autocomplete="off"
+          maxlength="80"
+          aria-describedby="jobTitleHint jobTitleError"
+          aria-required="true"
+          required
+        >
+        <select id="jobTitleSelect" aria-label="Gespeicherte Arbeitstitel auswählen">
+          <option value="" data-i18n="titleSelectDefault">— Titel auswählen —</option>
+        </select>
+      </div>
+      <span id="jobTitleHint" class="field-hint" data-i18n="titleHint">Titel eingeben oder aus gespeicherten auswählen</span>
+      <span id="jobTitleError" class="field-error hidden" role="alert" data-i18n="titleError">Bitte einen Arbeitstitel eingeben.</span>
+      <div class="title-action-btns">
+        <button
+          id="btnEditTitle"
+          class="btn-title-edit"
+          aria-label="Arbeitstitel bearbeiten"
+          title="Titel bearbeiten"
+          disabled
+        ><i data-lucide="pencil"></i></button>
+        <button
+          id="btnDeleteTitle"
+          class="btn-title-delete"
+          aria-label="Arbeitstitel und alle Schritte löschen"
+          title="Titel und alle Schritte löschen"
+          disabled
+        ><i data-lucide="trash-2"></i></button>
+        <button
+          id="btnSaveTitle"
+          class="btn-title-save-main"
+          aria-label="Arbeitstitel speichern"
+          data-i18n="btnSaveTitle"
+          disabled
+        >Speichern</button>
+      </div>
+    </div>
+
+    <button type="button" class="section-heading" aria-expanded="false" aria-controls="stepsAccordion">
+      <span class="section-icon">▶</span>
+      <span class="section-title" data-i18n="stepsSection">Schritte definieren &amp; Stoppuhr</span>
+    </button>
+
+    <div id="stepsAccordion" class="accordion-body">
+
+      <div class="step-input-group">
+        <input
+          type="text"
+          id="stepInput"
+          name="stepInput"
+          placeholder="z.B. Vorbereitung Utensilien"
+          data-i18n-placeholder="placeholderStepInput"
+          aria-label="Neuen Schritt beschreiben"
+          aria-required="false"
+          autocomplete="off"
+          maxlength="100"
+        >
+      </div>
+
+      <div class="step-actions" role="group" aria-label="Schritte verwalten">
+        <button id="btnAddStep" data-i18n="btnAddStep">Weiteren Schritt</button>
+        <button id="btnSaveSteps" data-i18n="btnSaveSteps">Speichern</button>
+      </div>
+
+      <ol id="stepList" aria-label="Gespeicherte Arbeitsschritte" aria-live="polite"></ol>
+
+      <!-- Session-Buttons -->
+      <div class="session-actions" role="group" aria-label="Session steuern">
+        <button id="btnSessionStart" aria-label="Session starten" data-i18n="btnSessionStart">Stoppuhr starten</button>
+      </div>
+
+      <p id="saveConfirm" role="status" aria-live="polite" class="save-confirm hidden"></p>
+
+    </div>
+
+  </section>
+
+  <!-- Kalkulation -->
+  <section class="steps-section" aria-label="Kalkulation">
+
+    <button type="button" class="section-heading" aria-expanded="false" aria-controls="kalkulationAccordion">
+      <span class="section-icon">▶</span>
+      <span class="section-title" data-i18n="calculationSection">Kalkulation</span>
+    </button>
+    <div id="kalkulationAccordion" class="accordion-body">
+
+      <div class="kalkulation-group">
+        <div class="kalkulation-field kalkulation-field--full">
+          <label for="importiertTitel" data-i18n="labelJobTitle">Arbeitstitel</label>
+          <div class="job-title-row">
+            <input
+              type="text"
+              id="importiertTitel"
+              placeholder="z.B. Rezeptur nachmachen"
+              data-i18n-placeholder="placeholderJobTitle"
+              autocomplete="off"
+              aria-label="Arbeitstitel"
+            >
+            <select id="kalTitelSelect" aria-label="Gespeicherten Arbeitstitel auswählen">
+              <option value="" data-i18n="titleSelectDefault">— Titel auswählen —</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="kalkulation-field">
+          <label for="importiertZeit" data-i18n="labelImportiertZeit">gestoppte Zeit Schritte import:</label>
+          <input
+            type="text"
+            id="importiertZeit"
+            readonly
+            placeholder="—"
+            aria-label="Aus Session importierte Gesamtzeit"
+          >
+        </div>
+
+        <div class="kalkulation-field">
+          <label data-i18n="labelManualZeit">Zeit manuell eingeben (Richtwert)</label>
+          <div class="zeit-input-row">
+            <div class="zeit-col">
+              <input type="text" inputmode="numeric" id="zeitStd" maxlength="2" placeholder="00" autocomplete="off" aria-label="Stunden">
+              <span class="zeit-unit" data-i18n="unitStd">Std</span>
+            </div>
+            <span class="zeit-sep">:</span>
+            <div class="zeit-col">
+              <input type="text" inputmode="numeric" id="zeitMin" maxlength="2" placeholder="00" autocomplete="off" aria-label="Minuten">
+              <span class="zeit-unit" data-i18n="unitMin">Min</span>
+            </div>
+            <span class="zeit-sep">:</span>
+            <div class="zeit-col">
+              <input type="text" inputmode="numeric" id="zeitSek" maxlength="2" placeholder="00" autocomplete="off" aria-label="Sekunden">
+              <span class="zeit-unit" data-i18n="unitSek">Sek</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="kalkulation-field kalkulation-field--full">
+          <label for="mwstSatz" data-i18n="labelMwSt">MwSt.</label>
+          <div class="mwst-row">
+            <select id="mwstSatz" name="mwstSatz" aria-label="Mehrwertsteuersatz auswählen">
+              <option value="7">7 %</option>
+              <option value="19" selected>19 %</option>
+              <option value="custom" data-i18n="mwstManualOption">Manuell...</option>
+            </select>
+            <input
+              type="text"
+              inputmode="decimal"
+              id="mwstCustom"
+              class="hidden"
+              placeholder="z.B. 13"
+              autocomplete="off"
+              maxlength="6"
+              aria-label="Eigener Mehrwertsteuersatz in Prozent"
+            >
+            <span id="mwstCustomUnit" class="mwst-unit hidden">%</span>
+          </div>
+        </div>
+
+        <div class="kalkulation-field">
+          <label for="preisNetto" data-i18n="labelPreisNetto">Preis Netto</label>
+          <div class="input-currency">
+            <input
+              type="text"
+              inputmode="decimal"
+              id="preisNetto"
+              name="preisNetto"
+              placeholder="0.00"
+              autocomplete="off"
+            >
+            <span class="currency-symbol">€</span>
+          </div>
+        </div>
+
+        <div class="kalkulation-field kalkulation-field--result">
+          <label for="preisBrutto" data-i18n="labelPreisBrutto">Preis Brutto</label>
+          <div class="input-currency">
+            <input
+              type="text"
+              inputmode="decimal"
+              id="preisBrutto"
+              name="preisBrutto"
+              placeholder="0.00"
+              autocomplete="off"
+            >
+            <span class="currency-symbol">€</span>
+          </div>
+        </div>
+
+        <div class="kalkulation-field kalkulation-field--full kalkulation-divider"></div>
+
+        <div class="kalkulation-field kalkulation-field--full">
+          <label data-i18n="labelProduktionskosten">Produktionskosten Brutto auf Zeit</label>
+          <div class="mwst-row mwst-row--prod">
+            <select id="produktionZeit" aria-label="Produktionszeitraum auswählen">
+              <option value="manual" data-i18n="prodManualOption">Manuell</option>
+              <option value="15">15 min</option>
+              <option value="30">30 min</option>
+              <option value="45">45 min</option>
+              <option value="60" selected>60 min</option>
+            </select>
+            <div id="prodManualRow" class="zeit-input-row hidden">
+              <div class="zeit-col">
+                <input type="text" inputmode="numeric" id="prodStd" maxlength="2" placeholder="00" autocomplete="off" aria-label="Stunden">
+                <span class="zeit-unit" data-i18n="unitStd">Std</span>
+              </div>
+              <span class="zeit-sep">:</span>
+              <div class="zeit-col">
+                <input type="text" inputmode="numeric" id="prodMin" maxlength="2" placeholder="00" autocomplete="off" aria-label="Minuten">
+                <span class="zeit-unit" data-i18n="unitMin">Min</span>
+              </div>
+              <span class="zeit-sep">:</span>
+              <div class="zeit-col">
+                <input type="text" inputmode="numeric" id="prodSek" maxlength="2" placeholder="00" autocomplete="off" aria-label="Sekunden">
+                <span class="zeit-unit" data-i18n="unitSek">Sek</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="kalkulation-field kalkulation-field--result">
+          <label for="umsatzStunde" data-i18n="labelUmsatzStunde">Umsatz / Zeit</label>
+          <div class="input-currency">
+            <input
+              type="text"
+              id="umsatzStunde"
+              readonly
+              placeholder="—"
+              aria-label="Berechneter Umsatz pro gewähltem Zeitraum"
+            >
+            <span class="currency-symbol">€</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+</main>
+
+<!-- Session Drawer -->
+<div id="sessionDrawer" class="session-drawer hidden" role="dialog" aria-modal="true" aria-label="Laufende Session">
+  <div id="drawerBackdrop" class="session-drawer__backdrop"></div>
+  <div class="session-drawer__panel">
+    <div class="session-drawer__timer" aria-live="off" aria-atomic="true">
+      <span id="drawerTime">00:00:00</span><span id="drawerMillis">.00</span>
+    </div>
+    <ol id="drawerStepList" class="session-drawer__steps" aria-label="Schritte der Session"></ol>
+    <div id="drawerTotal" class="session-drawer__total hidden">
+      <span class="session-drawer__total-label" data-i18n="drawerTotal">Total</span>
+      <span id="drawerTotalTime" class="session-drawer__total-time"></span>
+    </div>
+    <button id="btnExportKalkulation" class="session-drawer__export hidden" data-i18n="btnExportKalkulation">
+      Zu Kalkulation exportieren
+    </button>
+    <div class="session-drawer__actions">
+      <button id="btnSessionNext" aria-label="Nächster Schritt" data-i18n="btnSessionNext">Nächster Schritt</button>
+      <button id="btnSessionCancel" aria-label="Session abbrechen" data-i18n="btnSessionCancel">Abbrechen / Stop</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

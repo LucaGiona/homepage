@@ -184,6 +184,7 @@ a:hover {
 
 small {
   color: var(--color-text-muted);
+  font-weight: normal;
 }
 
 strong {
@@ -629,6 +630,11 @@ main.wrapper > picture {
   margin-bottom: var(--space-2);
 }
 
+.project-nickname {
+  display: block;
+  margin-top: var(--space-1);
+}
+
 .project-detail-shot {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
@@ -643,6 +649,13 @@ main.wrapper > picture {
 .project-detail-text {
   white-space: pre-line;
   max-width: 65ch;
+}
+
+.project-detail-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-6);
+  margin-top: var(--space-6);
 }
 
 /* ==========================================================================
