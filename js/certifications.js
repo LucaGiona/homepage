@@ -7,7 +7,7 @@ const pngs = [
   "/assets/pngs/css-foundations.png",
   "/assets/pngs/css-grid-flexbox-v2.png",
   "/assets/pngs/databases.png",
-  "/assets/pngs/functional-first-steps-dark.png",
+  "/assets/pngs/functional-first-steps.png",
   "/assets/pngs/functional-js-fundamentals.png",
   "/assets/pngs/getting-started-css.png",
   "/assets/pngs/getting-started-javascript-v2.png",
