@@ -61,6 +61,7 @@ Kurzer Verlauf, was wann gemacht wurde. Ältere Historie davor: siehe `git log`.
 - Beim Kopieren nur die tatsächlich referenzierten Bilder mitgenommen (17 MB statt 126 MB Quellordner). Absolute Root-Pfade (`/css/...`, `/assets/...`) in allen 6 HTML-Dateien auf relative Pfade umgeschrieben, je nach Verzeichnistiefe — sonst hätte die Seite nach der Einbettung ins Homepage-Root verlinkt statt in den eigenen Unterordner.
 - Nebenbei einen echten kaputten Link gefunden und gefixt: zwei Seiten hatten einen von Cloudflare automatisch obfuskierten `mailto`-Link (`/cdn-cgi/l/email-protection#...`), der außerhalb von Cloudflare ins Leere läuft. Dekodiert (einfache XOR-Verschlüsselung) zu `contatto@barsigismondo.com` und durch einen echten `mailto:`-Link ersetzt.
 - Die Demo-Seite selbst weist im Impressum explizit darauf hin, dass es sich um ein Demo-/Portfolioprojekt ohne echte Kontaktdaten handelt.
+- "Zurück zur Übersicht"-Button in der Projekte-Detailansicht (`#project-back`) ist jetzt sticky (bleibt direkt unter der Nav kleben beim Scrollen). Bewusst nur dort, nicht bei den Zertifikaten (gleiche CSS-Klasse `.back-link`, aber gezielt über die ID eingegrenzt).
 
 ### Ideen / offene Punkte (noch nicht umgesetzt)
 - Eine App wurde geprüft und verworfen: "calculation-App" (Vue) — passte inhaltlich/vom Reifegrad nicht.
