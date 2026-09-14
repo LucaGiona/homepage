@@ -474,6 +474,47 @@ main.wrapper > picture {
    9. Zertifikate
    ========================================================================== */
 
+.cert-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+}
+
+.cert-category {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-4) var(--space-6);
+  font-weight: 600;
+}
+
+.cert-category:hover {
+  background: var(--color-accent-soft);
+  border-color: var(--color-accent);
+}
+
+.cert-back {
+  display: inline-block;
+  background: none;
+  color: var(--color-accent);
+  border: none;
+  padding: 0;
+  margin-bottom: var(--space-4);
+  font-weight: 500;
+}
+
+.cert-back:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+  background: none;
+}
+
+#cert-list-heading {
+  margin-bottom: var(--space-4);
+}
+
 .cert-list {
   list-style: none;
   padding: 0;
@@ -483,15 +524,17 @@ main.wrapper > picture {
   gap: var(--space-2);
 }
 
-.cert-list li {
+.cert-list button {
   padding: var(--space-2) var(--space-4);
   background: var(--color-surface);
+  color: var(--color-text);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
+  font-weight: 500;
   transition: background 0.15s ease, border-color 0.15s ease;
 }
 
-.cert-list li:hover {
+.cert-list button:hover {
   background: var(--color-accent-soft);
   border-color: var(--color-accent);
 }
