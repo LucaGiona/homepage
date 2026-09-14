@@ -57,6 +57,18 @@ const projects = [
       "Responsive Karteikarten-App zum Lernen medizinischer Fachbegriffe aus meiner Pflegefachmann-Ausbildung, mit zwei unabhängigen Leitner-Systemen: Freies Lernen und ein Wochenmodus mit tagesabhängigen Fälligkeitsregeln.",
       "Fach-, Themen- und Kategorie-Filter lassen sich frei kombinieren, Abfragerichtungen (Latein↔Deutsch, Deutsch↔Englisch) ebenfalls. Jede Karte hat in jedem der beiden Systeme ihre eigene Box-Nummer, Fortschritt wird pro System getrennt in LocalStorage gespeichert. Kein Framework, kein Build-Schritt – nur native ES-Module."
     ]
+  },
+  {
+    title: "Sigismondo – Design-Varianten",
+    image: "/assets/projekte/sigismondo.png",
+    summary: "Vier unterschiedliche visuelle Design-Richtungen für dieselbe Bar-Website, mit Theme-Toggle direkt umschaltbar.",
+    stack: ["HTML", "CSS", "JavaScript", "Design"],
+    demoUrl: "/projekte/sigismondo/index.html",
+    repoUrl: "https://github.com/LucaGiona/salvatore",
+    detail: [
+      "Demo-Projekt für eine Bar/Salumeria: dieselbe Seitenstruktur (Startseite, Menüs, Anfahrt, Galerie) in vier komplett unterschiedlichen visuellen Design-Richtungen umgesetzt – Blue-Azul, Italian, Art Nouveau und Comic/Pop-Art. Über das Menü lässt sich live zwischen allen Varianten wechseln.",
+      "Zeigt, wie stark sich Typografie, Farbwelt und Bildsprache auf die Wirkung derselben Inhalte auswirken – von elegant-italienisch über verspielten Comic-Stil bis zu floraler Jugendstil-Ästhetik. Explizit als Demo gekennzeichnet (siehe Impressum der Seite), keine reale Adresse oder Kontaktdaten."
+    ]
   }
 ];
 

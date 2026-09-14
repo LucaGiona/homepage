@@ -57,6 +57,10 @@ Kurzer Verlauf, was wann gemacht wurde. Ältere Historie davor: siehe `git log`.
 - Nur die eigentliche App kopiert (`index.html`, `css/`, `js/`, `quizzes/`, ~1,4 MB) — persönliche Lernheft-PDFs und Prompt-Templates aus dem Quellordner (~96 MB) bewusst ausgeschlossen, da nicht Teil der App.
 - Als eigenständige Unterseite unter `projekte/care-quizzes/` eingebettet, gleiches Muster wie beim Timer (eigenes Theme, "Zurück zu Projekte"-Leiste, Link zum GitHub-Original).
 - Fünftes Projekt: "Anatomie-Karteikarten" — Leitner-System-Karteikarten-App (Latein/Deutsch/Englisch) mit zwei unabhängigen Lernmodi (Freies Lernen, Wochenmodus). Eigenes GitHub-Repo (`karteikarten-app`). Nur die App kopiert (~150 KB), persönliche Lernheft-PDFs (~4,6 MB) aus dem Quellordner ausgeschlossen. Gleiches Einbettungsmuster wie bei Timer/Care Quizzes.
+- Sechstes Projekt: "Sigismondo – Design-Varianten" — vier visuelle Design-Richtungen (Blue-Azul, Italian, Art Nouveau, Comic) derselben Bar-Demo-Website. Ordner `sigismondo_demo_pages` war unvollständig (fehlende CSS/JS/Bilder, leerer `pages-html/`-Ordner); die vollständige Version lag im Ordner `Salvatore` (eigenes GitHub-Repo `salvatore`).
+- Beim Kopieren nur die tatsächlich referenzierten Bilder mitgenommen (17 MB statt 126 MB Quellordner). Absolute Root-Pfade (`/css/...`, `/assets/...`) in allen 6 HTML-Dateien auf relative Pfade umgeschrieben, je nach Verzeichnistiefe — sonst hätte die Seite nach der Einbettung ins Homepage-Root verlinkt statt in den eigenen Unterordner.
+- Nebenbei einen echten kaputten Link gefunden und gefixt: zwei Seiten hatten einen von Cloudflare automatisch obfuskierten `mailto`-Link (`/cdn-cgi/l/email-protection#...`), der außerhalb von Cloudflare ins Leere läuft. Dekodiert (einfache XOR-Verschlüsselung) zu `contatto@barsigismondo.com` und durch einen echten `mailto:`-Link ersetzt.
+- Die Demo-Seite selbst weist im Impressum explizit darauf hin, dass es sich um ein Demo-/Portfolioprojekt ohne echte Kontaktdaten handelt.
 
 ### Ideen / offene Punkte (noch nicht umgesetzt)
 - Eine App wurde geprüft und verworfen: "calculation-App" (Vue) — passte inhaltlich/vom Reifegrad nicht.

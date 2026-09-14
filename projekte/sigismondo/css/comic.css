@@ -1,0 +1,323 @@
+/* ═══════════════════════════════════════════
+   COMIC.CSS — Pop-Art Theme
+   ═══════════════════════════════════════════ */
+
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/Indie_Flower_normal_400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Luckiest Guy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/Luckiest_Guy_normal_400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Permanent Marker';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/Permanent_Marker_normal_400.woff2') format('woff2');
+}
+
+
+:root {
+  --accent:     #b8976a;
+  --highlight:  #dbfb4d;
+  --dark:       #130f09;
+  --cream:      #f5f0e8;
+  --rot:        #fb2520;
+  --gelb:       #fce91c;
+
+  --font-display:    'Luckiest Guy', cursive;
+  --font-subtitle:   'Permanent Marker', cursive;
+  --font-body:       'Indie Flower', cursive;
+
+  /* Section-Header */
+  --header-size:         0.65rem;
+  --header-spacing:      0.35em;
+  --header-h1-size:      3.4rem;
+  --header-h1-spacing:   0.03em;
+  --header-h1-transform: none;
+  --header-h1-style:     bold;
+  --header-h1-color:     var(--cream);
+  --header-h3-size:      1.2rem;
+  --header-h3-spacing:   0.12em;
+  --header-h3-transform: none;
+  --header-h3-style:     normal;
+  --header-h3-color:     var(--accent);
+
+  /* Modul Typografie */
+  --modul-nummer-weight:  400;
+  --modul-titel-style:    normal;
+  --modul-titel-weight:   400;
+  --modul-text-style:     normal;
+  --modul-btn-size:       0.65rem;
+  --modul-btn-spacing:    0.25em;
+  --modul-btn-style:      normal;
+
+  /* Burger Nav */
+  --burger-link-size:  2rem;
+  --burger-link-style: normal;
+
+  /* Drawer */
+  --drawer-bg:           #1a1309;
+  --drawer-border:       rgba(184, 151, 106, 0.15);
+  --drawer-titel-style:  normal;
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+  color: rgb(251, 10, 50);
+}
+
+h3 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+}
+
+
+/* ══════════════════════════════════════
+   BODY — Halftone Polka-Dot
+   ══════════════════════════════════════ */
+
+body {
+  background: linear-gradient(135deg,
+    #c80000 0%,
+    var(--rot) 30%,
+    #ff5500 60%,
+    var(--gelb) 100%
+  );
+  background-attachment: fixed;
+}
+
+
+/* ══════════════════════════════════════
+   SECTION HEADER — Diagonal Rot→Gelb
+   ══════════════════════════════════════ */
+
+.section-header {
+  background: linear-gradient(135deg,
+    #c80000 0%,
+    var(--rot) 30%,
+    #ff5500 60%,
+    var(--gelb) 100%
+  );
+}
+
+.header-titel {
+  padding-bottom: 48px;
+  color: var(--cream);
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow: 3px 3px 0 #000, 5px 5px 0 rgba(0,0,0,0.25);
+}
+
+.header-untertitel {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.section-header::after {
+  content: '— ✦ —';
+  display: block;
+  margin-top: 20px;
+  font-size: 0.8rem;
+  letter-spacing: 0.5em;
+  color: var(--gelb);
+}
+
+
+/* ══════════════════════════════════════
+   MODULES — Bunter Hintergrund
+   ══════════════════════════════════════ */
+
+.modules {
+  background: linear-gradient(180deg,
+    var(--gelb) 0%,
+    #ffe800 50%,
+    #ffd000 100%
+  );
+}
+
+
+/* ══════════════════════════════════════
+   MODUL OVERLAYS — farbige Tints
+   ══════════════════════════════════════ */
+
+.modul-bg {
+  filter: none;
+}
+
+.modul::before {
+  opacity: 0;
+}
+
+.modul:nth-child(1) .modul-overlay {
+  background: linear-gradient(to bottom,
+    transparent 25%,
+    rgba(251, 37, 32, 0.25) 60%,
+    rgba(180, 0, 0, 0.85) 100%
+  );
+}
+
+.modul:nth-child(2) .modul-overlay {
+  background: linear-gradient(to bottom,
+    transparent 25%,
+    rgba(252, 233, 28, 0.2) 60%,
+    rgba(160, 130, 0, 0.82) 100%
+  );
+}
+
+.modul:nth-child(3) .modul-overlay {
+  background: linear-gradient(to bottom,
+    transparent 25%,
+    rgba(251, 37, 32, 0.25) 60%,
+    rgba(180, 0, 0, 0.85) 100%
+  );
+}
+
+
+/* ══════════════════════════════════════
+   MODUL ACCENT LINES — Gradient
+   ══════════════════════════════════════ */
+
+.modul:nth-child(1) .modul-accent {
+  background: linear-gradient(90deg, var(--rot), #ff6b00, var(--gelb));
+}
+.modul:nth-child(2) .modul-accent {
+  background: linear-gradient(90deg, var(--gelb), #ff6b00, var(--rot));
+}
+.modul:nth-child(3) .modul-accent {
+  background: linear-gradient(90deg, var(--rot), var(--gelb), var(--rot));
+}
+
+.modul-nummer {
+  font-family: 'Permanent Marker', cursive;
+  color: pink;
+}
+
+.modul-titel {
+  font-family: 'Luckiest Guy', cursive;
+  color: var(--highlight);
+  letter-spacing: .2rem;
+}
+
+.titolo-top,
+.titolo-bottom {
+  text-shadow: 3px 3px 0 #ff69b4, 5px 5px 0 rgba(255, 105, 180, 0.35);
+}
+
+
+/* ══════════════════════════════════════
+   STORIA — Gelb→Orange Gradient
+   ══════════════════════════════════════ */
+
+.section-storia {
+  background: linear-gradient(160deg,
+    var(--gelb) 0%,
+    #ffe033 40%,
+    #ffcc00 70%,
+    #ffc200 100%
+  );
+  border-top: 1px solid #cccccc;
+}
+
+.storia-titel,
+.events-titel {
+  font-family: 'Luckiest Guy', cursive;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: var(--rot);
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.15);
+}
+
+.storia-line,
+.events-line {
+  background: linear-gradient(90deg, var(--rot), #ff6b00);
+  height: 3px;
+}
+
+.storia-text {
+  font-family: 'Indie Flower', cursive;
+  color: black;
+}
+
+.storia-label,
+.gallery-label {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.2rem;
+  color: black;
+}
+
+
+/* ══════════════════════════════════════
+   EVENTS — Rot→Pink Gradient
+   ══════════════════════════════════════ */
+
+.section-events {
+  background: linear-gradient(160deg,
+    var(--rot) 0%,
+    #e8001c 40%,
+    #c8001a 100%
+  );
+  border-top: none;
+}
+
+.section-events .events-titel,
+.section-events .events-label,
+.section-events .events-text {
+  color: var(--gelb);
+}
+
+.section-events .events-line {
+  background: linear-gradient(90deg, var(--gelb), #ffaa00);
+}
+
+
+/* ══════════════════════════════════════
+   GALLERY — Gelb mit Dots
+   ══════════════════════════════════════ */
+
+.section-gallery {
+  background-color: var(--gelb);
+  background-image: radial-gradient(circle, rgba(251, 37, 32, 0.15) 5px, transparent 2px);
+  background-size: 20px 20px;
+  border-top: 1px solid #cccccc;
+}
+
+.gallery-grid {
+  gap: 4px;
+}
+
+
+/* ══════════════════════════════════════
+   FOOTER — Rot Gradient
+   ══════════════════════════════════════ */
+
+footer {
+  background: linear-gradient(135deg,
+    #c80000 0%,
+    var(--rot) 50%,
+    #ff3300 100%
+  );
+}
+
+
+/* ══════════════════════════════════════
+   BURGER NAV
+   ══════════════════════════════════════ */
+
+.burger-nav {
+  background: rgba(15, 11, 7, 0.98);
+  border-left: 1px solid rgba(184, 151, 106, 0.15);
+}
+
+.drawer-titel { font-style: normal; }

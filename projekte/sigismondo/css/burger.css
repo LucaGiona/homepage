@@ -1,0 +1,220 @@
+/* ═══════════════════════════════════════════
+   BURGER.CSS — Sigismondo · Navigation
+   Abhängig von: base.css (:root tokens)
+   Benötigte Variablen:
+     --cream, --warm-gray, --accent
+     --font-display
+     --burger-link-size, --burger-link-style
+   ═══════════════════════════════════════════ */
+
+
+/* ── Button ── */
+
+.burger-btn {
+  position: fixed;
+  top: 22px;
+  right: 24px;
+  z-index: 200;
+  width: 48px;
+  height: 48px;
+  background: rgba(26, 22, 17, 0.85);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.burger-btn:hover {
+  background: rgba(40, 34, 26, 0.95);
+  border-color: rgba(255,255,255,0.18);
+}
+
+.burger-line {
+  display: block;
+  width: 22px;
+  height: 1.5px;
+  background: var(--cream);
+  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              opacity   0.25s ease,
+              width     0.3s ease;
+  transform-origin: center;
+}
+
+.burger-btn.open .burger-line:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
+.burger-btn.open .burger-line:nth-child(2) { opacity: 0; width: 0; }
+.burger-btn.open .burger-line:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
+
+
+/* ── Nav Panel ── */
+
+.burger-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100vh;
+  z-index: 190;
+  background: rgba(20, 16, 11, 0.97);
+  backdrop-filter: blur(16px);
+  border-left: 1px solid rgba(255,255,255,0.07);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 48px;
+  transform: translateX(100%);
+  transition: transform 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.burger-nav.open { transform: translateX(0); }
+
+.burger-nav-label {
+  font-size: 0.6rem;
+  letter-spacing: 0.45em;
+  text-transform: uppercase;
+  color: var(--warm-gray);
+  margin-bottom: 40px;
+}
+
+.burger-nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.burger-nav-link {
+  font-family: var(--font-display);
+  font-size: var(--burger-link-size);
+  font-style: var(--burger-link-style);
+  font-weight: 400;
+  color: rgba(245, 240, 232, 0.45);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+  transition: color 0.25s ease, letter-spacing 0.25s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.burger-nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.burger-nav-link:hover,
+.burger-nav-link.active { color: var(--cream); letter-spacing: 0.04em; }
+
+.burger-nav-link:hover::after,
+.burger-nav-link.active::after { width: 100%; }
+
+.burger-nav-divider {
+  width: 30px;
+  height: 1px;
+  background: rgba(255,255,255,0.10);
+  margin: 32px 0;
+}
+
+.burger-nav-footer {
+  font-size: 0.65rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.18);
+  line-height: 1.8;
+}
+
+
+/* ── Overlay (Abdunklung beim Öffnen) ── */
+
+.burger-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(2px);
+  z-index: 180;
+}
+
+.burger-overlay.open { display: block; }
+
+
+/* ── Label & Hint (Tooltip neben dem Button) ── */
+
+.burger-label {
+  position: fixed;
+  top: 28px;
+  right: 82px;
+  z-index: 200;
+  color: rgba(245, 240, 232, 0.55);
+  font-size: 0.6rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.burger-label::after {
+  content: '→';
+  font-size: 1.8rem;
+  color: rgba(245, 240, 232, 0.35);
+}
+
+.burger-hint {
+  position: fixed;
+  top: 22px;
+  right: 82px;
+  z-index: 201;
+  background: rgba(20, 16, 11, 0.92);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.10);
+  color: var(--cream);
+  font-size: 0.65rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  padding: 10px 16px;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateX(8px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  pointer-events: none;
+}
+
+.burger-hint::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  transform: translateY(-50%) rotate(45deg);
+  width: 8px;
+  height: 8px;
+  background: rgba(20, 16, 11, 0.92);
+  border-top: 1px solid rgba(255,255,255,0.10);
+  border-right: 1px solid rgba(255,255,255,0.10);
+}
+
+.burger-hint.visible { opacity: 1; transform: translateX(0); }
+
+
+/* ── Pulse-Animation ── */
+
+@keyframes burger-pulse {
+  0%   { box-shadow: 0 0 0 0px rgba(245, 240, 232, 0.4); }
+  70%  { box-shadow: 0 0 0 10px rgba(245, 240, 232, 0); }
+  100% { box-shadow: 0 0 0 0px rgba(245, 240, 232, 0); }
+}
+
+.burger-btn.pulse { animation: burger-pulse 1.5s ease-out infinite; }

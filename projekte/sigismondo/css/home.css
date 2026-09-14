@@ -1,0 +1,89 @@
+/* home.css */
+
+body {
+  background-color: white;
+  color: black;
+}
+
+/* ── Dark Mode ── */
+body.dark {
+  background-color: black;
+  color: white;
+
+  /* CSS-Variablen überschreiben, damit var()-Referenzen in base.css mitmachen */
+  --header-h1-color: #ffffff;
+  --header-h3-color: #ffffff;
+}
+
+/* Header */
+body.dark .section-header { background-color: black; color: white; }
+body.dark .header-cta      { color: white; }
+
+/* Module */
+body.dark .modul:nth-child(1),
+body.dark .modul:nth-child(2),
+body.dark .modul:nth-child(3) { background: #222222; }
+
+body.dark .modul:nth-child(1) .modul-accent,
+body.dark .modul:nth-child(3) .modul-accent { background: #ffffff; }
+
+/* Storia */
+body.dark .section-storia     { background-color: black; border-top-color: #333333; }
+body.dark .storia-titel        { color: white; }
+body.dark .storia-label        { color: #aaaaaa; }
+body.dark .storia-line         { background: white; }
+body.dark .storia-text         { color: #cccccc; }
+body.dark .storia-invite       { color: #888888; }
+
+/* Events */
+body.dark .section-events      { border-top-color: #333333; }
+body.dark .events-titel        { color: white; }
+body.dark .events-label        { color: #aaaaaa; }
+body.dark .events-line         { background: white; }
+body.dark .events-text         { color: #cccccc; }
+body.dark .events-btn          { color: white; border-color: #555555; }
+
+/* Gallery */
+body.dark .section-gallery     { border-top-color: #333333; }
+body.dark .gallery-label       { color: #aaaaaa; }
+body.dark .gallery-item        { background: #222222; }
+
+/* Footer */
+body.dark footer               { background-color: black; border-top-color: #333333; }
+body.dark .footer-impressum    { color: #444444; }
+
+/* ── Theme Toggle Button ── */
+.theme-toggle {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 1000;
+  background: none;
+  border: 1.5px solid currentColor;
+  color: inherit;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease;
+}
+
+.theme-toggle:hover {
+  opacity: 0.6;
+}
+
+.header-titel {
+  margin-top: 4rem;
+}
+
+.burger-title{
+  color: rgb(249, 30, 190);
+  font-size: .8rem;
+}
+body.dark .burger-title{
+  color: gold;
+}

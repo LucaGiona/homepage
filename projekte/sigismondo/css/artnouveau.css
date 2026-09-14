@@ -1,0 +1,462 @@
+/* ═══════════════════════════════════════════
+   ARTNOUVEAU.CSS — Sigismondo · Jugendstil
+   Dunkel, floral, dramatisch — wie ein Pariser Plakat 1900
+   ═══════════════════════════════════════════ */
+
+@font-face {
+  font-family: 'Amarante';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/Amarante_normal_400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Limelight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/Limelight_normal_400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/Poiret_One_normal_400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/Yeseva_One_normal_400.woff2') format('woff2');
+}
+
+:root {
+  --an-vert:        #1a2e1a;   /* tiefes Flaschengrün */
+  --an-vert-mid:    #243824;
+  --an-vert-light:  #3a5c3a;
+  --an-gold:        #c9a84c;   /* mattes Gold */
+  --an-gold-light:  #e8c96a;
+  --an-cream:       #f2ead8;   /* warmes Cremeweiß */
+  --an-cream-dim:   rgba(242, 234, 216, 0.65);
+  --an-rouge:       #8b2020;   /* dunkles Weinrot */
+  --an-noir:        #0d150d;
+
+  --font-display: 'Limelight', serif;
+  --font-heading: 'Yeseva One', serif;
+  --font-body:    'Poiret One', sans-serif;
+
+  /* Override base tokens */
+  --dark:      var(--an-noir);
+  --cream:     var(--an-cream);
+  --gold:      var(--an-gold);
+  --accent:    var(--an-gold);
+  --highlight: var(--an-gold-light);
+  --red:       var(--an-rouge);
+
+  --header-h1-color:   var(--an-gold);
+  --header-h3-color:   var(--an-cream);
+
+  --modul-titel-weight: 400;
+  --modul-nummer-weight: 400;
+  --modul-btn-size:    0.7rem;
+  --modul-btn-spacing: 0.3em;
+
+  --drawer-bg: var(--an-vert);
+  --drawer-border: rgba(201, 168, 76, 0.2);
+}
+
+/* ── Body ── */
+body {
+  background-color: var(--an-noir);
+  font-family: var(--font-body);
+}
+
+/* Global type overrides */
+h1 {
+  font-family: 'Amarante', serif;
+}
+
+p {
+  font-family: var(--font-body);
+}
+
+
+/* ══════════════════════════════════════
+   ORNAMENTE — SVG Florale Dekorationen
+   ══════════════════════════════════════ */
+
+/* Ornamentlinie oben auf section-header */
+body::before {
+  content: '';
+  display: block;
+  height: 6px;
+  background: linear-gradient(90deg, transparent, var(--an-gold), var(--an-gold-light), var(--an-gold), transparent);
+}
+
+/* ── Section Header ── */
+.section-header {
+  background: linear-gradient(180deg, var(--an-vert) 0%, var(--an-noir) 100%);
+  padding: 60px 20px 50px;
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid rgba(201, 168, 76, 0.3);
+}
+
+.section-header::after {
+  content: '✦ ◆ ✦';
+  display: block;
+  color: var(--an-gold);
+  font-size: 0.8rem;
+  letter-spacing: 0.6em;
+  margin-top: 20px;
+  opacity: 0.6;
+}
+
+.header-titel {
+  font-family: 'Amarante', serif;
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  letter-spacing: 0.12em;
+  color: var(--an-gold);
+  text-shadow: 0 0 40px rgba(201, 168, 76, 0.3);
+  margin-bottom: 8px;
+}
+
+
+.header-untertitel {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  letter-spacing: 0.45em;
+  color: var(--an-cream-dim);
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.header-cta {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  font-style: normal;
+  color: var(--an-cream-dim);
+  text-transform: none;
+  letter-spacing: 0.05em;
+}
+
+.header-hinweis {
+  font-family: var(--font-heading);
+  font-size: 0.65rem;
+  letter-spacing: 0.5em;
+  color: var(--an-gold);
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+/* ── Module ── */
+.modul:nth-child(1) { background: #111a11; }
+.modul:nth-child(2) { background: #0f160f; }
+.modul:nth-child(3) { background: #131a13; }
+
+.modul-bg {
+  filter: sepia(40%) brightness(0.55) saturate(0.7);
+}
+
+.modul:hover .modul-bg {
+  filter: sepia(20%) brightness(0.65) saturate(0.9);
+}
+
+/* Jugendstil-Rahmen als ::before — goldene Eckverzierungen */
+.modul::before {
+  content: '';
+  position: absolute;
+  inset: 8px;
+  border: 1px solid rgba(201, 168, 76, 0.18);
+  z-index: 3;
+  pointer-events: none;
+  transition: border-color 0.5s ease;
+}
+
+.modul:hover::before {
+  border-color: rgba(201, 168, 76, 0.45);
+}
+
+/* Eckverzierungen via ::after */
+.modul::after {
+  content: '';
+  position: absolute;
+  inset: 8px;
+  z-index: 3;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at top left,     rgba(201,168,76,0.25) 0%, transparent 12px),
+    radial-gradient(circle at top right,    rgba(201,168,76,0.25) 0%, transparent 12px),
+    radial-gradient(circle at bottom left,  rgba(201,168,76,0.25) 0%, transparent 12px),
+    radial-gradient(circle at bottom right, rgba(201,168,76,0.25) 0%, transparent 12px);
+}
+
+.modul-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(13, 21, 13, 0.2) 0%,
+    rgba(13, 21, 13, 0.1) 35%,
+    rgba(13, 21, 13, 0.6) 65%,
+    rgba(13, 21, 13, 0.92) 100%
+  );
+}
+
+.modul:hover .modul-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(13, 21, 13, 0.15) 0%,
+    rgba(13, 21, 13, 0.1) 30%,
+    rgba(13, 21, 13, 0.65) 60%,
+    rgba(13, 21, 13, 0.95) 100%
+  );
+}
+
+.modul-nummer {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  letter-spacing: 0.45em;
+  font-weight: 400;
+  color: var(--an-gold);
+  opacity: 0.8;
+}
+
+.modul-titel {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 2vw, 2.2rem);
+  letter-spacing: 0.06em;
+  color: var(--an-cream);
+  line-height: 1.1;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.8);
+}
+
+.line-first::after {
+  --title-line-color: var(--an-gold);
+  opacity: 0.5;
+}
+
+.modul-text {
+  font-family: var(--font-body);
+  font-style: normal;
+  font-size: 0.95rem;
+  color: var(--an-cream-dim);
+  line-height: 1.6;
+}
+
+.modul-btn {
+  font-family: var(--font-heading);
+  color: var(--an-gold);
+  font-size: 0.65rem;
+  letter-spacing: 0.4em;
+}
+
+.modul-btn:hover {
+  color: var(--an-gold-light);
+}
+
+.modul:nth-child(1) .modul-accent { background: var(--an-gold); }
+.modul:nth-child(2) .modul-accent { background: var(--an-gold-light); }
+.modul:nth-child(3) .modul-accent { background: var(--an-gold); }
+
+.modul:nth-child(1) .line-first::after,
+.modul:nth-child(2) .line-first::after,
+.modul:nth-child(3) .line-first::after { --title-line-color: var(--an-gold); }
+
+/* ── Arrow ── */
+.modul-arrow {
+  font-size: 2rem;
+  color: var(--an-gold);
+  background-color: rgba(13, 21, 13, 0.6);
+  border: 1px solid rgba(201, 168, 76, 0.4);
+  border-radius: 50%;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.1em;
+}
+
+/* ── Storia ── */
+.section-storia {
+  background: linear-gradient(180deg, var(--an-noir) 0%, var(--an-vert) 100%);
+  border-top: 1px solid rgba(201, 168, 76, 0.25);
+  position: relative;
+}
+
+.section-storia::before {
+  content: '❧';
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--an-gold);
+  opacity: 0.4;
+  margin-bottom: -20px;
+  padding-top: 40px;
+}
+
+.storia-label {
+  font-family: var(--font-heading);
+  letter-spacing: 0.5em;
+  color: var(--an-gold);
+  opacity: 0.7;
+}
+
+.storia-titel {
+  font-family: var(--font-display);
+  color: var(--an-cream);
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  letter-spacing: 0.05em;
+}
+
+.storia-line {
+  background: linear-gradient(90deg, var(--an-gold), transparent);
+  width: 80px;
+  height: 1px;
+}
+
+.storia-text {
+  font-style: normal;
+  color: var(--an-cream-dim);
+  line-height: 2;
+}
+
+/* ── Gallery ── */
+.section-gallery {
+  background-color: var(--an-vert);
+  border-top: 1px solid rgba(201, 168, 76, 0.2);
+}
+
+.gallery-label {
+  font-family: var(--font-heading);
+  letter-spacing: 0.5em;
+  color: var(--an-gold);
+  opacity: 0.7;
+}
+
+.gallery-item img {
+  filter: sepia(30%) brightness(0.8) saturate(0.8);
+}
+
+.gallery-item:hover img {
+  filter: sepia(10%) brightness(0.95) saturate(1);
+}
+
+/* ── Drawer ── */
+.drawer {
+  background: var(--an-vert);
+  border-left: 1px solid rgba(201, 168, 76, 0.2);
+}
+
+.drawer-titel {
+  font-family: var(--font-display);
+  color: var(--an-gold);
+  font-style: normal;
+  letter-spacing: 0.08em;
+}
+
+.drawer-close {
+  color: var(--an-gold);
+  opacity: 0.7;
+}
+
+.drawer-close:hover {
+  opacity: 1;
+}
+
+.drawer-highlight {
+  font-family: var(--font-heading);
+  color: var(--an-gold-light);
+  font-style: normal;
+  letter-spacing: 0.1em;
+}
+
+.drawer-text {
+  font-style: normal;
+  line-height: 1.9;
+  color: var(--an-cream-dim);
+}
+
+.maps-link {
+  color: var(--an-gold);
+}
+
+/* ── Burger ── */
+.burger-nav {
+  background: var(--an-vert);
+}
+
+.burger-nav-link {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-style: normal;
+  letter-spacing: 0.08em;
+  color: var(--an-cream);
+}
+
+.burger-nav-link:hover {
+  color: var(--an-gold);
+}
+
+.burger-nav-label-text {
+  font-family: var(--font-heading);
+  letter-spacing: 0.3em;
+  color: var(--an-gold);
+  opacity: 0.7;
+  font-size: 0.7rem;
+}
+
+.burger-line {
+  background: var(--an-gold);
+}
+
+.burger-nav-divider {
+  background: rgba(201, 168, 76, 0.3);
+}
+
+/* ── Footer ── */
+footer {
+  background: var(--an-vert);
+  border-top: 1px solid rgba(201, 168, 76, 0.2);
+  position: relative;
+}
+
+footer::before {
+  content: '✦ ◆ ✦';
+  display: block;
+  text-align: center;
+  color: var(--an-gold);
+  font-size: 0.7rem;
+  letter-spacing: 0.6em;
+  opacity: 0.4;
+  margin-bottom: 16px;
+}
+
+.footer-impressum {
+  color: rgba(201, 168, 76, 0.35);
+  letter-spacing: 0.3em;
+}
+
+
+/* ── Modul Bilder: Filter und Overlay entfernen ── */
+.modul-bg {
+  filter: none;
+}
+
+.modul::before {
+  opacity: 0;
+}
+
+.modul-overlay {
+  background: none;
+}
+
+.footer-links {
+ color: var(--an-gold-light)
+}
+

@@ -1,0 +1,198 @@
+/* ═══════════════════════════════════════════
+   LEGAL.CSS — Impressum & Datenschutz
+   ═══════════════════════════════════════════ */
+
+
+/* ══════════════════════════════════════
+   PAGE
+   ══════════════════════════════════════ */
+
+.legal-page {
+  min-height: 100vh;
+  background: #f8f6f3;
+  padding: 5rem 1.5rem 7rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+/* ══════════════════════════════════════
+   CARD
+   ══════════════════════════════════════ */
+
+.legal-card {
+  width: 100%;
+  max-width: 680px;
+  background: #ffffff;
+  padding: 4rem 4.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.04),
+    0 8px 40px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+/* Thin accent line on top */
+.legal-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: #000;
+}
+
+
+/* ══════════════════════════════════════
+   BACK LINK
+   ══════════════════════════════════════ */
+
+.legal-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 0.85rem;
+  letter-spacing: 0.38em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 3rem;
+  transition: color 0.2s ease;
+}
+
+.legal-back:hover {
+  color: #ff69b4;
+}
+
+
+/* ══════════════════════════════════════
+   HEADER
+   ══════════════════════════════════════ */
+
+.legal-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.48em;
+  text-transform: uppercase;
+  color: #323131;
+  margin-bottom: 0.9rem;
+}
+
+.legal-card > h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 5vw, 2.8rem);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+
+/* ══════════════════════════════════════
+   NOTICE BOX
+   ══════════════════════════════════════ */
+
+.legal-notice {
+  font-size: 0.83rem;
+  line-height: 1.8;
+  color: #666;
+  font-style: italic;
+  padding: 1.2rem 1.5rem;
+  border-left: 2px solid #000;
+  background: #f8f6f3;
+  margin-bottom: 0;
+}
+
+
+/* ══════════════════════════════════════
+   DIVIDER
+   ══════════════════════════════════════ */
+
+.legal-divider {
+  width: 36px;
+  height: 1px;
+  background: #000;
+  margin: 2.75rem 0;
+}
+
+
+/* ══════════════════════════════════════
+   SECTIONS
+   ══════════════════════════════════════ */
+
+.legal-section {
+  margin-bottom: 2.75rem;
+}
+
+.legal-section:last-child {
+  margin-bottom: 0;
+}
+
+.legal-section h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 2.5vw, 1.45rem);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #000;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.legal-section p {
+  font-size: 0.88rem;
+  line-height: 1.9;
+  color: #444;
+  font-weight: 300;
+  margin-bottom: 0.85rem;
+}
+
+.legal-section p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ══════════════════════════════════════
+   RESPONSIVE — Tablet
+   ══════════════════════════════════════ */
+
+@media (max-width: 768px) {
+  .legal-page {
+    padding: 3.5rem 1.25rem 5rem;
+  }
+
+  .legal-card {
+    padding: 3rem 2.75rem;
+  }
+}
+
+
+/* ══════════════════════════════════════
+   RESPONSIVE — Mobile
+   ══════════════════════════════════════ */
+
+@media (max-width: 480px) {
+  .legal-page {
+    padding: 2.5rem 0.75rem 4rem;
+  }
+
+  .legal-card {
+    padding: 2.25rem 1.5rem;
+  }
+
+  .legal-back {
+    margin-bottom: 2.25rem;
+  }
+
+  .legal-card > h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  .legal-divider {
+    margin: 2.25rem 0;
+  }
+
+  .legal-section {
+    margin-bottom: 2.25rem;
+  }
+}
