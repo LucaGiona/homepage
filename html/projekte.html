@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/script.js" defer></script>
     <script src="/js/nav.js" defer></script>
+    <script src="/js/projekte.js" defer></script>
     <title>Projekte</title>
 </head>
 <body>
@@ -13,8 +14,15 @@
         <nav id="nav-container"></nav>
     </header>
     <main class="wrapper">
-        <h1>Projekte</h1>
-        <p>Hier entstehen bald erste Projektbeschreibungen.</p>
+        <div id="project-grid-view">
+            <h1>Projekte</h1>
+            <div class="cards" id="project-cards"></div>
+        </div>
+
+        <div id="project-detail-view" hidden>
+            <button type="button" class="back-link" id="project-back">&larr; Zurück zur Übersicht</button>
+            <div id="project-detail-content"></div>
+        </div>
     </main>
     <footer class="wrapper">
         <section id="footer"></section>
