@@ -37,10 +37,14 @@ kein Build-Tool), Deployment via Netlify (automatisch bei Push/Merge auf
 
 ## Templates
 
-- Navigation und Footer werden ausschließlich in `templates/nav.html`
-  bzw. `templates/footer.html` gepflegt und über `js/nav.js` per
-  `fetch()` in jede Seite eingebunden. Nav-/Footer-Markup niemals in
-  einzelne Seiten hineinkopieren.
+- Navigation, Footer und Kontakt-Infos werden ausschließlich in
+  `templates/nav.html`, `templates/footer.html` bzw.
+  `templates/contact-info.html` gepflegt und über `js/nav.js` per
+  `fetch()` in jede Seite eingebunden. Markup dieser Bausteine niemals
+  in einzelne Seiten hineinkopieren.
+- Ein künftiges Kontaktformular bekommt ein eigenes Template + eigenen
+  Container + eigenen `fetch()`-Aufruf, und wird nur auf der
+  betreffenden Seite eingebunden, nicht überall.
 
 ## Seitenstruktur
 
@@ -79,3 +83,13 @@ kein Build-Tool), Deployment via Netlify (automatisch bei Push/Merge auf
 - Details und Historie zu bekannten Bugs stehen in `CODE_REVIEW.txt`
   (Stand 2026-08-10). Das ist ein Snapshot, kein Live-Dokument — vor
   Nutzung gegen den aktuellen Code prüfen statt blind zu übernehmen.
+
+## Dokumentation
+
+- Nach jeder Aufgabe, die Struktur, Verhalten oder Inhalt der Seite
+  ändert: `README.md` → Abschnitt "Entwicklungs-Tagebuch" noch in
+  derselben Session nachziehen (Datum, kurzer Stichpunkt was gemacht
+  wurde). Erledigte Punkte aus "Ideen / offene Punkte" dort entfernen,
+  neu entstandene Ideen ergänzen.
+- Das Tagebuch ist bewusst knapp gehalten (Stichpunkte, kein Fließtext)
+  — nicht nachträglich zusammenfassen oder ausschmücken, nur ergänzen.

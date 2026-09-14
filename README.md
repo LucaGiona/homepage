@@ -35,12 +35,17 @@ Kurzer Verlauf, was wann gemacht wurde. Ältere Historie davor: siehe `git log`.
 - 14 neue Zertifikate aus `Certification_abAug25` integriert, kryptische Dateinamen (z. B. `UC-19e91d74-...pdf`) anhand des PDF-Inhalts sauber benannt und einsortiert. PNG-Vorschauen automatisch aus den PDFs erzeugt (ImageMagick, 300 dpi).
 - Cross-Document View Transitions aktiviert (`@view-transition { navigation: auto; }` in `style.css`) für weiche Seitenübergänge zwischen den HTML-Seiten (Chrome/Edge; sonst normaler Seitenwechsel als Fallback).
 - Dieses Tagebuch begonnen.
+- `projekte.html` gebaut: Karten-Grid → Detailansicht (gleiches Muster wie bei den Zertifikaten), erstes echtes Projekt "Diese Website" mit echtem Screenshot statt Platzhalter.
+- Drei ältere Commits mit versehentlichem `Co-Authored-By: Claude`-Trailer (aus einer Session vor der `AGENTS.md`-Regel) per Rebase bereinigt und neu gepusht.
+- Kontakt (E-Mail + Telefon, mit Icons) als eigene Injection `templates/contact-info.html` ergänzt — bewusst getrennt vom Footer, damit sie später auch auf einer eigenen Kontaktformular-Seite wiederverwendet werden kann, ohne auf jeder Seite zu laufen.
+- Footer auf `about.html` und `services.html` nachgerüstet (fehlte komplett); `services.html` fehlte zusätzlich das `<body>`-Tag — beides behoben, Titel "Certifacts" → "Services".
+- Navigation ist jetzt sticky (bleibt beim Scrollen oben sichtbar).
 
 ### Ideen / offene Punkte (noch nicht umgesetzt)
+- Kontaktformular als eigene Injection (`templates/contact-form.html`), nur auf einer Kontakt-Seite, nicht überall.
 - Ordner `Zertifikate` (Yoga, Bridgehouse, Excel, Product Owner, Kaufmännische Fachkraft) noch nicht integriert — bräuchte eigene Kategorie(n) jenseits von CSS/JS/DB/AI/Python.
 - `html/galerie.html`: Tippfehler `green_water_ducks02.webpp` (doppeltes p) — Bild lädt bei größeren Viewports nicht (echtes Broken-Image).
-- `html/services.html`: fehlendes `<body>`-Tag, fehlender Footer im Vergleich zu allen anderen Seiten.
-- `html/about.html`: totes Script `js/certifications.js` eingebunden, obwohl die Seite keine passenden Elemente hat; Footer fehlt komplett.
+- `html/about.html` und `html/services.html`: totes Script `js/certifications.js` eingebunden, obwohl die Seiten keine passenden Elemente haben.
 - Drinks-Daten: 9 Start-Drinks sind hartcodiertes HTML, eigene Drinks laufen über LocalStorage/JS — zwei parallele Datenmodelle für dieselbe Sache.
 - Kein Favicon, keine Meta-Description/Open-Graph-Tags.
 - Seite ist aktuell nicht live/öffentlich geteilt (Stand 2026-09-13).

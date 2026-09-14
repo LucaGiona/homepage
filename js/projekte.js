@@ -5,12 +5,12 @@ const projects = [
     summary: "Meine persönliche Homepage: mehrseitig, ohne Framework, mit Fokus auf Struktur und Barrierefreiheit.",
     stack: ["HTML", "CSS", "JavaScript", "LocalStorage", "Accessibility"],
     detail: `Statische Mehrseiten-Homepage in reinem HTML, CSS und JavaScript, ohne Framework und ohne Build-Tool.
-Nav und Footer werden zentral gepflegt und per fetch() in jede Seite eingebunden.
+Nav, Footer und Kontakt-Infos werden zentral gepflegt und per fetch() in jede Seite eingebunden.
 
 Enthält u. a. eine Drinks-Sammlung mit Filterfunktion und eigenem Rezept-CRUD über LocalStorage,
-eine Zertifikate-Seite mit Kategorien-Drill-Down, sowie durchgehende Cross-Document View Transitions
-für weiche Seitenübergänge. Durchgehender Fokus auf semantisches HTML und ARIA-Attribute,
-besonders im Drinks-Formular.`
+eine Zertifikate-Seite mit Kategorien-Drill-Down, eine sticky Navigation sowie durchgehende
+Cross-Document View Transitions für weiche Seitenübergänge. Durchgehender Fokus auf semantisches
+HTML und ARIA-Attribute, besonders im Drinks-Formular.`
   }
 ];
 
