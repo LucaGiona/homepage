@@ -49,6 +49,9 @@ Kurzer Verlauf, was wann gemacht wurde. Ältere Historie davor: siehe `git log`.
 - Zweites echtes Projekt in `projekte.html`: "Timer mit Kalkulation" (separates Repo `Cost_Calculation_Stoppwatch`) — Zeiterfassung von Arbeitsschritten + Umsatzkalkulation, verbindet Gastro-Erfahrung mit Code.
 - App als eigenständige, funktionierende Unterseite unter `projekte/timer/` eingebettet (eigenes Dark-Theme, eigene Pfade, kein Homepage-Styling) statt nur Screenshot — mit "Zurück zu Projekte"-Leiste oben, damit man wieder rausfindet.
 - Detailansicht in `projekte.html` unterstützt jetzt optionale Aktions-Links ("App live ausprobieren", "Original auf GitHub").
+- "Kalkulation mit Timer" umbenannt (Reihenfolge getauscht) und mit ironischem Beinamen "(die Kontrolletie App)" versehen, als eigene `<small>`-Zeile unter dem Titel statt inline.
+- Drittes Projekt: "Melody Nelson Bar" — echte, live laufende Website (`melody-nelson.berlin`) der Cocktailbar, in der der Nutzer früher gearbeitet hat. Nur Screenshot + Link zur Live-Seite, keine Kopie im Repo (bewusst, da eigenständig laufende Fremd-/Altseite). Neuer optionaler `siteUrl`-Link in der Detailansicht dafür ergänzt.
+- Bug gefunden: Beschreibungstexte in `projekte.html` nutzten `white-space: pre-line` mit manuell umgebrochenen Template-Strings — dadurch erschienen mitten im Satz Zeilenumbrüche. Behoben, indem `detail` jetzt ein Array von Absätzen ist (je ein `<p>`), `pre-line` entfernt.
 
 ### Ideen / offene Punkte (noch nicht umgesetzt)
 - Drittes Projekt für `projekte.html` noch offen (eine App wurde geprüft und verworfen, "calculation-App"/Vue — passte nicht).

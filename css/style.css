@@ -647,7 +647,6 @@ main.wrapper > picture {
 }
 
 .project-detail-text {
-  white-space: pre-line;
   max-width: 65ch;
 }
 

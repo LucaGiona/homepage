@@ -4,13 +4,10 @@ const projects = [
     image: "/assets/projekte/homepage.png",
     summary: "Meine persönliche Homepage: mehrseitig, ohne Framework, mit Fokus auf Struktur und Barrierefreiheit.",
     stack: ["HTML", "CSS", "JavaScript", "LocalStorage", "Accessibility"],
-    detail: `Statische Mehrseiten-Homepage in reinem HTML, CSS und JavaScript, ohne Framework und ohne Build-Tool.
-Nav, Footer und Kontakt-Infos werden zentral gepflegt und per fetch() in jede Seite eingebunden.
-
-Enthält u. a. eine Drinks-Sammlung mit Filterfunktion und eigenem Rezept-CRUD über LocalStorage,
-eine Zertifikate-Seite mit Kategorien-Drill-Down, eine sticky Navigation sowie durchgehende
-Cross-Document View Transitions für weiche Seitenübergänge. Durchgehender Fokus auf semantisches
-HTML und ARIA-Attribute, besonders im Drinks-Formular.`
+    detail: [
+      "Statische Mehrseiten-Homepage in reinem HTML, CSS und JavaScript, ohne Framework und ohne Build-Tool. Nav, Footer und Kontakt-Infos werden zentral gepflegt und per fetch() in jede Seite eingebunden.",
+      "Enthält u. a. eine Drinks-Sammlung mit Filterfunktion und eigenem Rezept-CRUD über LocalStorage, eine Zertifikate-Seite mit Kategorien-Drill-Down, eine sticky Navigation sowie durchgehende Cross-Document View Transitions für weiche Seitenübergänge. Durchgehender Fokus auf semantisches HTML und ARIA-Attribute, besonders im Drinks-Formular."
+    ]
   },
   {
     title: "Kalkulation mit Timer",
@@ -20,16 +17,22 @@ HTML und ARIA-Attribute, besonders im Drinks-Formular.`
     stack: ["HTML", "CSS", "JavaScript", "LocalStorage", "i18n"],
     demoUrl: "/projekte/timer/index.html",
     repoUrl: "https://github.com/LucaGiona/Cost_Calculation_Stoppwatch",
-    detail: `Browserbasierte App zur Zeitmessung von Arbeitsabläufen und zur Kalkulation von
-Produktionskosten – ohne Backend, ohne Framework, läuft komplett lokal im Browser.
-
-Man legt einen Arbeitstitel an (z. B. eine Rezeptur), definiert die einzelnen Arbeitsschritte
-und stoppt die Zeit Schritt für Schritt. Am Ende wird die gemessene Zeit in die Kalkulation
-exportiert: Preis eingeben, MwSt. wählen (7 %, 19 % oder eigener Satz), und die App zeigt
-sofort den erzielbaren Umsatz pro Zeitraum.
-
-Unterstützt Deutsch/Englisch, Dark-/Light-Mode und speichert alles über LocalStorage.
-Verbindet direkt meine Gastro-Erfahrung mit der Frage, wie sich Arbeitszeit realistisch bepreisen lässt.`
+    detail: [
+      "Browserbasierte App zur Zeitmessung von Arbeitsabläufen und zur Kalkulation von Produktionskosten – ohne Backend, ohne Framework, läuft komplett lokal im Browser.",
+      "Man legt einen Arbeitstitel an (z. B. eine Rezeptur), definiert die einzelnen Arbeitsschritte und stoppt die Zeit Schritt für Schritt. Am Ende wird die gemessene Zeit in die Kalkulation exportiert: Preis eingeben, MwSt. wählen (7 %, 19 % oder eigener Satz), und die App zeigt sofort den erzielbaren Umsatz pro Zeitraum.",
+      "Unterstützt Deutsch/Englisch, Dark-/Light-Mode und speichert alles über LocalStorage. Verbindet direkt meine Gastro-Erfahrung mit der Frage, wie sich Arbeitszeit realistisch bepreisen lässt."
+    ]
+  },
+  {
+    title: "Melody Nelson Bar",
+    image: "/assets/projekte/melody-nelson.png",
+    summary: "Website der Cocktailbar in Berlin-Mitte, in der ich mehrere Jahre gearbeitet habe.",
+    stack: ["HTML", "CSS", "JavaScript", "SEO"],
+    siteUrl: "https://melody-nelson.berlin",
+    detail: [
+      "Website für die Melody Nelson Bar in Berlin-Mitte, wo ich mehrere Jahre als Barkeeper gearbeitet habe. Die Seite lief über mehrere Jahre und etliche Versionen produktiv, mit echtem SEO-Setup (Meta-Description, Keywords) und nachträglicher Accessibility-Arbeit (ARIA-Labels).",
+      "Ich bin mittlerweile nicht mehr in der Bar involviert, daher ist das kein aktives Projekt mehr von mir – aber ein gutes Beispiel dafür, wie meine Gastro-Erfahrung und meine Web-Arbeit ursprünglich zusammengekommen sind."
+    ]
   }
 ];
 
@@ -65,13 +68,14 @@ function showDetail(index) {
   const project = projects[index];
   const links = [];
   if (project.demoUrl) links.push(`<a href="${project.demoUrl}">App live ausprobieren &gt;&gt;</a>`);
+  if (project.siteUrl) links.push(`<a href="${project.siteUrl}" target="_blank" rel="noopener">Website besuchen &gt;&gt;</a>`);
   if (project.repoUrl) links.push(`<a href="${project.repoUrl}" target="_blank" rel="noopener">Original auf GitHub &gt;&gt;</a>`);
 
   detailContent.innerHTML = `
     <h1 tabindex="-1">${titleHtml(project)}</h1>
     <ul class="stack project-detail-stack">${project.stack.map(s => `<li>${s}</li>`).join("")}</ul>
     <img src="${project.image}" alt="Screenshot: ${project.title}" class="project-detail-shot">
-    <p class="project-detail-text">${project.detail}</p>
+    <div class="project-detail-text">${project.detail.map(p => `<p>${p}</p>`).join("")}</div>
     ${links.length ? `<div class="project-detail-links">${links.join("")}</div>` : ""}
   `;
   gridView.hidden = true;
