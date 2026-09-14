@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "kategorie": "anatomie",
+    "de": "Niere",
+    "fachbegriff": "Ren",
+    "alternativen": [],
+    "erklaerung": "Paariges Organ, das über die Aorta mit Blut versorgt wird und pro Minute mehr als 1 Liter Blut filtert."
+  },
+  {
+    "id": 2,
+    "kategorie": "anatomie",
+    "de": "Nierenbecken",
+    "fachbegriff": "Pelvis renalis",
+    "alternativen": [],
+    "erklaerung": "Zentraler Hohlraum der Niere, in dem sich der Endharn aus den Nierenkelchen sammelt, bevor er in den Harnleiter fließt."
+  },
+  {
+    "id": 3,
+    "kategorie": "anatomie",
+    "de": "Harnleiter",
+    "fachbegriff": "Ureter",
+    "alternativen": [],
+    "erklaerung": "Etwa 25 cm langes, muskuläres Rohr, das den Endharn durch wellenförmige Kontraktionen vom Nierenbecken zur Harnblase leitet."
+  },
+  {
+    "id": 4,
+    "kategorie": "anatomie",
+    "de": "Harnblase",
+    "fachbegriff": "Vesica urinaria",
+    "alternativen": [],
+    "erklaerung": "Muskulöses Hohlorgan im kleinen Becken, das den Urin bis zur Entleerung speichert (fasst maximal 900-1500 ml)."
+  },
+  {
+    "id": 5,
+    "kategorie": "anatomie",
+    "de": "Harnröhre",
+    "fachbegriff": "Urethra",
+    "alternativen": [],
+    "erklaerung": "Ermöglicht die willentliche Ausscheidung des Urins; bei Männern deutlich länger als bei Frauen."
+  },
+  {
+    "id": 6,
+    "kategorie": "anatomie",
+    "de": "Kapillarknäuel im Nierenkörperchen",
+    "fachbegriff": "Glomerulus",
+    "alternativen": [],
+    "erklaerung": "Kapillarsystem im Nierenkörperchen, an dem die glomeruläre Filtration stattfindet; Blutzufluss über das Vas afferens, Abfluss über das Vas efferens."
+  },
+  {
+    "id": 7,
+    "kategorie": "anatomie",
+    "de": "Kapsel des Nierenkörperchens",
+    "fachbegriff": "Bowman-Kapsel",
+    "alternativen": ["Capsula glomerularis"],
+    "erklaerung": "Besitzt eine äußere und eine innere Zellschicht und umschließt den Glomerulus; nimmt das glomeruläre Filtrat (den Primärharn) auf."
+  },
+  {
+    "id": 8,
+    "kategorie": "anatomie",
+    "de": "funktionelle Baueinheit der Niere",
+    "fachbegriff": "Nephron",
+    "alternativen": [],
+    "erklaerung": "Besteht aus einem Nierenkörperchen und einem Nierenkanälchen (Tubulus); die kleinste funktionelle Einheit der Niere."
+  },
+  {
+    "id": 9,
+    "kategorie": "anatomie",
+    "de": "Fußzellen des Glomerulus",
+    "fachbegriff": "Podozyten",
+    "alternativen": [],
+    "erklaerung": "Bilden mit ihren verzahnten Fußfortsätzen den feinsten Teil der glomerulären Filtrationsbarriere."
+  },
+  {
+    "id": 10,
+    "kategorie": "anatomie",
+    "de": "negativ geladene Filterschicht der Niere",
+    "fachbegriff": "Glomeruläre Basalmembran",
+    "alternativen": [],
+    "erklaerung": "Lässt nur kleinere Partikel passieren und stößt aufgrund ihrer negativen Ladung zusätzlich negativ geladene Substanzen wie Proteine ab."
+  },
+  {
+    "id": 11,
+    "kategorie": "anatomie",
+    "de": "erster Filtrationsharn",
+    "fachbegriff": "Primärharn",
+    "alternativen": [],
+    "erklaerung": "Die im Nierenkörperchen aus dem Blut in den Kapselraum gefilterte Flüssigkeit, bevor sie im Tubulussystem verändert wird."
+  },
+  {
+    "id": 12,
+    "kategorie": "anatomie",
+    "de": "Wiederaufnahme von Stoffen aus dem Tubulus ins Blut",
+    "fachbegriff": "Rückresorption",
+    "alternativen": [],
+    "erklaerung": "Transportiert benötigte Stoffe wie Wasser, Glucose und Aminosäuren aus dem Primärharn zurück ins Blut."
+  },
+  {
+    "id": 13,
+    "kategorie": "anatomie",
+    "de": "Hauptstück des Nierenkanälchens",
+    "fachbegriff": "Proximaler Tubulus",
+    "alternativen": [],
+    "erklaerung": "Erster Abschnitt des Nierenkanälchens; hier findet die größte Rückresorption von Wasser, Glucose und Aminosäuren statt."
+  },
+  {
+    "id": 14,
+    "kategorie": "anatomie",
+    "de": "dritter Abschnitt des Nierenkanälchens",
+    "fachbegriff": "Distaler Tubulus",
+    "alternativen": [],
+    "erklaerung": "Verläuft dicht am zugehörigen Nierenkörperchen vorbei und übernimmt zusammen mit dem Verbindungstubulus die Feinabstimmung des Harns."
+  },
+  {
+    "id": 15,
+    "kategorie": "anatomie",
+    "de": "harnkonzentrierende Schleife des Nephrons",
+    "fachbegriff": "Henle-Schleife",
+    "alternativen": [],
+    "erklaerung": "Erzeugt über das Gegenstromprinzip einen Konzentrationsgradienten im Nierenmark, der die Harnkonzentrierung ermöglicht."
+  },
+  {
+    "id": 16,
+    "kategorie": "anatomie",
+    "de": "gerade Blutgefäße im Nierenmark",
+    "fachbegriff": "Vasa recta",
+    "alternativen": [],
+    "erklaerung": "Erhalten den Konzentrationsgradienten im Nierenmark durch Gegenstromaustausch, ohne wie die Henle-Schleife zu multiplizieren."
+  },
+  {
+    "id": 17,
+    "kategorie": "anatomie",
+    "de": "dichte Zellgruppe im distalen Tubulus",
+    "fachbegriff": "Macula densa",
+    "alternativen": [],
+    "erklaerung": "Analysiert den Tubulusinhalt (v. a. die Natriumkonzentration) und beeinflusst darüber die Weite der zuführenden Arteriole und die Filtration."
+  },
+  {
+    "id": 18,
+    "kategorie": "anatomie",
+    "de": "Zwischenzellraum im Nierenmark",
+    "fachbegriff": "Interstitium",
+    "alternativen": [],
+    "erklaerung": "Gewebeflüssigkeit zwischen den Zellen, in der sich der Konzentrationsgradient des Nierenmarks aufbaut."
+  },
+  {
+    "id": 19,
+    "kategorie": "anatomie",
+    "de": "Filtermenge der Niere pro Minute",
+    "fachbegriff": "Glomeruläre Filtrationsrate (GFR)",
+    "alternativen": ["GFR"],
+    "erklaerung": "Volumen, das alle Glomeruli zusammen pro Minute filtrieren; wichtiger Funktionsparameter der Nieren."
+  },
+  {
+    "id": 20,
+    "kategorie": "anatomie",
+    "de": "Hormon zur Wasserrückresorption im Sammelrohr",
+    "fachbegriff": "ADH",
+    "alternativen": ["Antidiuretisches Hormon"],
+    "erklaerung": "Wird bei niedriger Wasserzufuhr aus der Neurohypophyse ausgeschüttet und erhöht die Wasserdurchlässigkeit des Sammelrohrs."
+  },
+  {
+    "id": 21,
+    "kategorie": "anatomie",
+    "de": "Co-Transporter für zwei Stoffe in dieselbe Richtung",
+    "fachbegriff": "Symporter",
+    "alternativen": ["Cotransporter"],
+    "erklaerung": "Transportiert zwei verschiedene Stoffe gleichzeitig in dieselbe Richtung, z. B. der Natrium-Glucose-Symporter."
+  },
+  {
+    "id": 22,
+    "kategorie": "anatomie",
+    "de": "Gegentransporter für zwei Stoffe in entgegengesetzte Richtungen",
+    "fachbegriff": "Antiporter",
+    "alternativen": [],
+    "erklaerung": "Transportiert zwei Stoffe gleichzeitig in entgegengesetzte Richtungen, z. B. Natrium hinein und Wasserstoff hinaus."
+  },
+  {
+    "id": 23,
+    "kategorie": "anatomie",
+    "de": "Natrium-Kalium-Pumpe",
+    "fachbegriff": "Na/K-ATPase",
+    "alternativen": ["Natrium-Kalium-ATPase"],
+    "erklaerung": "Transportiert unter ATP-Verbrauch pro Zyklus 3 Natriumionen aus der Zelle und 2 Kaliumionen in die Zelle."
+  },
+  {
+    "id": 24,
+    "kategorie": "anatomie",
+    "de": "Wasserbewegung entlang eines Konzentrationsgefälles",
+    "fachbegriff": "Osmose",
+    "alternativen": [],
+    "erklaerung": "Diffusion von Wasser entlang eines osmotischen Konzentrationsgefälles; ermöglicht die Rückresorption von Wasser."
+  },
+  {
+    "id": 25,
+    "kategorie": "anatomie",
+    "de": "Mitreißeffekt gelöster Stoffe durch den Wasserstrom",
+    "fachbegriff": "Solvent Drag",
+    "alternativen": [],
+    "erklaerung": "Zusätzlicher Stofftransport, bei dem gelöste Teilchen passiv mit dem Wasserstrom durch die Tubuluszellen mitgerissen werden."
+  },
+  {
+    "id": 26,
+    "kategorie": "anatomie",
+    "de": "funktionelles Nierengewebe aus Rinde und Mark",
+    "fachbegriff": "Nierenparenchym",
+    "alternativen": [],
+    "erklaerung": "Einheit aus Nierenrinde und Nierenmark, in der die eigentliche Harnbildung stattfindet."
+  },
+  {
+    "id": 27,
+    "kategorie": "erkrankung",
+    "de": "bösartiger Nierentumor des Erwachsenen",
+    "fachbegriff": "Nierenzellkarzinom",
+    "alternativen": ["Grawitz-Tumor", "Hypernephrom"],
+    "erklaerung": "Geht vom Tubulusepithel aus (histologisch ein Adenokarzinom) und ist der häufigste Nierentumor; Leitsymptom ist eine schmerzlose Makrohämaturie."
+  },
+  {
+    "id": 28,
+    "kategorie": "erkrankung",
+    "de": "bösartiger embryonaler Nierentumor bei Kindern",
+    "fachbegriff": "Nephroblastom",
+    "alternativen": ["Wilms-Tumor"],
+    "erklaerung": "Einer der häufigsten Tumoren im 1. bis 3. Lebensjahr; fällt meist durch eine schmerzlose Vorwölbung des Abdomens auf."
+  },
+  {
+    "id": 29,
+    "kategorie": "erkrankung",
+    "de": "Steinbildung in den ableitenden Harnwegen",
+    "fachbegriff": "Urolithiasis",
+    "alternativen": ["Harnsteinleiden"],
+    "erklaerung": "Überbegriff für die Bildung von Harnsteinen; nach Lokalisation unterscheidet man Nephro-, Uretero-, Zysto- und Urethrolithiasis."
+  },
+  {
+    "id": 30,
+    "kategorie": "erkrankung",
+    "de": "Entzündung von Nierenkanälchen und Zwischengewebe",
+    "fachbegriff": "Tubulointerstitielle Nephritis",
+    "alternativen": ["interstitielle Nephritis"],
+    "erklaerung": "Akute oder chronische Schädigung der Tubuli und des Interstitiums, z. B. durch Medikamente, Hantaviren oder Autoimmunreaktionen."
+  },
+  {
+    "id": 31,
+    "kategorie": "erkrankung",
+    "de": "Rückfluss von Harn aus der Blase in den Harnleiter",
+    "fachbegriff": "Vesikoureteraler Reflux",
+    "alternativen": ["VUR"],
+    "erklaerung": "Harn fließt aus der Blase in den Harnleiter zurück, evtl. bis ins Nierenbecken; erhöht das Risiko für obere Harnwegsinfektionen."
+  },
+  {
+    "id": 32,
+    "kategorie": "erkrankung",
+    "de": "angeborene Verengung des Harnleiters am Übergang zum Nierenbecken",
+    "fachbegriff": "Subpelvine Harnleiterstenose",
+    "alternativen": ["Nierenbeckenabgangsstenose"],
+    "erklaerung": "Der Harnleiter ist von Geburt an nach dem Abgang aus dem Nierenbecken verengt, was zu einer Harnstauung führen kann."
+  },
+  {
+    "id": 33,
+    "kategorie": "erkrankung",
+    "de": "Nierenschädigung als Folge einer arteriellen Hypertonie",
+    "fachbegriff": "Hypertensive Nephropathie",
+    "alternativen": ["hypertensive Nephrosklerose"],
+    "erklaerung": "Ein chronisch erhöhter Blutdruck schädigt Nierenarterien, Nierenkörperchen, Tubuli und Interstitium und kann zur Schrumpfniere führen."
+  },
+  {
+    "id": 34,
+    "kategorie": "erkrankung",
+    "de": "Ansammlung harnpflichtiger Substanzen im Blut mit Vergiftungserscheinungen",
+    "fachbegriff": "Urämie",
+    "alternativen": ["Harnvergiftung"],
+    "erklaerung": "Tritt bei schwerer Niereninsuffizienz auf; Symptome sind u. a. Juckreiz, gelb-graues Hautkolorit, urinartiger Foetor ex ore und Perikarditis."
+  },
+  {
+    "id": 35,
+    "kategorie": "erkrankung",
+    "de": "Knochenerkrankung bei chronischer Niereninsuffizienz",
+    "fachbegriff": "Renale Osteopathie",
+    "alternativen": [],
+    "erklaerung": "Entsteht durch Hyperphosphatämie und verminderte Vitamin-D-Aktivierung mit sekundärem Hyperparathyreoidismus; führt zu Knochenschmerzen und Spontanfrakturen."
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "kategorie": "anatomie",
+    "de": "rotes Blutkörperchen",
+    "fachbegriff": "Erythrozyt",
+    "alternativen": ["Erythrozyten"],
+    "erklaerung": "Kernlose, bikonkave Blutzelle, die mithilfe von Hämoglobin Sauerstoff und Kohlendioxid transportiert."
+  },
+  {
+    "id": 2,
+    "kategorie": "anatomie",
+    "de": "weißes Blutkörperchen",
+    "fachbegriff": "Leukozyt",
+    "alternativen": ["Leukozyten"],
+    "erklaerung": "Kernhaltige Blutzelle der Immunabwehr, kann die Blutbahn verlassen (Diapedese)."
+  },
+  {
+    "id": 3,
+    "kategorie": "anatomie",
+    "de": "Blutplättchen",
+    "fachbegriff": "Thrombozyt",
+    "alternativen": ["Thrombozyten"],
+    "erklaerung": "Kernloses Zellfragment aus Megakaryozyten, zentral für die primäre Blutstillung."
+  },
+  {
+    "id": 4,
+    "kategorie": "anatomie",
+    "de": "roter Blutfarbstoff",
+    "fachbegriff": "Hämoglobin",
+    "alternativen": ["Hb"],
+    "erklaerung": "Eisenhaltiger Blutfarbstoff aus vier Globinketten mit je einer Hämgruppe, bindet Sauerstoff reversibel."
+  },
+  {
+    "id": 5,
+    "kategorie": "anatomie",
+    "de": "prozentualer Anteil der Blutzellen am Gesamtblutvolumen",
+    "fachbegriff": "Hämatokrit",
+    "alternativen": ["Hkt"],
+    "erklaerung": "Kennwert vor allem für den Erythrozytenanteil; Referenzwerte etwa Männer 47 %, Frauen 42–43 %."
+  },
+  {
+    "id": 6,
+    "kategorie": "physiologie",
+    "de": "Bildung der Blutzellen",
+    "fachbegriff": "Hämatopoese",
+    "alternativen": [],
+    "erklaerung": "Entstehung aller Blutzellen aus einer gemeinsamen hämatopoetischen Stammzelle im roten Knochenmark."
+  },
+  {
+    "id": 7,
+    "kategorie": "physiologie",
+    "de": "Hormon aus der Niere, das die Erythrozytenbildung anregt",
+    "fachbegriff": "Erythropoetin",
+    "alternativen": ["EPO"],
+    "erklaerung": "Wird in der Niere gebildet und regt im Knochenmark die Bildung neuer Erythrozyten an."
+  },
+  {
+    "id": 8,
+    "kategorie": "physiologie",
+    "de": "Verklumpen von Blutkörperchen bei unpassenden Blutgruppen",
+    "fachbegriff": "Agglutination",
+    "alternativen": [],
+    "erklaerung": "Reaktion von Antigenen auf Erythrozyten mit passenden Antikörpern im Plasma, führt zur Verklumpung."
+  },
+  {
+    "id": 9,
+    "kategorie": "physiologie",
+    "de": "Gesamtheit der Vorgänge zur Blutstillung",
+    "fachbegriff": "Hämostase",
+    "alternativen": [],
+    "erklaerung": "Besteht aus primärer und sekundärer Hämostase und bringt eine Blutung nach Gefäßverletzung zum Stillstand."
+  },
+  {
+    "id": 10,
+    "kategorie": "physiologie",
+    "de": "Auflösung eines Blutgerinnsels",
+    "fachbegriff": "Fibrinolyse",
+    "alternativen": [],
+    "erklaerung": "Enzymatischer Abbau des Fibrins durch das Enzym Plasmin, sobald eine Wunde verschlossen ist."
+  },
+  {
+    "id": 11,
+    "kategorie": "erkrankung",
+    "de": "Blutarmut",
+    "fachbegriff": "Anämie",
+    "alternativen": [],
+    "erklaerung": "Mangel an Erythrozyten, Hämoglobin und/oder vermindertem Hämatokrit unter dem Referenzbereich."
+  },
+  {
+    "id": 12,
+    "kategorie": "erkrankung",
+    "de": "Blutgerinnsel in einem Gefäß",
+    "fachbegriff": "Thrombus",
+    "alternativen": ["Thrombose"],
+    "erklaerung": "Im Gefäß entstandenes Blutgerinnsel, das ein Gefäß teilweise oder vollständig verlegen kann."
+  },
+  {
+    "id": 13,
+    "kategorie": "erkrankung",
+    "de": "Verschleppung eines gelösten Blutgerinnsels",
+    "fachbegriff": "Embolie",
+    "alternativen": [],
+    "erklaerung": "Ein gelöster Thrombus (Embolus) verschließt ein Gefäß an anderer Stelle, zum Beispiel als Lungenembolie."
+  },
+  {
+    "id": 14,
+    "kategorie": "erkrankung",
+    "de": "Drei Faktoren, die eine Thrombose begünstigen",
+    "fachbegriff": "Virchow-Trias",
+    "alternativen": [],
+    "erklaerung": "Verlangsamter Blutfluss, Gefäßwandschädigung und erhöhte Gerinnungsneigung als Ursachen einer Thrombose."
+  },
+  {
+    "id": 15,
+    "kategorie": "erkrankung",
+    "de": "Thrombozytenabfall durch Autoantikörper gegen Heparin",
+    "fachbegriff": "heparininduzierte Thrombozytopenie Typ II",
+    "alternativen": ["HIT II", "HIT Typ II"],
+    "erklaerung": "Immunreaktion unter Heparingabe mit starkem Thrombozytenabfall bei gleichzeitig erhöhtem Thromboembolierisiko."
+  },
+  {
+    "id": 16,
+    "kategorie": "therapie",
+    "de": "Blutverdünner",
+    "fachbegriff": "Antikoagulanzien",
+    "alternativen": [],
+    "erklaerung": "Medikamente, die nicht die Bildung der Blutzellen, sondern die plasmatische Gerinnung hemmen."
+  },
+  {
+    "id": 17,
+    "kategorie": "therapie",
+    "de": "direkte orale Antikoagulanzien",
+    "fachbegriff": "DOAK",
+    "alternativen": [],
+    "erklaerung": "Oral eingenommene direkte Gerinnungshemmer wie Apixaban, Edoxaban, Rivaroxaban oder Dabigatran, meist ohne routinemäßige Gerinnungskontrolle."
+  },
+  {
+    "id": 18,
+    "kategorie": "therapie",
+    "de": "Vitamin-K-Antagonisten",
+    "fachbegriff": "Cumarine",
+    "alternativen": [],
+    "erklaerung": "Gerinnungshemmer wie Phenprocoumon (Marcumar) oder Warfarin, die die Vitamin-K-abhängige Aktivierung der Gerinnungsfaktoren II, VII, IX und X vermindern."
+  },
+  {
+    "id": 19,
+    "kategorie": "therapie",
+    "de": "Gerinnungswert zur Kontrolle von Cumarinen",
+    "fachbegriff": "INR",
+    "alternativen": [],
+    "erklaerung": "Laborwert zur Kontrolle und Dosisanpassung bei Vitamin-K-Antagonisten, Zielbereich je nach Indikation meist 2,5 bis 3,5."
+  },
+  {
+    "id": 20,
+    "kategorie": "therapie",
+    "de": "Medikament, das ein Blutgerinnsel auflöst",
+    "fachbegriff": "Fibrinolytikum",
+    "alternativen": ["Fibrinolytika"],
+    "erklaerung": "Aktiviert nach intravenöser Gabe Plasminogen zu Plasmin, das ein bestehendes Fibringerinnsel abbaut, zum Beispiel Alteplase."
+  }
+]

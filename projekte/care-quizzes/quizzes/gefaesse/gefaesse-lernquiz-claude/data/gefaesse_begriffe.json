@@ -1,0 +1,204 @@
+[
+  {
+    "id": 1,
+    "kategorie": "anatomie",
+    "de": "innerste Gefäßwandschicht mit Endothel",
+    "fachbegriff": "Tunica intima",
+    "alternativen": [
+      "Intima"
+    ],
+    "erklaerung": "Innerste Schicht der Gefäßwand aus einschichtigen Endothelzellen auf einer Basalmembran; bildet die glatte, dem Blutstrom zugewandte Innenauskleidung.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 2,
+    "kategorie": "anatomie",
+    "de": "mittlere Gefäßwandschicht mit glatter Muskulatur",
+    "fachbegriff": "Tunica media",
+    "alternativen": [
+      "Media"
+    ],
+    "erklaerung": "Mittlere Schicht der Gefäßwand mit glatter Muskulatur und elastischen Fasern; verantwortlich für Gefäßweite und Regulationsfähigkeit.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 3,
+    "kategorie": "anatomie",
+    "de": "äußere Gefäßwandschicht aus Bindegewebe",
+    "fachbegriff": "Tunica adventitia",
+    "alternativen": [
+      "Adventitia"
+    ],
+    "erklaerung": "Äußere Schicht der Gefäßwand, vermittelt den Einbau des Gefäßes in die umgebende Gewebeumgebung und enthält bei großen Arterien die Vasa vasorum.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 4,
+    "kategorie": "anatomie",
+    "de": "Speicherfunktion herznaher elastischer Arterien während der Diastole",
+    "fachbegriff": "Windkesselfunktion",
+    "alternativen": [],
+    "erklaerung": "Herznahe, elastische Arterien wie die Aorta speichern während der Systole einen Teil des ausgeworfenen Blutvolumens und geben es während der Diastole gleichmäßig weiter.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 5,
+    "kategorie": "anatomie",
+    "de": "Umgehungskreislauf bei unterbrochenem Hauptweg",
+    "fachbegriff": "Kollateralkreislauf",
+    "alternativen": [
+      "Umgehungskreislauf"
+    ],
+    "erklaerung": "Umwegmöglichkeiten im Gefäßsystem, über die Blut ein Gebiet auch bei Unterbrechung des Hauptweges indirekt erreichen kann; gilt für Arterien und Venen.",
+    "quelleSeite": 6
+  },
+  {
+    "id": 6,
+    "kategorie": "physiologie",
+    "de": "rhythmische Kompression der Beinvenen durch Muskelaktivität beim Gehen",
+    "fachbegriff": "Muskelpumpe",
+    "alternativen": [],
+    "erklaerung": "Die Beinmuskulatur komprimiert beim Gehen die tiefen Beinvenen innerhalb des Faszienschlauches und treibt so das Blut zusammen mit den Venenklappen Richtung Herz.",
+    "quelleSeite": 8
+  },
+  {
+    "id": 7,
+    "kategorie": "physiologie",
+    "de": "Undichtigkeit der Venenklappen",
+    "fachbegriff": "Venenklappeninsuffizienz",
+    "alternativen": [
+      "Klappeninsuffizienz"
+    ],
+    "erklaerung": "Die Klappensegel der Venenklappen liegen zu weit voneinander entfernt und schließen nicht mehr dicht; Blut sackt der Schwerkraft folgend in den oberflächlichen Venen nach unten ab.",
+    "quelleSeite": 290
+  },
+  {
+    "id": 8,
+    "kategorie": "physiologie",
+    "de": "Austritt von Flüssigkeit aus der Kapillare ins Gewebe",
+    "fachbegriff": "Filtration",
+    "alternativen": [],
+    "erklaerung": "Am arteriennahen Kapillarende übersteigt der hydrostatische Druck den kolloidosmotischen Druck und den Gewebedruck, sodass Flüssigkeit aus der Kapillare ins Gewebe gepresst wird.",
+    "quelleSeite": 11
+  },
+  {
+    "id": 9,
+    "kategorie": "arterien",
+    "de": "Gefäßverkalkung",
+    "fachbegriff": "Arteriosklerose",
+    "alternativen": [
+      "Arterienverkalkung"
+    ],
+    "erklaerung": "Verhärtung der Gefäße durch degenerative Veränderungen der Gefäßinnenhaut mit Plaquebildung aus Fett, Bindegewebe und Thromben im Endothel.",
+    "quelleSeite": 278
+  },
+  {
+    "id": 10,
+    "kategorie": "arterien",
+    "de": "umgangssprachlich Schaufensterkrankheit",
+    "fachbegriff": "Claudicatio intermittens",
+    "alternativen": [],
+    "erklaerung": "Belastungsabhängiger Schmerz in der betroffenen Extremität bei pAVK, der zu kurzen schmerzfreien Gehstrecken zwingt; Leitsymptom der pAVK.",
+    "quelleSeite": 281
+  },
+  {
+    "id": 11,
+    "kategorie": "arterien",
+    "de": "krankhafte, umschriebene Erweiterung einer Arterie",
+    "fachbegriff": "Aneurysma",
+    "alternativen": [
+      "Gefäßaussackung"
+    ],
+    "erklaerung": "Umschriebene Erweiterung des Gefäßlumens einer Arterie, meist arteriosklerotisch bedingt; kann rupturieren oder Thromben bilden.",
+    "quelleSeite": 286
+  },
+  {
+    "id": 12,
+    "kategorie": "arterien",
+    "de": "akute Aufspaltung der Gefäßwand mit Einblutung, v. a. der Aorta",
+    "fachbegriff": "Aortendissektion",
+    "alternativen": [
+      "Dissektion"
+    ],
+    "erklaerung": "Blutung in die mittlere Wandschicht (Media) der Aorta, wodurch sich die Gefäßwand aufspaltet; hochakutes, lebensbedrohliches Krankheitsbild.",
+    "quelleSeite": 287
+  },
+  {
+    "id": 13,
+    "kategorie": "arterien",
+    "de": "anfallsartige Gefäßkrämpfe der Fingerarterien",
+    "fachbegriff": "Raynaud-Syndrom",
+    "alternativen": [],
+    "erklaerung": "Funktionelle Gefäßerkrankung mit anfallsartigen Vasospasmen der Fingerarterien, typischerweise mit Trikolore-Phänomen (weiß-blau-rot).",
+    "quelleSeite": 289
+  },
+  {
+    "id": 14,
+    "kategorie": "venen",
+    "de": "krankhaft erweiterte, geschlängelte oberflächliche Venen",
+    "fachbegriff": "Varizen",
+    "alternativen": [
+      "Krampfadern",
+      "Varikosis"
+    ],
+    "erklaerung": "Sackförmig und ungleichmäßig erweiterte oberflächliche Venen, meist infolge einer Venenklappeninsuffizienz; sehr häufige Gefäßerkrankung.",
+    "quelleSeite": 290
+  },
+  {
+    "id": 15,
+    "kategorie": "venen",
+    "de": "drei Faktoren, die eine Thrombose begünstigen",
+    "fachbegriff": "Virchow-Trias",
+    "alternativen": [],
+    "erklaerung": "Verlangsamter Blutstrom, Schäden an der Gefäßwand und erhöhte Gerinnungsneigung des Blutes als die drei begünstigenden Faktoren einer Thrombose.",
+    "quelleSeite": 292
+  },
+  {
+    "id": 16,
+    "kategorie": "venen",
+    "de": "Unterschenkelgeschwür bei chronisch-venöser Insuffizienz",
+    "fachbegriff": "Ulcus cruris venosum",
+    "alternativen": [
+      "Ulcus cruris",
+      "offenes Bein"
+    ],
+    "erklaerung": "Chronisches Geschwür an der Unterschenkelinnenseite als Folge einer lang bestehenden chronisch-venösen Insuffizienz, umgangssprachlich 'offenes Bein'.",
+    "quelleSeite": 294
+  },
+  {
+    "id": 17,
+    "kategorie": "venen",
+    "de": "Entzündung einer oberflächlichen Vene mit Thrombusbildung",
+    "fachbegriff": "Thrombophlebitis",
+    "alternativen": [],
+    "erklaerung": "Entzündung der oberflächlichen Venen, begleitet von einer Thrombosierung des betroffenen Gefäßabschnitts; tritt oft als Komplikation von Stammvarizen auf.",
+    "quelleSeite": 295
+  },
+  {
+    "id": 18,
+    "kategorie": "venen",
+    "de": "Verengung oder Verschluss eines Gefäßes durch ein Blutgerinnsel",
+    "fachbegriff": "Thrombose",
+    "alternativen": [],
+    "erklaerung": "Das Gefäßlumen – Arterie oder Vene – wird durch einen Thrombus verengt oder verschlossen; im speziellen Fall der tiefen Beinvenen spricht man von einer TVT.",
+    "quelleSeite": 292
+  },
+  {
+    "id": 19,
+    "kategorie": "lymphgefaesse",
+    "de": "Flüssigkeitsansammlung im Gewebe durch gestörten Lymphabfluss",
+    "fachbegriff": "Lymphödem",
+    "alternativen": [],
+    "erklaerung": "Sicht- bzw. tastbare Flüssigkeitsansammlung im Unterhautgewebe, verursacht durch einen gestörten Lymphabfluss; meist einseitig an Armen oder Beinen.",
+    "quelleSeite": 296
+  },
+  {
+    "id": 20,
+    "kategorie": "lymphgefaesse",
+    "de": "Entzündung der Lymphgefäße in Haut und Unterhaut",
+    "fachbegriff": "Lymphangitis",
+    "alternativen": [],
+    "erklaerung": "Entzündung der Lymphgefäße, meist durch eingeschwemmte Erreger aus einer lokalen Wunde; zeigt sich als streifenförmige, schmerzhafte Rötung entlang der Lymphbahn.",
+    "quelleSeite": 298
+  }
+]

@@ -1,0 +1,239 @@
+[
+  {
+    "id": 1,
+    "kategorie": "anatomie",
+    "de": "Ohrmuschel",
+    "fachbegriff": "Auricula",
+    "alternativen": [],
+    "erklaerung": "Der sichtbare, überwiegend knorpelige Teil des äußeren Ohres."
+  },
+  {
+    "id": 2,
+    "kategorie": "anatomie",
+    "de": "äußerer Gehörgang",
+    "fachbegriff": "Meatus acusticus externus",
+    "alternativen": [],
+    "erklaerung": "Leitet den Schall von der Ohrmuschel zum Trommelfell."
+  },
+  {
+    "id": 3,
+    "kategorie": "anatomie",
+    "de": "Ohrenschmalz",
+    "fachbegriff": "Cerumen",
+    "alternativen": [],
+    "erklaerung": "Sekret im Gehörgang mit schützender Funktion."
+  },
+  {
+    "id": 4,
+    "kategorie": "anatomie",
+    "de": "Trommelfell",
+    "fachbegriff": "Membrana tympanica",
+    "alternativen": [],
+    "erklaerung": "Grenze zwischen äußerem Ohr und Mittelohr."
+  },
+  {
+    "id": 5,
+    "kategorie": "anatomie",
+    "de": "Paukenhöhle",
+    "fachbegriff": "Cavitas tympani",
+    "alternativen": [
+      "Cavum tympani"
+    ],
+    "erklaerung": "Luftgefüllter Raum des Mittelohrs."
+  },
+  {
+    "id": 6,
+    "kategorie": "anatomie",
+    "de": "Hammer",
+    "fachbegriff": "Malleus",
+    "alternativen": [],
+    "erklaerung": "Erstes Gehörknöchelchen, liegt am Trommelfell an."
+  },
+  {
+    "id": 7,
+    "kategorie": "anatomie",
+    "de": "Amboss",
+    "fachbegriff": "Incus",
+    "alternativen": [],
+    "erklaerung": "Zweites Gehörknöchelchen im Mittelohr."
+  },
+  {
+    "id": 8,
+    "kategorie": "anatomie",
+    "de": "Steigbügel",
+    "fachbegriff": "Stapes",
+    "alternativen": [],
+    "erklaerung": "Drittes Gehörknöchelchen, liegt am ovalen Fenster."
+  },
+  {
+    "id": 9,
+    "kategorie": "anatomie",
+    "de": "Ohrtrompete",
+    "fachbegriff": "Tuba auditiva",
+    "alternativen": [
+      "Eustachische Röhre"
+    ],
+    "erklaerung": "Verbindet die Paukenhöhle mit dem Rachen und dient dem Druckausgleich."
+  },
+  {
+    "id": 10,
+    "kategorie": "anatomie",
+    "de": "ovales Fenster",
+    "fachbegriff": "Fenestra vestibuli",
+    "alternativen": [],
+    "erklaerung": "Übergang vom Mittelohr zum Innenohr."
+  },
+  {
+    "id": 11,
+    "kategorie": "anatomie",
+    "de": "Hörschnecke",
+    "fachbegriff": "Cochlea",
+    "alternativen": [],
+    "erklaerung": "Schneckenförmiges Hörorgan des Innenohrs."
+  },
+  {
+    "id": 12,
+    "kategorie": "anatomie",
+    "de": "Corti-Organ",
+    "fachbegriff": "Organum spirale",
+    "alternativen": [],
+    "erklaerung": "Eigentliches Hörorgan mit den Sinneszellen."
+  },
+  {
+    "id": 13,
+    "kategorie": "anatomie",
+    "de": "Haarzellen",
+    "fachbegriff": "Cellulae ciliatae",
+    "alternativen": [],
+    "erklaerung": "Sinneszellen, die Schall in Nervenimpulse umwandeln."
+  },
+  {
+    "id": 14,
+    "kategorie": "anatomie",
+    "de": "Gleichgewichtsorgan",
+    "fachbegriff": "Organum vestibulare",
+    "alternativen": [],
+    "erklaerung": "Teil des Innenohrs für die Wahrnehmung von Lage und Bewegung."
+  },
+  {
+    "id": 15,
+    "kategorie": "anatomie",
+    "de": "Bogengänge",
+    "fachbegriff": "Ductus semicirculares",
+    "alternativen": [],
+    "erklaerung": "Strukturen des Gleichgewichtsorgans zur Wahrnehmung von Drehbewegungen."
+  },
+  {
+    "id": 16,
+    "kategorie": "anatomie",
+    "de": "Hörnerv",
+    "fachbegriff": "Nervus cochlearis",
+    "alternativen": [],
+    "erklaerung": "Leitet Höreindrücke zum Gehirn."
+  },
+  {
+    "id": 17,
+    "kategorie": "anatomie",
+    "de": "Hör-Gleichgewichtsnerv",
+    "fachbegriff": "Nervus vestibulocochlearis",
+    "alternativen": [
+      "VIII. Hirnnerv"
+    ],
+    "erklaerung": "Vereint Hör- und Gleichgewichtsnerv."
+  },
+  {
+    "id": 18,
+    "kategorie": "erkrankung",
+    "de": "Altersschwerhörigkeit",
+    "fachbegriff": "Presbyakusis",
+    "alternativen": [],
+    "erklaerung": "Altersbedingter Hörverlust, besonders für hohe Frequenzen."
+  },
+  {
+    "id": 19,
+    "kategorie": "erkrankung",
+    "de": "Schallleitungsschwerhörigkeit",
+    "fachbegriff": "Hypacusis conductiva",
+    "alternativen": [],
+    "erklaerung": "Hörstörung durch ein Problem im äußeren Ohr oder Mittelohr."
+  },
+  {
+    "id": 20,
+    "kategorie": "erkrankung",
+    "de": "Schallempfindungsschwerhörigkeit",
+    "fachbegriff": "Hypacusis sensorineuralis",
+    "alternativen": [],
+    "erklaerung": "Hörstörung durch eine Schädigung im Innenohr."
+  },
+  {
+    "id": 21,
+    "kategorie": "erkrankung",
+    "de": "äußere Ohrentzündung",
+    "fachbegriff": "Otitis externa",
+    "alternativen": [],
+    "erklaerung": "Entzündung des äußeren Gehörgangs."
+  },
+  {
+    "id": 22,
+    "kategorie": "erkrankung",
+    "de": "Mittelohrentzündung",
+    "fachbegriff": "Otitis media",
+    "alternativen": [
+      "Otitis media acuta",
+      "Otitis media chronica"
+    ],
+    "erklaerung": "Entzündung der Schleimhaut im Mittelohr."
+  },
+  {
+    "id": 23,
+    "kategorie": "erkrankung",
+    "de": "Ohrenschmalzpfropf",
+    "fachbegriff": "Cerumen obturans",
+    "alternativen": [],
+    "erklaerung": "Verlegung des Gehörgangs durch Ohrenschmalz."
+  },
+  {
+    "id": 24,
+    "kategorie": "erkrankung",
+    "de": "Warzenfortsatzentzündung",
+    "fachbegriff": "Mastoiditis",
+    "alternativen": [],
+    "erklaerung": "Entzündung der lufthaltigen Zellen des Warzenfortsatzes."
+  },
+  {
+    "id": 25,
+    "kategorie": "erkrankung",
+    "de": "Ohrgeräusch",
+    "fachbegriff": "Tinnitus",
+    "alternativen": [],
+    "erklaerung": "Pfeifen oder Rauschen ohne äußere Schallquelle."
+  },
+  {
+    "id": 26,
+    "kategorie": "erkrankung",
+    "de": "plötzlicher Hörverlust",
+    "fachbegriff": "Hörsturz",
+    "alternativen": [],
+    "erklaerung": "Akuter, meist einseitiger Hörverlust unklarer Ursache."
+  },
+  {
+    "id": 27,
+    "kategorie": "erkrankung",
+    "de": "gutartiger Lagerungsschwindel",
+    "fachbegriff": "Benigner paroxysmaler Lagerungsschwindel",
+    "alternativen": [
+      "BPLS"
+    ],
+    "erklaerung": "Schwindel durch verlagertes Otolithenmaterial in einem Bogengang."
+  },
+  {
+    "id": 28,
+    "kategorie": "erkrankung",
+    "de": "Morbus Ménière",
+    "fachbegriff": "Morbus Ménière",
+    "alternativen": [
+      "Meniere-Krankheit"
+    ],
+    "erklaerung": "Anfallsartiger Schwindel mit Hörverlust und Tinnitus."
+  }
+]

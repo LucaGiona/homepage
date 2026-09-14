@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "kategorie": "knorpel",
+    "de": "Stellknorpel",
+    "fachbegriff": "Cartilago arytenoidea",
+    "alternativen": [],
+    "erklaerung": "Paariger Knorpel, an dem die Stimmbänder befestigt sind."
+  },
+  {
+    "id": 2,
+    "kategorie": "knorpel",
+    "de": "Ringknorpel",
+    "fachbegriff": "Cartilago cricoidea",
+    "alternativen": [],
+    "erklaerung": "Siegelringförmiger Knorpel unterhalb des Schildknorpels."
+  },
+  {
+    "id": 3,
+    "kategorie": "knorpel",
+    "de": "Schildknorpel",
+    "fachbegriff": "Cartilago thyroidea",
+    "alternativen": [],
+    "erklaerung": "Größter Kehlkopfknorpel, bildet den Adamsapfel."
+  },
+  {
+    "id": 4,
+    "kategorie": "knorpel",
+    "de": "Kehldeckel",
+    "fachbegriff": "Epiglottis",
+    "alternativen": [],
+    "erklaerung": "Löffelförmiger Knorpel, verschließt den Kehlkopf beim Schlucken."
+  },
+  {
+    "id": 5,
+    "kategorie": "patho",
+    "de": "Kehlkopfdeckelentzündung",
+    "fachbegriff": "Epiglottitis",
+    "alternativen": [],
+    "erklaerung": "Akute, potenziell lebensbedrohliche bakterielle Entzündung der Epiglottis, v. a. bei Kindern."
+  },
+  {
+    "id": 6,
+    "kategorie": "glottis",
+    "de": "Stimmritzenregion",
+    "fachbegriff": "Glottis",
+    "alternativen": [],
+    "erklaerung": "Stimmfalten inklusive der Stimmbänder."
+  },
+  {
+    "id": 7,
+    "kategorie": "patho",
+    "de": "Schwellung der Stimmritzenschleimhaut",
+    "fachbegriff": "Glottisödem",
+    "alternativen": [],
+    "erklaerung": "Akute Schwellung mit Gefahr lebensbedrohlicher Atemnot."
+  },
+  {
+    "id": 8,
+    "kategorie": "aufbau",
+    "de": "Kehlkopf",
+    "fachbegriff": "Larynx",
+    "alternativen": [],
+    "erklaerung": "Organ zwischen Rachen und Luftröhre, zuständig für Stimmbildung und Atemwegsschutz."
+  },
+  {
+    "id": 9,
+    "kategorie": "gefaesse_nerven",
+    "de": "Rückläufiger Kehlkopfnerv, Stimmnerv",
+    "fachbegriff": "N. laryngeus recurrens",
+    "alternativen": [],
+    "erklaerung": "Ast des N. vagus, versorgt fast alle inneren Kehlkopfmuskeln."
+  },
+  {
+    "id": 10,
+    "kategorie": "gefaesse_nerven",
+    "de": "Oberer Kehlkopfnerv",
+    "fachbegriff": "N. laryngeus superior",
+    "alternativen": [],
+    "erklaerung": "Ast des N. vagus, versorgt die Schleimhaut oberhalb der Stimmritze."
+  },
+  {
+    "id": 11,
+    "kategorie": "funktionen",
+    "de": "Stimmbildung",
+    "fachbegriff": "Phonation",
+    "alternativen": [],
+    "erklaerung": "Erzeugung von Tönen durch Schwingung der Stimmlippen im Luftstrom."
+  },
+  {
+    "id": 12,
+    "kategorie": "glottis",
+    "de": "Taschenfalte, „falsche Stimmbänder“",
+    "fachbegriff": "Plica vestibularis",
+    "alternativen": [],
+    "erklaerung": "Obere Schleimhautfalte des Kehlkopfs."
+  },
+  {
+    "id": 13,
+    "kategorie": "glottis",
+    "de": "Stimmfalte",
+    "fachbegriff": "Plica vocalis",
+    "alternativen": [],
+    "erklaerung": "Untere Schleimhautfalte, enthält Stimmband und Stimmmuskel."
+  },
+  {
+    "id": 14,
+    "kategorie": "patho",
+    "de": "Lähmung des Stimmnervs",
+    "fachbegriff": "Rekurrensparese",
+    "alternativen": [],
+    "erklaerung": "Ausfall des N. laryngeus recurrens, häufig nach Schilddrüsenoperation, führt zu Heiserkeit oder Atemnot."
+  },
+  {
+    "id": 15,
+    "kategorie": "glottis",
+    "de": "Stimmritze",
+    "fachbegriff": "Rima glottidis",
+    "alternativen": [],
+    "erklaerung": "Spalt zwischen den beiden Stimmfalten."
+  },
+  {
+    "id": 16,
+    "kategorie": "glottis",
+    "de": "Taschenritze",
+    "fachbegriff": "Rima vestibuli",
+    "alternativen": [],
+    "erklaerung": "Spalt zwischen den beiden Taschenfalten."
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "bereich": "ohr",
+    "thema": "umgang_hoerbeeintraechtigung",
+    "kategorie": "kommunikation",
+    "typ": "multiple-choice",
+    "frage": "Welche nonverbalen Mittel sollen im Gespräch mit hörbeeinträchtigten Menschen einbezogen werden?",
+    "antworten": [
+      "Mimik und Gestik",
+      "Nur schriftliche Abkürzungen",
+      "Ausschließlich Berührungen",
+      "Nur technische Hilfsmittel"
+    ],
+    "richtigeAntwort": "Mimik und Gestik",
+    "erklaerung": "Mimik und Gestik unterstützen das Verstehen und ergänzen die gesprochene Sprache.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 2,
+    "bereich": "ohr",
+    "thema": "umgang_hoerbeeintraechtigung",
+    "kategorie": "ressourcen",
+    "typ": "multiple-choice",
+    "frage": "Welcher pflegerische Ansatz wird für hörbeeinträchtigte Menschen empfohlen?",
+    "antworten": [
+      "Ressourcenfördernd arbeiten",
+      "Alle Aufgaben vollständig übernehmen",
+      "Kommunikation möglichst vermeiden",
+      "Nur Defizite dokumentieren"
+    ],
+    "richtigeAntwort": "Ressourcenfördernd arbeiten",
+    "erklaerung": "Vorhandene Fähigkeiten sollen genutzt und gefördert werden, damit Selbstständigkeit erhalten bleibt.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 3,
+    "bereich": "ohr",
+    "thema": "umgang_hoerbeeintraechtigung",
+    "kategorie": "kommunikation",
+    "typ": "multiple-choice",
+    "frage": "Welche Unterstützung kann gesprochene Informationen für hörbeeinträchtigte Menschen ergänzen?",
+    "antworten": [
+      "Visuelle Unterstützung",
+      "Eine dunklere Umgebung",
+      "Ein größerer Sprechabstand",
+      "Mehrere gleichzeitig sprechende Personen"
+    ],
+    "richtigeAntwort": "Visuelle Unterstützung",
+    "erklaerung": "Visuelle Hinweise können Informationen verdeutlichen und das Sprachverstehen unterstützen.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 4,
+    "bereich": "ohr",
+    "thema": "umgang_hoerbeeintraechtigung",
+    "kategorie": "kommunikation",
+    "typ": "multiple-choice",
+    "frage": "Was bedeutet Paraphrasieren im Gespräch?",
+    "antworten": [
+      "Eine Aussage mit anderen Worten wiedergeben",
+      "Die Aussage unverändert lauter wiederholen",
+      "Das Gespräch sofort beenden",
+      "Nur einzelne Fachbegriffe nennen"
+    ],
+    "richtigeAntwort": "Eine Aussage mit anderen Worten wiedergeben",
+    "erklaerung": "Paraphrasieren bietet eine alternative Formulierung, wenn eine Aussage nicht verstanden wurde.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 5,
+    "bereich": "ohr",
+    "thema": "umgang_hoerbeeintraechtigung",
+    "kategorie": "foerderung",
+    "typ": "multiple-choice",
+    "frage": "Welche therapeutischen Angebote nennt die Übersicht für hörbeeinträchtigte Menschen?",
+    "antworten": [
+      "Hörtraining und Logopädie",
+      "Ausschließlich Krafttraining",
+      "Nur Ergometertraining",
+      "Ausschließlich Bettruhe"
+    ],
+    "richtigeAntwort": "Hörtraining und Logopädie",
+    "erklaerung": "Hörtraining und Logopädie können den Umgang mit der Hörbeeinträchtigung unterstützen.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 6,
+    "bereich": "ohr",
+    "thema": "umgang_hoerbeeintraechtigung",
+    "kategorie": "kommunikation",
+    "typ": "multiple-choice",
+    "frage": "Wie sollte man reagieren, wenn eine hörbeeinträchtigte Person Zeit zum Antworten benötigt?",
+    "antworten": [
+      "Geduldig warten und nicht unterbrechen",
+      "Den Satz für die Person beenden",
+      "Sofort eine neue Frage stellen",
+      "Das Gespräch ohne Erklärung abbrechen"
+    ],
+    "richtigeAntwort": "Geduldig warten und nicht unterbrechen",
+    "erklaerung": "Geduld und ein Gespräch ohne Unterbrechungen erleichtern die Kommunikation.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 7,
+    "bereich": "ohr",
+    "thema": "umgang_hoerbeeintraechtigung",
+    "kategorie": "kommunikation",
+    "typ": "multiple-choice",
+    "frage": "Welche Sprechweise empfiehlt die Übersicht im Umgang mit hörbeeinträchtigten Menschen?",
+    "antworten": [
+      "Tief, ausreichend laut und deutlich sprechen",
+      "Sehr hoch und möglichst schnell sprechen",
+      "Flüstern und dabei wegschauen",
+      "Silben verschlucken und leiser werden"
+    ],
+    "richtigeAntwort": "Tief, ausreichend laut und deutlich sprechen",
+    "erklaerung": "Eine tiefe, ausreichend laute und deutliche Sprechweise kann das Verstehen erleichtern.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 8,
+    "bereich": "ohr",
+    "thema": "umgang_hoerbeeintraechtigung",
+    "kategorie": "umgebung",
+    "typ": "multiple-choice",
+    "frage": "Welche Gesprächsumgebung ist für hörbeeinträchtigte Menschen günstig?",
+    "antworten": [
+      "Eine ruhige Umgebung",
+      "Ein Raum mit lauter Hintergrundmusik",
+      "Ein belebter Flur mit vielen Gesprächen",
+      "Ein laufender Fernseher neben der Person"
+    ],
+    "richtigeAntwort": "Eine ruhige Umgebung",
+    "erklaerung": "Wenig Hintergrundgeräusche verbessern die Bedingungen für das Sprachverstehen.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 9,
+    "bereich": "ohr",
+    "thema": "umgang_hoerbeeintraechtigung",
+    "kategorie": "kommunikation",
+    "typ": "multiple-choice",
+    "frage": "Wie sollte der Sprechabstand zu einer hörbeeinträchtigten Person gestaltet werden?",
+    "antworten": [
+      "Den Sprechabstand angemessen verkleinern",
+      "Aus einem anderen Raum sprechen",
+      "Den Abstand möglichst stark vergrößern",
+      "Beim Sprechen hinter der Person stehen"
+    ],
+    "richtigeAntwort": "Den Sprechabstand angemessen verkleinern",
+    "erklaerung": "Ein kleinerer, angemessener Sprechabstand kann akustische und visuelle Verständigung erleichtern.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 10,
+    "bereich": "ohr",
+    "thema": "umgang_hoerbeeintraechtigung",
+    "kategorie": "hilfsmittel",
+    "typ": "multiple-choice",
+    "frage": "Wer soll laut Übersicht die Einweisung in ein Hörgerät übernehmen?",
+    "antworten": [
+      "Ein Hörakustiker oder eine Hörakustikerin",
+      "Eine beliebige Mitpatientin oder ein Mitpatient",
+      "Ausschließlich der Reinigungsdienst",
+      "Eine Person ohne Einweisung"
+    ],
+    "richtigeAntwort": "Ein Hörakustiker oder eine Hörakustikerin",
+    "erklaerung": "Die fachgerechte Einweisung in das Hörgerät erfolgt durch den Hörakustiker beziehungsweise die Hörakustikerin.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 11,
+    "bereich": "auge",
+    "thema": "umgang_sehbeeintraechtigung",
+    "kategorie": "hilfsmittel",
+    "typ": "multiple-choice",
+    "frage": "Welches persönliche Hilfsmittel soll Menschen mit Sehbeeinträchtigung passend zur Verfügung stehen?",
+    "antworten": [
+      "Eine passende Brille",
+      "Eine fremde Brille mit ähnlicher Stärke",
+      "Nur eine Sonnenbrille in Innenräumen",
+      "Grundsätzlich keine Sehhilfe"
+    ],
+    "richtigeAntwort": "Eine passende Brille",
+    "erklaerung": "Eine individuell passende Brille unterstützt Orientierung, Kommunikation und Selbstständigkeit.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 12,
+    "bereich": "auge",
+    "thema": "umgang_sehbeeintraechtigung",
+    "kategorie": "beobachtung",
+    "typ": "multiple-choice",
+    "frage": "Welche pflegerische Handlung gehört zu den goldenen Regeln bei Sehbeeinträchtigung?",
+    "antworten": [
+      "Die betroffene Person aufmerksam beobachten",
+      "Veränderungen grundsätzlich ignorieren",
+      "Nur schriftliche Informationen hinterlassen",
+      "Die Person ohne Erklärung allein lassen"
+    ],
+    "richtigeAntwort": "Die betroffene Person aufmerksam beobachten",
+    "erklaerung": "Beobachtung hilft, Unterstützungsbedarf und mögliche Risiken frühzeitig wahrzunehmen.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 13,
+    "bereich": "auge",
+    "thema": "umgang_sehbeeintraechtigung",
+    "kategorie": "orientierung",
+    "typ": "multiple-choice",
+    "frage": "Wie kann die Orientierung einer sehbeeinträchtigten Person unterstützt werden?",
+    "antworten": [
+      "Die Umgebung beschreiben",
+      "Möbel kommentarlos umstellen",
+      "Richtungsangaben vermeiden",
+      "Nur auf Gegenstände zeigen"
+    ],
+    "richtigeAntwort": "Die Umgebung beschreiben",
+    "erklaerung": "Eine verständliche Beschreibung der Umgebung unterstützt Orientierung und Sicherheit.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 14,
+    "bereich": "auge",
+    "thema": "umgang_sehbeeintraechtigung",
+    "kategorie": "kontaktaufnahme",
+    "typ": "multiple-choice",
+    "frage": "Von welcher Seite soll Kontakt zu einer sehbeeinträchtigten Person aufgenommen werden?",
+    "antworten": [
+      "Von vorne",
+      "Unangekündigt von hinten",
+      "Nur von der Seite",
+      "Ausschließlich aus größerer Entfernung"
+    ],
+    "richtigeAntwort": "Von vorne",
+    "erklaerung": "Eine Kontaktaufnahme von vorne ist für die Person besser wahrnehmbar und vermeidet unnötiges Erschrecken.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 15,
+    "bereich": "auge",
+    "thema": "umgang_sehbeeintraechtigung",
+    "kategorie": "umgebung",
+    "typ": "multiple-choice",
+    "frage": "Wie ist vorzugehen, wenn Gegenstände in der Umgebung umgestellt werden?",
+    "antworten": [
+      "Die betroffene Person vorher oder unmittelbar dabei informieren",
+      "Die Umgebung ohne Hinweis verändern",
+      "Nur Angehörige informieren",
+      "Veränderungen grundsätzlich verschweigen"
+    ],
+    "richtigeAntwort": "Die betroffene Person vorher oder unmittelbar dabei informieren",
+    "erklaerung": "Die Umgebung soll nicht ohne Bescheid verändert werden, damit vertraute Orientierungspunkte erhalten bleiben.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 16,
+    "bereich": "auge",
+    "thema": "umgang_sehbeeintraechtigung",
+    "kategorie": "hilfsmittel",
+    "typ": "multiple-choice",
+    "frage": "Welche allgemeine Maßnahme unterstützt Menschen mit Sehbeeinträchtigung?",
+    "antworten": [
+      "Benötigte Hilfsmittel zur Verfügung stellen",
+      "Hilfsmittel außer Reichweite aufbewahren",
+      "Alle Hilfsmittel ohne Rücksprache entfernen",
+      "Nur ungeeignete Hilfsmittel anbieten"
+    ],
+    "richtigeAntwort": "Benötigte Hilfsmittel zur Verfügung stellen",
+    "erklaerung": "Geeignete und erreichbare Hilfsmittel fördern Sicherheit und Selbstständigkeit.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 17,
+    "bereich": "auge",
+    "thema": "umgang_sehbeeintraechtigung",
+    "kategorie": "sturzprophylaxe",
+    "typ": "multiple-choice",
+    "frage": "Welche Maßnahme vermindert Stolperrisiken für sehbeeinträchtigte Menschen?",
+    "antworten": [
+      "Stolperfallen wegräumen",
+      "Lose Kabel im Gehweg liegen lassen",
+      "Wege mit Gegenständen zustellen",
+      "Teppichkanten nicht beachten"
+    ],
+    "richtigeAntwort": "Stolperfallen wegräumen",
+    "erklaerung": "Freie Wege und entfernte Stolperfallen sind wichtige Bestandteile der Sturzprophylaxe.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 18,
+    "bereich": "auge",
+    "thema": "umgang_sehbeeintraechtigung",
+    "kategorie": "sturzprophylaxe",
+    "typ": "multiple-choice",
+    "frage": "Welche weitere pflegerische Maßnahme wird bei Sehbeeinträchtigung ausdrücklich genannt?",
+    "antworten": [
+      "Sturzprophylaxe anwenden",
+      "Mobilität grundsätzlich verhindern",
+      "Räumliche Orientierung nicht fördern",
+      "Alle Gegenstände entfernen"
+    ],
+    "richtigeAntwort": "Sturzprophylaxe anwenden",
+    "erklaerung": "Bei Sehbeeinträchtigung soll das individuelle Sturzrisiko berücksichtigt und Sturzprophylaxe angewendet werden.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 19,
+    "bereich": "auge",
+    "thema": "umgang_sehbeeintraechtigung",
+    "kategorie": "orientierung",
+    "typ": "multiple-choice",
+    "frage": "Wie sollten Weg- und Ortsangaben für sehbeeinträchtigte Menschen formuliert werden?",
+    "antworten": [
+      "Mit klaren Richtungsangaben",
+      "Nur mit ungenauen Wörtern wie „dort“",
+      "Ausschließlich durch Zeigen",
+      "Möglichst ohne räumliche Hinweise"
+    ],
+    "richtigeAntwort": "Mit klaren Richtungsangaben",
+    "erklaerung": "Klare Richtungsangaben geben Orientierung; unbestimmte Hinweise wie „dort“ sind weniger hilfreich.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 20,
+    "bereich": "auge",
+    "thema": "umgang_sehbeeintraechtigung",
+    "kategorie": "sturzprophylaxe",
+    "typ": "multiple-choice",
+    "frage": "Welches Schuhwerk unterstützt die Sicherheit eines sehbeeinträchtigten Menschen?",
+    "antworten": [
+      "Adäquates, gut passendes Schuhwerk",
+      "Zu große Schuhe ohne festen Halt",
+      "Socken auf glattem Boden",
+      "Schuhe mit glatter Sohle"
+    ],
+    "richtigeAntwort": "Adäquates, gut passendes Schuhwerk",
+    "erklaerung": "Geeignetes Schuhwerk verbessert Halt und trägt zur Sturzprophylaxe bei.",
+    "quelleSeite": 1
+  }
+]

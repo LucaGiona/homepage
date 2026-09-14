@@ -33,6 +33,30 @@ const projects = [
       "Website für die Melody Nelson Bar in Berlin-Mitte, wo ich mehrere Jahre als Barkeeper gearbeitet habe. Die Seite lief über mehrere Jahre und etliche Versionen produktiv, mit echtem SEO-Setup (Meta-Description, Keywords) und nachträglicher Accessibility-Arbeit (ARIA-Labels).",
       "Ich bin mittlerweile nicht mehr in der Bar involviert, daher ist das kein aktives Projekt mehr von mir – aber ein gutes Beispiel dafür, wie meine Gastro-Erfahrung und meine Web-Arbeit ursprünglich zusammengekommen sind."
     ]
+  },
+  {
+    title: "Care Quizzes",
+    image: "/assets/projekte/care-quizzes.png",
+    summary: "Sammlung von Lernquizzes für die Pflegefachmann-Ausbildung, mit ChatGPT- und Claude-Varianten desselben Themas.",
+    stack: ["HTML", "CSS", "JavaScript", "JSON"],
+    demoUrl: "/projekte/care-quizzes/index.html",
+    repoUrl: "https://github.com/LucaGiona/care-quizzes",
+    detail: [
+      "Sammlung mehrerer Lern- und Quizanwendungen zu Themen aus meiner Pflegefachmann-Ausbildung (u. a. Herz, Niere, Gefäße, Blut, HNO). Jedes Thema hat eine eigene, in sich abgeschlossene Quiz-App mit eigener JSON-Datenbasis.",
+      "Der eigentliche Zweck geht über das Quizzen hinaus: Für mehrere Themen existiert bewusst je eine ChatGPT- und eine Claude-Variante derselben Aufgabe, um Architektur, Codequalität und Ergebnis unterschiedlicher KI-Systeme direkt zu vergleichen – verbindet Pflegewissen, Webentwicklung und Prompt-Engineering in einem Projekt."
+    ]
+  },
+  {
+    title: "Anatomie-Karteikarten",
+    image: "/assets/projekte/karteikarten.png",
+    summary: "Karteikarten-App nach dem Leitner-Prinzip zum Lernen medizinischer Fachbegriffe (Latein/Deutsch/Englisch).",
+    stack: ["HTML", "CSS", "JavaScript", "ES-Module", "LocalStorage"],
+    demoUrl: "/projekte/karteikarten/index.html",
+    repoUrl: "https://github.com/LucaGiona/karteikarten-app",
+    detail: [
+      "Responsive Karteikarten-App zum Lernen medizinischer Fachbegriffe aus meiner Pflegefachmann-Ausbildung, mit zwei unabhängigen Leitner-Systemen: Freies Lernen und ein Wochenmodus mit tagesabhängigen Fälligkeitsregeln.",
+      "Fach-, Themen- und Kategorie-Filter lassen sich frei kombinieren, Abfragerichtungen (Latein↔Deutsch, Deutsch↔Englisch) ebenfalls. Jede Karte hat in jedem der beiden Systeme ihre eigene Box-Nummer, Fortschritt wird pro System getrennt in LocalStorage gespeichert. Kein Framework, kein Build-Schritt – nur native ES-Module."
+    ]
   }
 ];
 

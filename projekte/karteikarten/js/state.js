@@ -1,0 +1,196 @@
+import { defaultCards, cardKey } from "./cards.js";
+import { loadProgress, saveProgress } from "./storage.js";
+import { pickCardIndex, pickDueCardIndex, getTodayGroup } from "./leitner.js";
+
+function normalizeDirection(direction) {
+    return direction === "random" ? "random-la-de" : direction;
+}
+
+const progress = loadProgress();
+
+export const DIRECTION_KEYS = {
+    "latin-german": { front: "la", back: "de" },
+    "german-latin": { front: "de", back: "la" },
+    "german-english": { front: "de", back: "en" },
+    "english-german": { front: "en", back: "de" },
+};
+
+export const DIRECTION_LABELS = {
+    "latin-german": "Latein → Deutsch",
+    "german-latin": "Deutsch → Latein",
+    "german-english": "Deutsch → Englisch",
+    "english-german": "Englisch → Deutsch",
+};
+
+const DIRECTION_PAIRS = {
+    "random-la-de": ["latin-german", "german-latin"],
+    "random-de-en": ["german-english", "english-german"],
+};
+
+const ENGLISH_DIRECTIONS = new Set([
+    "german-english",
+    "english-german",
+    "random-de-en",
+]);
+
+function pickRandomDirection(selectedDirection) {
+    const pool = DIRECTION_PAIRS[selectedDirection];
+    return pool[Math.floor(Math.random() * pool.length)];
+}
+
+// Freies Lernen und Wochenmodus sind zwei unabhängige Leitner-Systeme mit
+// eigenem Kartenfortschritt (card.box) und eigenem Reset – nur die
+// Karteninhalte (id/terms) stammen aus derselben Quelle. Der Fortschritt
+// wird über bereich:id gekeyt, damit gleiche ids in verschiedenen
+// Bereichs-Dateien (anatomie.json, krankheiten.json, ...) nicht kollidieren.
+export const freeCards = defaultCards.map(card => ({
+    ...card,
+    box: progress?.freeBoxes?.[cardKey(card)] ?? 1,
+}));
+
+export const weeklyCards = defaultCards.map(card => ({
+    ...card,
+    box: progress?.weeklyBoxes?.[cardKey(card)] ?? 1,
+}));
+
+export const state = {
+    currentIndex: pickCardIndex(freeCards),
+    selectedDirection: normalizeDirection(progress?.direction ?? "latin-german"),
+    resolvedDirection: normalizeDirection(progress?.direction ?? "latin-german"),
+    // Themen-/Kategorie-Filter werden bewusst nicht persistiert: "Alle" soll
+    // nach jedem Neuladen wieder aktiv sein, unabhängig von der zuletzt
+    // gewählten Karte.
+    selectedTopic: "all",
+    selectedSubtopic: "all",
+    selectedCategory: "all",
+    answerWasChecked: false,
+};
+
+function matchesFilters(card) {
+    const topicMatches = state.selectedTopic === "all"
+        || card.fach === state.selectedTopic;
+    const subtopicMatches = state.selectedSubtopic === "all"
+        || card.unterbereich === state.selectedSubtopic;
+    const categoryMatches = state.selectedCategory === "all"
+        || card.typ === state.selectedCategory;
+    const languageMatches = !ENGLISH_DIRECTIONS.has(state.selectedDirection)
+        || Boolean(card.terms.en);
+    return topicMatches && subtopicMatches && categoryMatches && languageMatches;
+}
+
+export function getVisibleFreeCards() {
+    return freeCards.filter(matchesFilters);
+}
+
+export function getVisibleWeeklyCards() {
+    return weeklyCards.filter(matchesFilters);
+}
+
+// Kategorien, die im aktuell gewählten Thema tatsächlich vorkommen. Damit
+// zeigt die Kategorie-Auswahl nie eine Kombination an, die zu null Karten
+// führen würde (z.B. "Organe" + "Erkrankungen", solange organe.json nur
+// anatomie-Karten enthält).
+export function getAvailableCategories() {
+    const relevantCards = freeCards.filter(card => {
+        const topicMatches = state.selectedTopic === "all"
+            || card.fach === state.selectedTopic;
+        const subtopicMatches = state.selectedSubtopic === "all"
+            || card.unterbereich === state.selectedSubtopic;
+        const languageMatches = !ENGLISH_DIRECTIONS.has(state.selectedDirection)
+            || Boolean(card.terms.en);
+        return topicMatches && subtopicMatches && languageMatches;
+    });
+    return [...new Set(relevantCards.map(card => card.typ))];
+}
+
+// Nach einem Wechsel von Themen-/Kategorie-Filter neu einsortieren: die alten
+// Indizes zeigen sonst auf Karten aus der vorherigen, ungefilterten Auswahl.
+// Ist die bisher gewählte Kategorie im neuen Thema nicht mehr vorhanden,
+// wird sie auf "Alle" zurückgesetzt statt eine leere Auswahl zu erzeugen.
+export function applyCardFilters() {
+    if (state.selectedTopic !== "hno") {
+        state.selectedSubtopic = "all";
+    }
+    const availableCategories = getAvailableCategories();
+    if (
+        state.selectedCategory !== "all"
+        && !availableCategories.includes(state.selectedCategory)
+    ) {
+        state.selectedCategory = "all";
+    }
+
+    state.currentIndex = pickCardIndex(getVisibleFreeCards());
+    state.answerWasChecked = false;
+    weeklyState.currentIndex = pickDueCardIndex(
+        getVisibleWeeklyCards(),
+        weeklyState.todayGroup,
+        weeklyState.completedThisSession
+    );
+    weeklyState.answerWasChecked = false;
+}
+
+export function resolveDirection() {
+    state.resolvedDirection = state.selectedDirection.startsWith("random")
+        ? pickRandomDirection(state.selectedDirection)
+        : state.selectedDirection;
+    return state.resolvedDirection;
+}
+
+// Eigener, nicht persistierter Zustand: completedThisSession verhindert,
+// dass eine am Wochenende bereits richtig beantwortete Box-5-Karte in
+// derselben Sitzung erneut auftaucht (sie bleibt ja in Box 5 und wäre sonst
+// laut isCardDueInGroup weiterhin fällig).
+export const weeklyState = {
+    todayGroup: getTodayGroup(),
+    currentIndex: -1,
+    resolvedDirection: normalizeDirection(progress?.direction ?? "latin-german"),
+    answerWasChecked: false,
+    completedThisSession: new Set(),
+};
+weeklyState.currentIndex = pickDueCardIndex(
+    weeklyCards,
+    weeklyState.todayGroup,
+    weeklyState.completedThisSession
+);
+
+export function resolveWeeklyDirection() {
+    weeklyState.resolvedDirection = state.selectedDirection.startsWith("random")
+        ? pickRandomDirection(state.selectedDirection)
+        : state.selectedDirection;
+    return weeklyState.resolvedDirection;
+}
+
+export function persist() {
+    const freeBoxes = {};
+    freeCards.forEach(card => {
+        freeBoxes[cardKey(card)] = card.box;
+    });
+    const weeklyBoxes = {};
+    weeklyCards.forEach(card => {
+        weeklyBoxes[cardKey(card)] = card.box;
+    });
+    saveProgress({ freeBoxes, weeklyBoxes, direction: state.selectedDirection });
+}
+
+export function resetFreeProgress() {
+    freeCards.forEach(card => {
+        card.box = 1;
+    });
+    state.currentIndex = pickCardIndex(getVisibleFreeCards());
+    state.answerWasChecked = false;
+    persist();
+}
+
+export function resetWeeklyProgress() {
+    weeklyCards.forEach(card => {
+        card.box = 1;
+    });
+    weeklyState.completedThisSession.clear();
+    weeklyState.currentIndex = pickDueCardIndex(
+        getVisibleWeeklyCards(),
+        weeklyState.todayGroup,
+        weeklyState.completedThisSession
+    );
+    weeklyState.answerWasChecked = false;
+    persist();
+}

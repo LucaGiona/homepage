@@ -1,0 +1,710 @@
+[
+  {
+    "id": 1,
+    "thema": "aufbau",
+    "kategorie": "anatomie",
+    "typ": "multiple-choice",
+    "frage": "Welche Gefäßwandschicht bildet die glatte, dem Blutstrom zugewandte Innenauskleidung des Gefäßes?",
+    "antworten": [
+      "Tunica intima",
+      "Tunica media",
+      "Tunica adventitia",
+      "Vasa vasorum"
+    ],
+    "richtigeAntwort": "Tunica intima",
+    "erklaerung": "Die Tunica intima besteht aus platten, einschichtigen Endothelzellen auf einer Basalmembran und bildet die glatte Innenauskleidung des Gefäßes.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 2,
+    "thema": "aufbau",
+    "kategorie": "anatomie",
+    "typ": "multiple-choice",
+    "frage": "Welche Gefäßwandschicht enthält vor allem glatte Muskulatur und elastische Fasern und reguliert damit die Gefäßweite?",
+    "antworten": [
+      "Tunica media",
+      "Tunica intima",
+      "Tunica adventitia",
+      "Basalmembran"
+    ],
+    "richtigeAntwort": "Tunica media",
+    "erklaerung": "Die Tunica media enthält vor allem glatte Muskulatur und elastische Fasern und ist für die Weite und Regulationsfähigkeit des Gefäßes verantwortlich.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 3,
+    "thema": "aufbau",
+    "kategorie": "anatomie",
+    "typ": "text",
+    "frage": "Wie werden die kleinen Blutgefäße genannt, die in der Adventitia größerer Arterien verlaufen und die äußeren Wandschichten selbst mit Blut versorgen?",
+    "akzeptierteAntworten": [
+      "Vasa vasorum"
+    ],
+    "erklaerung": "Die Vasa vasorum ('Gefäße der Gefäße') versorgen die äußeren Wandschichten großer Arterien, während die inneren Wandschichten direkt vom Blutstrom im Gefäß versorgt werden.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 4,
+    "thema": "aufbau",
+    "kategorie": "anatomie",
+    "typ": "multiple-choice",
+    "frage": "Welche Arterien übernehmen durch ihren hohen Anteil elastischer Fasern die sogenannte Windkesselfunktion?",
+    "antworten": [
+      "Herznahe, elastische Arterien wie die Aorta",
+      "Arteriolen",
+      "Kapillaren",
+      "Kleine muskuläre Arterien"
+    ],
+    "richtigeAntwort": "Herznahe, elastische Arterien wie die Aorta",
+    "erklaerung": "Herznahe, elastische Arterien wie die Aorta speichern während der Systole einen Teil des ausgeworfenen Blutvolumens und geben es während der Diastole gleichmäßig weiter.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 5,
+    "thema": "aufbau",
+    "kategorie": "anatomie",
+    "typ": "text",
+    "frage": "Wodurch unterscheidet sich der Wandaufbau der Kapillaren grundlegend von dem der Arterien?",
+    "akzeptierteAntworten": [
+      "nur Endothel und Basalmembran, keine Muskel- oder Adventitiaschicht",
+      "besteht nur aus Endothel und Basalmembran"
+    ],
+    "erklaerung": "Die Kapillarwand besteht nur noch aus Endothel und Basalmembran; eine Muskel- oder Adventitiaschicht fehlt, was den kurzen Diffusionsweg für den Stoffaustausch ermöglicht.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 6,
+    "thema": "physiologie",
+    "kategorie": "physiologie",
+    "typ": "text",
+    "frage": "Wie wird das Zusammenspiel von Beinmuskulatur und Venenklappen beim Gehen genannt, das den venösen Rückfluss zum Herzen unterstützt?",
+    "akzeptierteAntworten": [
+      "Muskelpumpe"
+    ],
+    "erklaerung": "Die Muskelpumpe komprimiert beim Gehen die tiefen Beinvenen; die Venenklappen wirken dabei wie Einwegventile und ermöglichen so den Rückstrom Richtung Herz.",
+    "quelleSeite": 8
+  },
+  {
+    "id": 7,
+    "thema": "physiologie",
+    "kategorie": "physiologie",
+    "typ": "multiple-choice",
+    "frage": "In welche Richtung öffnen sich gesunde Venenklappen?",
+    "antworten": [
+      "Nur zum Herzen hin",
+      "Nur vom Herzen weg",
+      "In beide Richtungen gleichermaßen",
+      "Sie öffnen sich gar nicht"
+    ],
+    "richtigeAntwort": "Nur zum Herzen hin",
+    "erklaerung": "Venenklappen wirken wie Einwegventile: Die Füllung kann nur von unten erfolgen, die Entleerung nur nach oben in Richtung Herz.",
+    "quelleSeite": 8
+  },
+  {
+    "id": 8,
+    "thema": "physiologie",
+    "kategorie": "physiologie",
+    "typ": "text",
+    "frage": "Wie wird der Austritt von Flüssigkeit aus der Kapillare ins Gewebe am arteriennahen Kapillarende bezeichnet?",
+    "akzeptierteAntworten": [
+      "Filtration"
+    ],
+    "erklaerung": "Am Kapillaranfang übersteigt der hydrostatische Druck den kolloidosmotischen Druck und den Gewebedruck, sodass Flüssigkeit aus der Kapillare ins Gewebe gepresst wird (Filtration).",
+    "quelleSeite": 11
+  },
+  {
+    "id": 9,
+    "thema": "physiologie",
+    "kategorie": "physiologie",
+    "typ": "multiple-choice",
+    "frage": "Was versteht man unter der Resorption im Kapillarbett?",
+    "antworten": [
+      "Rückaufnahme von Gewebeflüssigkeit in die Kapillare am venösen Kapillarende",
+      "Abgabe von Flüssigkeit ins Gewebe am arteriellen Kapillarende",
+      "Aufnahme von Sauerstoff durch die Alveolen",
+      "Rücktransport von Lymphflüssigkeit ins Venensystem"
+    ],
+    "richtigeAntwort": "Rückaufnahme von Gewebeflüssigkeit in die Kapillare am venösen Kapillarende",
+    "erklaerung": "Am venennahen Kapillarende ist die Summe aus kolloidosmotischem Druck und Gewebedruck größer als der hydrostatische Druck, sodass Flüssigkeit aus dem Gewebe in die Kapillare zurückgesogen wird.",
+    "quelleSeite": 11
+  },
+  {
+    "id": 10,
+    "thema": "physiologie",
+    "kategorie": "physiologie",
+    "typ": "text",
+    "frage": "Welcher Druck presst am Kapillaranfang Flüssigkeit aus dem Gefäß ins Gewebe?",
+    "akzeptierteAntworten": [
+      "hydrostatischer Druck",
+      "der hydrostatische Druck"
+    ],
+    "erklaerung": "Der hydrostatische Druck im Inneren der Kapillare presst Flüssigkeit aus dem Gefäßlumen in das Interstitium; er ist am Kapillaranfang am höchsten.",
+    "quelleSeite": 11
+  },
+  {
+    "id": 11,
+    "thema": "arteriosklerose_hypertonie",
+    "kategorie": "arterien",
+    "typ": "text",
+    "frage": "Ab welchem Blutdruckwert spricht man laut WHO von einer arteriellen Hypertonie?",
+    "akzeptierteAntworten": [
+      "140/90 mmHg",
+      "über 140/90 mmHg",
+      "140 zu 90"
+    ],
+    "erklaerung": "Liegen die wiederholt gemessenen arteriellen Blutdruckwerte über einen längeren Zeitraum konstant über 140/90 mmHg, spricht man von einer arteriellen Hypertonie.",
+    "quelleSeite": 271
+  },
+  {
+    "id": 12,
+    "thema": "arteriosklerose_hypertonie",
+    "kategorie": "arterien",
+    "typ": "text",
+    "frage": "Wie werden die Fett- und Kalkablagerungen in der Gefäßinnenwand bei der Arteriosklerose genannt?",
+    "akzeptierteAntworten": [
+      "Plaques",
+      "Plaque"
+    ],
+    "erklaerung": "Die Arteriosklerose beginnt mit einer Störung des Endothels, in das Entzündungszellen einwandern und Fette und Kalk ablagern – es entstehen sogenannte Plaques.",
+    "quelleSeite": 278
+  },
+  {
+    "id": 13,
+    "thema": "arteriosklerose_hypertonie",
+    "kategorie": "arterien",
+    "typ": "multiple-choice",
+    "frage": "Welcher der folgenden Faktoren zählt zu den kardiovaskulären Hauptrisikofaktoren (1. Ordnung) für Arteriosklerose?",
+    "antworten": [
+      "Arterielle Hypertonie",
+      "Bewegungsmangel",
+      "Alkoholmissbrauch",
+      "Stress"
+    ],
+    "richtigeAntwort": "Arterielle Hypertonie",
+    "erklaerung": "Zu den Hauptrisikofaktoren 1. Ordnung zählen arterielle Hypertonie, Diabetes mellitus, Fettstoffwechselstörungen, Rauchen und positive Familienanamnese.",
+    "quelleSeite": 279
+  },
+  {
+    "id": 14,
+    "thema": "arteriosklerose_hypertonie",
+    "kategorie": "arterien",
+    "typ": "multiple-choice",
+    "frage": "Wie wird ein Blutdruckwert über 180/110 mmHg mit Hinweisen auf eine akute Organschädigung bezeichnet?",
+    "antworten": [
+      "Hypertensiver Notfall",
+      "Hypertensive Krise",
+      "Primäre Hypertonie",
+      "Sekundäre Hypertonie"
+    ],
+    "richtigeAntwort": "Hypertensiver Notfall",
+    "erklaerung": "Beim hypertensiven Notfall (RR > 180/110 mmHg mit Hinweisen auf Organschäden) muss der Blutdruck schnell gesenkt werden, im Gegensatz zur hypertensiven Krise ohne Organschäden.",
+    "quelleSeite": 272
+  },
+  {
+    "id": 15,
+    "thema": "arteriosklerose_hypertonie",
+    "kategorie": "arterien",
+    "typ": "multiple-choice",
+    "frage": "Was passiert bei einer Plaqueruptur im Rahmen der Arteriosklerose?",
+    "antworten": [
+      "Aktivierung des Gerinnungssystems mit Thrombusbildung und möglichem Gefäßverschluss",
+      "Sofortige Rückbildung der Plaque",
+      "Umwandlung der Plaque in Bindegewebe ohne weitere Folgen",
+      "Erweiterung des Gefäßlumens"
+    ],
+    "richtigeAntwort": "Aktivierung des Gerinnungssystems mit Thrombusbildung und möglichem Gefäßverschluss",
+    "erklaerung": "Reißt eine Plaque ein (Plaqueruptur), wird lokal das Gerinnungssystem aktiviert; es kann sich ein Thrombus bilden, der das Gefäß innerhalb kurzer Zeit verschließt oder sich als Embolie lösen.",
+    "quelleSeite": 278
+  },
+  {
+    "id": 16,
+    "thema": "pavk",
+    "kategorie": "arterien",
+    "typ": "text",
+    "frage": "Wie lautet der Fachbegriff für die umgangssprachliche 'Schaufensterkrankheit'?",
+    "akzeptierteAntworten": [
+      "Claudicatio intermittens"
+    ],
+    "erklaerung": "Der belastungsabhängige Ischämieschmerz bei pAVK wird als Claudicatio intermittens oder umgangssprachlich als Schaufensterkrankheit bezeichnet.",
+    "quelleSeite": 281
+  },
+  {
+    "id": 17,
+    "thema": "pavk",
+    "kategorie": "arterien",
+    "typ": "multiple-choice",
+    "frage": "Welches Geschlecht ist von der peripheren arteriellen Verschlusskrankheit (pAVK) deutlich häufiger betroffen?",
+    "antworten": [
+      "Männer",
+      "Frauen",
+      "Beide Geschlechter gleich häufig",
+      "Keine geschlechtsspezifischen Unterschiede bekannt"
+    ],
+    "richtigeAntwort": "Männer",
+    "erklaerung": "Männer sind etwa 4-mal häufiger von der pAVK betroffen als Frauen; in über 90 % der Fälle sind die Gefäße der unteren Extremität arteriosklerotisch verengt.",
+    "quelleSeite": 280
+  },
+  {
+    "id": 18,
+    "thema": "pavk",
+    "kategorie": "arterien",
+    "typ": "text",
+    "frage": "Nach welcher Klassifikation wird der Schweregrad der pAVK in 4 Stadien eingeteilt?",
+    "akzeptierteAntworten": [
+      "Fontaine-Ratschow",
+      "Fontaine",
+      "nach Fontaine-Ratschow"
+    ],
+    "erklaerung": "Die Einteilung der pAVK erfolgt nach Fontaine-Ratschow anhand der Symptomatik in 4 Stadien, von symptomlos (I) bis Nekrosen/Gangrän (IV).",
+    "quelleSeite": 282
+  },
+  {
+    "id": 19,
+    "thema": "pavk",
+    "kategorie": "arterien",
+    "typ": "multiple-choice",
+    "frage": "Was verschlechtert die Symptome einer pAVK typischerweise?",
+    "antworten": [
+      "Hochlagern der Beine",
+      "Herunterhängen der Beine",
+      "Kühlung der Beine",
+      "Bewegung in der Ebene"
+    ],
+    "richtigeAntwort": "Hochlagern der Beine",
+    "erklaerung": "Die Symptome bessern sich bei herunterhängender Extremität, da dadurch der Perfusionsdruck erhöht wird. Hochlagern der Beine verschlimmert dagegen die Symptomatik.",
+    "quelleSeite": 282
+  },
+  {
+    "id": 20,
+    "thema": "pavk",
+    "kategorie": "arterien",
+    "typ": "text",
+    "frage": "Welcher Buchstabe der '6 P' nach Pratt steht für fehlende Pulse als Zeichen einer akuten Extremitätenischämie?",
+    "akzeptierteAntworten": [
+      "Pulselessness",
+      "P wie Pulselessness"
+    ],
+    "erklaerung": "Die 6 P nach Pratt sind Pain, Pulselessness, Paresthesia, Paleness, Paralysis und Prostration – typische Zeichen einer Ischämie in den Extremitäten.",
+    "quelleSeite": 284
+  },
+  {
+    "id": 21,
+    "thema": "akuter_verschluss",
+    "kategorie": "arterien",
+    "typ": "text",
+    "frage": "Wie wird eingeschwemmtes Material, das mit dem Blutstrom transportiert wird und ein Gefäß akut verschließt, bezeichnet?",
+    "akzeptierteAntworten": [
+      "Embolus"
+    ],
+    "erklaerung": "Ein Embolus ist eingeschwemmtes Material – z. B. ein Thrombus, Fett oder Luft –, das mit dem Blutstrom transportiert wird und in einem verzweigten Gefäß stecken bleibt und dieses verschließt.",
+    "quelleSeite": 284
+  },
+  {
+    "id": 22,
+    "thema": "akuter_verschluss",
+    "kategorie": "arterien",
+    "typ": "multiple-choice",
+    "frage": "Was versteht man unter einem Aneurysma?",
+    "antworten": [
+      "Eine krankhafte, umschriebene Erweiterung des Gefäßlumens einer Arterie",
+      "Einen akuten Verschluss einer Arterie durch einen Thrombus",
+      "Eine Entzündung der Gefäßwand",
+      "Eine Verengung des Gefäßlumens durch Plaques"
+    ],
+    "richtigeAntwort": "Eine krankhafte, umschriebene Erweiterung des Gefäßlumens einer Arterie",
+    "erklaerung": "Ein Aneurysma ist eine krankhafte, umschriebene Erweiterung des Gefäßlumens einer Arterie, umgangssprachlich auch 'Gefäßaussackung' genannt.",
+    "quelleSeite": 286
+  },
+  {
+    "id": 23,
+    "thema": "akuter_verschluss",
+    "kategorie": "arterien",
+    "typ": "text",
+    "frage": "Wie werden die beiden Haupttypen der Aortendissektion nach der Stanford-Klassifikation bezeichnet?",
+    "akzeptierteAntworten": [
+      "Typ A und Typ B",
+      "Typ A und B"
+    ],
+    "erklaerung": "Nach Stanford unterscheidet man Typ A (Dissektion im aufsteigenden Teil der Aorta, ca. 60 %) und Typ B (Dissektion nur im absteigenden Teil, ca. 40 %).",
+    "quelleSeite": 288
+  },
+  {
+    "id": 24,
+    "thema": "akuter_verschluss",
+    "kategorie": "arterien",
+    "typ": "text",
+    "frage": "Wie wird die häufig durch Arteriosklerose verursachte Verengung der Halsschlagader genannt?",
+    "akzeptierteAntworten": [
+      "Karotisstenose"
+    ],
+    "erklaerung": "Die Karotisstenose ist eine Verengung der Halsschlagader (A. carotis), meist verursacht durch arteriosklerotische Veränderungen mit Elastizitätsverlust der Gefäßwand.",
+    "quelleSeite": 285
+  },
+  {
+    "id": 25,
+    "thema": "akuter_verschluss",
+    "kategorie": "arterien",
+    "typ": "multiple-choice",
+    "frage": "Innerhalb welchen Zeitfensters sollten Diagnostik und Therapie eines akuten Arterienverschlusses an einer Extremität erfolgen, um irreversible Schäden zu vermeiden?",
+    "antworten": [
+      "Ca. 3–6 Stunden",
+      "Ca. 24 Stunden",
+      "Ca. 48 Stunden",
+      "Ca. 7 Tage"
+    ],
+    "richtigeAntwort": "Ca. 3–6 Stunden",
+    "erklaerung": "Das Zeitfenster für irreversible Schäden beträgt je nach betroffenem Organ etwa 3–6 Stunden; Diagnostik und Therapie eines akuten Arterienverschlusses müssen daher rasch erfolgen.",
+    "quelleSeite": 284
+  },
+  {
+    "id": 26,
+    "thema": "akuter_verschluss",
+    "kategorie": "arterien",
+    "typ": "text",
+    "frage": "Wie wird die Aneurysma-Form genannt, bei der alle drei Gefäßwandschichten gleichmäßig erweitert sind?",
+    "akzeptierteAntworten": [
+      "Aneurysma verum",
+      "echtes Aneurysma"
+    ],
+    "erklaerung": "Beim echten Aneurysma (Aneurysma verum) werden alle drei Wandschichten nach außen ausgebeult, im Gegensatz zum falschen Aneurysma, bei dem nur ein Defekt in der Gefäßwand vorliegt.",
+    "quelleSeite": 286
+  },
+  {
+    "id": 27,
+    "thema": "raynaud",
+    "kategorie": "arterien",
+    "typ": "text",
+    "frage": "Wie viele Phasen umfasst das klassische Trikolore-Phänomen beim Raynaud-Syndrom?",
+    "akzeptierteAntworten": [
+      "3",
+      "drei"
+    ],
+    "erklaerung": "Das Trikolore-Phänomen beim Raynaud-Syndrom läuft klassischerweise in 3 Phasen ab: weiß, blau, rot.",
+    "quelleSeite": 289
+  },
+  {
+    "id": 28,
+    "thema": "raynaud",
+    "kategorie": "arterien",
+    "typ": "multiple-choice",
+    "frage": "In welcher Reihenfolge laufen die Farbänderungen beim Trikolore-Phänomen typischerweise ab?",
+    "antworten": [
+      "Weiß – blau – rot",
+      "Rot – blau – weiß",
+      "Blau – weiß – rot",
+      "Weiß – rot – blau"
+    ],
+    "richtigeAntwort": "Weiß – blau – rot",
+    "erklaerung": "Zuerst blassen die Finger durch Vasospasmen weiß ab, dann tritt durch venöse Stauung eine bläuliche Zyanose auf, gefolgt von reaktiver Rötung durch Vasodilatation.",
+    "quelleSeite": 289
+  },
+  {
+    "id": 29,
+    "thema": "raynaud",
+    "kategorie": "arterien",
+    "typ": "text",
+    "frage": "Welche Medikamentengruppe ist beim Raynaud-Syndrom kontraindiziert, da sie die Gefäße verengt?",
+    "akzeptierteAntworten": [
+      "Betablocker"
+    ],
+    "erklaerung": "Betablocker sind aufgrund ihrer gefäßverengenden Wirkung beim Raynaud-Syndrom kontraindiziert; auch Nikotin sollte vermieden werden.",
+    "quelleSeite": 290
+  },
+  {
+    "id": 30,
+    "thema": "raynaud",
+    "kategorie": "arterien",
+    "typ": "multiple-choice",
+    "frage": "Welches Geschlecht ist vom primären Raynaud-Syndrom deutlich häufiger betroffen?",
+    "antworten": [
+      "Frauen",
+      "Männer",
+      "Beide gleich häufig",
+      "Keine geschlechtsspezifischen Unterschiede"
+    ],
+    "richtigeAntwort": "Frauen",
+    "erklaerung": "Beim primären Raynaud-Syndrom liegt der Krankheitsbeginn meist zwischen dem 20. und 40. Lebensjahr; Frauen sind etwa 5-mal häufiger betroffen als Männer.",
+    "quelleSeite": 289
+  },
+  {
+    "id": 31,
+    "thema": "venenerkrankungen",
+    "kategorie": "venen",
+    "typ": "text",
+    "frage": "Wie werden krankhaft erweiterte, geschlängelte oberflächliche Venen fachsprachlich bezeichnet?",
+    "akzeptierteAntworten": [
+      "Varizen",
+      "Varikosis"
+    ],
+    "erklaerung": "Varizen ('Krampfadern') sind oberflächliche Venen, die sackförmig und ungleichmäßig erweitert sind und geschlängelt verlaufen; die Erkrankung wird als Varikosis bezeichnet.",
+    "quelleSeite": 290
+  },
+  {
+    "id": 32,
+    "thema": "venenerkrankungen",
+    "kategorie": "venen",
+    "typ": "multiple-choice",
+    "frage": "Welche drei Faktoren begünstigen laut Virchow-Trias die Entstehung einer Thrombose?",
+    "antworten": [
+      "Verlangsamter Blutstrom, Gefäßwandschaden, erhöhte Gerinnungsneigung",
+      "Erhöhter Blutdruck, Gefäßverengung, Herzrhythmusstörung",
+      "Vasodilatation, Bradykardie, Hypervolämie",
+      "Arteriosklerose, Hypertonie, Diabetes mellitus"
+    ],
+    "richtigeAntwort": "Verlangsamter Blutstrom, Gefäßwandschaden, erhöhte Gerinnungsneigung",
+    "erklaerung": "Die Virchow-Trias beschreibt die drei Faktoren, die eine Thrombose begünstigen: verlangsamter Blutstrom (Stase), Schäden an der Gefäßwand und erhöhte Gerinnungsneigung des Blutes.",
+    "quelleSeite": 292
+  },
+  {
+    "id": 33,
+    "thema": "venenerkrankungen",
+    "kategorie": "venen",
+    "typ": "multiple-choice",
+    "frage": "In welchem Bein tritt eine tiefe Venenthrombose statistisch deutlich häufiger auf?",
+    "antworten": [
+      "Im linken Bein",
+      "Im rechten Bein",
+      "Gleich häufig in beiden Beinen",
+      "Ausschließlich beidseitig"
+    ],
+    "richtigeAntwort": "Im linken Bein",
+    "erklaerung": "Das Risiko einer Gerinnselbildung in den Beinvenen ist in etwa zwei Dritteln der Fälle im linken Bein größer als in anderen Körperbereichen.",
+    "quelleSeite": 292
+  },
+  {
+    "id": 34,
+    "thema": "venenerkrankungen",
+    "kategorie": "venen",
+    "typ": "text",
+    "frage": "Wie wird die gefürchtetste akute Komplikation einer tiefen Venenthrombose bezeichnet?",
+    "akzeptierteAntworten": [
+      "Lungenembolie"
+    ],
+    "erklaerung": "Löst sich thrombotisches Material von einer tiefen Venenthrombose, gelangt es über das rechte Herz in den kleinen Kreislauf und kann eine Lungenembolie verursachen.",
+    "quelleSeite": 292
+  },
+  {
+    "id": 35,
+    "thema": "venenerkrankungen",
+    "kategorie": "venen",
+    "typ": "text",
+    "frage": "Wie wird die chronische Störung des venösen Rückflusses der unteren Extremität mit typischen Hautveränderungen bezeichnet?",
+    "akzeptierteAntworten": [
+      "Chronisch-venöse Insuffizienz",
+      "CVI"
+    ],
+    "erklaerung": "Die chronisch-venöse Insuffizienz (CVI) ist ein Sammelbegriff für eine chronische Störung im venösen Rückfluss der unteren Extremitäten mit typischen Hautveränderungen.",
+    "quelleSeite": 294
+  },
+  {
+    "id": 36,
+    "thema": "venenerkrankungen",
+    "kategorie": "venen",
+    "typ": "text",
+    "frage": "Wie wird das 'offene Bein' bei fortgeschrittener chronisch-venöser Insuffizienz fachsprachlich genannt?",
+    "akzeptierteAntworten": [
+      "Ulcus cruris venosum",
+      "Ulcus cruris"
+    ],
+    "erklaerung": "Im Grad 3 der CVI kann sich ein Ulcus cruris venosum bilden – ein Unterschenkelgeschwür, das umgangssprachlich als 'offenes Bein' bezeichnet wird und am häufigsten an der Unterschenkelinnenseite auftritt.",
+    "quelleSeite": 294
+  },
+  {
+    "id": 37,
+    "thema": "venenerkrankungen",
+    "kategorie": "venen",
+    "typ": "multiple-choice",
+    "frage": "Was versteht man unter einer Thrombophlebitis?",
+    "antworten": [
+      "Eine Entzündung einer oberflächlichen Vene mit begleitender Thrombosierung",
+      "Eine tiefe Venenthrombose ohne Entzündungszeichen",
+      "Eine Entzündung der Lymphgefäße",
+      "Eine chronische Insuffizienz der Venenklappen"
+    ],
+    "richtigeAntwort": "Eine Entzündung einer oberflächlichen Vene mit begleitender Thrombosierung",
+    "erklaerung": "Eine Thrombophlebitis ist eine Entzündung der oberflächlichen Venen, begleitet von einer Thrombosierung des betroffenen Gefäßabschnitts; sie tritt häufig als Komplikation von Stammvarizen auf.",
+    "quelleSeite": 295
+  },
+  {
+    "id": 38,
+    "thema": "lymphgefaesse",
+    "kategorie": "lymphgefaesse",
+    "typ": "text",
+    "frage": "Wie wird eine sicht- bzw. tastbare Flüssigkeitsansammlung im Unterhautgewebe durch gestörten Lymphabfluss genannt?",
+    "akzeptierteAntworten": [
+      "Lymphödem"
+    ],
+    "erklaerung": "Ein Lymphödem entsteht, wenn die anfallende Lymphflüssigkeit nicht mehr ausreichend abtransportiert werden kann und sich im Zwischenzellraum staut.",
+    "quelleSeite": 296
+  },
+  {
+    "id": 39,
+    "thema": "lymphgefaesse",
+    "kategorie": "lymphgefaesse",
+    "typ": "multiple-choice",
+    "frage": "Welches klinische Zeichen ist typisch für ein Lymphödem im Bereich der Zehen und hilft es vom venösen Ödem abzugrenzen?",
+    "antworten": [
+      "Stemmer-Zeichen",
+      "Homans-Zeichen",
+      "Meyer-Zeichen",
+      "Payr-Zeichen"
+    ],
+    "richtigeAntwort": "Stemmer-Zeichen",
+    "erklaerung": "Beim Stemmer-Zeichen lässt sich über der 2. oder 3. Zehe keine oder nur sehr schwer eine Hautfalte abheben – ein typisches Zeichen für ein Lymphödem.",
+    "quelleSeite": 297
+  },
+  {
+    "id": 40,
+    "thema": "lymphgefaesse",
+    "kategorie": "lymphgefaesse",
+    "typ": "text",
+    "frage": "Wie wird die bakterielle Entzündung von Haut und Unterhaut bezeichnet, die sich über die Lymphbahnen ausbreitet?",
+    "akzeptierteAntworten": [
+      "Erysipel",
+      "Wundrose"
+    ],
+    "erklaerung": "Das Erysipel (Wundrose) ist eine örtliche bakterielle Entzündung von Haut und Unterhaut, die sich über die Lymphbahnen im Sinne einer flächigen Lymphangitis ausbreitet.",
+    "quelleSeite": 298
+  },
+  {
+    "id": 41,
+    "thema": "lymphgefaesse",
+    "kategorie": "lymphgefaesse",
+    "typ": "multiple-choice",
+    "frage": "Welche Erregergruppe verursacht ein Erysipel in den meisten Fällen?",
+    "antworten": [
+      "Streptokokken",
+      "Staphylokokken",
+      "Viren",
+      "Pilze"
+    ],
+    "richtigeAntwort": "Streptokokken",
+    "erklaerung": "Die Erreger eines Erysipels sind in den meisten Fällen β-hämolysierende Streptokokken, seltener auch Staphylokokken.",
+    "quelleSeite": 298
+  },
+  {
+    "id": 42,
+    "thema": "vaskulitiden_verletzungen",
+    "kategorie": "sonstiges",
+    "typ": "text",
+    "frage": "Wie wird eine autoimmunologisch bedingte Entzündung der Gefäßwände genannt?",
+    "akzeptierteAntworten": [
+      "Vaskulitis",
+      "Vaskulitiden"
+    ],
+    "erklaerung": "Unter einer Vaskulitis versteht man eine autoimmunologisch verursachte Entzündung der Gefäßwände von Arterien oder Venen unterschiedlicher Gefäßgröße.",
+    "quelleSeite": 299
+  },
+  {
+    "id": 43,
+    "thema": "vaskulitiden_verletzungen",
+    "kategorie": "sonstiges",
+    "typ": "text",
+    "frage": "Welche spezifischen Antikörper können bei einigen Vaskulitiden im Blut nachgewiesen werden?",
+    "akzeptierteAntworten": [
+      "ANCA",
+      "Anti-Neutrophile cytoplasmatische Antikörper"
+    ],
+    "erklaerung": "Bei einigen Vaskulitiden lassen sich spezifische Antikörper wie ANCA (Anti-Neutrophile cytoplasmatische Antikörper) nachweisen, die sich gegen Granula und Lysosomen der neutrophilen Granulozyten richten.",
+    "quelleSeite": 299
+  },
+  {
+    "id": 44,
+    "thema": "vaskulitiden_verletzungen",
+    "kategorie": "sonstiges",
+    "typ": "multiple-choice",
+    "frage": "Welcher lebensbedrohliche Zustand droht bei einer Arterienverletzung mit starkem Blutverlust am ehesten?",
+    "antworten": [
+      "Volumenmangelschock",
+      "Hypertensive Krise",
+      "Lungenödem",
+      "Herzinsuffizienz"
+    ],
+    "richtigeAntwort": "Volumenmangelschock",
+    "erklaerung": "Bei einer Arterienverletzung mit pulsierender Blutung droht bei starkem Blutverlust ein Volumenmangelschock, ein lebensbedrohlicher Zustand.",
+    "quelleSeite": 300
+  },
+  {
+    "id": 45,
+    "thema": "vaskulitiden_verletzungen",
+    "kategorie": "sonstiges",
+    "typ": "text",
+    "frage": "Wie wird eine angeborene oder erworbene Kurzschlussverbindung zwischen einer Arterie und einer Vene bezeichnet?",
+    "akzeptierteAntworten": [
+      "Arteriovenöse Fistel"
+    ],
+    "erklaerung": "Arteriovenöse Fisteln sind Kurzschlussverbindungen zwischen Arterien und Venen, die angeboren oder erworben sein können, z. B. als künstlich angelegter Dialyse-Shunt.",
+    "quelleSeite": 300
+  },
+  {
+    "id": 46,
+    "thema": "therapie",
+    "kategorie": "therapie",
+    "typ": "text",
+    "frage": "Wie wird das Kathederverfahren zur Wiedereröffnung eines verengten Gefäßes mittels Ballondilatation bezeichnet?",
+    "akzeptierteAntworten": [
+      "Perkutane transluminale Angioplastie",
+      "PTA"
+    ],
+    "erklaerung": "Bei der perkutanen transluminalen Angioplastie (PTA) wird eine Stenose mittels Ballonkatheter aufgeweitet, ggf. mit anschließender Stent-Einlage zur Stabilisierung.",
+    "quelleSeite": 280
+  },
+  {
+    "id": 47,
+    "thema": "therapie",
+    "kategorie": "therapie",
+    "typ": "text",
+    "frage": "Wie wird die operative Entfernung der arteriosklerotisch veränderten Gefäßinnenschicht bezeichnet?",
+    "akzeptierteAntworten": [
+      "Thrombendarteriektomie",
+      "TEA"
+    ],
+    "erklaerung": "Bei der Thrombendarteriektomie (TEA) wird die verengte Gefäßschicht mit einem Spatel oder Ringstripper aus dem eröffneten Gefäß herausgelöst.",
+    "quelleSeite": 280
+  },
+  {
+    "id": 48,
+    "thema": "therapie",
+    "kategorie": "therapie",
+    "typ": "multiple-choice",
+    "frage": "Welche Medikamentengruppe senkt durch Vasodilatation die Vorlast des Herzens und wird u. a. bei einem akuten Angina-pectoris-Anfall eingesetzt?",
+    "antworten": [
+      "Nitrate",
+      "Betablocker",
+      "Diuretika",
+      "ACE-Hemmer"
+    ],
+    "richtigeAntwort": "Nitrate",
+    "erklaerung": "Nitrate wie Nitroglyzerin senken den Tonus der Gefäßmuskulatur, wodurch sich die Venen weiten (Vorlastsenkung) und werden u. a. beim akuten Angina-pectoris-Anfall eingesetzt.",
+    "quelleSeite": 301
+  },
+  {
+    "id": 49,
+    "thema": "therapie",
+    "kategorie": "therapie",
+    "typ": "multiple-choice",
+    "frage": "Wozu dient ein Stent nach einer Ballondilatation eines verengten Gefäßes?",
+    "antworten": [
+      "Um das Gefäß dauerhaft offen zu halten",
+      "Um das Gefäß gezielt zu verschließen",
+      "Um Blutgerinnsel aufzulösen",
+      "Um den Blutdruck zu senken"
+    ],
+    "richtigeAntwort": "Um das Gefäß dauerhaft offen zu halten",
+    "erklaerung": "Ein Stent ist eine Gefäßstütze mit feinmaschiger Gitterstruktur, die ein zuvor mit einem Ballon geweitetes Gefäß dauerhaft offen hält.",
+    "quelleSeite": 280
+  },
+  {
+    "id": 50,
+    "thema": "therapie",
+    "kategorie": "therapie",
+    "typ": "text",
+    "frage": "Welches gerinnungshemmende Medikament wird in der Akutphase einer tiefen Venenthrombose meist als niedermolekulares Präparat eingesetzt?",
+    "akzeptierteAntworten": [
+      "Heparin",
+      "niedermolekulares Heparin"
+    ],
+    "erklaerung": "In der Akutphase einer TVT wird meist niedermolekulares Heparin s. c. (z. B. Enoxaparin) verabreicht, anschließend erfolgt die Umstellung auf eine orale Antikoagulation.",
+    "quelleSeite": 293
+  }
+]

@@ -1,0 +1,767 @@
+[
+  {
+    "id": 1,
+    "bereich": "ohr",
+    "thema": "presbyakusis",
+    "kategorie": "grundlagen",
+    "typ": "multiple-choice",
+    "frage": "Welche Frequenzen sind bei einer Presbyakusis besonders früh betroffen?",
+    "antworten": [
+      "Vor allem hohe Frequenzen",
+      "Nur tiefe Frequenzen",
+      "Ausschließlich mittlere Frequenzen",
+      "Alle Frequenzen immer gleich stark"
+    ],
+    "richtigeAntwort": "Vor allem hohe Frequenzen",
+    "erklaerung": "Bei der Altersschwerhörigkeit sind besonders hohe Frequenzen betroffen.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 2,
+    "bereich": "ohr",
+    "thema": "presbyakusis",
+    "kategorie": "frequenzen",
+    "typ": "multiple-choice",
+    "frage": "Ab welchem Bereich werden hohe Frequenzen bei Presbyakusis laut Lernzusammenfassung zunehmend schlechter wahrgenommen?",
+    "antworten": [
+      "Über etwa 2.000 bis 4.000 Hz",
+      "Unter etwa 100 Hz",
+      "Nur zwischen 200 und 400 Hz",
+      "Erst über 20.000 Hz"
+    ],
+    "richtigeAntwort": "Über etwa 2.000 bis 4.000 Hz",
+    "erklaerung": "Hohe Frequenzen über etwa 2.000 bis 4.000 Hz sind zunehmend eingeschränkt.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 3,
+    "bereich": "ohr",
+    "thema": "presbyakusis",
+    "kategorie": "pathophysiologie",
+    "typ": "multiple-choice",
+    "frage": "Welche Haarzellen degenerieren bei Presbyakusis typischerweise zuerst?",
+    "antworten": [
+      "Haarzellen an der Basis der Cochlea",
+      "Haarzellen ausschließlich im apikalen Bereich",
+      "Nur Haarzellen des Gleichgewichtsorgans",
+      "Nur Haarzellen im äußeren Gehörgang"
+    ],
+    "richtigeAntwort": "Haarzellen an der Basis der Cochlea",
+    "erklaerung": "Die Haarzellen an der Basis der Cochlea sind für hohe Töne zuständig und degenerieren typischerweise zuerst.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 4,
+    "bereich": "ohr",
+    "thema": "presbyakusis",
+    "kategorie": "sprachverstehen",
+    "typ": "multiple-choice",
+    "frage": "Warum wird das Sprachverstehen bei Presbyakusis häufig schwieriger?",
+    "antworten": [
+      "Konsonanten wie s, f, t und ch werden schlechter gehört",
+      "Vokale verschwinden vollständig",
+      "Tiefe Töne werden zuerst gar nicht mehr wahrgenommen",
+      "Die Lautstärke aller Geräusche verdoppelt sich"
+    ],
+    "richtigeAntwort": "Konsonanten wie s, f, t und ch werden schlechter gehört",
+    "erklaerung": "Viele Konsonanten liegen in höheren Frequenzbereichen und werden daher schlechter verstanden.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 5,
+    "bereich": "auge",
+    "thema": "augenmedikamente",
+    "kategorie": "vorbereitung",
+    "typ": "multiple-choice",
+    "frage": "Welche Hygienemaßnahme ist vor dem Einbringen von Augenmedikamenten erforderlich?",
+    "antworten": [
+      "Hände gründlich waschen oder desinfizieren",
+      "Nur Einmalhandschuhe anziehen, ohne Händehygiene",
+      "Das Auge mit Leitungswasser ausspülen",
+      "Die Flasche vor der Anwendung offen stehen lassen"
+    ],
+    "richtigeAntwort": "Hände gründlich waschen oder desinfizieren",
+    "erklaerung": "Die Händehygiene dient der Infektionsprophylaxe.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 6,
+    "bereich": "auge",
+    "thema": "augenmedikamente",
+    "kategorie": "vorbereitung",
+    "typ": "multiple-choice",
+    "frage": "Was muss vor der Anwendung eines Augenmedikaments geprüft werden?",
+    "antworten": [
+      "Bezeichnung und Verfallsdatum",
+      "Nur die Farbe der Verpackung",
+      "Nur die Größe der Flasche",
+      "Ausschließlich der Name der Pflegeperson"
+    ],
+    "richtigeAntwort": "Bezeichnung und Verfallsdatum",
+    "erklaerung": "Vor der Anwendung sollen Medikamentenbezeichnung und Verfallsdatum kontrolliert werden.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 7,
+    "bereich": "auge",
+    "thema": "augenmedikamente",
+    "kategorie": "positionierung",
+    "typ": "multiple-choice",
+    "frage": "Wie sollte der Kopf bei der Anwendung von Augentropfen positioniert sein?",
+    "antworten": [
+      "Leicht nach hinten geneigt",
+      "Stark nach vorne gebeugt",
+      "Seitlich auf die Schulter gelegt",
+      "Die Position ist grundsätzlich unwichtig"
+    ],
+    "richtigeAntwort": "Leicht nach hinten geneigt",
+    "erklaerung": "Die Person kann sitzen oder liegen; der Kopf wird leicht nach hinten geneigt.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 8,
+    "bereich": "auge",
+    "thema": "augenmedikamente",
+    "kategorie": "technik",
+    "typ": "multiple-choice",
+    "frage": "Wohin werden Augentropfen oder Augensalbe eingebracht?",
+    "antworten": [
+      "In den Konjunktivalsack",
+      "Direkt auf die Hornhaut",
+      "Auf das geschlossene Oberlid",
+      "Auf die Wimpern"
+    ],
+    "richtigeAntwort": "In den Konjunktivalsack",
+    "erklaerung": "Das Unterlid wird nach unten gezogen, sodass der Konjunktivalsack als Tasche entsteht.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 9,
+    "bereich": "auge",
+    "thema": "augenmedikamente",
+    "kategorie": "technik",
+    "typ": "multiple-choice",
+    "frage": "Warum darf die Tropferspitze Auge, Wimpern oder Haut nicht berühren?",
+    "antworten": [
+      "Wegen der Kontaminationsgefahr",
+      "Weil das Medikament sonst sofort unwirksam wird",
+      "Weil dadurch die Pupille dauerhaft erweitert wird",
+      "Weil die Linse sonst getrübt wird"
+    ],
+    "richtigeAntwort": "Wegen der Kontaminationsgefahr",
+    "erklaerung": "Berührungen können die Flasche oder Tube verunreinigen.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 10,
+    "bereich": "auge",
+    "thema": "augenmedikamente",
+    "kategorie": "nachsorge",
+    "typ": "multiple-choice",
+    "frage": "Wie soll sich die Person unmittelbar nach der Applikation verhalten?",
+    "antworten": [
+      "Das Auge kurz schließen, aber nicht zusammenkneifen",
+      "Das Auge kräftig reiben",
+      "Mehrfach schnell blinzeln und pressen",
+      "Das Auge sofort mit Wasser ausspülen"
+    ],
+    "richtigeAntwort": "Das Auge kurz schließen, aber nicht zusammenkneifen",
+    "erklaerung": "Nach der Anwendung soll das Auge kurz geschlossen werden, ohne es zusammenzukneifen.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 11,
+    "bereich": "auge",
+    "thema": "augenmedikamente",
+    "kategorie": "mehrere_praeparate",
+    "typ": "multiple-choice",
+    "frage": "Welcher Mindestabstand soll bei mehreren Augenpräparaten eingehalten werden?",
+    "antworten": [
+      "Mindestens 5 Minuten",
+      "Mindestens 30 Sekunden",
+      "Mindestens 30 Minuten",
+      "Kein Abstand ist erforderlich"
+    ],
+    "richtigeAntwort": "Mindestens 5 Minuten",
+    "erklaerung": "Zwischen mehreren Präparaten sollen mindestens fünf Minuten liegen.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 12,
+    "bereich": "auge",
+    "thema": "augenmedikamente",
+    "kategorie": "reihenfolge",
+    "typ": "multiple-choice",
+    "frage": "Welche Reihenfolge gilt bei Augentropfen und Augensalbe?",
+    "antworten": [
+      "Tropfen vor Salbe",
+      "Salbe vor Tropfen",
+      "Beides gleichzeitig",
+      "Die Reihenfolge ist immer bedeutungslos"
+    ],
+    "richtigeAntwort": "Tropfen vor Salbe",
+    "erklaerung": "Augentropfen werden vor Augensalbe angewendet.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 13,
+    "bereich": "auge",
+    "thema": "augenmedikamente",
+    "kategorie": "hygiene",
+    "typ": "multiple-choice",
+    "frage": "Was ist bei einer beidseitigen Anwendung zu beachten?",
+    "antworten": [
+      "Für jedes Auge einen eigenen Tupfer verwenden",
+      "Für beide Augen denselben Tupfer verwenden",
+      "Nur das zuerst behandelte Auge reinigen",
+      "Tupfer grundsätzlich vermeiden"
+    ],
+    "richtigeAntwort": "Für jedes Auge einen eigenen Tupfer verwenden",
+    "erklaerung": "Unterschiedliche Tupfer helfen, eine Keimübertragung zwischen den Augen zu vermeiden.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 14,
+    "bereich": "auge",
+    "thema": "augenmedikamente",
+    "kategorie": "systemische_aufnahme",
+    "typ": "multiple-choice",
+    "frage": "Welche Maßnahme kann die systemische Aufnahme bestimmter Augentropfen reduzieren?",
+    "antworten": [
+      "Kurz auf den inneren Augenwinkel beziehungsweise Tränenkanal drücken",
+      "Das Auge kräftig massieren",
+      "Mehrere Tropfen hintereinander geben",
+      "Den Kopf stark nach vorne beugen"
+    ],
+    "richtigeAntwort": "Kurz auf den inneren Augenwinkel beziehungsweise Tränenkanal drücken",
+    "erklaerung": "Druck am medialen Augenwinkel kann den Abfluss in Nase und Rachen und damit die systemische Aufnahme vermindern.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 15,
+    "bereich": "auge",
+    "thema": "traenenwege",
+    "kategorie": "bindehautsack",
+    "typ": "multiple-choice",
+    "frage": "Wie viel Flüssigkeit fasst der Bindehautsack in Ruhe ungefähr?",
+    "antworten": [
+      "Etwa 7 bis 10 µl",
+      "Etwa 1 bis 2 ml",
+      "Etwa 10 ml",
+      "Etwa 50 ml"
+    ],
+    "richtigeAntwort": "Etwa 7 bis 10 µl",
+    "erklaerung": "Der Bindehautsack fasst in Ruhe nur ungefähr 7 bis 10 Mikroliter.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 16,
+    "bereich": "auge",
+    "thema": "traenenwege",
+    "kategorie": "augentropfen",
+    "typ": "multiple-choice",
+    "frage": "Wie groß ist das Volumen eines normalen Augentropfens ungefähr?",
+    "antworten": [
+      "Etwa 30 bis 50 µl",
+      "Etwa 1 bis 2 µl",
+      "Etwa 5 ml",
+      "Etwa 20 ml"
+    ],
+    "richtigeAntwort": "Etwa 30 bis 50 µl",
+    "erklaerung": "Ein normaler Augentropfen übersteigt meist die Aufnahmekapazität des Bindehautsacks.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 17,
+    "bereich": "auge",
+    "thema": "traenenwege",
+    "kategorie": "abfluss",
+    "typ": "multiple-choice",
+    "frage": "Wohin kann überschüssige Flüssigkeit aus dem Bindehautsack abfließen?",
+    "antworten": [
+      "Über den Lidrand oder über den Tränen-Nasen-Kanal",
+      "Ausschließlich in den Glaskörper",
+      "Direkt in die Linse",
+      "Nur in die Augenhöhle"
+    ],
+    "richtigeAntwort": "Über den Lidrand oder über den Tränen-Nasen-Kanal",
+    "erklaerung": "Überschüssige Flüssigkeit läuft über den Lidrand ab oder gelangt über die Tränenwege in Nase beziehungsweise Rachen.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 18,
+    "bereich": "auge",
+    "thema": "traenenwege",
+    "kategorie": "dosierung",
+    "typ": "multiple-choice",
+    "frage": "Warum bringt mehr als ein Augentropfen pro Anwendung meist keinen zusätzlichen Effekt?",
+    "antworten": [
+      "Weil der Bindehautsack nur eine geringe Flüssigkeitsmenge aufnehmen kann",
+      "Weil der zweite Tropfen die Pupille schließt",
+      "Weil der Tränensack große Mengen speichert",
+      "Weil Augentropfen grundsätzlich nur äußerlich wirken"
+    ],
+    "richtigeAntwort": "Weil der Bindehautsack nur eine geringe Flüssigkeitsmenge aufnehmen kann",
+    "erklaerung": "Das Volumen eines Tropfens übersteigt bereits häufig die Kapazität des Bindehautsacks.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 19,
+    "bereich": "auge",
+    "thema": "traenenwege",
+    "kategorie": "traenensack",
+    "typ": "multiple-choice",
+    "frage": "Welche Aussage zum Tränensack ist richtig?",
+    "antworten": [
+      "Er ist Teil des Abflusssystems und speichert praktisch nichts",
+      "Er speichert mehrere Milliliter Augentropfen",
+      "Er bildet die Augenlinse",
+      "Er steuert die Pupillenweite"
+    ],
+    "richtigeAntwort": "Er ist Teil des Abflusssystems und speichert praktisch nichts",
+    "erklaerung": "Der Tränensack ist Teil der Tränenwege und keine größere Speicherstruktur.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 20,
+    "bereich": "auge",
+    "thema": "pupillenreaktion",
+    "kategorie": "miosis",
+    "typ": "multiple-choice",
+    "frage": "Was bedeutet Miosis?",
+    "antworten": [
+      "Pupillenverengung",
+      "Pupillenerweiterung",
+      "Linsentrübung",
+      "Netzhautablösung"
+    ],
+    "richtigeAntwort": "Pupillenverengung",
+    "erklaerung": "Miosis bezeichnet die Verengung der Pupille.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 21,
+    "bereich": "auge",
+    "thema": "pupillenreaktion",
+    "kategorie": "mydriasis",
+    "typ": "multiple-choice",
+    "frage": "Was bedeutet Mydriasis?",
+    "antworten": [
+      "Pupillenerweiterung",
+      "Pupillenverengung",
+      "Hornhautentzündung",
+      "Linsentrübung"
+    ],
+    "richtigeAntwort": "Pupillenerweiterung",
+    "erklaerung": "Mydriasis bezeichnet die Erweiterung der Pupille.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 22,
+    "bereich": "auge",
+    "thema": "pupillenreaktion",
+    "kategorie": "steuerung",
+    "typ": "multiple-choice",
+    "frage": "Welcher Teil des vegetativen Nervensystems fördert die Miosis?",
+    "antworten": [
+      "Parasympathikus",
+      "Sympathikus",
+      "Somatisches Nervensystem",
+      "Zentrales Hörsystem"
+    ],
+    "richtigeAntwort": "Parasympathikus",
+    "erklaerung": "Die Pupillenverengung wird parasympathisch über den M. sphincter pupillae gesteuert.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 23,
+    "bereich": "auge",
+    "thema": "pupillenreaktion",
+    "kategorie": "steuerung",
+    "typ": "multiple-choice",
+    "frage": "Welcher Muskel erweitert die Pupille?",
+    "antworten": [
+      "M. dilatator pupillae",
+      "M. sphincter pupillae",
+      "M. orbicularis oculi",
+      "M. ciliaris"
+    ],
+    "richtigeAntwort": "M. dilatator pupillae",
+    "erklaerung": "Der M. dilatator pupillae erweitert die Pupille unter sympathischem Einfluss.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 24,
+    "bereich": "auge",
+    "thema": "pupillenreaktion",
+    "kategorie": "ausloeser",
+    "typ": "multiple-choice",
+    "frage": "Welche Situation führt typischerweise zu einer Mydriasis?",
+    "antworten": [
+      "Dunkelheit",
+      "Helles Licht",
+      "Nahsehen",
+      "Pilocarpinwirkung"
+    ],
+    "richtigeAntwort": "Dunkelheit",
+    "erklaerung": "Bei Dunkelheit erweitert sich die Pupille.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 25,
+    "bereich": "auge",
+    "thema": "augenerkrankungen",
+    "kategorie": "katarakt",
+    "typ": "multiple-choice",
+    "frage": "Welche Struktur ist beim grauen Star betroffen?",
+    "antworten": [
+      "Die Linse",
+      "Der Sehnerv",
+      "Der äußere Gehörgang",
+      "Nur die Augenlider"
+    ],
+    "richtigeAntwort": "Die Linse",
+    "erklaerung": "Die Katarakt ist eine zunehmende Trübung der Augenlinse.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 26,
+    "bereich": "auge",
+    "thema": "augenerkrankungen",
+    "kategorie": "katarakt",
+    "typ": "multiple-choice",
+    "frage": "Welches Symptom passt typisch zur Katarakt?",
+    "antworten": [
+      "Langsame, schmerzlose Sehverschlechterung",
+      "Plötzlicher Hörverlust",
+      "Akuter Drehschwindel",
+      "Starke Ohrenschmerzen"
+    ],
+    "richtigeAntwort": "Langsame, schmerzlose Sehverschlechterung",
+    "erklaerung": "Die Katarakt entwickelt sich meist schleichend und verursacht eine schmerzlose Sehverschlechterung.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 27,
+    "bereich": "auge",
+    "thema": "augenerkrankungen",
+    "kategorie": "katarakt",
+    "typ": "multiple-choice",
+    "frage": "Wie wird eine Katarakt typischerweise behandelt?",
+    "antworten": [
+      "Operative Entfernung der getrübten Linse und Einsatz einer Kunstlinse",
+      "Ausschließlich mit Antibiotika",
+      "Nur durch Druck auf den Tränenkanal",
+      "Durch vollständige Ruhigstellung des Auges"
+    ],
+    "richtigeAntwort": "Operative Entfernung der getrübten Linse und Einsatz einer Kunstlinse",
+    "erklaerung": "Die Kataraktoperation ersetzt die getrübte Linse durch eine Kunstlinse.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 28,
+    "bereich": "auge",
+    "thema": "augenerkrankungen",
+    "kategorie": "glaukom",
+    "typ": "multiple-choice",
+    "frage": "Welche Struktur wird beim Glaukom geschädigt?",
+    "antworten": [
+      "Der Sehnerv",
+      "Die Ohrmuschel",
+      "Das Trommelfell",
+      "Nur die Augenlider"
+    ],
+    "richtigeAntwort": "Der Sehnerv",
+    "erklaerung": "Beim grünen Star kommt es zu einer Schädigung des Sehnervs.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 29,
+    "bereich": "auge",
+    "thema": "augenerkrankungen",
+    "kategorie": "glaukom",
+    "typ": "multiple-choice",
+    "frage": "Welche Aussage zum Gesichtsfeldverlust beim Glaukom ist richtig?",
+    "antworten": [
+      "Er ist irreversibel",
+      "Er bildet sich immer vollständig zurück",
+      "Er betrifft nur das Farbsehen",
+      "Er tritt nur nach einer Kataraktoperation auf"
+    ],
+    "richtigeAntwort": "Er ist irreversibel",
+    "erklaerung": "Bereits eingetretene Sehnervschäden und Gesichtsfeldverluste sind nicht rückgängig zu machen.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 30,
+    "bereich": "auge",
+    "thema": "augenerkrankungen",
+    "kategorie": "glaukom",
+    "typ": "multiple-choice",
+    "frage": "Welche Symptomkombination kann auf einen akuten Glaukomanfall hinweisen?",
+    "antworten": [
+      "Starke Schmerzen, rotes Auge, Sehverschlechterung und eventuell Übelkeit",
+      "Langsame schmerzlose Hörminderung",
+      "Trockene Haut und Husten",
+      "Schmerzloses Gerstenkorn"
+    ],
+    "richtigeAntwort": "Starke Schmerzen, rotes Auge, Sehverschlechterung und eventuell Übelkeit",
+    "erklaerung": "Ein akuter Glaukomanfall ist ein Notfall.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 31,
+    "bereich": "auge",
+    "thema": "augenerkrankungen",
+    "kategorie": "vergleich",
+    "typ": "multiple-choice",
+    "frage": "Was ist der zentrale Unterschied zwischen Katarakt und Glaukom?",
+    "antworten": [
+      "Katarakt betrifft die Linse, Glaukom den Sehnerv",
+      "Katarakt betrifft den Sehnerv, Glaukom die Linse",
+      "Beide betreffen nur die Hornhaut",
+      "Beide sind ausschließlich Erkrankungen des Augenlids"
+    ],
+    "richtigeAntwort": "Katarakt betrifft die Linse, Glaukom den Sehnerv",
+    "erklaerung": "Die Katarakt ist eine Linsentrübung, das Glaukom eine Sehnervschädigung.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 32,
+    "bereich": "pflege",
+    "thema": "kurzzeitpflege",
+    "kategorie": "anlaesse",
+    "typ": "multiple-choice",
+    "frage": "Welcher Anlass kann eine Kurzzeitpflege erforderlich machen?",
+    "antworten": [
+      "Übergang nach einem Krankenhausaufenthalt",
+      "Nur ein routinemäßiger Arzttermin",
+      "Ausschließlich eine neue Brille",
+      "Ein geplanter Einkaufsbummel"
+    ],
+    "richtigeAntwort": "Übergang nach einem Krankenhausaufenthalt",
+    "erklaerung": "Kurzzeitpflege kann den Übergang vom Krankenhaus in die weitere Versorgung überbrücken.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 33,
+    "bereich": "pflege",
+    "thema": "kurzzeitpflege",
+    "kategorie": "anlaesse",
+    "typ": "multiple-choice",
+    "frage": "Welche weitere Situation kann ein Anlass für Kurzzeitpflege sein?",
+    "antworten": [
+      "Urlaub oder Verhinderung pflegender Angehöriger",
+      "Eine normale Mahlzeit",
+      "Ein Wechsel der Hausarztpraxis",
+      "Ein neues Telefon"
+    ],
+    "richtigeAntwort": "Urlaub oder Verhinderung pflegender Angehöriger",
+    "erklaerung": "Wenn die häusliche Pflege vorübergehend ausfällt, kann Kurzzeitpflege genutzt werden.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 34,
+    "bereich": "pflege",
+    "thema": "kurzzeitpflege",
+    "kategorie": "ziel",
+    "typ": "multiple-choice",
+    "frage": "Welches Ziel hat Kurzzeitpflege häufig?",
+    "antworten": [
+      "Die Rückkehr in die häusliche Umgebung",
+      "Die dauerhafte Krankenhausaufnahme",
+      "Die automatische Vergabe von Pflegegrad 5",
+      "Die Beendigung aller Pflegeleistungen"
+    ],
+    "richtigeAntwort": "Die Rückkehr in die häusliche Umgebung",
+    "erklaerung": "Kurzzeitpflege ist meist zeitlich begrenzt und soll die Rückkehr nach Hause ermöglichen.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 35,
+    "bereich": "pflege",
+    "thema": "kurzzeitpflege",
+    "kategorie": "funktion",
+    "typ": "multiple-choice",
+    "frage": "Welche Funktion kann Kurzzeitpflege im Versorgungssystem übernehmen?",
+    "antworten": [
+      "Bindeglied zwischen Krankenhaus, häuslicher Pflege und Langzeitpflege",
+      "Ersatz für jede medizinische Behandlung",
+      "Ausschließliche Finanzierungsform",
+      "Dauerhafte ambulante Pflege ohne Unterbringung"
+    ],
+    "richtigeAntwort": "Bindeglied zwischen Krankenhaus, häuslicher Pflege und Langzeitpflege",
+    "erklaerung": "Kurzzeitpflege kann unterschiedliche Versorgungsbereiche zeitlich überbrücken.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 36,
+    "bereich": "pflege",
+    "thema": "pflegebeduerftigkeit",
+    "kategorie": "dauer",
+    "typ": "multiple-choice",
+    "frage": "Wie lange müssen Beeinträchtigungen voraussichtlich bestehen, damit Pflegebedürftigkeit im Sinne der Zusammenfassung vorliegt?",
+    "antworten": [
+      "Mindestens 6 Monate",
+      "Mindestens 2 Tage",
+      "Mindestens 2 Wochen",
+      "Mindestens 5 Jahre"
+    ],
+    "richtigeAntwort": "Mindestens 6 Monate",
+    "erklaerung": "Pflegebedürftigkeit setzt eine dauerhafte Beeinträchtigung von mindestens sechs Monaten voraus.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 37,
+    "bereich": "pflege",
+    "thema": "pflegebeduerftigkeit",
+    "kategorie": "ursachen",
+    "typ": "multiple-choice",
+    "frage": "Welche Beeinträchtigungen können zur Pflegebedürftigkeit führen?",
+    "antworten": [
+      "Körperliche, geistige oder psychische Beeinträchtigungen",
+      "Nur körperliche Beeinträchtigungen",
+      "Nur vorübergehende Müdigkeit",
+      "Ausschließlich finanzielle Probleme"
+    ],
+    "richtigeAntwort": "Körperliche, geistige oder psychische Beeinträchtigungen",
+    "erklaerung": "Pflegebedürftigkeit kann durch körperliche, geistige oder psychische Beeinträchtigungen entstehen.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 38,
+    "bereich": "pflege",
+    "thema": "pflegebeduerftigkeit",
+    "kategorie": "einstufung",
+    "typ": "multiple-choice",
+    "frage": "In wie viele Pflegegrade wird die Pflegebedürftigkeit eingestuft?",
+    "antworten": [
+      "In fünf Pflegegrade",
+      "In zwei Pflegegrade",
+      "In drei Pflegestufen",
+      "In zehn Pflegegrade"
+    ],
+    "richtigeAntwort": "In fünf Pflegegrade",
+    "erklaerung": "Die Einstufung erfolgt in die Pflegegrade 1 bis 5.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 39,
+    "bereich": "pflege",
+    "thema": "wohnformen",
+    "kategorie": "senioren_wg",
+    "typ": "multiple-choice",
+    "frage": "Was kennzeichnet eine Senioren-Wohngemeinschaft?",
+    "antworten": [
+      "Mehrere ältere Menschen leben gemeinsam und organisieren Unterstützung",
+      "Eine einzelne Person lebt dauerhaft im Krankenhaus",
+      "Nur Angehörige wohnen ohne Pflegebedarf zusammen",
+      "Es handelt sich immer um eine Intensivstation"
+    ],
+    "richtigeAntwort": "Mehrere ältere Menschen leben gemeinsam und organisieren Unterstützung",
+    "erklaerung": "In einer Senioren-WG leben mehrere ältere Menschen zusammen, häufig mit gemeinsamer Pflege- oder Betreuungsunterstützung.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 40,
+    "bereich": "pflege",
+    "thema": "wohnformen",
+    "kategorie": "senioren_wg",
+    "typ": "multiple-choice",
+    "frage": "Welcher Vorteil wird für eine Senioren-Wohngemeinschaft genannt?",
+    "antworten": [
+      "Geselligkeit und Vermeidung von Einsamkeit",
+      "Vollständiger Verlust der Selbstbestimmung",
+      "Zwingende Rund-um-die-Uhr-Überwachung",
+      "Ausschluss gegenseitiger Unterstützung"
+    ],
+    "richtigeAntwort": "Geselligkeit und Vermeidung von Einsamkeit",
+    "erklaerung": "Gemeinschaftliches Wohnen kann Einsamkeit vermindern und gegenseitige Hilfe ermöglichen.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 41,
+    "bereich": "pflege",
+    "thema": "wohnformen",
+    "kategorie": "betreutes_wohnen",
+    "typ": "multiple-choice",
+    "frage": "Was kennzeichnet betreutes Wohnen beziehungsweise Service-Wohnen?",
+    "antworten": [
+      "Eine eigene, meist barrierefreie Wohnung mit abrufbaren Serviceleistungen",
+      "Eine dauerhafte Unterbringung auf einer Intensivstation",
+      "Gemeinsames Wohnen ohne eigene Privatsphäre",
+      "Ausschließlich stationäre Pflege rund um die Uhr"
+    ],
+    "richtigeAntwort": "Eine eigene, meist barrierefreie Wohnung mit abrufbaren Serviceleistungen",
+    "erklaerung": "Betreutes Wohnen verbindet eine eigene Wohnung mit bedarfsgerechten Unterstützungsangeboten.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 42,
+    "bereich": "pflege",
+    "thema": "wohnformen",
+    "kategorie": "betreutes_wohnen",
+    "typ": "multiple-choice",
+    "frage": "Welcher Vorteil gehört zum betreuten Wohnen?",
+    "antworten": [
+      "Erhalt von Privatsphäre und Selbstständigkeit",
+      "Vollständige Aufgabe der eigenen Wohnung",
+      "Grundsätzlich keine Unterstützung",
+      "Ausschließlich gemeinsame Schlafräume"
+    ],
+    "richtigeAntwort": "Erhalt von Privatsphäre und Selbstständigkeit",
+    "erklaerung": "Die eigene Wohnung ermöglicht Privatsphäre; Hilfen können flexibel abgerufen werden.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 43,
+    "bereich": "pflege",
+    "thema": "wohnformen",
+    "kategorie": "mehrgenerationenhaus",
+    "typ": "multiple-choice",
+    "frage": "Was kennzeichnet ein Mehrgenerationenhaus?",
+    "antworten": [
+      "Menschen verschiedener Generationen leben unter einem Dach",
+      "Nur Menschen derselben Altersgruppe leben zusammen",
+      "Es handelt sich immer um ein Krankenhaus",
+      "Es ist ausschließlich für Pflegegrad 5 vorgesehen"
+    ],
+    "richtigeAntwort": "Menschen verschiedener Generationen leben unter einem Dach",
+    "erklaerung": "Ein Mehrgenerationenhaus ermöglicht gegenseitige Hilfe und sozialen Austausch zwischen den Generationen.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 44,
+    "bereich": "pflege",
+    "thema": "wohnformen",
+    "kategorie": "pflegeheim",
+    "typ": "multiple-choice",
+    "frage": "Was kennzeichnet eine stationäre Altenpflegeeinrichtung?",
+    "antworten": [
+      "Vollstationäre Unterbringung mit Versorgung rund um die Uhr",
+      "Nur gelegentliche Nachbarschaftshilfe",
+      "Eine eigene Wohnung ohne Pflegeangebote",
+      "Ausschließlich ambulante Pflege"
+    ],
+    "richtigeAntwort": "Vollstationäre Unterbringung mit Versorgung rund um die Uhr",
+    "erklaerung": "Im Pflegeheim stehen umfassende Pflege, medizinische Versorgung und Betreuung zur Verfügung.",
+    "quelleSeite": 4
+  },
+  {
+    "id": 45,
+    "bereich": "pflege",
+    "thema": "wohnformen",
+    "kategorie": "vergleich",
+    "typ": "multiple-choice",
+    "frage": "Wie verändert sich das Verhältnis von Selbstständigkeit und Versorgungssicherheit bei zunehmendem Pflegebedarf tendenziell?",
+    "antworten": [
+      "Die Selbstständigkeit sinkt, die Versorgungssicherheit steigt",
+      "Beides sinkt immer gleichzeitig",
+      "Die Selbstständigkeit steigt, die Versorgungssicherheit sinkt",
+      "Es besteht grundsätzlich kein Zusammenhang"
+    ],
+    "richtigeAntwort": "Die Selbstständigkeit sinkt, die Versorgungssicherheit steigt",
+    "erklaerung": "Die Zusammenfassung beschreibt einen Übergang von viel Selbstbestimmung bis hin zu umfassender Versorgung.",
+    "quelleSeite": 4
+  }
+]

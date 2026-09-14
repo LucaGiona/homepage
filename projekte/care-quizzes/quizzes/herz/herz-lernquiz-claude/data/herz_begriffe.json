@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "kategorie": "anatomie",
+    "de": "Herzmuskel",
+    "fachbegriff": "Myokard",
+    "alternativen": [],
+    "erklaerung": "Die kräftige Muskelschicht der Herzwand, die sich rhythmisch zusammenzieht, um das Blut in die Kreislaufgefäße zu pumpen."
+  },
+  {
+    "id": 2,
+    "kategorie": "anatomie",
+    "de": "Herzbeutel",
+    "fachbegriff": "Perikard",
+    "alternativen": [],
+    "erklaerung": "Bindegewebiger Sack, der das Herz umgibt und es vor Reibung und Überdehnung schützt."
+  },
+  {
+    "id": 3,
+    "kategorie": "anatomie",
+    "de": "Herzinnenhaut",
+    "fachbegriff": "Endokard",
+    "alternativen": [],
+    "erklaerung": "Innerste Schicht der Herzwand, die die Herzhöhlen und Herzklappen auskleidet."
+  },
+  {
+    "id": 4,
+    "kategorie": "anatomie",
+    "de": "Herzkranzgefäße",
+    "fachbegriff": "Koronararterien",
+    "alternativen": [
+      "Koronargefäße"
+    ],
+    "erklaerung": "Verzweigtes System kleiner Blutgefäße auf der äußeren Oberfläche des Herzens, das den Herzmuskel mit sauerstoffreichem Blut versorgt. Ihr Durchmesser liegt meist bei drei bis vier Millimetern."
+  },
+  {
+    "id": 5,
+    "kategorie": "anatomie",
+    "de": "Taktgeber des Herzens",
+    "fachbegriff": "Sinusknoten",
+    "alternativen": [],
+    "erklaerung": "Primäres Erregungsbildungszentrum im rechten Vorhof, das den Herzrhythmus vorgibt."
+  },
+  {
+    "id": 6,
+    "kategorie": "anatomie",
+    "de": "Vorhof-Kammer-Knoten",
+    "fachbegriff": "AV-Knoten",
+    "alternativen": [
+      "Atrioventrikularknoten"
+    ],
+    "erklaerung": "Leitet die elektrische Erregung vom Vorhof verzögert auf die Herzkammern weiter und ermöglicht so das zeitversetzte Zusammenziehen von Vorhöfen und Kammern."
+  },
+  {
+    "id": 7,
+    "kategorie": "physiologie",
+    "de": "Anspannungs- und Austreibungsphase",
+    "fachbegriff": "Systole",
+    "alternativen": [],
+    "erklaerung": "Phase des Herzzyklus, in der sich der Herzmuskel zusammenzieht und Blut aus den Kammern in die Kreislaufgefäße ausgeworfen wird."
+  },
+  {
+    "id": 8,
+    "kategorie": "physiologie",
+    "de": "Erschlaffungs- und Füllungsphase",
+    "fachbegriff": "Diastole",
+    "alternativen": [],
+    "erklaerung": "Phase des Herzzyklus, in der sich der Herzmuskel entspannt und die Herzkammern sich mit Blut füllen."
+  },
+  {
+    "id": 9,
+    "kategorie": "erkrankung",
+    "de": "Brustenge",
+    "fachbegriff": "Angina pectoris",
+    "alternativen": [],
+    "erklaerung": "Enge-, Schmerz- oder Druckgefühl in der Brust, das durch eine Minderdurchblutung des Herzmuskels entsteht und typisch für die koronare Herzkrankheit ist."
+  },
+  {
+    "id": 10,
+    "kategorie": "erkrankung",
+    "de": "Gefäßverkalkung",
+    "fachbegriff": "Arteriosklerose",
+    "alternativen": [
+      "Arterienverkalkung"
+    ],
+    "erklaerung": "Krankhafte Veränderung der Gefäßwände durch Ablagerungen, die zu Verengungen und Verschlüssen von Arterien führen kann."
+  },
+  {
+    "id": 11,
+    "kategorie": "erkrankung",
+    "de": "Ablagerung in der Gefäßwand",
+    "fachbegriff": "Plaque",
+    "alternativen": [],
+    "erklaerung": "Ansammlung von Blutfetten, Kalk, Entzündungszellen und Bindegewebe in der Wand einer Herzkranzarterie, die aufbrechen und einen Herzinfarkt auslösen kann."
+  },
+  {
+    "id": 12,
+    "kategorie": "erkrankung",
+    "de": "Herzinfarkt",
+    "fachbegriff": "Myokardinfarkt",
+    "alternativen": [],
+    "erklaerung": "Absterben von Herzmuskelgewebe durch den plötzlichen Verschluss oder eine starke Verengung einer Herzkranzarterie."
+  },
+  {
+    "id": 13,
+    "kategorie": "erkrankung",
+    "de": "Herzschwäche",
+    "fachbegriff": "Herzinsuffizienz",
+    "alternativen": [],
+    "erklaerung": "Unfähigkeit des Herzens, genügend Blut zu pumpen, um den Körper ausreichend zu versorgen; kann als Folge eines Herzinfarkts entstehen."
+  },
+  {
+    "id": 14,
+    "kategorie": "diagnostik",
+    "de": "herzspezifisches Eiweiß",
+    "fachbegriff": "Troponin",
+    "alternativen": [],
+    "erklaerung": "Protein in den Herzmuskelzellen, das bei einer Schädigung des Herzmuskels ins Blut freigesetzt wird und im Labor gemessen werden kann, um einen Herzinfarkt nachzuweisen."
+  },
+  {
+    "id": 15,
+    "kategorie": "diagnostik",
+    "de": "Herzstromkurve",
+    "fachbegriff": "Elektrokardiogramm",
+    "alternativen": [
+      "EKG"
+    ],
+    "erklaerung": "Aufzeichnung der elektrischen Aktivität des Herzmuskels über am Körper angebrachte Elektroden; wichtigste apparative Basisdiagnostik bei Verdacht auf eine koronare Herzkrankheit."
+  },
+  {
+    "id": 16,
+    "kategorie": "therapie",
+    "de": "Gefäßstütze",
+    "fachbegriff": "Stent",
+    "alternativen": [],
+    "erklaerung": "Kleines Röhrchen aus Metall oder Kunststoff mit feinmaschiger Gitterstruktur, das ein zuvor mit einem Ballon geweitetes Herzkranzgefäß dauerhaft offen hält."
+  },
+  {
+    "id": 17,
+    "kategorie": "therapie",
+    "de": "Herzkranzgefäßerweiterung per Katheter",
+    "fachbegriff": "perkutane Koronarintervention",
+    "alternativen": [
+      "PCI"
+    ],
+    "erklaerung": "Minimalinvasiver Kathetereingriff, bei dem eine Engstelle in einem Herzkranzgefäß mit einem Ballon geweitet und meist mit einem Stent versorgt wird."
+  },
+  {
+    "id": 18,
+    "kategorie": "therapie",
+    "de": "Umgehungsoperation der Herzkranzgefäße",
+    "fachbegriff": "Bypassoperation",
+    "alternativen": [
+      "aortokoronarer Bypass"
+    ],
+    "erklaerung": "Operation am offenen Herzen, bei der ein Gefäßstück ein verengtes oder verschlossenes Herzkranzgefäß umgeht, um die Durchblutung des Herzmuskels wiederherzustellen."
+  }
+]

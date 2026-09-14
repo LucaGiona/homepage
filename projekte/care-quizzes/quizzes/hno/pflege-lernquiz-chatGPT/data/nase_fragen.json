@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "thema": "nase",
+    "kategorie": "aufbau",
+    "typ": "multiple-choice",
+    "frage": "Wodurch wird die Nasenhöhle in einen linken und einen rechten Anteil getrennt?",
+    "antworten": [
+      "Nasenscheidewand (Septum nasi)",
+      "Nasenmuschel (Concha nasalis)",
+      "Nasenvorhof (Vestibulum nasi)",
+      "Nasenrücken (Dorsum nasi)"
+    ],
+    "richtigeAntwort": "Nasenscheidewand (Septum nasi)",
+    "erklaerung": "Das Septum nasi trennt die Nasenhöhle in eine linke und eine rechte Hälfte.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 2,
+    "thema": "nase",
+    "kategorie": "aufbau",
+    "typ": "text",
+    "frage": "Wie heißt die paarige Öffnung am hinteren Ende der Nasenhöhle, die zum Rachenraum führt?",
+    "akzeptierteAntworten": ["Choane", "Choanen"],
+    "erklaerung": "Über die Choanen steht die Nasenhöhle mit dem Rachenraum in Verbindung.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 3,
+    "thema": "nase",
+    "kategorie": "aufbau",
+    "typ": "multiple-choice",
+    "frage": "Wie viele Nasenmuscheln liegen jeweils an einer Seitenwand der Nasenhöhle?",
+    "antworten": ["Zwei", "Drei", "Vier", "Fünf"],
+    "richtigeAntwort": "Drei",
+    "erklaerung": "An jeder Seitenwand befinden sich drei Nasenmuscheln (Conchae nasales), die die Nasenhöhle in drei Nasengänge gliedern.",
+    "quelleSeite": 4
+  },
+  {
+    "id": 4,
+    "thema": "nase",
+    "kategorie": "nebenhoehlen",
+    "typ": "multiple-choice",
+    "frage": "Welche Nasennebenhöhle mündet zusammen mit Teilen der Siebbeinhöhle in den oberen statt in den mittleren Nasengang?",
+    "antworten": ["Kieferhöhle", "Stirnhöhle", "Keilbeinhöhle", "Kein Nasenvorhof"],
+    "richtigeAntwort": "Keilbeinhöhle",
+    "erklaerung": "Außer der Keilbeinhöhle und Teilen der Siebbeinhöhle münden alle Nasennebenhöhlen in den mittleren Nasengang.",
+    "quelleSeite": 5
+  },
+  {
+    "id": 5,
+    "thema": "nase",
+    "kategorie": "feinbau",
+    "typ": "text",
+    "frage": "Wie heißt das Gefäßgeflecht am Übergang von Nasenvorhof zu Nasenhöhle, das die häufigste Ursache für Nasenbluten ist?",
+    "akzeptierteAntworten": ["Kiesselbach-Plexus", "Kiesselbachplexus"],
+    "erklaerung": "Verletzungen des Kiesselbach-Plexus sind die häufigste Ursache für Epistaxis (Nasenbluten).",
+    "quelleSeite": 6
+  },
+  {
+    "id": 6,
+    "thema": "nase",
+    "kategorie": "gefaesse_nerven",
+    "typ": "multiple-choice",
+    "frage": "Welcher Hirnnerv leitet die Geruchswahrnehmung der Riechschleimhaut zum Gehirn weiter?",
+    "antworten": ["N. olfactorius", "N. ophthalmicus", "N. maxillaris", "N. vagus"],
+    "richtigeAntwort": "N. olfactorius",
+    "erklaerung": "Die Riechfasern vereinigen sich zum N. olfactorius (I. Hirnnerv), der zum Bulbus olfactorius zieht.",
+    "quelleSeite": 7
+  },
+  {
+    "id": 7,
+    "thema": "nase",
+    "kategorie": "funktionen",
+    "typ": "multiple-choice",
+    "frage": "Welche Aufgabe erfüllt die Nase nicht?",
+    "antworten": [
+      "Anfeuchten der Atemluft",
+      "Erwärmen der Atemluft",
+      "Bildung des Speichels",
+      "Reinigen der Atemluft"
+    ],
+    "richtigeAntwort": "Bildung des Speichels",
+    "erklaerung": "Die Nase reinigt, erwärmt und befeuchtet die Atemluft und dient als Riechorgan – die Speichelbildung erfolgt nicht in der Nase.",
+    "quelleSeite": 8
+  },
+  {
+    "id": 8,
+    "thema": "nase",
+    "kategorie": "patho",
+    "typ": "multiple-choice",
+    "frage": "Wie wird eine seitliche Abweichung der Nasenscheidewand bezeichnet?",
+    "antworten": ["Sinusitis", "Epistaxis", "Septumdeviation", "Rhinitis"],
+    "richtigeAntwort": "Septumdeviation",
+    "erklaerung": "Eine Septumdeviation kann die Nasenatmung behindern und lässt sich operativ beheben.",
+    "quelleSeite": 4
+  },
+  {
+    "id": 9,
+    "thema": "nase",
+    "kategorie": "patho",
+    "typ": "text",
+    "frage": "Wie lautet der Fachbegriff für eine Nasennebenhöhlenentzündung?",
+    "akzeptierteAntworten": ["Sinusitis"],
+    "erklaerung": "Bei einer Sinusitis kann das Sekret durch die verschwollenen Nebenhöhlenöffnungen nicht mehr abfließen.",
+    "quelleSeite": 5
+  },
+  {
+    "id": 10,
+    "thema": "nase",
+    "kategorie": "aufbau",
+    "typ": "multiple-choice",
+    "frage": "Woraus besteht das Grundgerüst der äußeren Nase überwiegend?",
+    "antworten": [
+      "Ausschließlich aus Knochen",
+      "Ausschließlich aus Knorpel",
+      "Aus Knochen im oberen Teil und Knorpel im übrigen Teil",
+      "Aus Muskelgewebe"
+    ],
+    "richtigeAntwort": "Aus Knochen im oberen Teil und Knorpel im übrigen Teil",
+    "erklaerung": "Die Nasenwurzel hat eine knöcherne Grundlage, Nasenrücken und Nasenflügel bestehen aus Knorpel.",
+    "quelleSeite": 4
+  }
+]

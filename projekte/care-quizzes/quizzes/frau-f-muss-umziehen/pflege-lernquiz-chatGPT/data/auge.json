@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "kategorie": "anatomie",
+    "de": "Augapfel",
+    "fachbegriff": "Bulbus oculi",
+    "alternativen": [],
+    "erklaerung": "Der kugelförmige Hauptkörper des Auges."
+  },
+  {
+    "id": 2,
+    "kategorie": "anatomie",
+    "de": "Augenhöhle",
+    "fachbegriff": "Orbita",
+    "alternativen": [],
+    "erklaerung": "Die knöcherne Höhle, in der der Augapfel liegt."
+  },
+  {
+    "id": 3,
+    "kategorie": "anatomie",
+    "de": "Lederhaut",
+    "fachbegriff": "Sklera",
+    "alternativen": [
+      "Sclera"
+    ],
+    "erklaerung": "Die weiße äußere Hülle des Augapfels."
+  },
+  {
+    "id": 4,
+    "kategorie": "anatomie",
+    "de": "Hornhaut",
+    "fachbegriff": "Kornea",
+    "alternativen": [
+      "Cornea"
+    ],
+    "erklaerung": "Der durchsichtige, gefäßfreie vordere Teil der äußeren Augenhaut."
+  },
+  {
+    "id": 5,
+    "kategorie": "anatomie",
+    "de": "Regenbogenhaut",
+    "fachbegriff": "Iris",
+    "alternativen": [],
+    "erklaerung": "Der pigmentierte Ring um die Pupille."
+  },
+  {
+    "id": 6,
+    "kategorie": "anatomie",
+    "de": "Pupille",
+    "fachbegriff": "Pupilla",
+    "alternativen": [],
+    "erklaerung": "Die Öffnung in der Iris für den Lichteinfall."
+  },
+  {
+    "id": 7,
+    "kategorie": "anatomie",
+    "de": "Linse",
+    "fachbegriff": "Lens",
+    "alternativen": [],
+    "erklaerung": "Die Sammellinse hinter der Pupille."
+  },
+  {
+    "id": 8,
+    "kategorie": "anatomie",
+    "de": "Ziliarkörper",
+    "fachbegriff": "Corpus ciliare",
+    "alternativen": [
+      "Strahlenkörper"
+    ],
+    "erklaerung": "Bildet Kammerwasser und beeinflusst die Linsenwölbung."
+  },
+  {
+    "id": 9,
+    "kategorie": "anatomie",
+    "de": "Aderhaut",
+    "fachbegriff": "Choroidea",
+    "alternativen": [],
+    "erklaerung": "Eine gefäßreiche Schicht zur Versorgung des Auges."
+  },
+  {
+    "id": 10,
+    "kategorie": "anatomie",
+    "de": "Netzhaut",
+    "fachbegriff": "Retina",
+    "alternativen": [],
+    "erklaerung": "Enthält Photorezeptoren und Nervenzellen."
+  },
+  {
+    "id": 11,
+    "kategorie": "anatomie",
+    "de": "Glaskörper",
+    "fachbegriff": "Corpus vitreum",
+    "alternativen": [],
+    "erklaerung": "Die gallertige Masse hinter der Linse."
+  },
+  {
+    "id": 12,
+    "kategorie": "anatomie",
+    "de": "Sehnerv",
+    "fachbegriff": "Nervus opticus",
+    "alternativen": [
+      "N. opticus"
+    ],
+    "erklaerung": "Leitet visuelle Signale zum Gehirn."
+  },
+  {
+    "id": 13,
+    "kategorie": "anatomie",
+    "de": "gelber Fleck",
+    "fachbegriff": "Macula lutea",
+    "alternativen": [],
+    "erklaerung": "Der Netzhautbereich mit dem Punkt des schärfsten Sehens."
+  },
+  {
+    "id": 14,
+    "kategorie": "anatomie",
+    "de": "Bindehaut",
+    "fachbegriff": "Konjunktiva",
+    "alternativen": [
+      "Conjunctiva"
+    ],
+    "erklaerung": "Kleidet die Lidinnenseite und die Vorderseite der Sklera aus."
+  },
+  {
+    "id": 15,
+    "kategorie": "anatomie",
+    "de": "Tränendrüse",
+    "fachbegriff": "Glandula lacrimalis",
+    "alternativen": [],
+    "erklaerung": "Produziert die Tränenflüssigkeit."
+  },
+  {
+    "id": 16,
+    "kategorie": "erkrankung",
+    "de": "Kurzsichtigkeit",
+    "fachbegriff": "Myopie",
+    "alternativen": [],
+    "erklaerung": "Das Bild entsteht vor der Netzhaut."
+  },
+  {
+    "id": 17,
+    "kategorie": "erkrankung",
+    "de": "Weitsichtigkeit",
+    "fachbegriff": "Hyperopie",
+    "alternativen": [],
+    "erklaerung": "Das Bild entsteht hinter der Netzhaut."
+  },
+  {
+    "id": 18,
+    "kategorie": "erkrankung",
+    "de": "Alterssichtigkeit",
+    "fachbegriff": "Presbyopie",
+    "alternativen": [],
+    "erklaerung": "Altersbedingter Elastizitätsverlust der Linse."
+  },
+  {
+    "id": 19,
+    "kategorie": "erkrankung",
+    "de": "grauer Star",
+    "fachbegriff": "Katarakt",
+    "alternativen": [],
+    "erklaerung": "Eine Trübung der Augenlinse."
+  },
+  {
+    "id": 20,
+    "kategorie": "erkrankung",
+    "de": "grüner Star",
+    "fachbegriff": "Glaukom",
+    "alternativen": [],
+    "erklaerung": "Eine Schädigung des Sehnervs beziehungsweise der Ganglienzellen."
+  },
+  {
+    "id": 21,
+    "kategorie": "erkrankung",
+    "de": "Bindehautentzündung",
+    "fachbegriff": "Konjunktivitis",
+    "alternativen": [
+      "Conjunctivitis"
+    ],
+    "erklaerung": "Eine infektiöse oder nichtinfektiöse Entzündung der Bindehaut."
+  },
+  {
+    "id": 22,
+    "kategorie": "erkrankung",
+    "de": "Hornhautentzündung",
+    "fachbegriff": "Keratitis",
+    "alternativen": [],
+    "erklaerung": "Eine Entzündung der Hornhaut."
+  },
+  {
+    "id": 23,
+    "kategorie": "erkrankung",
+    "de": "Netzhautablösung",
+    "fachbegriff": "Ablatio retinae",
+    "alternativen": [],
+    "erklaerung": "Eine Trennung des neurosensorischen Epithels vom Pigmentepithel."
+  },
+  {
+    "id": 24,
+    "kategorie": "erkrankung",
+    "de": "Gerstenkorn",
+    "fachbegriff": "Hordeolum",
+    "alternativen": [],
+    "erklaerung": "Eine akute, schmerzhafte Drüsenentzündung am Lidrand."
+  },
+  {
+    "id": 25,
+    "kategorie": "erkrankung",
+    "de": "Hagelkorn",
+    "fachbegriff": "Chalazion",
+    "alternativen": [],
+    "erklaerung": "Eine meist schmerzlose, chronische Entzündung einer Meibom-Drüse."
+  },
+  {
+    "id": 26,
+    "kategorie": "erkrankung",
+    "de": "Schielen",
+    "fachbegriff": "Strabismus",
+    "alternativen": [],
+    "erklaerung": "Eine Abweichung der Augenachsen."
+  }
+]

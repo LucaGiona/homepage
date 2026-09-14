@@ -1,0 +1,348 @@
+[
+  {
+    "id": 1,
+    "thema": "sturzprophylaxe",
+    "kategorie": "risikofaktoren",
+    "typ": "multiple-choice",
+    "frage": "In welche drei Kategorien werden Sturzrisikofaktoren bei der vertieften Einschätzung eingeteilt?",
+    "antworten": [
+      "Personenbezogene, medikamentenbezogene und umgebungsbezogene Faktoren",
+      "Körperliche, psychische und soziale Faktoren",
+      "Akute, chronische und angeborene Faktoren",
+      "Leichte, mittlere und schwere Faktoren"
+    ],
+    "richtigeAntwort": "Personenbezogene, medikamentenbezogene und umgebungsbezogene Faktoren",
+    "erklaerung": "Die vertiefte Einschätzung unterscheidet personenbezogene, medikamentenbezogene und umgebungsbezogene Sturzrisikofaktoren.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 2,
+    "thema": "sturzprophylaxe",
+    "kategorie": "risikofaktoren",
+    "typ": "multiple-choice",
+    "frage": "Wie werden personenbezogene Sturzrisikofaktoren fachlich bezeichnet?",
+    "antworten": ["Intrinsische Risikofaktoren", "Extrinsische Risikofaktoren", "Medikationsbezogene Risikofaktoren", "Institutionelle Risikofaktoren"],
+    "richtigeAntwort": "Intrinsische Risikofaktoren",
+    "erklaerung": "Personenbezogene Faktoren liegen in der Person selbst und werden als intrinsische Risikofaktoren bezeichnet.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 3,
+    "thema": "sturzprophylaxe",
+    "kategorie": "risikofaktoren",
+    "typ": "multiple-choice",
+    "frage": "Welcher Faktor ist ein intrinsischer Sturzrisikofaktor?",
+    "antworten": ["Gang- oder Gleichgewichtsstörung", "Loser Teppich", "Schlechte Beleuchtung", "Zu hohe Toilettensitzhöhe"],
+    "richtigeAntwort": "Gang- oder Gleichgewichtsstörung",
+    "erklaerung": "Eingeschränkte Mobilität sowie Gang- oder Gleichgewichtsstörungen zählen zu den personenbezogenen beziehungsweise intrinsischen Faktoren.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 4,
+    "thema": "sturzprophylaxe",
+    "kategorie": "risikofaktoren",
+    "typ": "multiple-choice",
+    "frage": "Welche Kombination enthält ausschließlich personenbezogene Sturzrisikofaktoren?",
+    "antworten": [
+      "Sturzangst, Muskelschwäche und Sehbeeinträchtigung",
+      "Nasser Boden, Kabel und schlechte Beleuchtung",
+      "Sedativa, Diuretika und Opioide",
+      "Loses Schuhwerk, fehlender Haltegriff und Türschwelle"
+    ],
+    "richtigeAntwort": "Sturzangst, Muskelschwäche und Sehbeeinträchtigung",
+    "erklaerung": "Sturzangst, Muskelschwäche und Sehbeeinträchtigung sind Merkmale der Person und deshalb intrinsische Faktoren.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 5,
+    "thema": "sturzprophylaxe",
+    "kategorie": "risikofaktoren",
+    "typ": "multiple-choice",
+    "frage": "Wie werden umgebungsbezogene Sturzrisikofaktoren fachlich bezeichnet?",
+    "antworten": ["Extrinsische Risikofaktoren", "Intrinsische Risikofaktoren", "Kognitive Risikofaktoren", "Medikationsbezogene Risikofaktoren"],
+    "richtigeAntwort": "Extrinsische Risikofaktoren",
+    "erklaerung": "Risiken aus der Umgebung werden als extrinsische Risikofaktoren bezeichnet.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 6,
+    "thema": "sturzprophylaxe",
+    "kategorie": "risikofaktoren",
+    "typ": "multiple-choice",
+    "frage": "Welches Beispiel ist ein extrinsischer Sturzrisikofaktor?",
+    "antworten": ["Ein loses Kabel im Gehweg", "Orthostatische Hypotonie", "Muskelschwäche", "Akute Erkrankung"],
+    "richtigeAntwort": "Ein loses Kabel im Gehweg",
+    "erklaerung": "Kabel, lose Teppiche und Türschwellen sind Stolperstellen in der Umgebung und damit extrinsische Risiken.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 7,
+    "thema": "sturzprophylaxe",
+    "kategorie": "risikofaktoren",
+    "typ": "multiple-choice",
+    "frage": "Welche Arzneimittelgruppe wird in der Lernübersicht als sturzrisikofördernd genannt?",
+    "antworten": ["Sedativa und Hypnotika", "Antazida", "Lokale Hautpflegeprodukte", "Vitaminpräparate"],
+    "richtigeAntwort": "Sedativa und Hypnotika",
+    "erklaerung": "Sedativa und Hypnotika gehören zu den beispielhaft genannten medikationsbezogenen Risikofaktoren.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 8,
+    "thema": "sturzprophylaxe",
+    "kategorie": "risikofaktoren",
+    "typ": "multiple-choice",
+    "frage": "Wann kann sich das medikationsbezogene Sturzrisiko besonders verändern?",
+    "antworten": ["Bei einer neuen Verordnung oder Dosisänderung", "Nur beim Absetzen eines Verbandes", "Nur nach einer Mahlzeit", "Ausschließlich bei einem Zimmerwechsel"],
+    "richtigeAntwort": "Bei einer neuen Verordnung oder Dosisänderung",
+    "erklaerung": "Neben Polypharmazie nennt die Übersicht ausdrücklich neue Verordnungen und Dosisänderungen als mögliche Risiken.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 9,
+    "thema": "sturzprophylaxe",
+    "kategorie": "risikofaktoren",
+    "typ": "multiple-choice",
+    "frage": "Eine Person wird beim Aufstehen schwindelig, der Blutdruck fällt ab. Welcher Risikokategorie ist dies zuzuordnen?",
+    "antworten": ["Personenbezogen beziehungsweise intrinsisch", "Umgebungsbezogen beziehungsweise extrinsisch", "Ausschließlich medikationsbezogen", "Keiner Sturzrisikokategorie"],
+    "richtigeAntwort": "Personenbezogen beziehungsweise intrinsisch",
+    "erklaerung": "Schwindel und orthostatische Hypotonie werden als personenbezogene beziehungsweise intrinsische Risikofaktoren aufgeführt.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 10,
+    "thema": "sturzprophylaxe",
+    "kategorie": "einschaetzung",
+    "typ": "multiple-choice",
+    "frage": "Wann soll das Sturzrisiko erneut eingeschätzt werden?",
+    "antworten": [
+      "Nach Veränderungen, nach einem Sturz und in festgelegten Abständen",
+      "Nur bei der ersten Aufnahme",
+      "Ausschließlich auf Wunsch der Angehörigen",
+      "Erst nach drei dokumentierten Stürzen"
+    ],
+    "richtigeAntwort": "Nach Veränderungen, nach einem Sturz und in festgelegten Abständen",
+    "erklaerung": "Die Einschätzung beginnt systematisch und wird bei Veränderungen, nach einem Sturz sowie regelmäßig wiederholt.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 11,
+    "thema": "sturzprophylaxe",
+    "kategorie": "einschaetzung",
+    "typ": "multiple-choice",
+    "frage": "Was soll neben individuellen Ursachen auch in die Einschätzung einbezogen werden?",
+    "antworten": ["Beinahe-Stürze", "Nur ärztlich bestätigte Frakturen", "Ausschließlich Stürze mit Verletzung", "Nur Ereignisse im Badezimmer"],
+    "richtigeAntwort": "Beinahe-Stürze",
+    "erklaerung": "Auch Beinahe-Stürze liefern wichtige Hinweise auf individuelle Risiken und sollen berücksichtigt werden.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 12,
+    "thema": "sturzprophylaxe",
+    "kategorie": "beratung",
+    "typ": "multiple-choice",
+    "frage": "Unter welcher Voraussetzung sollen Angehörige in Information und Beratung einbezogen werden?",
+    "antworten": ["Mit Einverständnis der betroffenen Person", "Immer und ohne Rücksprache", "Nur nach einem Sturz mit Verletzung", "Nur bei stationärer Pflege"],
+    "richtigeAntwort": "Mit Einverständnis der betroffenen Person",
+    "erklaerung": "Angehörige werden mit dem Einverständnis der betroffenen Person einbezogen. Dies unterstützt gemeinsame Entscheidungen.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 13,
+    "thema": "sturzprophylaxe",
+    "kategorie": "mobilitaet",
+    "typ": "multiple-choice",
+    "frage": "Welche Maßnahme fördert Mobilität, Kraft und Gleichgewicht?",
+    "antworten": ["Regelmäßige sichere Mobilisation und Gangtraining", "Dauerhafte Bettruhe", "Grundsätzliches Verbot selbstständiger Bewegung", "Entfernen aller Gehhilfen"],
+    "richtigeAntwort": "Regelmäßige sichere Mobilisation und Gangtraining",
+    "erklaerung": "Sichere Mobilisation sowie Kraft-, Balance- und Gangtraining sollen körperliche Fähigkeiten erhalten oder verbessern.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 14,
+    "thema": "sturzprophylaxe",
+    "kategorie": "mobilitaet",
+    "typ": "multiple-choice",
+    "frage": "Welches zusätzliche Ziel kann Mobilitäts-, Kraft- und Gleichgewichtstraining verfolgen?",
+    "antworten": ["Sturzangst reduzieren", "Selbstständigkeit vollständig ersetzen", "Jede Bewegung vermeiden", "Die Umgebung unverändert lassen"],
+    "richtigeAntwort": "Sturzangst reduzieren",
+    "erklaerung": "Neben dem Erhalt körperlicher Fähigkeiten kann das Üben sicherer Bewegungsabläufe auch Sturzangst vermindern.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 15,
+    "thema": "sturzprophylaxe",
+    "kategorie": "umgebung",
+    "typ": "multiple-choice",
+    "frage": "Welche Kombination verbessert die Sicherheit der Umgebung?",
+    "antworten": [
+      "Stolperfallen entfernen, Wege freihalten und für gute Beleuchtung sorgen",
+      "Nachtlicht entfernen und Möbel in den Gehweg stellen",
+      "Glatte Böden nass reinigen und sofort begehen lassen",
+      "Haltegriffe entfernen und die Betthöhe zufällig wählen"
+    ],
+    "richtigeAntwort": "Stolperfallen entfernen, Wege freihalten und für gute Beleuchtung sorgen",
+    "erklaerung": "Freie Wege, entfernte Stolperfallen und gute Beleuchtung schaffen eine übersichtliche und sichere Umgebung.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 16,
+    "thema": "sturzprophylaxe",
+    "kategorie": "hilfsmittel",
+    "typ": "multiple-choice",
+    "frage": "Welches Schuhwerk unterstützt eine sichere Mobilität?",
+    "antworten": ["Geschlossene, gut sitzende Schuhe mit rutschhemmender Sohle", "Offene, zu große Hausschuhe mit glatter Sohle", "Nur Socken auf glattem Boden", "Schuhe ohne festen Halt"],
+    "richtigeAntwort": "Geschlossene, gut sitzende Schuhe mit rutschhemmender Sohle",
+    "erklaerung": "Passendes, geschlossenes Schuhwerk mit rutschhemmender Sohle verbessert Halt und Sicherheit.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 17,
+    "thema": "sturzprophylaxe",
+    "kategorie": "hilfsmittel",
+    "typ": "multiple-choice",
+    "frage": "Wie sollen Gehstock, Rollator oder Rollstuhl eingesetzt werden?",
+    "antworten": ["Fachgerecht eingestellt und erreichbar", "Unabhängig von der Körpergröße eingestellt", "Außerhalb des Zimmers aufbewahrt", "Nur von Pflegepersonen bewegt"],
+    "richtigeAntwort": "Fachgerecht eingestellt und erreichbar",
+    "erklaerung": "Mobilitätshilfen müssen fachgerecht eingestellt sein; benötigte Hilfsmittel sollen erreichbar platziert werden.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 18,
+    "thema": "sturzprophylaxe",
+    "kategorie": "hilfsmittel",
+    "typ": "multiple-choice",
+    "frage": "Welche Gegenstände sollen für die betroffene Person erreichbar platziert werden?",
+    "antworten": ["Hilfsmittel, Brille, Hörgerät und Klingel", "Nur Dekorationsgegenstände", "Reinigungsmittel und Medikamente zur freien Entnahme", "Ausschließlich die Klingel"],
+    "richtigeAntwort": "Hilfsmittel, Brille, Hörgerät und Klingel",
+    "erklaerung": "Erreichbare Hilfsmittel sowie Brille, Hörgerät und Klingel fördern Orientierung und sichere Selbstständigkeit.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 19,
+    "thema": "sturzprophylaxe",
+    "kategorie": "medikation",
+    "typ": "multiple-choice",
+    "frage": "Welche Beobachtungen können auf sturzfördernde Nebenwirkungen einer Medikation hinweisen?",
+    "antworten": ["Schwindel oder Müdigkeit", "Verbesserte Orientierung und sicherer Gang", "Erhöhter Appetit ohne weitere Beschwerden", "Unveränderte Hautfarbe"],
+    "richtigeAntwort": "Schwindel oder Müdigkeit",
+    "erklaerung": "Schwindel und Müdigkeit werden als Beispiele sturzfördernder Nebenwirkungen genannt.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 20,
+    "thema": "sturzprophylaxe",
+    "kategorie": "medikation",
+    "typ": "multiple-choice",
+    "frage": "Wie ist bei Verdacht auf eine sturzfördernde Medikation richtig vorzugehen?",
+    "antworten": [
+      "Ärztliche oder pharmazeutische Prüfung veranlassen und nichts eigenmächtig ändern",
+      "Das Medikament sofort eigenmächtig absetzen",
+      "Die Dosis ohne Rücksprache halbieren",
+      "Die Beobachtung nicht dokumentieren"
+    ],
+    "richtigeAntwort": "Ärztliche oder pharmazeutische Prüfung veranlassen und nichts eigenmächtig ändern",
+    "erklaerung": "Medikamentenbedingte Risiken sollen interprofessionell geprüft werden. Änderungen dürfen niemals eigenmächtig erfolgen.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 21,
+    "thema": "sturzprophylaxe",
+    "kategorie": "alltag",
+    "typ": "multiple-choice",
+    "frage": "Welche Maßnahme kann riskante Alleingänge zur Toilette vermeiden?",
+    "antworten": ["Rechtzeitige Toilettenangebote und bedarfsgerechte Begleitung", "Die Klingel außer Reichweite legen", "Zum schnellen Aufstehen drängen", "Toilettengänge grundsätzlich verbieten"],
+    "richtigeAntwort": "Rechtzeitige Toilettenangebote und bedarfsgerechte Begleitung",
+    "erklaerung": "Rechtzeitige Angebote und passende Begleitung reduzieren hastige oder riskante Alleingänge, ohne unnötig einzuschränken.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 22,
+    "thema": "sturzprophylaxe",
+    "kategorie": "nach_sturz",
+    "typ": "multiple-choice",
+    "frage": "Was gehört unmittelbar zum Vorgehen nach einem Sturz?",
+    "antworten": [
+      "Gesundheitszustand und mögliche Verletzungen beurteilen",
+      "Nur die Zimmernummer notieren",
+      "Den Maßnahmenplan unverändert lassen",
+      "Die Person ohne Einschätzung sofort mobilisieren"
+    ],
+    "richtigeAntwort": "Gesundheitszustand und mögliche Verletzungen beurteilen",
+    "erklaerung": "Nach einem Sturz werden zuerst Gesundheitszustand und mögliche Verletzungen beurteilt.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 23,
+    "thema": "sturzprophylaxe",
+    "kategorie": "nach_sturz",
+    "typ": "multiple-choice",
+    "frage": "Welche Angaben sollen nach einem Sturz dokumentiert werden?",
+    "antworten": ["Sturzhergang, Zeitpunkt, Ort und Folgen", "Nur der Name der diensthabenden Pflegeperson", "Nur sichtbare Verletzungen", "Ausschließlich die Uhrzeit"],
+    "richtigeAntwort": "Sturzhergang, Zeitpunkt, Ort und Folgen",
+    "erklaerung": "Eine vollständige Dokumentation von Hergang, Zeitpunkt, Ort und Folgen unterstützt die Ursachenanalyse.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 24,
+    "thema": "sturzprophylaxe",
+    "kategorie": "nach_sturz",
+    "typ": "multiple-choice",
+    "frage": "Was ist nach der Versorgung und Dokumentation eines Sturzes zu tun?",
+    "antworten": ["Ursachen analysieren und den Maßnahmenplan anpassen", "Das Ereignis ohne Auswertung abschließen", "Alle bisherigen Hilfsmittel entfernen", "Die Person dauerhaft immobilisieren"],
+    "richtigeAntwort": "Ursachen analysieren und den Maßnahmenplan anpassen",
+    "erklaerung": "Aus dem Ereignis soll systematisch gelernt werden, um das Wiederholungsrisiko durch angepasste Maßnahmen zu senken.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 25,
+    "thema": "sturzprophylaxe",
+    "kategorie": "grundsaetze",
+    "typ": "multiple-choice",
+    "frage": "Welcher Grundsatz beschreibt gute Sturzprophylaxe am besten?",
+    "antworten": [
+      "Individuell vereinbarte Maßnahmen fördern möglichst sichere Mobilität und achten die Selbstbestimmung",
+      "Jede gefährdete Person soll möglichst wenig aufstehen",
+      "Sicherheit hat immer Vorrang vor dem Selbstbestimmungsrecht",
+      "Alle Personen erhalten unabhängig vom Risiko dieselben Maßnahmen"
+    ],
+    "richtigeAntwort": "Individuell vereinbarte Maßnahmen fördern möglichst sichere Mobilität und achten die Selbstbestimmung",
+    "erklaerung": "Sturzprophylaxe ist individuell, erhält sichere Mobilität und berücksichtigt das Selbstbestimmungsrecht.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 26,
+    "thema": "sturzprophylaxe",
+    "kategorie": "grundsaetze",
+    "typ": "multiple-choice",
+    "frage": "Welche Aussage zu freiheitsentziehenden Maßnahmen ist laut Lernübersicht richtig?",
+    "antworten": [
+      "Sie sind keine reguläre Sturzprophylaxe",
+      "Sie sind bei jedem erhöhten Sturzrisiko erforderlich",
+      "Sie ersetzen die individuelle Risikoeinschätzung",
+      "Sie sind die erste Maßnahme nach einem Beinahe-Sturz"
+    ],
+    "richtigeAntwort": "Sie sind keine reguläre Sturzprophylaxe",
+    "erklaerung": "Die Übersicht stellt ausdrücklich klar: Freiheitsentziehende Maßnahmen sind keine reguläre Sturzprophylaxe.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 27,
+    "thema": "sturzprophylaxe",
+    "kategorie": "grundsaetze",
+    "typ": "text",
+    "frage": "Vervollständige den Merksatz: Person = intrinsisch, Umgebung = extrinsisch, Medikamente = ...?",
+    "akzeptierteAntworten": ["medikationsbezogen", "medikamentenbezogen"],
+    "erklaerung": "Der Merksatz ordnet Medikamente den medikationsbezogenen Risikofaktoren zu.",
+    "quelleSeite": 1
+  },
+  {
+    "id": 28,
+    "thema": "sturzprophylaxe",
+    "kategorie": "grundsaetze",
+    "typ": "text",
+    "frage": "Was bedeutet Sturzprophylaxe ausdrücklich nicht?",
+    "akzeptierteAntworten": ["Immobilisation", "die Immobilisation", "Ruhigstellung", "dauerhafte Ruhigstellung"],
+    "erklaerung": "Der Grundsatz lautet: Sturzprophylaxe bedeutet nicht Immobilisation, sondern unterstützt möglichst sichere Mobilität.",
+    "quelleSeite": 2
+  }
+]

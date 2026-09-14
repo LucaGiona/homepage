@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "kategorie": "abschnitte",
+    "de": "Kehlkopfrachen",
+    "fachbegriff": "Laryngopharynx",
+    "alternativen": ["Hypopharynx"],
+    "erklaerung": "Unterer Rachenabschnitt; grenzt an Kehlkopf und Speiseröhreneingang, auch Hypopharynx genannt."
+  },
+  {
+    "id": 2,
+    "kategorie": "abschnitte",
+    "de": "Mundrachen",
+    "fachbegriff": "Mesopharynx",
+    "alternativen": ["Oropharynx"],
+    "erklaerung": "Mittlerer Rachenabschnitt zwischen Gaumensegel und Kehldeckelspitze, anderer Name für Oropharynx."
+  },
+  {
+    "id": 3,
+    "kategorie": "abschnitte",
+    "de": "Nasenrachen",
+    "fachbegriff": "Nasopharynx",
+    "alternativen": ["Epipharynx"],
+    "erklaerung": "Oberer Rachenabschnitt, über die Choanen mit der Nasenhöhle verbunden, auch Epipharynx genannt."
+  },
+  {
+    "id": 4,
+    "kategorie": "abschnitte",
+    "de": "Mundrachen",
+    "fachbegriff": "Oropharynx",
+    "alternativen": ["Mesopharynx"],
+    "erklaerung": "Mittlerer Rachenabschnitt, steht mit der Mundhöhle in Verbindung; hier kreuzen sich Luft- und Speiseweg."
+  },
+  {
+    "id": 5,
+    "kategorie": "aufbau",
+    "de": "Rachen, Schlund",
+    "fachbegriff": "Pharynx",
+    "alternativen": ["Schlund"],
+    "erklaerung": "12–15 cm langer Muskelschlauch zwischen Schädelbasis und den Eingängen von Kehlkopf und Speiseröhre."
+  },
+  {
+    "id": 6,
+    "kategorie": "gefaesse_nerven",
+    "de": "Venengeflecht am Flügelfortsatz",
+    "fachbegriff": "Plexus pterygoideus",
+    "alternativen": [],
+    "erklaerung": "Venöses Geflecht, über das das Blut des Rachens in die V. jugularis interna abfließt."
+  },
+  {
+    "id": 7,
+    "kategorie": "muskulatur_mandeln",
+    "de": "Mandel",
+    "fachbegriff": "Tonsilla",
+    "alternativen": ["Tonsille"],
+    "erklaerung": "Lymphatisches Gewebe im Rachen (Rachen-, Tuben- und Gaumenmandeln), Teil der Immunabwehr."
+  },
+  {
+    "id": 8,
+    "kategorie": "abschnitte",
+    "de": "Ohrtrompete",
+    "fachbegriff": "Tuba auditiva",
+    "alternativen": [],
+    "erklaerung": "Verbindung zwischen Nasenrachen und Paukenhöhle des Mittelohrs."
+  },
+  {
+    "id": 9,
+    "kategorie": "muskulatur_mandeln",
+    "de": "Lymphatischer Abwehrring im Rachen",
+    "fachbegriff": "Waldeyer-Rachenring",
+    "alternativen": ["Waldeyerscher Rachenring"],
+    "erklaerung": "Ring aus Mandelgewebe, fängt eindringende Keime im Rachen ab."
+  },
+  {
+    "id": 10,
+    "kategorie": "gefaesse_nerven",
+    "de": "Schutzreflex der hinteren Rachenwand",
+    "fachbegriff": "Würgereflex",
+    "alternativen": [],
+    "erklaerung": "Reflex bei Berührung der hinteren Rachenwand, vermittelt über den IX. und X. Hirnnerv."
+  }
+]

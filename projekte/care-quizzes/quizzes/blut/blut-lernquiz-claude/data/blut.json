@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "thema": "aufbau",
+    "kategorie": "aufgaben",
+    "typ": "multiple-choice",
+    "frage": "Welche drei Hauptaufgaben erfüllt Blut als flüssiges Gewebe?",
+    "antworten": [
+      "Transport, Blutstillung und Erregerabwehr",
+      "Verdauung, Bewegung und Sprache",
+      "Harnbildung, Atmung und Sehen",
+      "Knochenbildung, Hören und Wärmeverlust"
+    ],
+    "richtigeAntwort": "Transport, Blutstillung und Erregerabwehr",
+    "erklaerung": "Blut transportiert Atemgase, Nährstoffe, Stoffwechselprodukte, Hormone, Elektrolyte und Wärme, dichtet verletzte Gefäße durch Gerinnung ab und wehrt Erreger ab.",
+    "quelleSeite": null
+  },
+  {
+    "id": 2,
+    "thema": "aufbau",
+    "kategorie": "zusammensetzung",
+    "typ": "multiple-choice",
+    "frage": "Aus wie viel Prozent Plasma und wie viel Prozent zellulären Bestandteilen besteht Blut ungefähr?",
+    "antworten": [
+      "Etwa 55 % Plasma, 45 % zelluläre Bestandteile",
+      "Etwa 90 % Plasma, 10 % zelluläre Bestandteile",
+      "Etwa 20 % Plasma, 80 % zelluläre Bestandteile",
+      "Etwa 45 % Plasma, 55 % zelluläre Bestandteile"
+    ],
+    "richtigeAntwort": "Etwa 55 % Plasma, 45 % zelluläre Bestandteile",
+    "erklaerung": "Blut besteht zu ca. 55 % aus Plasma und zu ca. 45 % aus zellulären Bestandteilen; Plasma selbst besteht zu etwa 90 % aus Wasser.",
+    "quelleSeite": null
+  },
+  {
+    "id": 3,
+    "thema": "aufbau",
+    "kategorie": "plasmaproteine",
+    "typ": "multiple-choice",
+    "frage": "Welches Plasmaprotein ist mengenmäßig am wichtigsten und entscheidend für den kolloidosmotischen Druck?",
+    "antworten": [
+      "Albumin",
+      "Fibrinogen",
+      "Gamma-Globulin",
+      "Transferrin"
+    ],
+    "richtigeAntwort": "Albumin",
+    "erklaerung": "Albumin ist das mengenmäßig wichtigste Plasmaprotein, transportiert wasserunlösliche Stoffe und ist entscheidend für den kolloidosmotischen Druck.",
+    "quelleSeite": null
+  },
+  {
+    "id": 4,
+    "thema": "aufbau",
+    "kategorie": "hkt",
+    "typ": "text",
+    "frage": "Wie heißt der prozentuale Anteil der Blutzellen am Gesamtblutvolumen?",
+    "akzeptierteAntworten": [
+      "Hämatokrit",
+      "Hkt"
+    ],
+    "erklaerung": "Der Hämatokrit gibt den prozentualen Anteil der Blutzellen, vor allem der Erythrozyten, am Gesamtblutvolumen an.",
+    "quelleSeite": null
+  },
+  {
+    "id": 5,
+    "thema": "aufbau",
+    "kategorie": "blutzellen",
+    "typ": "multiple-choice",
+    "frage": "Wo entstehen alle Blutzellen aus einer gemeinsamen Stammzelle?",
+    "antworten": [
+      "Im roten Knochenmark",
+      "In der Milz",
+      "In der Leber",
+      "Im Thymus"
+    ],
+    "richtigeAntwort": "Im roten Knochenmark",
+    "erklaerung": "Alle Blutzellen entstehen im Rahmen der Hämatopoese aus einer gemeinsamen hämatopoetischen Stammzelle im roten Knochenmark.",
+    "quelleSeite": null
+  },
+  {
+    "id": 6,
+    "thema": "aufbau",
+    "kategorie": "erythrozyten",
+    "typ": "multiple-choice",
+    "frage": "Wie lange leben Erythrozyten im Durchschnitt?",
+    "antworten": [
+      "Etwa 120 Tage",
+      "Etwa 8 bis 10 Tage",
+      "Etwa 20 Jahre",
+      "Etwa 12 Stunden"
+    ],
+    "richtigeAntwort": "Etwa 120 Tage",
+    "erklaerung": "Erythrozyten leben etwa 120 Tage, danach werden sie vor allem in Milz, Leber und Knochenmark abgebaut.",
+    "quelleSeite": null
+  },
+  {
+    "id": 7,
+    "thema": "aufbau",
+    "kategorie": "erythrozyten",
+    "typ": "multiple-choice",
+    "frage": "Welches Hormon regt die Bildung neuer Erythrozyten an?",
+    "antworten": [
+      "Erythropoetin (EPO) aus der Niere",
+      "Insulin aus der Bauchspeicheldrüse",
+      "Thyroxin aus der Schilddrüse",
+      "Aldosteron aus der Nebenniere"
+    ],
+    "richtigeAntwort": "Erythropoetin (EPO) aus der Niere",
+    "erklaerung": "Erythropoetin wird in der Niere gebildet und regt im Knochenmark die Erythropoese, also die Bildung neuer Erythrozyten, an.",
+    "quelleSeite": null
+  },
+  {
+    "id": 8,
+    "thema": "aufbau",
+    "kategorie": "leukozyten",
+    "typ": "multiple-choice",
+    "frage": "Welcher Leukozytentyp macht mit etwa 50 bis 70 Prozent den größten Anteil aus und übernimmt die unspezifische Abwehr?",
+    "antworten": [
+      "Neutrophile Granulozyten",
+      "Eosinophile Granulozyten",
+      "Basophile Granulozyten",
+      "Lymphozyten"
+    ],
+    "richtigeAntwort": "Neutrophile Granulozyten",
+    "erklaerung": "Neutrophile Granulozyten machen etwa 50 bis 70 Prozent der Leukozyten aus und dienen als 'Fresszellen' der unspezifischen Abwehr (Phagozytose).",
+    "quelleSeite": null
+  },
+  {
+    "id": 9,
+    "thema": "aufbau",
+    "kategorie": "thrombozyten",
+    "typ": "multiple-choice",
+    "frage": "Woraus entstehen Thrombozyten und was ist ihre zentrale Aufgabe?",
+    "antworten": [
+      "Zellfragmente aus Megakaryozyten, zentral für die Blutstillung",
+      "Kernhaltige Zellen aus der Milz, zentral für die Sauerstoffversorgung",
+      "Zellfragmente aus der Leber, zentral für die Verdauung",
+      "Kernhaltige Zellen aus der Lunge, zentral für den Gasaustausch"
+    ],
+    "richtigeAntwort": "Zellfragmente aus Megakaryozyten, zentral für die Blutstillung",
+    "erklaerung": "Thrombozyten sind kernlose Zellfragmente aus Megakaryozyten im Knochenmark mit einer Lebensdauer von 8 bis 10 Tagen; ihre zentrale Aufgabe ist die primäre Blutstillung.",
+    "quelleSeite": null
+  },
+  {
+    "id": 10,
+    "thema": "physiologie",
+    "kategorie": "gastransport",
+    "typ": "multiple-choice",
+    "frage": "Woran wird Sauerstoff im Blut überwiegend reversibel gebunden transportiert?",
+    "antworten": [
+      "An Hämoglobin",
+      "An Albumin",
+      "An Fibrinogen",
+      "An Bikarbonat"
+    ],
+    "richtigeAntwort": "An Hämoglobin",
+    "erklaerung": "Sauerstoff wird überwiegend reversibel an Hämoglobin gebunden transportiert, arteriell liegt die Sättigung bei etwa 98 Prozent.",
+    "quelleSeite": null
+  },
+  {
+    "id": 11,
+    "thema": "physiologie",
+    "kategorie": "gastransport",
+    "typ": "multiple-choice",
+    "frage": "Wie wird der größte Teil des Kohlendioxids im Blut transportiert?",
+    "antworten": [
+      "Als Hydrogenkarbonat (Bikarbonat) im Plasma",
+      "Ausschließlich gelöst im Plasma",
+      "Ausschließlich gebunden an Albumin",
+      "Als Carbamino-Hämoglobin"
+    ],
+    "richtigeAntwort": "Als Hydrogenkarbonat (Bikarbonat) im Plasma",
+    "erklaerung": "Kohlendioxid wird größtenteils, zu etwa 70 bis 90 Prozent, als Hydrogenkarbonat im Plasma transportiert, ein kleinerer Teil gebunden an Hämoglobin (Carbamino-Hb) und ein kleiner Teil gelöst im Plasma.",
+    "quelleSeite": null
+  },
+  {
+    "id": 12,
+    "thema": "blutgruppen",
+    "kategorie": "ab0",
+    "typ": "multiple-choice",
+    "frage": "Welche Blutgruppe des AB0-Systems trägt weder das Antigen A noch B, dafür aber beide Antikörper im Plasma?",
+    "antworten": [
+      "Blutgruppe 0",
+      "Blutgruppe A",
+      "Blutgruppe B",
+      "Blutgruppe AB"
+    ],
+    "richtigeAntwort": "Blutgruppe 0",
+    "erklaerung": "Blutgruppe 0 trägt keine Antigene auf den Erythrozyten, aber sowohl Anti-A- als auch Anti-B-Antikörper im Plasma; sie ist in Mitteleuropa mit rund 42 Prozent sehr häufig.",
+    "quelleSeite": null
+  },
+  {
+    "id": 13,
+    "thema": "blutgruppen",
+    "kategorie": "ab0",
+    "typ": "multiple-choice",
+    "frage": "Was passiert, wenn bei einer Transfusion passendes Antigen und Antikörper aufeinandertreffen?",
+    "antworten": [
+      "Es kommt zur Agglutination (Verklumpung) und Zerstörung der Erythrozyten",
+      "Die Blutgerinnung wird sofort gehemmt",
+      "Es entsteht zusätzliches Hämoglobin",
+      "Die Blutzellen vermehren sich verstärkt"
+    ],
+    "richtigeAntwort": "Es kommt zur Agglutination (Verklumpung) und Zerstörung der Erythrozyten",
+    "erklaerung": "Treffen passendes Antigen und Antikörper aufeinander, kommt es zur Agglutination und Zerstörung der Erythrozyten – ein gefährlicher Transfusionszwischenfall.",
+    "quelleSeite": null
+  },
+  {
+    "id": 14,
+    "thema": "blutgruppen",
+    "kategorie": "rhesus",
+    "typ": "multiple-choice",
+    "frage": "Wann entstehen beim Rhesussystem in der Regel Rhesus-Antikörper?",
+    "antworten": [
+      "Erst nach Kontakt mit rhesuspositivem Blut, z. B. bei Transfusion oder Schwangerschaft",
+      "Von Geburt an sind sie immer vorhanden",
+      "Nur bei Blutgruppe AB",
+      "Nie, Rhesus-Antikörper existieren nicht"
+    ],
+    "richtigeAntwort": "Erst nach Kontakt mit rhesuspositivem Blut, z. B. bei Transfusion oder Schwangerschaft",
+    "erklaerung": "Anders als beim AB0-System entstehen Rhesus-Antikörper erst nach Kontakt mit rhesuspositivem Blut, etwa bei einer Transfusion oder Schwangerschaft.",
+    "quelleSeite": null
+  },
+  {
+    "id": 15,
+    "thema": "haemostase",
+    "kategorie": "primaer",
+    "typ": "multiple-choice",
+    "frage": "Was passiert bei der primären Hämostase?",
+    "antworten": [
+      "Vasokonstriktion, Adhäsion und Aggregation der Thrombozyten zum weißen Thrombus",
+      "Umwandlung von Fibrinogen in Fibrin über die Gerinnungskaskade",
+      "Enzymatischer Abbau des Fibrins durch Plasmin",
+      "Bildung neuer Erythrozyten im Knochenmark"
+    ],
+    "richtigeAntwort": "Vasokonstriktion, Adhäsion und Aggregation der Thrombozyten zum weißen Thrombus",
+    "erklaerung": "Die primäre Hämostase umfasst Vasokonstriktion (Gefäßverengung), Adhäsion der Thrombozyten über den von-Willebrand-Faktor und ihre Aggregation zum Thrombozytenpfropf (weißer Thrombus).",
+    "quelleSeite": null
+  },
+  {
+    "id": 16,
+    "thema": "haemostase",
+    "kategorie": "sekundaer",
+    "typ": "multiple-choice",
+    "frage": "Was geschieht bei der sekundären Hämostase?",
+    "antworten": [
+      "Prothrombin wird zu Thrombin aktiviert, das Fibrinogen in Fibrin umwandelt",
+      "Thrombozyten haften an Kollagenfasern",
+      "Der Blutfluss beschleunigt sich",
+      "Erythrozyten werden abgebaut"
+    ],
+    "richtigeAntwort": "Prothrombin wird zu Thrombin aktiviert, das Fibrinogen in Fibrin umwandelt",
+    "erklaerung": "Über eine Gerinnungsfaktor-Kaskade wird Prothrombin zu Thrombin aktiviert; Thrombin wandelt lösliches Fibrinogen in unlösliches Fibrin um, das den Thrombus zum stabilen roten Fibrinthrombus vernetzt.",
+    "quelleSeite": null
+  },
+  {
+    "id": 17,
+    "thema": "haemostase",
+    "kategorie": "koerpereigen",
+    "typ": "text",
+    "frage": "Welcher körpereigene Gerinnungshemmer wird durch Heparine in seiner Wirkung verstärkt?",
+    "akzeptierteAntworten": [
+      "Antithrombin III",
+      "Antithrombin"
+    ],
+    "erklaerung": "Antithrombin III ist ein körpereigener Gerinnungshemmer, dessen Wirkung durch Heparine deutlich verstärkt wird.",
+    "quelleSeite": null
+  },
+  {
+    "id": 18,
+    "thema": "haemostase",
+    "kategorie": "fibrinolyse",
+    "typ": "multiple-choice",
+    "frage": "Welches Enzym baut ein Fibringerinnsel im Rahmen der Fibrinolyse ab?",
+    "antworten": [
+      "Plasmin",
+      "Thrombin",
+      "Albumin",
+      "Erythropoetin"
+    ],
+    "richtigeAntwort": "Plasmin",
+    "erklaerung": "Plasmin entsteht aus Plasminogen durch den Gewebeplasminogenaktivator (tPA) und baut das Fibringerinnsel enzymatisch ab, sobald die Wunde verschlossen ist.",
+    "quelleSeite": null
+  },
+  {
+    "id": 19,
+    "thema": "haemostase",
+    "kategorie": "virchow_trias",
+    "typ": "multiple-choice",
+    "frage": "Welche drei Faktoren umfasst die Virchow-Trias als Ursachen einer Thrombose?",
+    "antworten": [
+      "Verlangsamter Blutfluss, Gefäßwandschädigung, erhöhte Gerinnungsneigung",
+      "Bluthochdruck, Diabetes, Übergewicht",
+      "Rauchen, Alkohol, Bewegungsmangel",
+      "Fieber, Schmerzen, Schwellung"
+    ],
+    "richtigeAntwort": "Verlangsamter Blutfluss, Gefäßwandschädigung, erhöhte Gerinnungsneigung",
+    "erklaerung": "Die Virchow-Trias beschreibt die drei begünstigenden Faktoren einer Thrombose: verlangsamten Blutfluss (z. B. bei Immobilität), eine Schädigung der Gefäßwand und eine erhöhte Gerinnungsneigung.",
+    "quelleSeite": null
+  },
+  {
+    "id": 20,
+    "thema": "anaemie",
+    "kategorie": "definition",
+    "typ": "multiple-choice",
+    "frage": "Wann liegt eine Anämie (Blutarmut) vor?",
+    "antworten": [
+      "Wenn Hämatokrit, Erythrozytenzahl und/oder Hämoglobingehalt unter dem Referenzbereich liegen",
+      "Wenn die Leukozytenzahl erhöht ist",
+      "Wenn der Blutdruck dauerhaft über 140/90 mmHg liegt",
+      "Wenn die Thrombozytenzahl erhöht ist"
+    ],
+    "richtigeAntwort": "Wenn Hämatokrit, Erythrozytenzahl und/oder Hämoglobingehalt unter dem Referenzbereich liegen",
+    "erklaerung": "Eine Anämie liegt vor, wenn Hämatokrit, Erythrozytenzahl und/oder Hämoglobingehalt unter den Referenzbereich absinken.",
+    "quelleSeite": null
+  },
+  {
+    "id": 21,
+    "thema": "anaemie",
+    "kategorie": "formen",
+    "typ": "multiple-choice",
+    "frage": "Welche Anämieform ist mit Eisenmangel als häufigster Ursache verbunden?",
+    "antworten": [
+      "Hypochrome, mikrozytäre Anämie",
+      "Normochrome, normozytäre Anämie",
+      "Hyperchrome, makrozytäre Anämie",
+      "Polyglobulie"
+    ],
+    "richtigeAntwort": "Hypochrome, mikrozytäre Anämie",
+    "erklaerung": "Bei der hypochromen, mikrozytären Anämie sind Hb, MCH und MCV vermindert; häufigste Ursache ist Eisenmangel.",
+    "quelleSeite": null
+  },
+  {
+    "id": 22,
+    "thema": "anaemie",
+    "kategorie": "formen",
+    "typ": "multiple-choice",
+    "frage": "Welche Anämieform wird typischerweise durch Vitamin-B12- oder Folsäuremangel verursacht?",
+    "antworten": [
+      "Hyperchrome, makrozytäre Anämie",
+      "Hypochrome, mikrozytäre Anämie",
+      "Renale Anämie",
+      "Aplastische Anämie"
+    ],
+    "richtigeAntwort": "Hyperchrome, makrozytäre Anämie",
+    "erklaerung": "Bei Vitamin-B12- oder Folsäuremangel (perniziöse Anämie) sind Hb, MCH und MCV erhöht, es entstehen vergrößerte Erythrozyten (Megalozyten).",
+    "quelleSeite": null
+  },
+  {
+    "id": 23,
+    "thema": "anaemie",
+    "kategorie": "symptome",
+    "typ": "multiple-choice",
+    "frage": "Welche Symptome sind typisch für eine Anämie?",
+    "antworten": [
+      "Blässe, Müdigkeit, Leistungsabfall, Schwindel, erhöhter Puls",
+      "Fieber, Husten, Auswurf",
+      "Gelenkschmerzen und Hautausschlag",
+      "Übermäßiger Durst und häufiges Wasserlassen"
+    ],
+    "richtigeAntwort": "Blässe, Müdigkeit, Leistungsabfall, Schwindel, erhöhter Puls",
+    "erklaerung": "Typische Anämiesymptome sind Blässe von Haut und Schleimhäuten, Müdigkeit, Leistungsminderung, Schwindel, Kopfschmerzen, Ohrensausen und ein erhöhter Puls bei Belastung.",
+    "quelleSeite": null
+  },
+  {
+    "id": 24,
+    "thema": "anaemie",
+    "kategorie": "polyglobulie",
+    "typ": "text",
+    "frage": "Wie wird eine vermehrte Erythrozytenzahl bezeichnet, wie sie zum Beispiel nach längerem Höhenaufenthalt auftreten kann?",
+    "akzeptierteAntworten": [
+      "Polyglobulie"
+    ],
+    "erklaerung": "Eine vermehrte Erythrozytenzahl wird als Polyglobulie bezeichnet, sie kann sich zum Beispiel als Anpassung an Sauerstoffmangel in großer Höhe entwickeln.",
+    "quelleSeite": null
+  },
+  {
+    "id": 25,
+    "thema": "antikoagulation",
+    "kategorie": "grundlagen",
+    "typ": "multiple-choice",
+    "frage": "Was hemmen Antikoagulanzien im Gegensatz zu ihrem umgangssprachlichen Namen 'Blutverdünner'?",
+    "antworten": [
+      "Die plasmatische Gerinnung (Gerinnungsfaktoren), nicht die Bildung der Blutzellen",
+      "Ausschließlich die Bildung neuer Erythrozyten",
+      "Die Produktion von Blutplasma",
+      "Die Aufnahme von Sauerstoff im Blut"
+    ],
+    "richtigeAntwort": "Die plasmatische Gerinnung (Gerinnungsfaktoren), nicht die Bildung der Blutzellen",
+    "erklaerung": "Antikoagulanzien hemmen nicht die Bildung der Blutzellen, sondern die plasmatische Gerinnung, also die Gerinnungsfaktoren, und verhindern so die Entstehung oder das Fortschreiten von Thromben.",
+    "quelleSeite": null
+  },
+  {
+    "id": 26,
+    "thema": "antikoagulation",
+    "kategorie": "risiko",
+    "typ": "multiple-choice",
+    "frage": "Was ist die wichtigste gemeinsame Gefahr aller Antikoagulanzien?",
+    "antworten": [
+      "Eine deutlich erhöhte Blutungsneigung",
+      "Ein plötzlicher Blutdruckabfall",
+      "Eine erhöhte Infektanfälligkeit",
+      "Eine Verlangsamung der Wundheilung ohne Blutungsrisiko"
+    ],
+    "richtigeAntwort": "Eine deutlich erhöhte Blutungsneigung",
+    "erklaerung": "Die wichtigste gemeinsame Gefahr aller Antikoagulanzien ist eine deutlich erhöhte Blutungsneigung; bei Stürzen unter Antikoagulation muss immer an Blutungskomplikationen gedacht werden.",
+    "quelleSeite": null
+  },
+  {
+    "id": 27,
+    "thema": "antikoagulation",
+    "kategorie": "heparine",
+    "typ": "multiple-choice",
+    "frage": "Worin unterscheidet sich unfraktioniertes Heparin (UFH) von niedermolekularem Heparin (NMH)?",
+    "antworten": [
+      "UFH hemmt zusätzlich zu Faktor Xa auch Faktor IIa (Thrombin)",
+      "UFH wird nur subkutan gegeben, NMH nur intravenös",
+      "NMH benötigt immer eine aPTT-Kontrolle, UFH nicht",
+      "UFH ist bei Niereninsuffizienz kontraindiziert, NMH nicht"
+    ],
+    "richtigeAntwort": "UFH hemmt zusätzlich zu Faktor Xa auch Faktor IIa (Thrombin)",
+    "erklaerung": "NMH hemmt im Komplex mit Antithrombin III selektiv Faktor Xa, während unfraktioniertes Heparin (UFH) zusätzlich Faktor IIa (Thrombin) hemmt und meist über die aPTT kontrolliert wird.",
+    "quelleSeite": null
+  },
+  {
+    "id": 28,
+    "thema": "antikoagulation",
+    "kategorie": "hit",
+    "typ": "multiple-choice",
+    "frage": "Was kennzeichnet die heparininduzierte Thrombozytopenie Typ II (HIT II)?",
+    "antworten": [
+      "Starker Thrombozytenabfall bei gleichzeitig erhöhtem Thromboembolierisiko",
+      "Ein Anstieg der Thrombozyten ohne weitere Folgen",
+      "Eine harmlose, vorübergehende Hautrötung",
+      "Ein Abfall der Erythrozytenzahl"
+    ],
+    "richtigeAntwort": "Starker Thrombozytenabfall bei gleichzeitig erhöhtem Thromboembolierisiko",
+    "erklaerung": "Bei HIT II aktivieren Autoantikörper gegen Heparin-Komplexe die Thrombozytenaggregation; die Thrombozytenzahl fällt stark ab, während das Risiko für Thromboembolien steigt. Alternativen sind dann Argatroban, Fondaparinux oder Danaparoid.",
+    "quelleSeite": null
+  },
+  {
+    "id": 29,
+    "thema": "antikoagulation",
+    "kategorie": "heparine",
+    "typ": "text",
+    "frage": "Welches Medikament neutralisiert im Notfall die Wirkung von unfraktioniertem Heparin (UFH) vollständig?",
+    "akzeptierteAntworten": [
+      "Protamin"
+    ],
+    "erklaerung": "Protamin neutralisiert UFH im Notfall vollständig; bei niedermolekularem Heparin wird die Wirkung nur etwa halbiert.",
+    "quelleSeite": null
+  },
+  {
+    "id": 30,
+    "thema": "antikoagulation",
+    "kategorie": "doak",
+    "typ": "multiple-choice",
+    "frage": "Welcher Vorteil wird DOAK gegenüber Cumarinen zugeschrieben?",
+    "antworten": [
+      "Keine routinemäßigen Gerinnungskontrollen nötig, gut steuerbar",
+      "Sie wirken erst nach fünf Tagen voll",
+      "Sie benötigen zwingend eine überlappende Umstellung mit Heparin",
+      "Sie sind nur intravenös verfügbar"
+    ],
+    "richtigeAntwort": "Keine routinemäßigen Gerinnungskontrollen nötig, gut steuerbar",
+    "erklaerung": "Bei DOAK sind keine routinemäßigen Gerinnungskontrollen nötig, sie sind gut steuerbar und haben Cumarine in vielen Indikationen weitgehend abgelöst; bei Niereninsuffizienz muss die Dosis aber reduziert werden.",
+    "quelleSeite": null
+  },
+  {
+    "id": 31,
+    "thema": "antikoagulation",
+    "kategorie": "doak",
+    "typ": "multiple-choice",
+    "frage": "Welcher Wirkstoff zählt zu den DOAK, hemmt aber im Unterschied zu den 'Xabanen' direkt Thrombin?",
+    "antworten": [
+      "Dabigatran",
+      "Rivaroxaban",
+      "Apixaban",
+      "Edoxaban"
+    ],
+    "richtigeAntwort": "Dabigatran",
+    "erklaerung": "Dabigatran gehört zu den DOAK, hemmt aber direkt Faktor IIa (Thrombin), während Apixaban, Edoxaban und Rivaroxaban als 'Xabane' direkt Faktor Xa hemmen.",
+    "quelleSeite": null
+  },
+  {
+    "id": 32,
+    "thema": "antikoagulation",
+    "kategorie": "doak",
+    "typ": "multiple-choice",
+    "frage": "Welches Antidot wird bei lebensbedrohlichen Blutungen unter Dabigatran eingesetzt?",
+    "antworten": [
+      "Idarucizumab",
+      "Andexanet",
+      "Protamin",
+      "Vitamin K"
+    ],
+    "richtigeAntwort": "Idarucizumab",
+    "erklaerung": "Für Dabigatran steht mit Idarucizumab ein spezifisches Antidot zur Verfügung; für die Faktor-Xa-Hemmer Apixaban, Edoxaban und Rivaroxaban wird bei lebensbedrohlichen Blutungen Andexanet eingesetzt.",
+    "quelleSeite": null
+  },
+  {
+    "id": 33,
+    "thema": "antikoagulation",
+    "kategorie": "cumarine",
+    "typ": "multiple-choice",
+    "frage": "Welche Gerinnungsfaktoren werden durch Vitamin-K-Antagonisten (Cumarine) in ihrer Aktivierung gehemmt?",
+    "antworten": [
+      "Die Faktoren II, VII, IX und X",
+      "Ausschließlich Faktor Xa",
+      "Ausschließlich Thrombin (Faktor IIa)",
+      "Alle Blutzellen des Knochenmarks"
+    ],
+    "richtigeAntwort": "Die Faktoren II, VII, IX und X",
+    "erklaerung": "Cumarine wie Phenprocoumon oder Warfarin verhindern die aktivierende Wirkung von Vitamin K auf die Gerinnungsfaktoren II, VII, IX und X und hemmen dadurch die Gerinnung.",
+    "quelleSeite": null
+  },
+  {
+    "id": 34,
+    "thema": "antikoagulation",
+    "kategorie": "cumarine",
+    "typ": "multiple-choice",
+    "frage": "Warum wird bei Beginn einer Cumarin-Therapie oft überlappend mit Heparin behandelt?",
+    "antworten": [
+      "Weil Cumarine erst nach etwa fünf Tagen voll wirken",
+      "Weil Cumarine sofort und nur für wenige Stunden wirken",
+      "Weil Heparin die Cumarinwirkung dauerhaft verstärkt",
+      "Weil Cumarine nur bei Kindern eingesetzt werden dürfen"
+    ],
+    "richtigeAntwort": "Weil Cumarine erst nach etwa fünf Tagen voll wirken",
+    "erklaerung": "Da Cumarine erst nach etwa fünf Tagen ihre volle Wirkung entfalten, wird das Cumarin während der weiterlaufenden Heparingabe begonnen; das Heparin wird erst abgesetzt, wenn die Ziel-INR erreicht ist.",
+    "quelleSeite": null
+  },
+  {
+    "id": 35,
+    "thema": "antikoagulation",
+    "kategorie": "cumarine",
+    "typ": "text",
+    "frage": "Welches Vitamin kann die Wirkung von Cumarinen im Notfall aufheben?",
+    "akzeptierteAntworten": [
+      "Vitamin K"
+    ],
+    "erklaerung": "Vitamin K kann die Wirkung von Cumarinen aufheben; im Notfall werden zusätzlich Prothrombinkomplexe oder Frischplasma gegeben.",
+    "quelleSeite": null
+  },
+  {
+    "id": 36,
+    "thema": "antikoagulation",
+    "kategorie": "fibrinolyse_therapie",
+    "typ": "multiple-choice",
+    "frage": "Wozu dienen Fibrinolytika wie Alteplase im Unterschied zu klassischen Antikoagulanzien?",
+    "antworten": [
+      "Sie lösen bereits bestehende Fibringerinnsel aktiv auf",
+      "Sie verhindern nur die Neubildung von Gerinnseln",
+      "Sie fördern gezielt die Blutgerinnung",
+      "Sie ersetzen fehlende Blutzellen"
+    ],
+    "richtigeAntwort": "Sie lösen bereits bestehende Fibringerinnsel aktiv auf",
+    "erklaerung": "Fibrinolytika wie Alteplase (rt-PA) aktivieren nach intravenöser Gabe Plasminogen zu Plasmin, das ein bereits bestehendes Fibringerinnsel abbaut – anders als klassische Antikoagulanzien, die nur die Neubildung verhindern.",
+    "quelleSeite": null
+  },
+  {
+    "id": 37,
+    "thema": "antikoagulation",
+    "kategorie": "fibrinolyse_therapie",
+    "typ": "multiple-choice",
+    "frage": "Bei welchem Krankheitsbild kommt eine Lysetherapie mit Fibrinolytika typischerweise zum Einsatz?",
+    "antworten": [
+      "Ischämischer Schlaganfall, Lungenembolie oder STEMI",
+      "Eisenmangelanämie",
+      "Allergische Reaktion",
+      "Chronische Niereninsuffizienz"
+    ],
+    "richtigeAntwort": "Ischämischer Schlaganfall, Lungenembolie oder STEMI",
+    "erklaerung": "Die Lysetherapie mit Fibrinolytika kommt unter anderem bei ischämischem Schlaganfall, Lungenembolie, STEMI und akutem Verschluss von Extremitätenarterien zum Einsatz und muss zeitnah erfolgen.",
+    "quelleSeite": null
+  },
+  {
+    "id": 38,
+    "thema": "antikoagulation",
+    "kategorie": "pflege",
+    "typ": "multiple-choice",
+    "frage": "Welche Maßnahme sollte während einer Fibrinolyse (Lysetherapie) vermieden werden?",
+    "antworten": [
+      "Intramuskuläre Injektionen",
+      "Blutdruckmessung am Arm",
+      "Mundpflege",
+      "Anlegen einer Decke"
+    ],
+    "richtigeAntwort": "Intramuskuläre Injektionen",
+    "erklaerung": "Während einer Fibrinolyse sollten Maßnahmen vermieden werden, die Blutungen auslösen können, etwa Nassrasur, intramuskuläre oder intraartikuläre Injektionen, rektales Fiebermessen und Einläufe.",
+    "quelleSeite": null
+  },
+  {
+    "id": 39,
+    "thema": "antikoagulation",
+    "kategorie": "antifibrinolytika",
+    "typ": "text",
+    "frage": "Welches Antifibrinolytikum wird zum Beispiel bei schweren traumatischen oder postpartalen Blutungen eingesetzt, um die Fibrinauflösung zu hemmen?",
+    "akzeptierteAntworten": [
+      "Tranexamsäure"
+    ],
+    "erklaerung": "Tranexamsäure verhindert die Aktivierung von Plasmin, hemmt damit die Fibrinauflösung und verstärkt so die Gerinnung – etwa bei schweren traumatischen oder bedrohlichen postpartalen Blutungen.",
+    "quelleSeite": null
+  },
+  {
+    "id": 40,
+    "thema": "antikoagulation",
+    "kategorie": "pflege",
+    "typ": "multiple-choice",
+    "frage": "Was müssen Patientinnen und Patienten mit oralen Antikoagulanzien bei sich tragen?",
+    "antworten": [
+      "Einen Antikoagulanzien-Ausweis",
+      "Einen Blutgruppenausweis mit Fotografie",
+      "Ein Notfallmedikament gegen Bluthochdruck",
+      "Einen Impfpass"
+    ],
+    "richtigeAntwort": "Einen Antikoagulanzien-Ausweis",
+    "erklaerung": "Patientinnen und Patienten mit oralen Antikoagulanzien erhalten einen Antikoagulanzien-Ausweis; vor größeren operativen Eingriffen müssen orale Antikoagulanzien in der Regel pausiert werden.",
+    "quelleSeite": null
+  },
+  {
+    "id": 41,
+    "thema": "aufbau",
+    "kategorie": "leukozyten",
+    "typ": "multiple-choice",
+    "frage": "Wie wird eine erhöhte Leukozytenzahl im Blut bezeichnet?",
+    "antworten": [
+      "Leukozytose",
+      "Leukopenie",
+      "Thrombozytose",
+      "Polyglobulie"
+    ],
+    "richtigeAntwort": "Leukozytose",
+    "erklaerung": "Eine erhöhte Leukozytenzahl wird als Leukozytose bezeichnet, eine erniedrigte als Leukopenie.",
+    "quelleSeite": null
+  },
+  {
+    "id": 42,
+    "thema": "haemostase",
+    "kategorie": "thrombopenie",
+    "typ": "multiple-choice",
+    "frage": "Welche Gefahr besteht bei einer Thrombozytopenie (zu wenig Thrombozyten)?",
+    "antworten": [
+      "Erhöhte Blutungsneigung, unter anderem Petechien",
+      "Erhöhte Thromboseneigung",
+      "Verstärkte Sauerstoffaufnahme",
+      "Vermehrte Antikörperbildung"
+    ],
+    "richtigeAntwort": "Erhöhte Blutungsneigung, unter anderem Petechien",
+    "erklaerung": "Bei einer Thrombozytopenie ist die primäre Blutstillung beeinträchtigt, es besteht eine erhöhte Blutungsneigung, unter anderem können punktförmige Hauteinblutungen (Petechien) auftreten.",
+    "quelleSeite": null
+  }
+]

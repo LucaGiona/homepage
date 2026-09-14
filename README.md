@@ -53,8 +53,13 @@ Kurzer Verlauf, was wann gemacht wurde. Ältere Historie davor: siehe `git log`.
 - Drittes Projekt: "Melody Nelson Bar" — echte, live laufende Website (`melody-nelson.berlin`) der Cocktailbar, in der der Nutzer früher gearbeitet hat. Nur Screenshot + Link zur Live-Seite, keine Kopie im Repo (bewusst, da eigenständig laufende Fremd-/Altseite). Neuer optionaler `siteUrl`-Link in der Detailansicht dafür ergänzt.
 - Bug gefunden: Beschreibungstexte in `projekte.html` nutzten `white-space: pre-line` mit manuell umgebrochenen Template-Strings — dadurch erschienen mitten im Satz Zeilenumbrüche. Behoben, indem `detail` jetzt ein Array von Absätzen ist (je ein `<p>`), `pre-line` entfernt.
 
+- Viertes Projekt: "Care Quizzes" — Sammlung von Lernquizzes für die Pflegefachmann-Ausbildung (Herz, Niere, Gefäße, Blut, HNO u. a.), teils mit paralleler ChatGPT- und Claude-Variante desselben Themas zum direkten Vergleich. Eigenes GitHub-Repo (`care-quizzes`).
+- Nur die eigentliche App kopiert (`index.html`, `css/`, `js/`, `quizzes/`, ~1,4 MB) — persönliche Lernheft-PDFs und Prompt-Templates aus dem Quellordner (~96 MB) bewusst ausgeschlossen, da nicht Teil der App.
+- Als eigenständige Unterseite unter `projekte/care-quizzes/` eingebettet, gleiches Muster wie beim Timer (eigenes Theme, "Zurück zu Projekte"-Leiste, Link zum GitHub-Original).
+- Fünftes Projekt: "Anatomie-Karteikarten" — Leitner-System-Karteikarten-App (Latein/Deutsch/Englisch) mit zwei unabhängigen Lernmodi (Freies Lernen, Wochenmodus). Eigenes GitHub-Repo (`karteikarten-app`). Nur die App kopiert (~150 KB), persönliche Lernheft-PDFs (~4,6 MB) aus dem Quellordner ausgeschlossen. Gleiches Einbettungsmuster wie bei Timer/Care Quizzes.
+
 ### Ideen / offene Punkte (noch nicht umgesetzt)
-- Drittes Projekt für `projekte.html` noch offen (eine App wurde geprüft und verworfen, "calculation-App"/Vue — passte nicht).
+- Eine App wurde geprüft und verworfen: "calculation-App" (Vue) — passte inhaltlich/vom Reifegrad nicht.
 - Kontaktformular als eigene Injection (`templates/contact-form.html`), nur auf einer Kontakt-Seite, nicht überall.
 - Ordner `Zertifikate` (Yoga, Bridgehouse, Excel, Product Owner, Kaufmännische Fachkraft) noch nicht integriert — bräuchte eigene Kategorie(n) jenseits von CSS/JS/DB/AI/Python.
 - `html/galerie.html`: Tippfehler `green_water_ducks02.webpp` (doppeltes p) — Bild lädt bei größeren Viewports nicht (echtes Broken-Image).

@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "thema": "rachen",
+    "kategorie": "aufbau",
+    "typ": "multiple-choice",
+    "frage": "Wie lang ist der Rachen (Pharynx) beim Erwachsenen ungefähr?",
+    "antworten": ["5–8 cm", "12–15 cm", "20–25 cm", "30–35 cm"],
+    "richtigeAntwort": "12–15 cm",
+    "erklaerung": "Der Pharynx ist ein etwa 12–15 cm langer Muskelschlauch zwischen Schädelbasis und den Eingängen von Kehlkopf und Speiseröhre.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 2,
+    "thema": "rachen",
+    "kategorie": "abschnitte",
+    "typ": "multiple-choice",
+    "frage": "In welchem Rachenabschnitt kreuzen sich Luft- und Speiseweg?",
+    "antworten": ["Nasopharynx", "Oropharynx", "Laryngopharynx", "Keiner der Abschnitte"],
+    "richtigeAntwort": "Oropharynx",
+    "erklaerung": "Im Oropharynx wird sowohl Atemluft als auch Nahrung transportiert – hier kreuzen sich beide Wege.",
+    "quelleSeite": 4
+  },
+  {
+    "id": 3,
+    "thema": "rachen",
+    "kategorie": "abschnitte",
+    "typ": "text",
+    "frage": "Wie lautet der andere Name für den Nasopharynx?",
+    "akzeptierteAntworten": ["Epipharynx"],
+    "erklaerung": "Der Nasopharynx wird auch als Epipharynx bezeichnet.",
+    "quelleSeite": 4
+  },
+  {
+    "id": 4,
+    "thema": "rachen",
+    "kategorie": "abschnitte",
+    "typ": "multiple-choice",
+    "frage": "Über welche Struktur ist der Nasopharynx mit der Paukenhöhle des Ohrs verbunden?",
+    "antworten": ["Choane", "Ohrtrompete (Tuba auditiva)", "Kiesselbach-Plexus", "Waldeyer-Rachenring"],
+    "richtigeAntwort": "Ohrtrompete (Tuba auditiva)",
+    "erklaerung": "Über die Tuba auditiva besteht eine Verbindung zwischen Nasopharynx und Mittelohr.",
+    "quelleSeite": 4
+  },
+  {
+    "id": 5,
+    "thema": "rachen",
+    "kategorie": "muskulatur_mandeln",
+    "typ": "multiple-choice",
+    "frage": "Welche Muskelgruppe des Rachens hat einen ringförmigen Faserverlauf und verengt den Pharynx?",
+    "antworten": ["Schlundheber", "Schlundschnürer", "Zungenbeinmuskeln", "Ansatzrohrmuskeln"],
+    "richtigeAntwort": "Schlundschnürer",
+    "erklaerung": "Die Schlundschnürer haben einen ringförmigen Faserverlauf, wodurch sie den Pharynx verengen können.",
+    "quelleSeite": 5
+  },
+  {
+    "id": 6,
+    "thema": "rachen",
+    "kategorie": "muskulatur_mandeln",
+    "typ": "text",
+    "frage": "Wie wird der Ring aus Mandelgewebe im Rachen genannt, der eindringende Keime abfängt?",
+    "akzeptierteAntworten": ["Waldeyer-Rachenring", "Waldeyerscher Rachenring"],
+    "erklaerung": "Der Waldeyer-Rachenring besteht aus Rachen-, Tuben- und Gaumenmandeln.",
+    "quelleSeite": 5
+  },
+  {
+    "id": 7,
+    "thema": "rachen",
+    "kategorie": "feinbau",
+    "typ": "multiple-choice",
+    "frage": "Mit welchem Epithel ist der Nasopharynx ausgekleidet?",
+    "antworten": ["Unverhorntes Plattenepithel", "Respiratorisches Epithel", "Hyaliner Knorpel", "Elastischer Knorpel"],
+    "richtigeAntwort": "Respiratorisches Epithel",
+    "erklaerung": "Der Nasopharynx transportiert nur Atemluft und ist wie die Nasenhöhle mit respiratorischem Epithel ausgekleidet.",
+    "quelleSeite": 6
+  },
+  {
+    "id": 8,
+    "thema": "rachen",
+    "kategorie": "gefaesse_nerven",
+    "typ": "multiple-choice",
+    "frage": "Welche Hirnnerven sind gemeinsam für den Würgereflex verantwortlich?",
+    "antworten": [
+      "N. facialis und N. trigeminus",
+      "N. glossopharyngeus und N. vagus",
+      "N. olfactorius und N. opticus",
+      "N. accessorius und N. hypoglossus"
+    ],
+    "richtigeAntwort": "N. glossopharyngeus und N. vagus",
+    "erklaerung": "Der IX. Hirnnerv (N. glossopharyngeus) und der X. Hirnnerv (N. vagus) versorgen das sensible Feld an der hinteren Rachenwand, dessen Berührung den Würgereflex auslöst.",
+    "quelleSeite": 7
+  },
+  {
+    "id": 9,
+    "thema": "rachen",
+    "kategorie": "funktionen",
+    "typ": "multiple-choice",
+    "frage": "Welche Strukturen wirken beim Schluckvorgang zusammen, damit keine Nahrung in die Luftröhre gelangt?",
+    "antworten": [
+      "Zunge, Gaumensegel, Schlundmuskulatur und Kehlkopfdeckel",
+      "Nur der Kehlkopfdeckel",
+      "Nur die Zungenmuskulatur",
+      "Nur die Speiseröhrenmuskulatur"
+    ],
+    "richtigeAntwort": "Zunge, Gaumensegel, Schlundmuskulatur und Kehlkopfdeckel",
+    "erklaerung": "Der Schluckvorgang erfordert ein fein abgestimmtes Zusammenspiel von Zunge, Mundbodenmuskulatur, Schlundmuskulatur, Gaumensegel, Kehlkopfdeckel und Speiseröhrenmuskulatur.",
+    "quelleSeite": 8
+  },
+  {
+    "id": 10,
+    "thema": "rachen",
+    "kategorie": "abschnitte",
+    "typ": "text",
+    "frage": "Wie wird der untere, an den Kehlkopf grenzende Rachenabschnitt fachsprachlich genannt?",
+    "akzeptierteAntworten": ["Laryngopharynx", "Hypopharynx"],
+    "erklaerung": "Der Kehlkopfrachen trägt die Bezeichnung Laryngopharynx oder Hypopharynx.",
+    "quelleSeite": 4
+  }
+]

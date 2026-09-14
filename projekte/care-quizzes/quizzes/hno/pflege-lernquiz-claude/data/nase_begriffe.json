@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "kategorie": "aufbau",
+    "de": "Nasenhöhle",
+    "fachbegriff": "Cavitas nasi",
+    "alternativen": [],
+    "erklaerung": "Innerer, von Schädelknochen umschlossener Hohlraum der Nase."
+  },
+  {
+    "id": 2,
+    "kategorie": "aufbau",
+    "de": "Nasen-Rachen-Öffnung",
+    "fachbegriff": "Choane",
+    "alternativen": ["Choanen"],
+    "erklaerung": "Paarige hintere Öffnung der Nasenhöhle, Verbindung zum Rachenraum."
+  },
+  {
+    "id": 3,
+    "kategorie": "aufbau",
+    "de": "Nasenmuschel",
+    "fachbegriff": "Concha nasalis",
+    "alternativen": ["Conchae nasales"],
+    "erklaerung": "Knöcherne, mit Schleimhaut überzogene Struktur an der Nasenhöhlen-Seitenwand."
+  },
+  {
+    "id": 4,
+    "kategorie": "aufbau",
+    "de": "Nasenrücken",
+    "fachbegriff": "Dorsum nasi",
+    "alternativen": [],
+    "erklaerung": "Mittlerer Abschnitt der äußeren Nase zwischen Nasenwurzel und Nasenspitze."
+  },
+  {
+    "id": 5,
+    "kategorie": "patho",
+    "de": "Nasenbluten",
+    "fachbegriff": "Epistaxis",
+    "alternativen": [],
+    "erklaerung": "Blutung meist aus dem Kiesselbach-Plexus im vorderen Nasenbereich."
+  },
+  {
+    "id": 6,
+    "kategorie": "feinbau",
+    "de": "Gefäßgeflecht am Nasenseptum",
+    "fachbegriff": "Kiesselbach-Plexus",
+    "alternativen": ["Kiesselbachplexus"],
+    "erklaerung": "Kapillarnetz am Übergang Nasenvorhof/Nasenhöhle; häufigste Blutungsquelle bei Nasenbluten."
+  },
+  {
+    "id": 7,
+    "kategorie": "aufbau",
+    "de": "Nasengang",
+    "fachbegriff": "Meatus nasi",
+    "alternativen": [],
+    "erklaerung": "Luftraum zwischen zwei Nasenmuscheln bzw. Nasenmuschel und Nasenboden."
+  },
+  {
+    "id": 8,
+    "kategorie": "aufbau",
+    "de": "Äußere Nase",
+    "fachbegriff": "Nasus externus",
+    "alternativen": [],
+    "erklaerung": "Aus dem Gesicht herausragender, knorpelig-knöcherner Teil der Nase."
+  },
+  {
+    "id": 9,
+    "kategorie": "aufbau",
+    "de": "Nasenwurzel",
+    "fachbegriff": "Radix nasi",
+    "alternativen": [],
+    "erklaerung": "Oberster, knöcherner Abschnitt der äußeren Nase."
+  },
+  {
+    "id": 10,
+    "kategorie": "feinbau",
+    "de": "Riechregion",
+    "fachbegriff": "Regio olfactoria",
+    "alternativen": [],
+    "erklaerung": "Bereich der oberen Nasenmuschel mit Riechschleimhaut und Riechzellen."
+  },
+  {
+    "id": 11,
+    "kategorie": "feinbau",
+    "de": "Atemregion",
+    "fachbegriff": "Regio respiratoria",
+    "alternativen": [],
+    "erklaerung": "Mit Flimmerepithel ausgekleideter Hauptteil der Nasenhöhlenschleimhaut."
+  },
+  {
+    "id": 12,
+    "kategorie": "patho",
+    "de": "Nasenscheidewandkrümmung",
+    "fachbegriff": "Septumdeviation",
+    "alternativen": [],
+    "erklaerung": "Seitliche Abweichung der Nasenscheidewand, kann die Nasenatmung behindern."
+  },
+  {
+    "id": 13,
+    "kategorie": "nebenhoehlen",
+    "de": "Nasennebenhöhlen",
+    "fachbegriff": "Sinus paranasales",
+    "alternativen": [],
+    "erklaerung": "Luftgefüllte Hohlräume in Oberkiefer-, Stirn-, Sieb- und Keilbein."
+  },
+  {
+    "id": 14,
+    "kategorie": "patho",
+    "de": "Nasennebenhöhlenentzündung",
+    "fachbegriff": "Sinusitis",
+    "alternativen": [],
+    "erklaerung": "Entzündung mit Sekretstau durch verschwollene Nebenhöhlenöffnungen."
+  },
+  {
+    "id": 15,
+    "kategorie": "aufbau",
+    "de": "Nasenvorhof",
+    "fachbegriff": "Vestibulum nasi",
+    "alternativen": [],
+    "erklaerung": "Vorderster, mit Haaren ausgestatteter Abschnitt der Nasenhöhle."
+  }
+]

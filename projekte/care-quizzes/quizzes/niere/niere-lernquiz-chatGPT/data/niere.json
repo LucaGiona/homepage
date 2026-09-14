@@ -1,0 +1,697 @@
+[
+  {
+    "id": 1,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "durchblutung",
+    "typ": "multiple-choice",
+    "frage": "Wie viel Blut durchströmt die beiden Nieren zusammen durchschnittlich pro Minute?",
+    "antworten": ["Mehr als 1 Liter", "Etwa 100 ml", "Etwa 250 ml", "Etwa 5 ml"],
+    "richtigeAntwort": "Mehr als 1 Liter",
+    "erklaerung": "Pro Minute durchströmt mehr als 1 Liter Blut die Nieren, wodurch sie zu den am stärksten durchbluteten Organen des Körpers zählen.",
+    "quelleSeite": 483
+  },
+  {
+    "id": 2,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "filtration",
+    "typ": "multiple-choice",
+    "frage": "Wie hoch ist die glomeruläre Filtrationsrate (GFR) bei gesunden, jungen Erwachsenen ungefähr?",
+    "antworten": ["Ca. 120 ml/min", "Ca. 10 ml/min", "Ca. 500 ml/min", "Ca. 1 ml/min"],
+    "richtigeAntwort": "Ca. 120 ml/min",
+    "erklaerung": "Bei gesunden, jungen Erwachsenen beträgt die GFR ca. 120 ml/min bzw. etwa 180 l pro Tag.",
+    "quelleSeite": 483
+  },
+  {
+    "id": 3,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "filtration",
+    "typ": "multiple-choice",
+    "frage": "Wodurch entsteht der hohe Druck im Glomerulus, der die Filtration antreibt?",
+    "antworten": [
+      "Das zuführende Gefäß ist dicker als das abführende Gefäß",
+      "Das abführende Gefäß ist dicker als das zuführende Gefäß",
+      "Beide Gefäße sind gleich dick",
+      "Der Druck entsteht ausschließlich in der Bowman-Kapsel"
+    ],
+    "richtigeAntwort": "Das zuführende Gefäß ist dicker als das abführende Gefäß",
+    "erklaerung": "Der Blutzufluss erfolgt über ein dickeres, zuführendes Gefäß (Vas afferens), der Abfluss über ein dünneres, abführendes Gefäß (Vas efferens); dadurch entsteht der für die Filtration nötige hohe Druck.",
+    "quelleSeite": 485
+  },
+  {
+    "id": 4,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "filtration",
+    "typ": "multiple-choice",
+    "frage": "Welche Bestandteile des Blutes werden von der glomerulären Filtrationsbarriere zurückgehalten?",
+    "antworten": [
+      "Große Moleküle, Blutzellen und Proteine",
+      "Wasser und Elektrolyte",
+      "Glucose und Aminosäuren",
+      "Harnstoff und Kreatinin"
+    ],
+    "richtigeAntwort": "Große Moleküle, Blutzellen und Proteine",
+    "erklaerung": "Fenestriertes Kapillarendothel, glomeruläre Basalmembran und Podozyten bilden zusammen eine Filterbarriere, die große Moleküle, Zellen und Proteine im Blut zurückhält.",
+    "quelleSeite": 485
+  },
+  {
+    "id": 5,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "rueckresorption",
+    "typ": "multiple-choice",
+    "frage": "Wie viel Prozent des im Primärharn enthaltenen Wassers werden im proximalen Tubulus rückresorbiert?",
+    "antworten": ["Etwa 70 %", "Etwa 10 %", "Etwa 30 %", "Etwa 99 %"],
+    "richtigeAntwort": "Etwa 70 %",
+    "erklaerung": "Im proximalen Tubulus werden rund 70 % des Wassers und die gesamte Glucose rückresorbiert.",
+    "quelleSeite": 486
+  },
+  {
+    "id": 6,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "transport",
+    "typ": "multiple-choice",
+    "frage": "Was versteht man unter dem Begriff Solvent Drag?",
+    "antworten": [
+      "Das Mitreißen gelöster Stoffe durch den Wasserstrom",
+      "Den aktiven Transport von Natrium unter ATP-Verbrauch",
+      "Die Filtration von Proteinen im Glomerulus",
+      "Die Ausschüttung von ADH bei Wassermangel"
+    ],
+    "richtigeAntwort": "Das Mitreißen gelöster Stoffe durch den Wasserstrom",
+    "erklaerung": "Beim Solvent Drag werden mit dem osmotisch bedingten Wasserstrom zusätzlich weitere gelöste Stoffe passiv mitgerissen.",
+    "quelleSeite": 486
+  },
+  {
+    "id": 7,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "transport",
+    "typ": "multiple-choice",
+    "frage": "Wie viele Natrium- und Kaliumionen transportiert die Na/K-ATPase pro Zyklus?",
+    "antworten": [
+      "3 Natriumionen heraus, 2 Kaliumionen hinein",
+      "2 Natriumionen heraus, 3 Kaliumionen hinein",
+      "1 Natriumion heraus, 1 Kaliumion hinein",
+      "3 Natriumionen hinein, 2 Kaliumionen heraus"
+    ],
+    "richtigeAntwort": "3 Natriumionen heraus, 2 Kaliumionen hinein",
+    "erklaerung": "Die Na/K-ATPase pumpt unter ATP-Verbrauch pro Zyklus 3 Natriumionen aus der Zelle heraus und 2 Kaliumionen hinein und erhält so den Natriumgradienten aufrecht.",
+    "quelleSeite": 486
+  },
+  {
+    "id": 8,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "henle_schleife",
+    "typ": "multiple-choice",
+    "frage": "Welche Aussage zu den Schenkeln der Henle-Schleife trifft zu?",
+    "antworten": [
+      "Der absteigende Schenkel ist wasserdurchlässig, der aufsteigende nicht",
+      "Der aufsteigende Schenkel ist wasserdurchlässig, der absteigende nicht",
+      "Beide Schenkel sind wasserdurchlässig",
+      "Keiner der beiden Schenkel ist wasserdurchlässig"
+    ],
+    "richtigeAntwort": "Der absteigende Schenkel ist wasserdurchlässig, der aufsteigende nicht",
+    "erklaerung": "Der absteigende Schenkel ist wasserdurchlässig, sodass Wasser ins Interstitium diffundiert; der aufsteigende Schenkel ist wasserundurchlässig, transportiert aber aktiv Natrium, Kalium und Chlorid nach außen.",
+    "quelleSeite": 484
+  },
+  {
+    "id": 9,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "henle_schleife",
+    "typ": "multiple-choice",
+    "frage": "Auf welchen Wert kann die Osmolarität im Nierenmark durch die Gegenstrommultiplikation ansteigen?",
+    "antworten": ["Bis auf ca. 1200 mOsm", "Bis auf ca. 100 mOsm", "Bis auf ca. 300 mOsm", "Bis auf ca. 600 mOsm"],
+    "richtigeAntwort": "Bis auf ca. 1200 mOsm",
+    "erklaerung": "Durch die fortlaufende Gegenstrommultiplikation entsteht von der Rinde zur Papille ein Konzentrationsgradient, der beim Menschen bis auf etwa 1200 mOsm ansteigen kann.",
+    "quelleSeite": 484
+  },
+  {
+    "id": 10,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "henle_schleife",
+    "typ": "multiple-choice",
+    "frage": "In welchen Nephronen ist die Gegenstrommultiplikation besonders stark ausgeprägt?",
+    "antworten": [
+      "In juxtamedullären Nephronen mit langen Henle-Schleifen",
+      "In kortikalen Nephronen mit kurzen Henle-Schleifen",
+      "Ausschließlich im proximalen Tubulus",
+      "Ausschließlich im Sammelrohr"
+    ],
+    "richtigeAntwort": "In juxtamedullären Nephronen mit langen Henle-Schleifen",
+    "erklaerung": "Besonders ausgeprägt ist der Mechanismus der Gegenstrommultiplikation in juxtamedullären Nephronen, die nahe am Nierenmark liegen und lange Henle-Schleifen besitzen.",
+    "quelleSeite": 484
+  },
+  {
+    "id": 11,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "vasa_recta",
+    "typ": "multiple-choice",
+    "frage": "Was unterscheidet die Vasa recta funktionell von der Henle-Schleife?",
+    "antworten": [
+      "In den Vasa recta findet ein Gegenstromaustausch statt, keine Multiplikation",
+      "In den Vasa recta findet eine Gegenstrommultiplikation statt",
+      "Die Vasa recta filtrieren zusätzlich Primärharn",
+      "Die Vasa recta produzieren ADH"
+    ],
+    "richtigeAntwort": "In den Vasa recta findet ein Gegenstromaustausch statt, keine Multiplikation",
+    "erklaerung": "Anders als bei der Henle-Schleife findet in den Vasa recta keine Multiplikation, sondern lediglich ein Austausch zwischen gegenläufigen Blutströmen statt.",
+    "quelleSeite": 485
+  },
+  {
+    "id": 12,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "feinabstimmung",
+    "typ": "multiple-choice",
+    "frage": "Welche Zellen messen im distalen Tubulus die Natriumkonzentration und beeinflussen darüber die Filtration?",
+    "antworten": ["Macula-densa-Zellen", "Podozyten", "Vasa-recta-Zellen", "Hauptzellen des Sammelrohrs"],
+    "richtigeAntwort": "Macula-densa-Zellen",
+    "erklaerung": "Die Macula densa liegt im Bereich des distalen Tubulus, analysiert den Tubulusinhalt und beeinflusst über die Weite der zuführenden Arteriole die Filtration (tubuloglomeruläre Rückkopplung).",
+    "quelleSeite": 483
+  },
+  {
+    "id": 13,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "adh",
+    "typ": "multiple-choice",
+    "frage": "Was bewirkt ADH konkret im Sammelrohr?",
+    "antworten": [
+      "Es baut zusätzliche Wasserkanäle ein und erhöht so die Wasserdurchlässigkeit",
+      "Es verschließt alle Wasserkanäle und senkt die Wasserdurchlässigkeit",
+      "Es steigert ausschließlich die Kaliumausscheidung",
+      "Es hemmt die Rückresorption von Harnstoff vollständig"
+    ],
+    "richtigeAntwort": "Es baut zusätzliche Wasserkanäle ein und erhöht so die Wasserdurchlässigkeit",
+    "erklaerung": "ADH führt zum Einbau zusätzlicher Wasserkanäle in die Sammelrohrzellen, wodurch mehr Wasser per Osmose ins Interstitium übertreten und über die Vasa recta dem Körper zurückgeführt werden kann.",
+    "quelleSeite": 487
+  },
+  {
+    "id": 14,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "adh",
+    "typ": "text",
+    "frage": "Wie heißt das Hormon, das bei niedriger Wasserzufuhr aus der Neurohypophyse ausgeschüttet wird und die Wasserrückresorption im Sammelrohr erhöht?",
+    "akzeptierteAntworten": ["ADH", "Antidiuretisches Hormon"],
+    "erklaerung": "ADH (Antidiuretisches Hormon) wird bei Wassermangel verstärkt ausgeschüttet und erhöht im Sammelrohr die Wasserrückresorption.",
+    "quelleSeite": 487
+  },
+  {
+    "id": 15,
+    "bereich": "niere",
+    "thema": "physiologie",
+    "kategorie": "harnstoffrecycling",
+    "typ": "multiple-choice",
+    "frage": "Welcher Weg beschreibt das Harnstoffrecycling in der Niere?",
+    "antworten": [
+      "Sammelrohr → Interstitium → teilweise zurück in die Henle-Schleife → erneut zum Sammelrohr",
+      "Glomerulus → Bowman-Kapsel → direkt zur Harnblase",
+      "Proximaler Tubulus → Vasa recta → direkt ausgeschieden",
+      "Nierenbecken → Harnleiter → Harnröhre"
+    ],
+    "richtigeAntwort": "Sammelrohr → Interstitium → teilweise zurück in die Henle-Schleife → erneut zum Sammelrohr",
+    "erklaerung": "Harnstoff gelangt aus dem Sammelrohr ins Interstitium, teilweise zurück in die Henle-Schleife und von dort erneut zum Sammelrohr; dieser wiederkehrende Kreislauf unterstützt den Konzentrationsgradienten.",
+    "quelleSeite": 487
+  },
+  {
+    "id": 16,
+    "bereich": "niere",
+    "thema": "akute_niereninsuffizienz",
+    "kategorie": "definition",
+    "typ": "multiple-choice",
+    "frage": "Welches Kriterium spricht nach KDIGO für eine akute Niereninsuffizienz?",
+    "antworten": [
+      "Anstieg des Serumkreatinins um ≥0,3 mg/dl innerhalb von 48 Stunden",
+      "Anstieg des Serumkreatinins um 1 mg/dl innerhalb eines Jahres",
+      "Abfall des Serumkreatinins um 50 % innerhalb von 7 Tagen",
+      "Eine dauerhafte Urinausscheidung von mehr als 2000 ml/24h"
+    ],
+    "richtigeAntwort": "Anstieg des Serumkreatinins um ≥0,3 mg/dl innerhalb von 48 Stunden",
+    "erklaerung": "Nach KDIGO gilt u. a. ein Anstieg des Serumkreatinins um mindestens 0,3 mg/dl innerhalb von 48 Stunden als Diagnosekriterium einer akuten Niereninsuffizienz.",
+    "quelleSeite": 504
+  },
+  {
+    "id": 17,
+    "bereich": "niere",
+    "thema": "akute_niereninsuffizienz",
+    "kategorie": "ursachen",
+    "typ": "multiple-choice",
+    "frage": "Welche Form der akuten Niereninsuffizienz ist mit ca. 60 % der Fälle am häufigsten?",
+    "antworten": ["Die prärenale Form", "Die intrarenale Form", "Die postrenale Form", "Alle drei Formen sind gleich häufig"],
+    "richtigeAntwort": "Die prärenale Form",
+    "erklaerung": "Die prärenale akute Niereninsuffizienz ist mit ca. 60 % der Fälle die häufigste Form; Ursache ist eine kritisch verminderte Durchblutung der Nieren.",
+    "quelleSeite": 504
+  },
+  {
+    "id": 18,
+    "bereich": "niere",
+    "thema": "akute_niereninsuffizienz",
+    "kategorie": "ursachen",
+    "typ": "multiple-choice",
+    "frage": "Welche Ursache ist typisch für eine prärenale akute Niereninsuffizienz?",
+    "antworten": [
+      "Volumenmangel z. B. bei Dehydratation, Blutungen oder Verbrennungen",
+      "Eine direkte Schädigung des Nierengewebes durch Glomerulonephritis",
+      "Ein Harnstein im Harnleiter",
+      "Eine benigne Prostatahyperplasie mit Harnverhalt"
+    ],
+    "richtigeAntwort": "Volumenmangel z. B. bei Dehydratation, Blutungen oder Verbrennungen",
+    "erklaerung": "Bei der prärenalen Form ist die Durchblutung der Nieren kritisch vermindert, typische Auslöser sind ein Volumenmangel bei Dehydratation, schweren Blutungen oder Verbrennungen sowie ein hypovolämischer Schock.",
+    "quelleSeite": 504
+  },
+  {
+    "id": 19,
+    "bereich": "niere",
+    "thema": "akute_niereninsuffizienz",
+    "kategorie": "ursachen",
+    "typ": "multiple-choice",
+    "frage": "Welche Ursache liegt der postrenalen akuten Niereninsuffizienz typischerweise zugrunde?",
+    "antworten": [
+      "Ein akuter Harnaufstau durch Verengung der ableitenden Harnwege",
+      "Eine kritisch verminderte Durchblutung der Nieren",
+      "Eine direkte toxische Schädigung des Nierengewebes",
+      "Eine chronische Hyperkalzämie"
+    ],
+    "richtigeAntwort": "Ein akuter Harnaufstau durch Verengung der ableitenden Harnwege",
+    "erklaerung": "Bei der seltensten Form, der postrenalen akuten Niereninsuffizienz, werden die Nieren durch einen akuten Harnaufstau geschädigt, z. B. durch Harnsteine, eine benigne Prostatahyperplasie oder einen verstopften Harnkatheter.",
+    "quelleSeite": 505
+  },
+  {
+    "id": 20,
+    "bereich": "niere",
+    "thema": "akute_niereninsuffizienz",
+    "kategorie": "verlauf",
+    "typ": "multiple-choice",
+    "frage": "In welcher Phase der akuten Niereninsuffizienz besteht die Gefahr schwerer Wasser- und Elektrolytverluste durch eine Polyurie?",
+    "antworten": ["In der Erholungsphase", "In der symptomlosen Initialphase", "In der Phase der reduzierten Urinausscheidung", "Diese Gefahr besteht in keiner Phase"],
+    "richtigeAntwort": "In der Erholungsphase",
+    "erklaerung": "In der Erholungsphase normalisiert sich die glomeruläre Filtration, während die Rückresorption in den Tubuli noch beeinträchtigt ist; die Folge ist eine Polyurie mit Gefahr schwerer Wasser- und Elektrolytverluste.",
+    "quelleSeite": 505
+  },
+  {
+    "id": 21,
+    "bereich": "niere",
+    "thema": "akute_niereninsuffizienz",
+    "kategorie": "begriffe",
+    "typ": "text",
+    "frage": "Wie wird eine Urinausscheidung von unter 500 ml pro 24 Stunden fachsprachlich bezeichnet?",
+    "akzeptierteAntworten": ["Oligurie"],
+    "erklaerung": "Eine Urinproduktion von unter 500 ml pro 24 Stunden wird als Oligurie bezeichnet; unter 100 ml/24h spricht man von Anurie.",
+    "quelleSeite": 490
+  },
+  {
+    "id": 22,
+    "bereich": "niere",
+    "thema": "chronische_niereninsuffizienz",
+    "kategorie": "ursachen",
+    "typ": "multiple-choice",
+    "frage": "Was ist laut Material die häufigste Ursache einer chronischen Niereninsuffizienz in Deutschland?",
+    "antworten": ["Die diabetische Nephropathie", "Die hypertensive Nephropathie", "Polyzystische Nierenerkrankungen", "Ein Nierentrauma"],
+    "richtigeAntwort": "Die diabetische Nephropathie",
+    "erklaerung": "Mit einem Anteil von 30-40 % ist die diabetische Nephropathie als Langzeitfolge eines Diabetes mellitus die häufigste Ursache einer chronischen Niereninsuffizienz.",
+    "quelleSeite": 506
+  },
+  {
+    "id": 23,
+    "bereich": "niere",
+    "thema": "chronische_niereninsuffizienz",
+    "kategorie": "definition",
+    "typ": "multiple-choice",
+    "frage": "Ab welcher Dauer spricht man definitionsgemäß von einer chronischen Niereninsuffizienz?",
+    "antworten": ["Bei Abweichungen von der normalen Nierenfunktion über mehr als 3 Monate", "Bei Abweichungen über mehr als 3 Tage", "Bei Abweichungen über mehr als 3 Wochen", "Bei Abweichungen über mehr als 3 Jahre"],
+    "richtigeAntwort": "Bei Abweichungen von der normalen Nierenfunktion über mehr als 3 Monate",
+    "erklaerung": "Bei der chronischen Niereninsuffizienz bestehen definitionsgemäß für mehr als 3 Monate Abweichungen von der normalen Nierenfunktion oder -struktur mit Auswirkungen auf den Gesundheitszustand.",
+    "quelleSeite": 506
+  },
+  {
+    "id": 24,
+    "bereich": "niere",
+    "thema": "chronische_niereninsuffizienz",
+    "kategorie": "komplikationen",
+    "typ": "multiple-choice",
+    "frage": "Welche Blutbildveränderung ist typisch bei chronischer Niereninsuffizienz?",
+    "antworten": [
+      "Eine normochrome, normozytäre renale Anämie",
+      "Eine hypochrome, mikrozytäre Eisenmangelanämie",
+      "Eine ausgeprägte Polyglobulie",
+      "Eine hyperchrome, makrozytäre Anämie"
+    ],
+    "richtigeAntwort": "Eine normochrome, normozytäre renale Anämie",
+    "erklaerung": "Bei chronischer Niereninsuffizienz wird durch die geschädigten Nieren weniger Erythropoetin produziert, wodurch eine normochrome, normozytäre renale Anämie entsteht.",
+    "quelleSeite": 506
+  },
+  {
+    "id": 25,
+    "bereich": "niere",
+    "thema": "chronische_niereninsuffizienz",
+    "kategorie": "komplikationen",
+    "typ": "multiple-choice",
+    "frage": "Wodurch entsteht die renale Osteopathie bei chronischer Niereninsuffizienz?",
+    "antworten": [
+      "Durch Hyperphosphatämie und verminderte Vitamin-D-Aktivierung mit sekundärem Hyperparathyreoidismus",
+      "Durch eine isolierte Hyperkalzämie",
+      "Durch eine erhöhte Erythropoetin-Produktion",
+      "Durch eine metabolische Alkalose"
+    ],
+    "richtigeAntwort": "Durch Hyperphosphatämie und verminderte Vitamin-D-Aktivierung mit sekundärem Hyperparathyreoidismus",
+    "erklaerung": "Die Phosphatausscheidung sinkt (Hyperphosphatämie), die Vitamin-D-Aktivierung nimmt ab (Hypokalzämie) mit der Folge eines sekundären Hyperparathyreoidismus und vermehrtem Mineralabbau aus den Knochen.",
+    "quelleSeite": 506
+  },
+  {
+    "id": 26,
+    "bereich": "niere",
+    "thema": "chronische_niereninsuffizienz",
+    "kategorie": "urämie",
+    "typ": "multiple-choice",
+    "frage": "Welches Symptom gehört zu den Frühsymptomen einer Urämie?",
+    "antworten": ["Juckreiz und gelb-graues Hautkolorit", "Sofortiges Koma", "Ein deutlich gesteigerter Appetit", "Eine ausgeprägte Polyglobulie"],
+    "richtigeAntwort": "Juckreiz und gelb-graues Hautkolorit",
+    "erklaerung": "Urämietoxine in der Haut führen zu Juckreiz und einem gelb-grauen Hautkolorit; weitere Frühsymptome sind Appetitlosigkeit, Übelkeit, Erbrechen und ein urämischer Foetor ex ore.",
+    "quelleSeite": 507
+  },
+  {
+    "id": 27,
+    "bereich": "niere",
+    "thema": "chronische_niereninsuffizienz",
+    "kategorie": "diagnostik",
+    "typ": "text",
+    "frage": "Wie werden die im Endstadium der chronischen Niereninsuffizienz typischen, verkleinerten Nieren mit schmalem Parenchymsaum in der Sonografie bezeichnet?",
+    "akzeptierteAntworten": ["Schrumpfniere", "Schrumpfnieren"],
+    "erklaerung": "Typischer sonografischer Befund bei fortgeschrittener chronischer Niereninsuffizienz sind Schrumpfnieren: verkleinerte Nieren mit schmalem, echodichtem Parenchymsaum.",
+    "quelleSeite": 508
+  },
+  {
+    "id": 28,
+    "bereich": "niere",
+    "thema": "dialyse",
+    "kategorie": "verfahren",
+    "typ": "multiple-choice",
+    "frage": "Welches Nierenersatzverfahren wird in Deutschland am häufigsten eingesetzt?",
+    "antworten": ["Die Hämodialyse", "Die Peritonealdialyse", "Die Hämofiltration", "Die Hämodiafiltration"],
+    "richtigeAntwort": "Die Hämodialyse",
+    "erklaerung": "Die Hämodialyse ist das in Deutschland am häufigsten eingesetzte Dialyseverfahren.",
+    "quelleSeite": 509
+  },
+  {
+    "id": 29,
+    "bereich": "niere",
+    "thema": "dialyse",
+    "kategorie": "haemodialyse",
+    "typ": "multiple-choice",
+    "frage": "Wie oft und wie lange wird eine Dauerdialyse (Hämodialyse) in der Regel durchgeführt?",
+    "antworten": ["3-mal pro Woche, jeweils ca. 4-8 Stunden", "1-mal pro Monat, jeweils 24 Stunden", "Täglich, jeweils 30 Minuten", "1-mal pro Woche, jeweils 1 Stunde"],
+    "richtigeAntwort": "3-mal pro Woche, jeweils ca. 4-8 Stunden",
+    "erklaerung": "Die Hämodialyse wird in der Regel 3-mal pro Woche durchgeführt und dauert jeweils ca. 4-8 Stunden.",
+    "quelleSeite": 509
+  },
+  {
+    "id": 30,
+    "bereich": "niere",
+    "thema": "dialyse",
+    "kategorie": "haemodialyse",
+    "typ": "multiple-choice",
+    "frage": "Wie wird der operativ angelegte Kurzschluss zwischen einer Arterie und einer Vene für die Dauerdialyse bezeichnet?",
+    "antworten": ["Shunt", "Stent", "Katheter", "Bypass"],
+    "richtigeAntwort": "Shunt",
+    "erklaerung": "Für die Dauerdialysetherapie wird operativ ein arteriovenöser Shunt angelegt, häufig als Cimino-Shunt zwischen A. radialis und V. cephalica.",
+    "quelleSeite": 509
+  },
+  {
+    "id": 31,
+    "bereich": "niere",
+    "thema": "dialyse",
+    "kategorie": "haemofiltration",
+    "typ": "multiple-choice",
+    "frage": "Welches Prinzip nutzt die Hämofiltration zur Entfernung harnpflichtiger Substanzen?",
+    "antworten": [
+      "Einen Druckgradienten (Ultrafiltration) statt Diffusion",
+      "Ausschließlich die Diffusion über eine semipermeable Membran",
+      "Das Bauchfell als Filtermembran",
+      "Die Gabe von Erythropoetin"
+    ],
+    "richtigeAntwort": "Einen Druckgradienten (Ultrafiltration) statt Diffusion",
+    "erklaerung": "Bei der Hämofiltration ist die treibende Kraft ein Druckgradient (Ultrafiltration) zwischen Patientenblut und Filter, im Unterschied zur Diffusion bei der Hämodialyse.",
+    "quelleSeite": 510
+  },
+  {
+    "id": 32,
+    "bereich": "niere",
+    "thema": "dialyse",
+    "kategorie": "peritonealdialyse",
+    "typ": "multiple-choice",
+    "frage": "Welche körpereigene Struktur dient bei der Peritonealdialyse als semipermeable Membran?",
+    "antworten": ["Das Bauchfell (Peritoneum)", "Die Nierenkapsel", "Die Bowman-Kapsel", "Die glomeruläre Basalmembran"],
+    "richtigeAntwort": "Das Bauchfell (Peritoneum)",
+    "erklaerung": "Bei der Peritonealdialyse dient das Bauchfell als semipermeable Membran, über die der Stoffaustausch mit der eingebrachten Dialyselösung erfolgt.",
+    "quelleSeite": 510
+  },
+  {
+    "id": 33,
+    "bereich": "niere",
+    "thema": "dialyse",
+    "kategorie": "peritonealdialyse",
+    "typ": "multiple-choice",
+    "frage": "Welche schwerwiegende Komplikation der Peritonealdialyse wird im Material genannt?",
+    "antworten": ["Peritonitis durch eingedrungene Keime", "Ein Dysäquilibrium-Syndrom", "Ein Cimino-Shunt-Verschluss", "Eine Hypervolämie durch zu viel Ultrafiltration"],
+    "richtigeAntwort": "Peritonitis durch eingedrungene Keime",
+    "erklaerung": "Die gefährlichste Komplikation der Peritonealdialyse ist das Eindringen von Keimen mit nachfolgender Peritonitis; auch Katheter-assoziierte Infektionen sind möglich.",
+    "quelleSeite": 511
+  },
+  {
+    "id": 34,
+    "bereich": "niere",
+    "thema": "glomerulopathien",
+    "kategorie": "nephrotisches_syndrom",
+    "typ": "multiple-choice",
+    "frage": "Welche Befundkombination ist typisch für ein nephrotisches Syndrom?",
+    "antworten": [
+      "Massive Proteinurie, Hypoproteinämie und ausgeprägte Ödeme",
+      "Deutliche Hämaturie mit Erythrozytenzylindern ohne Proteinurie",
+      "Ein isolierter Blutdruckanstieg ohne weitere Symptome",
+      "Eine reine Glukosurie ohne Proteinurie"
+    ],
+    "richtigeAntwort": "Massive Proteinurie, Hypoproteinämie und ausgeprägte Ödeme",
+    "erklaerung": "Beim nephrotischen Syndrom ist die Membran der Nierenkörperchen durchlässig für Proteine (>3-3,5 g/d), es resultieren eine Hypoproteinämie und ausgeprägte Ödeme.",
+    "quelleSeite": 502
+  },
+  {
+    "id": 35,
+    "bereich": "niere",
+    "thema": "glomerulopathien",
+    "kategorie": "nephritisches_syndrom",
+    "typ": "multiple-choice",
+    "frage": "Welches Syndrom ist durch akut auftretende Hämaturie mit Erythrozytenzylindern, Blutdruckanstieg und Abnahme der Nierenfunktion gekennzeichnet?",
+    "antworten": ["Das nephritische Syndrom", "Das nephrotische Syndrom", "Die Urämie", "Die renale Osteopathie"],
+    "richtigeAntwort": "Das nephritische Syndrom",
+    "erklaerung": "Kennzeichnend für das nephritische Syndrom sind eine akut auftretende Hämaturie mit Erythrozytenzylindern, ein Blutdruckanstieg, eine leichte bis mäßige Proteinurie und eine Abnahme der Nierenfunktion.",
+    "quelleSeite": 502
+  },
+  {
+    "id": 36,
+    "bereich": "niere",
+    "thema": "glomerulopathien",
+    "kategorie": "glomerulonephritis",
+    "typ": "multiple-choice",
+    "frage": "Welche Glomerulonephritis-Form ist die häufigste primäre Glomerulonephritis?",
+    "antworten": ["Die IgA-Nephropathie", "Die postinfektiöse Glomerulonephritis", "Die rasch progrediente Glomerulonephritis", "Die membranöse Glomerulopathie"],
+    "richtigeAntwort": "Die IgA-Nephropathie",
+    "erklaerung": "Die IgA-Nephropathie (Morbus Berger) ist die häufigste primäre Glomerulonephritis; meist sind jüngere Menschen betroffen, die Ursache ist unbekannt.",
+    "quelleSeite": 503
+  },
+  {
+    "id": 37,
+    "bereich": "niere",
+    "thema": "glomerulopathien",
+    "kategorie": "glomerulonephritis",
+    "typ": "multiple-choice",
+    "frage": "Welcher Erreger ist häufig Auslöser einer postinfektiösen Glomerulonephritis bei Kindern?",
+    "antworten": ["Streptokokken", "Escherichia coli", "Staphylokokken", "Hantaviren"],
+    "richtigeAntwort": "Streptokokken",
+    "erklaerung": "Die postinfektiöse Glomerulonephritis (Poststreptokokken-GN) entsteht v. a. bei Kindern als Folge einer unzureichend behandelten Streptokokkeninfektion, z. B. nach einer Angina tonsillaris.",
+    "quelleSeite": 503
+  },
+  {
+    "id": 38,
+    "bereich": "niere",
+    "thema": "urolithiasis_hwi",
+    "kategorie": "harnsteine",
+    "typ": "multiple-choice",
+    "frage": "Welche Steinart ist laut Material die häufigste Harnsteinart?",
+    "antworten": ["Kalziumoxalatsteine", "Struvitsteine", "Harnsäuresteine", "Zystinsteine"],
+    "richtigeAntwort": "Kalziumoxalatsteine",
+    "erklaerung": "Kalziumoxalatsteine sind die häufigste Steinart; Risikofaktoren sind u. a. eine Hyperkalzämie, oxalatreiche Ernährung und Erkrankungen mit Gallensäureverlusten.",
+    "quelleSeite": 519
+  },
+  {
+    "id": 39,
+    "bereich": "niere",
+    "thema": "urolithiasis_hwi",
+    "kategorie": "harnwegsinfektionen",
+    "typ": "multiple-choice",
+    "frage": "Welcher Erreger ist der häufigste Auslöser von Harnwegsinfektionen?",
+    "antworten": ["Escherichia coli", "Staphylococcus aureus", "Candida albicans", "Chlamydia trachomatis"],
+    "richtigeAntwort": "Escherichia coli",
+    "erklaerung": "Der häufigste Erreger von Harnwegsinfektionen, die meist als aufsteigende Infektion aus Bakterien der Darmflora entstehen, ist Escherichia coli.",
+    "quelleSeite": 517
+  },
+  {
+    "id": 40,
+    "bereich": "niere",
+    "thema": "urolithiasis_hwi",
+    "kategorie": "harnwegsinfektionen",
+    "typ": "multiple-choice",
+    "frage": "Warum haben Frauen ein höheres Risiko für Harnwegsinfektionen als Männer?",
+    "antworten": [
+      "Weil ihre Harnröhre deutlich kürzer ist",
+      "Weil ihre Harnröhre deutlich länger ist",
+      "Weil sie seltener Wasser lassen",
+      "Weil ihre Blase ein größeres Fassungsvermögen hat"
+    ],
+    "richtigeAntwort": "Weil ihre Harnröhre deutlich kürzer ist",
+    "erklaerung": "Frauen haben aufgrund ihrer sehr viel kürzeren Harnröhre ein höheres Risiko für Harnwegsinfektionen als Männer.",
+    "quelleSeite": 517
+  },
+  {
+    "id": 41,
+    "bereich": "niere",
+    "thema": "urolithiasis_hwi",
+    "kategorie": "symptome",
+    "typ": "text",
+    "frage": "Wie wird die anfallsartige, wehenartige Schmerzattacke bei einem Stein im Harnleiter bezeichnet?",
+    "akzeptierteAntworten": ["Nierenkolik", "Harnleiterkolik", "Nieren- oder Harnleiterkolik"],
+    "erklaerung": "Bleibt ein Harnstein an einer Engstelle stecken, kann er eine Nieren- oder Harnleiterkolik mit starken, regelmäßig anschwellenden Flankenschmerzen auslösen.",
+    "quelleSeite": 520
+  },
+  {
+    "id": 42,
+    "bereich": "niere",
+    "thema": "tumoren_trauma_gefaesse",
+    "kategorie": "nierenzellkarzinom",
+    "typ": "multiple-choice",
+    "frage": "Welcher Risikofaktor wird für das Nierenzellkarzinom ausdrücklich genannt?",
+    "antworten": ["Rauchen", "Eine vegetarische Ernährung", "Regelmäßiger Ausdauersport", "Eine hohe Trinkmenge"],
+    "richtigeAntwort": "Rauchen",
+    "erklaerung": "Die wichtigsten Risikofaktoren für ein Nierenzellkarzinom sind Rauchen, Übergewicht und Bluthochdruck.",
+    "quelleSeite": 513
+  },
+  {
+    "id": 43,
+    "bereich": "niere",
+    "thema": "tumoren_trauma_gefaesse",
+    "kategorie": "nephroblastom",
+    "typ": "multiple-choice",
+    "frage": "In welchem Lebensalter tritt das Nephroblastom (Wilms-Tumor) am häufigsten auf?",
+    "antworten": ["Im 1. bis 3. Lebensjahr", "Im Jugendalter", "Zwischen dem 30. und 40. Lebensjahr", "Erst nach dem 70. Lebensjahr"],
+    "richtigeAntwort": "Im 1. bis 3. Lebensjahr",
+    "erklaerung": "Das Nephroblastom (Wilms-Tumor) ist einer der häufigsten Tumoren bei Kindern, v. a. im 1. bis 3. Lebensjahr.",
+    "quelleSeite": 513
+  },
+  {
+    "id": 44,
+    "bereich": "niere",
+    "thema": "tumoren_trauma_gefaesse",
+    "kategorie": "nierentrauma",
+    "typ": "multiple-choice",
+    "frage": "Was ist die häufigste Ursache eines Nierentraumas?",
+    "antworten": ["Ein stumpfes Bauchtrauma", "Eine Nierenbiopsie", "Eine Hämodialyse", "Eine Urolithiasis"],
+    "richtigeAntwort": "Ein stumpfes Bauchtrauma",
+    "erklaerung": "Der häufigste Auslöser eines Nierentraumas ist ein stumpfes Bauchtrauma; typisch sind Flankenschmerzen, Prellmarken und eine Hämaturie.",
+    "quelleSeite": 514
+  },
+  {
+    "id": 45,
+    "bereich": "niere",
+    "thema": "tumoren_trauma_gefaesse",
+    "kategorie": "nierenarterienstenose",
+    "typ": "multiple-choice",
+    "frage": "Was ist die häufigste Ursache einer Nierenarterienstenose?",
+    "antworten": ["Eine Arteriosklerose", "Eine fibromuskuläre Dysplasie", "Ein Nierenzellkarzinom", "Eine Glomerulonephritis"],
+    "richtigeAntwort": "Eine Arteriosklerose",
+    "erklaerung": "Die häufigste Ursache einer Nierenarterienstenose ist eine Arteriosklerose; bei jüngeren Patienten ist häufiger eine fibromuskuläre Dysplasie der Auslöser.",
+    "quelleSeite": 512
+  },
+  {
+    "id": 46,
+    "bereich": "niere",
+    "thema": "pflege_labor",
+    "kategorie": "laborwerte",
+    "typ": "multiple-choice",
+    "frage": "Welcher Laborwert steigt typischerweise erst deutlich an, wenn die Nierenfunktion bereits auf unter 50 % gefallen ist?",
+    "antworten": ["Kreatinin", "Kalium", "Kalzium", "Bikarbonat"],
+    "richtigeAntwort": "Kreatinin",
+    "erklaerung": "Die Kreatininkonzentration im Serum steigt aufgrund der großen Reservekapazität der Nieren erst deutlich an, wenn die Nierenfunktion bereits auf unter 50 % gefallen ist.",
+    "quelleSeite": 492
+  },
+  {
+    "id": 47,
+    "bereich": "niere",
+    "thema": "pflege_labor",
+    "kategorie": "urindiagnostik",
+    "typ": "multiple-choice",
+    "frage": "Wie wird eine Mittelstrahlurinprobe korrekt gewonnen?",
+    "antworten": [
+      "Genitalregion reinigen, die erste Urinportion verwerfen und die mittlere Portion auffangen",
+      "Direkt beim ersten Wasserlassen den gesamten Urin auffangen",
+      "Den Urin über 24 Stunden sammeln",
+      "Den Urin ausschließlich über einen Einmalkatheter gewinnen"
+    ],
+    "richtigeAntwort": "Genitalregion reinigen, die erste Urinportion verwerfen und die mittlere Portion auffangen",
+    "erklaerung": "Zur Gewinnung von Mittelstrahlurin reinigt der Untersuchte die Genitalregion, lässt die erste Urinportion in die Toilette und fängt erst die zweite, mittlere Portion im sterilen Becher auf.",
+    "quelleSeite": 492
+  },
+  {
+    "id": 48,
+    "bereich": "niere",
+    "thema": "pflege_labor",
+    "kategorie": "shuntpflege",
+    "typ": "multiple-choice",
+    "frage": "Welche Pflegemaßnahme gehört zur korrekten Shuntpflege bei Hämodialysepatienten?",
+    "antworten": [
+      "Täglich die Durchgängigkeit des Shunts hören bzw. tasten und am Shuntarm weder Blutdruck messen noch Blut abnehmen",
+      "Am Shuntarm regelmäßig den Blutdruck messen, um Komplikationen früh zu erkennen",
+      "Den Shunt unmittelbar vor der Dialyse mit einer fetthaltigen Creme eincremen",
+      "Enganliegende Kleidungsstücke am Shuntarm tragen, um den Shunt zu schützen"
+    ],
+    "richtigeAntwort": "Täglich die Durchgängigkeit des Shunts hören bzw. tasten und am Shuntarm weder Blutdruck messen noch Blut abnehmen",
+    "erklaerung": "Der Shunt sollte täglich auf Durchgängigkeit geprüft werden; am Shuntarm dürfen weder Blutdruck gemessen noch Blutabnahmen oder Infusionen durchgeführt werden, und enganliegende Kleidung ist zu vermeiden.",
+    "quelleSeite": 510
+  },
+  {
+    "id": 49,
+    "bereich": "niere",
+    "thema": "pflege_labor",
+    "kategorie": "peritonealdialyse_pflege",
+    "typ": "multiple-choice",
+    "frage": "Worauf muss bei der Pflege eines Peritonealdialysekatheters besonders geachtet werden?",
+    "antworten": [
+      "Auf einen möglichst sterilen und vorsichtigen Umgang mit dem Katheter zur Infektionsprophylaxe",
+      "Auf ein tägliches kräftiges Abreiben der Katheteraustrittsstelle",
+      "Darauf, dass der Verband möglichst luftdicht und feucht bleibt",
+      "Darauf, dass der Katheter nach jeder Anwendung entfernt wird"
+    ],
+    "richtigeAntwort": "Auf einen möglichst sterilen und vorsichtigen Umgang mit dem Katheter zur Infektionsprophylaxe",
+    "erklaerung": "Empfohlen werden u. a. Arbeiten mit Mundschutz und Handschuhen, vorsichtiger Umgang mit spannungsfreier Fixierung, ein trockener, luftdurchlässiger Verband sowie regelmäßige Inspektion, um einer Peritonitis vorzubeugen.",
+    "quelleSeite": 511
+  },
+  {
+    "id": 50,
+    "bereich": "niere",
+    "thema": "pflege_labor",
+    "kategorie": "urindiagnostik",
+    "typ": "text",
+    "frage": "Wie wird die über 24 Stunden gesammelte Urinmenge bezeichnet, die zur Konzentrationsbestimmung bestimmter Substanzen dient?",
+    "akzeptierteAntworten": ["24-Stunden-Sammelurin", "Sammelurin", "24-Stunden-Urin"],
+    "erklaerung": "Das Sammeln des Urins über 24 Stunden (24-Stunden-Sammelurin) ermöglicht die Konzentrationsbestimmung von Substanzen, die nicht kontinuierlich über den Urin ausgeschieden werden, z. B. für die Kreatinin-Clearance.",
+    "quelleSeite": 492
+  }
+]

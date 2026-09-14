@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Vergleich verschiedener Versionen einer Pflege-Quiz-App.">
+
+    <title>Pflege-Quiz – Versionsvergleich</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main class="page">
+        <header class="page-header">
+            <div class="header-top">
+                <a class="back-link" href="../../index.html">&larr; Zurück zur Übersicht</a>
+            </div>
+
+            <h1>Pflege-Quiz</h1>
+            <h2>Frau F. muss umziehen</h2>
+            <h2>Themen:</h2>
+            <h3>Quiz zu Auge, Ohr, Pflegeversicherung, Pflegegraden
+            und Entlassungsmanagement.</h3>
+            <p class="intro">
+                Zwei Umsetzungen derselben Quizidee werden hier getrennt
+                entwickelt und später miteinander verglichen.
+            </p>
+        </header>
+
+        <section class="version-grid" aria-label="Verfügbare Quizversionen">
+            <article class="version-card">
+                <span class="version-label">Verfügbar</span>
+
+                <h2>ChatGPT-Version</h2>
+
+                <p>
+                    Quiz zu Auge, Ohr, Pflegeversicherung, Pflegegraden
+                    und Entlassungsmanagement.
+                </p>
+
+                <ul>
+                    <li>Multiple Choice</li>
+                    <li>Texteingabe</li>
+                    <li>Themen- und Bereichsauswahl</li>
+                    <li>Punkte und Fortschritt</li>
+                </ul>
+
+                <div class="card-actions">
+                    <a class="button" href="./pflege-lernquiz-chatGPT/index.html">
+                        ChatGPT-Version öffnen
+                    </a>
+                </div>
+            </article>
+
+            <article class="version-card version-card--claude">
+                <span class="version-label">Verfügbar</span>
+
+                <h2>Claude-Version</h2>
+
+                <p>
+                Quiz zu Auge, Ohr, Pflegeversicherung, Pflegegraden
+                und Entlassungsmanagement.
+                </p>
+
+                <ul>
+                    <li>Eigene Umsetzung</li>
+                    <li>Gleiche Quizdaten via gleicher Datenbank(json)</li>
+                    <li>Vergleich von Aufbau und Bedienung</li>
+                </ul>
+
+                <div class="card-actions">
+                    <a class="button button--claude" href="./pflege-lernquiz-claude/index.html">
+                        Claude Version öffnen
+                    </a>
+                </div>
+            </article>
+        </section>
+
+        <footer class="page-footer">
+            Übungsprojekt: Pflege-Quiz-Vergleich
+        </footer>
+    </main>
+</body>
+
+</html>

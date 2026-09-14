@@ -1,0 +1,843 @@
+[
+  {
+    "id": 1,
+    "thema": "pflegeversicherung",
+    "kategorie": "grundlagen",
+    "typ": "multiple-choice",
+    "frage": "In welchem Sozialgesetzbuch ist die Pflegeversicherung geregelt?",
+    "antworten": ["SGB V", "SGB XI", "SGB VI", "SGB VII"],
+    "richtigeAntwort": "SGB XI",
+    "erklaerung": "Das 11. Buch des Sozialgesetzbuchs regelt die rechtlichen Grundlagen der Pflegeversicherung.",
+    "quelleSeite": 6
+  },
+  {
+    "id": 2,
+    "thema": "pflegeversicherung",
+    "kategorie": "grundlagen",
+    "typ": "multiple-choice",
+    "frage": "In welchem Jahr wurde die Pflegeversicherung eingeführt?",
+    "antworten": ["1883", "1927", "1995", "2017"],
+    "richtigeAntwort": "1995",
+    "erklaerung": "Die Pflegeversicherung wurde 1995 als weitere Säule der Sozialversicherung eingeführt.",
+    "quelleSeite": 4
+  },
+  {
+    "id": 3,
+    "thema": "pflegeversicherung",
+    "kategorie": "grundlagen",
+    "typ": "multiple-choice",
+    "frage": "Welches Hauptziel hatte die Einführung der Pflegeversicherung?",
+    "antworten": ["Absicherung gegen das Risiko der Pflegebedürftigkeit", "Finanzierung aller Krankenhauskosten", "Abschaffung der Krankenversicherung", "Kostenlose Arzneimittelversorgung"],
+    "richtigeAntwort": "Absicherung gegen das Risiko der Pflegebedürftigkeit",
+    "erklaerung": "Die Pflegeversicherung soll gegen das Risiko der Pflegebedürftigkeit absichern.",
+    "quelleSeite": 6
+  },
+  {
+    "id": 4,
+    "thema": "pflegeversicherung",
+    "kategorie": "grundlagen",
+    "typ": "multiple-choice",
+    "frage": "Welcher Grundsatz der Pflegeversicherung ist in § 3 SGB XI verankert?",
+    "antworten": ["Vorrang der häuslichen Pflege", "Vorrang der stationären Pflege", "Behandlungspflege vor Grundpflege", "Krankenhauspflege vor Rehabilitation"],
+    "richtigeAntwort": "Vorrang der häuslichen Pflege",
+    "erklaerung": "§ 3 SGB XI nennt den Vorrang der häuslichen Pflege.",
+    "quelleSeite": 9
+  },
+  {
+    "id": 5,
+    "thema": "pflegeversicherung",
+    "kategorie": "grundlagen",
+    "typ": "multiple-choice",
+    "frage": "Welcher Grundsatz ist in § 2 SGB XI verankert?",
+    "antworten": ["Selbstbestimmung", "Versicherungspflichtgrenze", "Beitragsfreiheit", "Behandlungspflege"],
+    "richtigeAntwort": "Selbstbestimmung",
+    "erklaerung": "Selbstbestimmung ist ein zentraler Grundsatz der Pflegeversicherung.",
+    "quelleSeite": 9
+  },
+  {
+    "id": 6,
+    "thema": "pflegeversicherung",
+    "kategorie": "pflegekassen",
+    "typ": "multiple-choice",
+    "frage": "Wie wird die gesetzliche Pflegeversicherung laut Skript hauptsächlich finanziert?",
+    "antworten": ["Durch Beiträge der Mitglieder und Arbeitgeber", "Nur durch Steuern", "Nur durch Arbeitgeber", "Durch Spenden der Pflegeeinrichtungen"],
+    "richtigeAntwort": "Durch Beiträge der Mitglieder und Arbeitgeber",
+    "erklaerung": "Die Ausgaben werden durch Beiträge der Mitglieder und Arbeitgeber finanziert.",
+    "quelleSeite": 10
+  },
+  {
+    "id": 7,
+    "thema": "pflegeversicherung",
+    "kategorie": "pflegekassen",
+    "typ": "multiple-choice",
+    "frage": "Wonach richtet sich die Höhe der Beiträge zur Pflegeversicherung laut Skript?",
+    "antworten": ["Nach dem Bruttoeinkommen", "Nach dem Pflegegrad", "Nach dem Alter", "Nach der Zahl der Arztbesuche"],
+    "richtigeAntwort": "Nach dem Bruttoeinkommen",
+    "erklaerung": "Die Höhe der Beiträge richtet sich nach dem Bruttoeinkommen des Versicherten.",
+    "quelleSeite": 10
+  },
+  {
+    "id": 8,
+    "thema": "pflegeversicherung",
+    "kategorie": "pflegekassen",
+    "typ": "multiple-choice",
+    "frage": "Welche Aufgabe gehört zu den Aufgaben der Pflegekassen?",
+    "antworten": ["Pflegeberatung", "Ausstellung von Führerscheinen", "Durchführung von Operationen", "Festlegung von Arzneimittelpreisen"],
+    "richtigeAntwort": "Pflegeberatung",
+    "erklaerung": "Zu den Aufgaben der Pflegekassen gehören unter anderem Pflegeberatung und die Sicherstellung der pflegerischen Versorgung.",
+    "quelleSeite": 11
+  },
+  {
+    "id": 9,
+    "thema": "pflegeversicherung",
+    "kategorie": "versicherung",
+    "typ": "multiple-choice",
+    "frage": "Wer ist grundsätzlich in der Pflegeversicherung pflichtversichert?",
+    "antworten": ["Jeder gesetzlich oder privat Krankenversicherte", "Nur Menschen über 65 Jahre", "Nur Arbeitnehmer", "Nur Personen mit Pflegegrad"],
+    "richtigeAntwort": "Jeder gesetzlich oder privat Krankenversicherte",
+    "erklaerung": "Die Pflegeversicherung folgt grundsätzlich der Krankenversicherung.",
+    "quelleSeite": 18
+  },
+  {
+    "id": 10,
+    "thema": "pflegegrade",
+    "kategorie": "pflegebeduerftigkeit",
+    "typ": "multiple-choice",
+    "frage": "Worauf richtet sich der Pflegebedürftigkeitsbegriff seit 2017 besonders?",
+    "antworten": ["Auf den Grad der verbliebenen Selbstständigkeit", "Nur auf körperliche Erkrankungen", "Nur auf den täglichen Zeitaufwand", "Nur auf das Alter"],
+    "richtigeAntwort": "Auf den Grad der verbliebenen Selbstständigkeit",
+    "erklaerung": "Seit 2017 steht die Beeinträchtigung der Selbstständigkeit oder der Fähigkeiten im Mittelpunkt.",
+    "quelleSeite": 12
+  },
+  {
+    "id": 11,
+    "thema": "pflegegrade",
+    "kategorie": "pflegebeduerftigkeit",
+    "typ": "multiple-choice",
+    "frage": "Wie viele Lebensbereiche werden bei der Begutachtung der Pflegebedürftigkeit betrachtet?",
+    "antworten": ["Vier", "Fünf", "Sechs", "Acht"],
+    "richtigeAntwort": "Sechs",
+    "erklaerung": "Die Begutachtung betrachtet sechs Lebensbereiche beziehungsweise Module.",
+    "quelleSeite": 17
+  },
+  {
+    "id": 12,
+    "thema": "pflegegrade",
+    "kategorie": "module",
+    "typ": "multiple-choice",
+    "frage": "Welcher Bereich wird mit 40 Prozent am stärksten gewichtet?",
+    "antworten": ["Selbstversorgung", "Mobilität", "Gestaltung des Alltagslebens", "Kognitive Fähigkeiten"],
+    "richtigeAntwort": "Selbstversorgung",
+    "erklaerung": "Die Selbstversorgung hat mit 40 Prozent die höchste Gewichtung.",
+    "quelleSeite": 12
+  },
+  {
+    "id": 13,
+    "thema": "pflegegrade",
+    "kategorie": "module",
+    "typ": "multiple-choice",
+    "frage": "Mit wie viel Prozent wird der Bereich Mobilität gewichtet?",
+    "antworten": ["10 Prozent", "15 Prozent", "20 Prozent", "40 Prozent"],
+    "richtigeAntwort": "10 Prozent",
+    "erklaerung": "Das Modul Mobilität wird mit 10 Prozent gewichtet.",
+    "quelleSeite": 12
+  },
+  {
+    "id": 14,
+    "thema": "pflegegrade",
+    "kategorie": "module",
+    "typ": "multiple-choice",
+    "frage": "Welcher Bereich wird mit 20 Prozent gewichtet?",
+    "antworten": ["Umgang mit krankheits- oder therapiebedingten Anforderungen", "Mobilität", "Selbstversorgung", "Gestaltung sozialer Kontakte"],
+    "richtigeAntwort": "Umgang mit krankheits- oder therapiebedingten Anforderungen",
+    "erklaerung": "Der Umgang mit krankheits- und therapiebedingten Anforderungen wird mit 20 Prozent gewichtet.",
+    "quelleSeite": 12
+  },
+  {
+    "id": 15,
+    "thema": "pflegegrade",
+    "kategorie": "pflegegrade",
+    "typ": "multiple-choice",
+    "frage": "Ab welcher Punktzahl beginnt Pflegegrad 1?",
+    "antworten": ["Ab 7,5 Punkten", "Ab 12,5 Punkten", "Ab 27 Punkten", "Ab 47,5 Punkten"],
+    "richtigeAntwort": "Ab 12,5 Punkten",
+    "erklaerung": "Pflegegrad 1 beginnt ab 12,5 Punkten und reicht bis unter 27 Punkte.",
+    "quelleSeite": 16
+  },
+  {
+    "id": 16,
+    "thema": "pflegegrade",
+    "kategorie": "pflegegrade",
+    "typ": "multiple-choice",
+    "frage": "Welcher Pflegegrad entspricht 47,5 bis unter 70 Punkten?",
+    "antworten": ["Pflegegrad 1", "Pflegegrad 2", "Pflegegrad 3", "Pflegegrad 4"],
+    "richtigeAntwort": "Pflegegrad 3",
+    "erklaerung": "Pflegegrad 3 beschreibt schwere Beeinträchtigungen der Selbstständigkeit.",
+    "quelleSeite": 16
+  },
+  {
+    "id": 17,
+    "thema": "pflegegrade",
+    "kategorie": "pflegegrade",
+    "typ": "multiple-choice",
+    "frage": "Welcher Pflegegrad beginnt ab 90 Punkten?",
+    "antworten": ["Pflegegrad 2", "Pflegegrad 3", "Pflegegrad 4", "Pflegegrad 5"],
+    "richtigeAntwort": "Pflegegrad 5",
+    "erklaerung": "Pflegegrad 5 beginnt ab 90 Punkten und umfasst besondere Anforderungen an die pflegerische Versorgung.",
+    "quelleSeite": 16
+  },
+  {
+    "id": 18,
+    "thema": "pflegegrade",
+    "kategorie": "begutachtung",
+    "typ": "multiple-choice",
+    "frage": "Welche Institution prüft den Antrag auf einen Pflegegrad?",
+    "antworten": ["Der Medizinische Dienst", "Das Finanzamt", "Die Rentenversicherung", "Die Berufsgenossenschaft"],
+    "richtigeAntwort": "Der Medizinische Dienst",
+    "erklaerung": "Der Medizinische Dienst begutachtet die Pflegebedürftigkeit und prüft die Module.",
+    "quelleSeite": 17
+  },
+  {
+    "id": 19,
+    "thema": "pflegegrade",
+    "kategorie": "begriffe",
+    "typ": "text",
+    "frage": "Wie lautet die Abkürzung für den Medizinischen Dienst?",
+    "akzeptierteAntworten": ["MD", "Medizinischer Dienst"],
+    "erklaerung": "Im Skript wird der Medizinische Dienst mit MD bezeichnet.",
+    "quelleSeite": 17
+  },
+  {
+    "id": 20,
+    "thema": "leistungen",
+    "kategorie": "begriffe",
+    "typ": "multiple-choice",
+    "frage": "Was sind Pflegesachleistungen?",
+    "antworten": [
+      "Professionelle pflegerische Hilfen in der häuslichen Versorgung",
+      "Direkte Geldzahlungen an Krankenhäuser",
+      "Leistungen der Rentenversicherung",
+      "Ausschließlich Medikamente und Verbandsmaterial"
+    ],
+    "richtigeAntwort": "Professionelle pflegerische Hilfen in der häuslichen Versorgung",
+    "erklaerung": "Pflegesachleistungen werden durch professionelle Pflegende beziehungsweise ambulante Pflegedienste erbracht.",
+    "quelleSeite": 20
+  },
+  {
+    "id": 21,
+    "thema": "leistungen",
+    "kategorie": "paragraphen",
+    "typ": "multiple-choice",
+    "frage": "In welchem Paragraphen des SGB XI ist die Pflegesachleistung geregelt?",
+    "antworten": ["§ 36", "§ 37", "§ 39", "§ 43"],
+    "richtigeAntwort": "§ 36",
+    "erklaerung": "Die Pflegesachleistung ist in § 36 SGB XI geregelt.",
+    "quelleSeite": 26
+  },
+  {
+    "id": 22,
+    "thema": "leistungen",
+    "kategorie": "begriffe",
+    "typ": "multiple-choice",
+    "frage": "Wann wird Pflegegeld gezahlt?",
+    "antworten": ["Wenn die Pflege zum Beispiel durch Angehörige erfolgt", "Nur bei einem Krankenhausaufenthalt", "Nur bei vollstationärer Pflege", "Nur bei Behandlungspflege"],
+    "richtigeAntwort": "Wenn die Pflege zum Beispiel durch Angehörige erfolgt",
+    "erklaerung": "Pflegegeld wird direkt an die pflegebedürftige Person gezahlt, wenn die Pflege selbst organisiert wird.",
+    "quelleSeite": 21
+  },
+  {
+    "id": 23,
+    "thema": "leistungen",
+    "kategorie": "begriffe",
+    "typ": "multiple-choice",
+    "frage": "Was sind Pflegehilfsmittel?",
+    "antworten": [
+      "Geräte und Sachmittel zur Erleichterung der häuslichen Pflege",
+      "Nur verschreibungspflichtige Medikamente",
+      "Ausschließlich medizinische Diagnosen",
+      "Beiträge zur Rentenversicherung"
+    ],
+    "richtigeAntwort": "Geräte und Sachmittel zur Erleichterung der häuslichen Pflege",
+    "erklaerung": "Pflegehilfsmittel sollen die Pflege erleichtern, Beschwerden lindern oder eine selbstständigere Lebensführung ermöglichen.",
+    "quelleSeite": 21
+  },
+  {
+    "id": 24,
+    "thema": "leistungen",
+    "kategorie": "versorgungsformen",
+    "typ": "multiple-choice",
+    "frage": "Was bedeutet Tages- und Nachtpflege?",
+    "antworten": [
+      "Teilstationäre zeitweise Betreuung in einer Pflegeeinrichtung",
+      "Dauerhafte Unterbringung im Krankenhaus",
+      "Ausschließliche Pflege durch Angehörige",
+      "Ambulante Behandlungspflege durch einen Arzt"
+    ],
+    "richtigeAntwort": "Teilstationäre zeitweise Betreuung in einer Pflegeeinrichtung",
+    "erklaerung": "Tages- und Nachtpflege ist eine teilstationäre Versorgung.",
+    "quelleSeite": 22
+  },
+  {
+    "id": 25,
+    "thema": "leistungen",
+    "kategorie": "versorgungsformen",
+    "typ": "multiple-choice",
+    "frage": "Was beschreibt die Kurzzeitpflege?",
+    "antworten": ["Vorübergehende Pflege in einer Pflegeeinrichtung", "Dauerhafte Pflege im eigenen Haushalt", "Ausschließlich nächtliche Betreuung", "Eine medizinische Rehabilitation"],
+    "richtigeAntwort": "Vorübergehende Pflege in einer Pflegeeinrichtung",
+    "erklaerung": "Bei der Kurzzeitpflege wird die pflegebedürftige Person für eine begrenzte Zeit stationär versorgt.",
+    "quelleSeite": 22
+  },
+  {
+    "id": 26,
+    "thema": "leistungen",
+    "kategorie": "versorgungsformen",
+    "typ": "multiple-choice",
+    "frage": "Was bedeutet vollstationäre Pflege?",
+    "antworten": ["Dauerhafter Aufenthalt in einem Pflegeheim", "Zeitweise Betreuung am Tag", "Pflege ausschließlich durch Angehörige", "Ambulante Pflege im eigenen Haushalt"],
+    "richtigeAntwort": "Dauerhafter Aufenthalt in einem Pflegeheim",
+    "erklaerung": "Vollstationäre Pflege bezeichnet den dauerhaften Aufenthalt in einer Pflegeeinrichtung.",
+    "quelleSeite": 23
+  },
+  {
+    "id": 27,
+    "thema": "leistungen",
+    "kategorie": "abgrenzung",
+    "typ": "multiple-choice",
+    "frage": "Welche Leistung gehört laut Skript nicht zur Pflegeversicherung nach SGB XI?",
+    "antworten": ["Behandlungspflege", "Pflegegeld", "Pflegehilfsmittel", "Kurzzeitpflege"],
+    "richtigeAntwort": "Behandlungspflege",
+    "erklaerung": "Behandlungspflege ist im SGB V verankert und keine Leistung der Pflegeversicherung.",
+    "quelleSeite": 25
+  },
+  {
+    "id": 28,
+    "thema": "leistungen",
+    "kategorie": "kombinationsleistung",
+    "typ": "multiple-choice",
+    "frage": "Was geschieht mit dem Pflegegeld, wenn ein Teil der Pflegesachleistung genutzt wird?",
+    "antworten": ["Es verringert sich entsprechend dem genutzten Prozentsatz", "Es verdoppelt sich", "Es entfällt immer vollständig", "Es bleibt unabhängig davon unverändert"],
+    "richtigeAntwort": "Es verringert sich entsprechend dem genutzten Prozentsatz",
+    "erklaerung": "Bei der Kombinationsleistung reduziert sich der Pflegegeldanspruch um den ausgeschöpften Anteil der Sachleistung.",
+    "quelleSeite": 30
+  },
+  {
+    "id": 29,
+    "thema": "leistungen",
+    "kategorie": "paragraphen",
+    "typ": "text",
+    "frage": "In welchem Paragraphen des SGB XI ist die Kurzzeitpflege geregelt?",
+    "akzeptierteAntworten": ["§ 42", "42", "Paragraph 42"],
+    "erklaerung": "Die Kurzzeitpflege ist in § 42 SGB XI geregelt.",
+    "quelleSeite": 26
+  },
+  {
+    "id": 30,
+    "thema": "entlassungsmanagement",
+    "kategorie": "begriffe",
+    "typ": "multiple-choice",
+    "frage": "Worauf fokussiert das Entlassungsmanagement?",
+    "antworten": [
+      "Auf Zeitpunkt und Versorgungsbedarf beim Verlassen des Krankenhauses",
+      "Nur auf die Aufnahme in das Krankenhaus",
+      "Nur auf die ärztliche Diagnose",
+      "Nur auf die Abrechnung der Pflegeversicherung"
+    ],
+    "richtigeAntwort": "Auf Zeitpunkt und Versorgungsbedarf beim Verlassen des Krankenhauses",
+    "erklaerung": "Das Entlassungsmanagement plant die bedarfsgerechte Anschlussversorgung nach dem Krankenhaus.",
+    "quelleSeite": 39
+  },
+  {
+    "id": 31,
+    "thema": "entlassungsmanagement",
+    "kategorie": "begriffe",
+    "typ": "multiple-choice",
+    "frage": "Was beschreibt das Überleitungsmanagement?",
+    "antworten": ["Die Organisation des Wechsels in ein anderes Versorgungssetting", "Die Vergabe eines Pflegegrades", "Die Finanzierung von Medikamenten", "Die Durchführung einer Operation"],
+    "richtigeAntwort": "Die Organisation des Wechsels in ein anderes Versorgungssetting",
+    "erklaerung": "Zum Überleitungsmanagement gehören die Organisation des Wechsels und die Weitergabe versorgungsrelevanter Informationen.",
+    "quelleSeite": 39
+  },
+  {
+    "id": 32,
+    "thema": "entlassungsmanagement",
+    "kategorie": "phasen",
+    "typ": "multiple-choice",
+    "frage": "Was ist die erste Phase des Überleitungsmanagements?",
+    "antworten": ["Risiko und Versorgungsbedarf einschätzen", "Entlassung sofort durchführen", "Pflegegrad automatisch vergeben", "Nur Angehörige informieren"],
+    "richtigeAntwort": "Risiko und Versorgungsbedarf einschätzen",
+    "erklaerung": "Zu Beginn werden Risiko und Versorgungsbedarf mit Assessmentinstrumenten eingeschätzt.",
+    "quelleSeite": 40
+  },
+  {
+    "id": 33,
+    "thema": "entlassungsmanagement",
+    "kategorie": "phasen",
+    "typ": "multiple-choice",
+    "frage": "Welche Phase folgt auf die Einschätzung von Risiko und Versorgungsbedarf?",
+    "antworten": ["Einen individuellen poststationären Versorgungsplan entwickeln", "Den Pflegegrad löschen", "Die Behandlung abbrechen", "Nur die Rechnung erstellen"],
+    "richtigeAntwort": "Einen individuellen poststationären Versorgungsplan entwickeln",
+    "erklaerung": "Die zweite Phase ist die Entwicklung eines individuellen Versorgungsplans.",
+    "quelleSeite": 40
+  },
+  {
+    "id": 34,
+    "thema": "entlassungsmanagement",
+    "kategorie": "assessment",
+    "typ": "multiple-choice",
+    "frage": "Welches Assessmentinstrument dient der Einschätzung des poststationären Versorgungsbedarfs?",
+    "antworten": ["BRASS-Index", "Braden-Skala", "NRS", "MNA"],
+    "richtigeAntwort": "BRASS-Index",
+    "erklaerung": "Der Blaylock Risk Assessment Screening Score wird für den poststationären Versorgungsbedarf genutzt.",
+    "quelleSeite": 45
+  },
+  {
+    "id": 35,
+    "thema": "entlassungsmanagement",
+    "kategorie": "assessment",
+    "typ": "multiple-choice",
+    "frage": "Welches Instrument dient der Einschätzung des Dekubitusrisikos?",
+    "antworten": ["Braden-Skala", "BRASS-Index", "MMST", "Barthel-Index"],
+    "richtigeAntwort": "Braden-Skala",
+    "erklaerung": "Die Braden-Skala wird zur Einschätzung des Dekubitusrisikos eingesetzt.",
+    "quelleSeite": 45
+  },
+  {
+    "id": 36,
+    "thema": "entlassungsmanagement",
+    "kategorie": "assessment",
+    "typ": "multiple-choice",
+    "frage": "Welches Instrument wird zur Schmerzerfassung verwendet?",
+    "antworten": ["Numerische Rating-Skala", "Mini Mental-Status-Test", "Tinetti-Test", "BRASS-Index"],
+    "richtigeAntwort": "Numerische Rating-Skala",
+    "erklaerung": "Die Numerische Rating-Skala, kurz NRS, dient der Schmerzerfassung.",
+    "quelleSeite": 45
+  },
+  {
+    "id": 37,
+    "thema": "entlassungsmanagement",
+    "kategorie": "ziele",
+    "typ": "multiple-choice",
+    "frage": "Welches Ziel gehört zur interdisziplinären Versorgungsplanung?",
+    "antworten": ["Versorgungsbrüche und gesundheitliche Risiken verhindern", "Angehörige grundsätzlich ausschließen", "Informationen zwischen Einrichtungen reduzieren", "Wiedereinweisungen fördern"],
+    "richtigeAntwort": "Versorgungsbrüche und gesundheitliche Risiken verhindern",
+    "erklaerung": "Eine strukturierte Versorgungsplanung soll Brüche vermeiden und die Versorgungssicherheit erhöhen.",
+    "quelleSeite": 47
+  },
+  {
+    "id": 38,
+    "thema": "entlassungsmanagement",
+    "kategorie": "ziele",
+    "typ": "multiple-choice",
+    "frage": "Warum sollen Angehörige in die Versorgungsplanung einbezogen werden?",
+    "antworten": ["Um sie einzubeziehen und zu entlasten", "Um Pflegefachpersonen vollständig zu ersetzen", "Um die Dokumentation zu vermeiden", "Um den Pflegegrad automatisch zu erhöhen"],
+    "richtigeAntwort": "Um sie einzubeziehen und zu entlasten",
+    "erklaerung": "Die Perspektive und die Ressourcen der Angehörigen sollen berücksichtigt und Belastungen reduziert werden.",
+    "quelleSeite": 47
+  },
+  {
+    "id": 39,
+    "thema": "entlassungsmanagement",
+    "kategorie": "drehtuer",
+    "typ": "multiple-choice",
+    "frage": "Was bezeichnet der Drehtüreffekt?",
+    "antworten": [
+      "Erneute Aufnahme mit gleicher Diagnose innerhalb kurzer Zeit nach der Entlassung",
+      "Den Wechsel von der Tages- zur Nachtpflege",
+      "Die automatische Erhöhung des Pflegegrades",
+      "Den Wechsel der Krankenkasse"
+    ],
+    "richtigeAntwort": "Erneute Aufnahme mit gleicher Diagnose innerhalb kurzer Zeit nach der Entlassung",
+    "erklaerung": "Der Drehtüreffekt ist ein typisches Zeichen eines unzureichenden Entlassungs- oder Überleitungsmanagements.",
+    "quelleSeite": 49
+  },
+  {
+    "id": 40,
+    "thema": "entlassungsmanagement",
+    "kategorie": "begriffe",
+    "typ": "text",
+    "frage": "Wie heißt der Standard, der eine strukturierte Entlassungsplanung in der Pflege beschreibt?",
+    "akzeptierteAntworten": ["Expertenstandard Entlassungsmanagement", "Entlassungsmanagement", "Expertenstandard Entlassungsmanagement in der Pflege"],
+    "erklaerung": "Der Expertenstandard Entlassungsmanagement beschreibt Struktur-, Prozess- und Ergebniskriterien.",
+    "quelleSeite": 41
+  },
+  {
+    "id": 41,
+    "thema": "pflegeversicherung",
+    "kategorie": "grundlagen",
+    "typ": "multiple-choice",
+    "frage": "Was ist der Hauptzweck der Krankenversicherung (SGB V) im Unterschied zur Pflegeversicherung (SGB XI)?",
+    "antworten": [
+      "Krankheiten erkennen, behandeln, lindern oder verhüten",
+      "Folgen einer längerfristigen Pflegebedürftigkeit ausgleichen",
+      "Ausschließlich Rentenzahlungen organisieren",
+      "Nur Krankenhausaufenthalte finanzieren"
+    ],
+    "richtigeAntwort": "Krankheiten erkennen, behandeln, lindern oder verhüten",
+    "erklaerung": "SGB V dient der Erkennung, Behandlung, Linderung oder Verhütung von Krankheiten, während SGB XI die Folgen der Pflegebedürftigkeit ausgleicht.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 42,
+    "thema": "pflegeversicherung",
+    "kategorie": "grundlagen",
+    "typ": "multiple-choice",
+    "frage": "Wer ist Kostenträger für Leistungen nach SGB XI?",
+    "antworten": ["Die Krankenkasse", "Die Pflegekasse", "Das Sozialamt", "Die Rentenversicherung"],
+    "richtigeAntwort": "Die Pflegekasse",
+    "erklaerung": "Kostenträger der Pflegeversicherung ist die Pflegekasse, bei der Krankenversicherung die Krankenkasse.",
+    "quelleSeite": 2
+  },
+  {
+    "id": 43,
+    "thema": "pflegegrade",
+    "kategorie": "pflegebeduerftigkeit",
+    "typ": "multiple-choice",
+    "frage": "Wie lange muss ein Hilfebedarf laut SGB XI voraussichtlich mindestens bestehen, damit Pflegebedürftigkeit vorliegt?",
+    "antworten": ["Mindestens sechs Wochen", "Mindestens drei Monate", "Mindestens sechs Monate", "Mindestens ein Jahr"],
+    "richtigeAntwort": "Mindestens sechs Monate",
+    "erklaerung": "Ein nur kurzfristiger Hilfebedarf, etwa nach einer Operation, reicht allein nicht aus. Entscheidend ist die voraussichtliche Dauer von mindestens sechs Monaten.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 44,
+    "thema": "pflegegrade",
+    "kategorie": "pflegebeduerftigkeit",
+    "typ": "multiple-choice",
+    "frage": "Wie lange muss die Vorversicherungszeit in der Pflegeversicherung vor Antragstellung grundsätzlich sein?",
+    "antworten": [
+      "Mindestens ein Jahr in den letzten fünf Jahren",
+      "Mindestens zwei Jahre in den letzten zehn Jahren",
+      "Mindestens fünf Jahre in den letzten zehn Jahren",
+      "Es gibt keine Vorversicherungszeit"
+    ],
+    "richtigeAntwort": "Mindestens zwei Jahre in den letzten zehn Jahren",
+    "erklaerung": "In den letzten zehn Jahren vor dem Antrag müssen grundsätzlich mindestens zwei Jahre Versicherung in der Pflegeversicherung vorliegen.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 45,
+    "thema": "pflegegrade",
+    "kategorie": "pflegebeduerftigkeit",
+    "typ": "text",
+    "frage": "Gibt es für den Bezug eines Pflegegrades eine Altersgrenze nach unten (Ja/Nein)?",
+    "akzeptierteAntworten": ["Nein", "nein", "Keine Altersgrenze"],
+    "erklaerung": "Auch Kinder und jüngere Menschen können einen Pflegegrad erhalten, entscheidend sind die Beeinträchtigungen, nicht das Lebensalter.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 46,
+    "thema": "pflegegrade",
+    "kategorie": "begutachtung",
+    "typ": "multiple-choice",
+    "frage": "Wo muss der Antrag auf einen Pflegegrad gestellt werden?",
+    "antworten": ["Beim Medizinischen Dienst", "Bei der Pflegekasse", "Beim Sozialamt", "Beim Hausarzt"],
+    "richtigeAntwort": "Bei der Pflegekasse",
+    "erklaerung": "Der Antrag wird bei der Pflegekasse gestellt; Leistungen werden nicht automatisch aufgrund einer Erkrankung gewährt.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 47,
+    "thema": "pflegegrade",
+    "kategorie": "module",
+    "typ": "multiple-choice",
+    "frage": "Mit wie viel Prozent werden die Module 2 (Kognitive und kommunikative Fähigkeiten) und 3 (Verhaltensweisen und psychische Problemlagen) zusammen gewichtet?",
+    "antworten": ["10 Prozent", "15 Prozent", "20 Prozent", "25 Prozent"],
+    "richtigeAntwort": "15 Prozent",
+    "erklaerung": "Module 2 und 3 werden zusammen mit 15 Prozent gewichtet, wobei jeweils der höhere Wert aus einem der beiden Module zählt.",
+    "quelleSeite": 4
+  },
+  {
+    "id": 48,
+    "thema": "pflegegrade",
+    "kategorie": "module",
+    "typ": "multiple-choice",
+    "frage": "Mit wie viel Prozent wird das Modul 'Alltagsleben und soziale Kontakte' gewichtet?",
+    "antworten": ["10 Prozent", "15 Prozent", "20 Prozent", "40 Prozent"],
+    "richtigeAntwort": "15 Prozent",
+    "erklaerung": "Das Modul 6 'Alltagsleben und soziale Kontakte' wird mit 15 Prozent gewichtet.",
+    "quelleSeite": 4
+  },
+  {
+    "id": 49,
+    "thema": "pflegegrade",
+    "kategorie": "pflegegrade",
+    "typ": "multiple-choice",
+    "frage": "Welche Beeinträchtigung entspricht Pflegegrad 2?",
+    "antworten": ["Geringe Beeinträchtigung", "Erhebliche Beeinträchtigung", "Schwere Beeinträchtigung", "Schwerste Beeinträchtigung"],
+    "richtigeAntwort": "Erhebliche Beeinträchtigung",
+    "erklaerung": "Pflegegrad 2 steht für eine erhebliche Beeinträchtigung der Selbstständigkeit oder Fähigkeiten (27 bis unter 47,5 Punkte).",
+    "quelleSeite": 4
+  },
+  {
+    "id": 50,
+    "thema": "pflegegrade",
+    "kategorie": "pflegegrade",
+    "typ": "multiple-choice",
+    "frage": "Welcher Punktbereich entspricht Pflegegrad 4?",
+    "antworten": ["27 bis unter 47,5", "47,5 bis unter 70", "70 bis unter 90", "90 bis 100"],
+    "richtigeAntwort": "70 bis unter 90",
+    "erklaerung": "Pflegegrad 4 beschreibt eine schwerste Beeinträchtigung der Selbstständigkeit und entspricht 70 bis unter 90 Punkten.",
+    "quelleSeite": 4
+  },
+  {
+    "id": 51,
+    "thema": "pflegegrade",
+    "kategorie": "pflegegrade",
+    "typ": "multiple-choice",
+    "frage": "Was unterscheidet Pflegegrad 5 von Pflegegrad 4?",
+    "antworten": [
+      "Pflegegrad 5 hat zusätzlich besondere Anforderungen an die pflegerische Versorgung",
+      "Pflegegrad 5 gilt nur für Kinder",
+      "Pflegegrad 5 wird nur bei privater Versicherung vergeben",
+      "Es gibt keinen Unterschied"
+    ],
+    "richtigeAntwort": "Pflegegrad 5 hat zusätzlich besondere Anforderungen an die pflegerische Versorgung",
+    "erklaerung": "Pflegegrad 5 beschreibt eine schwerste Beeinträchtigung mit besonderen Anforderungen an die pflegerische Versorgung (90 bis 100 Punkte).",
+    "quelleSeite": 4
+  },
+  {
+    "id": 52,
+    "thema": "pflegegrade",
+    "kategorie": "pflegegrade",
+    "typ": "text",
+    "frage": "Gibt es nach aktueller Rechtslage einen regulären 'Pflegegrad 0'?",
+    "akzeptierteAntworten": ["Nein", "nein", "Es gibt keinen Pflegegrad 0"],
+    "erklaerung": "Einen regulären Pflegegrad 0 gibt es nicht – es gibt fünf Pflegegrade von 1 bis 5.",
+    "quelleSeite": 4
+  },
+  {
+    "id": 53,
+    "thema": "leistungen",
+    "kategorie": "haeusliche_pflege",
+    "typ": "multiple-choice",
+    "frage": "Ab welchem Pflegegrad besteht Anspruch auf reguläre ambulante Pflegesachleistung?",
+    "antworten": ["Ab Pflegegrad 1", "Ab Pflegegrad 2", "Ab Pflegegrad 3", "Ab Pflegegrad 4"],
+    "richtigeAntwort": "Ab Pflegegrad 2",
+    "erklaerung": "Pflegesachleistung gibt es ab Pflegegrad 2; Pflegegrad 1 erhält grundsätzlich kein Pflegegeld und keine reguläre Pflegesachleistung.",
+    "quelleSeite": 5
+  },
+  {
+    "id": 54,
+    "thema": "leistungen",
+    "kategorie": "haeusliche_pflege",
+    "typ": "multiple-choice",
+    "frage": "Welche Leistungen kann Pflegegrad 1 trotzdem in Anspruch nehmen?",
+    "antworten": ["Entlastungsbetrag, Beratung, Pflegehilfsmittel und Wohnraumanpassung", "Volles Pflegegeld", "Volle Pflegesachleistung", "Nur vollstationäre Pflege"],
+    "richtigeAntwort": "Entlastungsbetrag, Beratung, Pflegehilfsmittel und Wohnraumanpassung",
+    "erklaerung": "Auch ohne Pflegegeld/Sachleistung stehen Pflegegrad 1 unter anderem Entlastungsbetrag, Beratung, Pflegehilfsmittel und Wohnraumanpassung zu.",
+    "quelleSeite": 5
+  },
+  {
+    "id": 55,
+    "thema": "leistungen",
+    "kategorie": "beitraege",
+    "typ": "multiple-choice",
+    "frage": "Wie hoch ist das monatliche Pflegegeld 2026 bei Pflegegrad 3?",
+    "antworten": ["347 Euro", "599 Euro", "800 Euro", "990 Euro"],
+    "richtigeAntwort": "599 Euro",
+    "erklaerung": "2026 beträgt das Pflegegeld bei Pflegegrad 3 monatlich 599 Euro.",
+    "quelleSeite": 6
+  },
+  {
+    "id": 56,
+    "thema": "leistungen",
+    "kategorie": "beitraege",
+    "typ": "multiple-choice",
+    "frage": "Wie hoch ist die monatliche Pflegesachleistung 2026 bei Pflegegrad 4?",
+    "antworten": ["1.497 Euro", "1.859 Euro", "2.299 Euro", "796 Euro"],
+    "richtigeAntwort": "1.859 Euro",
+    "erklaerung": "2026 beträgt die Pflegesachleistung bei Pflegegrad 4 monatlich bis zu 1.859 Euro.",
+    "quelleSeite": 6
+  },
+  {
+    "id": 57,
+    "thema": "leistungen",
+    "kategorie": "beitraege",
+    "typ": "multiple-choice",
+    "frage": "Wie hoch ist der monatliche Entlastungsbetrag 2026 unabhängig vom Pflegegrad?",
+    "antworten": ["125 Euro", "131 Euro", "224 Euro", "347 Euro"],
+    "richtigeAntwort": "131 Euro",
+    "erklaerung": "Der Entlastungsbetrag beträgt 2026 einheitlich 131 Euro monatlich für alle Pflegegrade.",
+    "quelleSeite": 6
+  },
+  {
+    "id": 58,
+    "thema": "leistungen",
+    "kategorie": "beitraege",
+    "typ": "multiple-choice",
+    "frage": "Wie hoch ist der gemeinsame Jahresbetrag 2026 für Verhinderungspflege und Kurzzeitpflege zusammen (ab Pflegegrad 2)?",
+    "antworten": ["1.612 Euro", "2.096 Euro", "3.539 Euro", "4.180 Euro"],
+    "richtigeAntwort": "3.539 Euro",
+    "erklaerung": "Seit Juli 2025 steht für Verhinderungs- und Kurzzeitpflege ein gemeinsamer Jahresbetrag von bis zu 3.539 Euro zur Verfügung.",
+    "quelleSeite": 6
+  },
+  {
+    "id": 59,
+    "thema": "leistungen",
+    "kategorie": "weitere_leistungen",
+    "typ": "multiple-choice",
+    "frage": "Wie hoch ist der monatliche Betrag für Pflegehilfsmittel zum Verbrauch 2026?",
+    "antworten": ["bis 42 Euro", "bis 53 Euro", "bis 131 Euro", "bis 224 Euro"],
+    "richtigeAntwort": "bis 42 Euro",
+    "erklaerung": "Für Pflegehilfsmittel zum Verbrauch stehen 2026 bis zu 42 Euro monatlich zur Verfügung.",
+    "quelleSeite": 6
+  },
+  {
+    "id": 60,
+    "thema": "leistungen",
+    "kategorie": "weitere_leistungen",
+    "typ": "multiple-choice",
+    "frage": "Wie hoch ist der Zuschuss für wohnumfeldverbessernde Maßnahmen je Maßnahme 2026?",
+    "antworten": ["bis 1.000 Euro", "bis 2.500 Euro", "bis 4.180 Euro", "bis 16.720 Euro"],
+    "richtigeAntwort": "bis 4.180 Euro",
+    "erklaerung": "Wohnumfeldverbessernde Maßnahmen werden 2026 mit bis zu 4.180 Euro je Maßnahme bezuschusst; bei mehreren Anspruchsberechtigten zusammen bis zu 16.720 Euro.",
+    "quelleSeite": 6
+  },
+  {
+    "id": 61,
+    "thema": "leistungen",
+    "kategorie": "weitere_leistungen",
+    "typ": "multiple-choice",
+    "frage": "Wie hoch ist der Wohngruppenzuschlag 2026 für ambulant betreute Wohngruppen?",
+    "antworten": ["131 Euro monatlich", "224 Euro monatlich", "347 Euro monatlich", "53 Euro monatlich"],
+    "richtigeAntwort": "224 Euro monatlich",
+    "erklaerung": "Anspruchsberechtigte in ambulant betreuten Wohngruppen erhalten 2026 einen Wohngruppenzuschlag von 224 Euro monatlich.",
+    "quelleSeite": 6
+  },
+  {
+    "id": 62,
+    "thema": "leistungen",
+    "kategorie": "verhinderungspflege",
+    "typ": "multiple-choice",
+    "frage": "Was ist Verhinderungspflege?",
+    "antworten": ["Ersatzpflege, wenn die übliche private Pflegeperson ausfällt", "Dauerhafte Unterbringung im Pflegeheim", "Ärztlich verordnete Behandlungspflege", "Eine Form der Tagespflege"],
+    "richtigeAntwort": "Ersatzpflege, wenn die übliche private Pflegeperson ausfällt",
+    "erklaerung": "Verhinderungspflege ist Ersatzpflege, wenn die übliche Pflegeperson wegen Krankheit, Urlaub oder anderer Gründe ausfällt.",
+    "quelleSeite": 7
+  },
+  {
+    "id": 63,
+    "thema": "leistungen",
+    "kategorie": "verhinderungspflege",
+    "typ": "multiple-choice",
+    "frage": "Was änderte sich seit Juli 2025 bei der Verhinderungspflege?",
+    "antworten": [
+      "Die frühere sechsmonatige Vorpflegezeit entfiel",
+      "Verhinderungspflege wurde abgeschafft",
+      "Der Anspruch wurde auf Pflegegrad 5 beschränkt",
+      "Es gibt seitdem keine Budgetgrenze mehr"
+    ],
+    "richtigeAntwort": "Die frühere sechsmonatige Vorpflegezeit entfiel",
+    "erklaerung": "Seit Juli 2025 entfällt die frühere Voraussetzung einer sechsmonatigen Vorpflegezeit für Verhinderungspflege.",
+    "quelleSeite": 7
+  },
+  {
+    "id": 64,
+    "thema": "leistungen",
+    "kategorie": "verhinderungspflege",
+    "typ": "multiple-choice",
+    "frage": "Was geschieht mit einem zuvor bezogenen Pflegegeld während Verhinderungs- oder Kurzzeitpflege?",
+    "antworten": ["Es entfällt vollständig", "Es wird grundsätzlich bis zu acht Wochen zur Hälfte weitergezahlt", "Es verdoppelt sich", "Es wird unbegrenzt in voller Höhe weitergezahlt"],
+    "richtigeAntwort": "Es wird grundsätzlich bis zu acht Wochen zur Hälfte weitergezahlt",
+    "erklaerung": "Während Verhinderungs- oder Kurzzeitpflege wird ein zuvor bezogenes Pflegegeld grundsätzlich bis zu acht Wochen zur Hälfte weitergezahlt.",
+    "quelleSeite": 7
+  },
+  {
+    "id": 65,
+    "thema": "leistungen",
+    "kategorie": "stationaer",
+    "typ": "multiple-choice",
+    "frage": "Wie hoch ist der Zuschlag zum pflegebedingten Eigenanteil bei vollstationärer Pflege ab dem 1. Monat?",
+    "antworten": ["5 Prozent", "15 Prozent", "30 Prozent", "50 Prozent"],
+    "richtigeAntwort": "15 Prozent",
+    "erklaerung": "Ab dem ersten Monat des Aufenthalts beträgt der Zuschlag zum pflegebedingten Eigenanteil 15 Prozent.",
+    "quelleSeite": 7
+  },
+  {
+    "id": 66,
+    "thema": "leistungen",
+    "kategorie": "stationaer",
+    "typ": "multiple-choice",
+    "frage": "Wie hoch ist der Zuschlag zum pflegebedingten Eigenanteil nach 36 Monaten Aufenthalt?",
+    "antworten": ["30 Prozent", "50 Prozent", "75 Prozent", "100 Prozent"],
+    "richtigeAntwort": "75 Prozent",
+    "erklaerung": "Nach 36 Monaten steigt der Zuschlag zum pflegebedingten Eigenanteil auf 75 Prozent.",
+    "quelleSeite": 7
+  },
+  {
+    "id": 67,
+    "thema": "leistungen",
+    "kategorie": "stationaer",
+    "typ": "multiple-choice",
+    "frage": "Wer kann geprüft werden, wenn Einkommen und Vermögen für die Eigenanteile der stationären Pflege nicht ausreichen?",
+    "antworten": ["Das Sozialamt (Hilfe zur Pflege)", "Die Agentur für Arbeit", "Die Krankenkasse", "Der Medizinische Dienst"],
+    "richtigeAntwort": "Das Sozialamt (Hilfe zur Pflege)",
+    "erklaerung": "Reichen Einkommen und Vermögen nicht aus, kann 'Hilfe zur Pflege' beim Sozialamt geprüft werden.",
+    "quelleSeite": 7
+  },
+  {
+    "id": 68,
+    "thema": "pflegeversicherung",
+    "kategorie": "beitragssaetze",
+    "typ": "multiple-choice",
+    "frage": "Wie hoch ist der Gesamtbeitragssatz 2026 für Kinderlose ab 23 Jahren?",
+    "antworten": ["3,60 Prozent", "3,05 Prozent", "4,20 Prozent", "2,60 Prozent"],
+    "richtigeAntwort": "4,20 Prozent",
+    "erklaerung": "Kinderlose ab 23 Jahren zahlen 2026 einen Gesamtbeitrag von 4,20 Prozent statt der veralteten 3,05 Prozent.",
+    "quelleSeite": 8
+  },
+  {
+    "id": 69,
+    "thema": "pflegeversicherung",
+    "kategorie": "beitragssaetze",
+    "typ": "multiple-choice",
+    "frage": "Wie hoch ist der Gesamtbeitragssatz 2026 für ein Mitglied mit einem Kind?",
+    "antworten": ["2,60 Prozent", "3,35 Prozent", "3,60 Prozent", "4,20 Prozent"],
+    "richtigeAntwort": "3,60 Prozent",
+    "erklaerung": "Für ein Mitglied mit einem Kind beträgt der Gesamtbeitrag 2026 3,60 Prozent.",
+    "quelleSeite": 8
+  },
+  {
+    "id": 70,
+    "thema": "pflegeversicherung",
+    "kategorie": "beitragssaetze",
+    "typ": "text",
+    "frage": "Wird die Pflegeversicherung nach aktuellem Stand überwiegend durch staatliche Zuschüsse finanziert (Ja/Nein)?",
+    "akzeptierteAntworten": ["Nein", "nein"],
+    "erklaerung": "Die Aussage ist irreführend: Die reguläre Finanzierung beruht vor allem auf einkommensabhängigen Beiträgen, nicht auf staatlichen Zuschüssen.",
+    "quelleSeite": 8
+  },
+  {
+    "id": 71,
+    "thema": "leistungen",
+    "kategorie": "mythen",
+    "typ": "multiple-choice",
+    "frage": "Zahlt die Pflegeversicherung immer die Kosten für einen Rollstuhl?",
+    "antworten": [
+      "Nein, der Kostenträger hängt vom Zweck ab, oft ist es die Krankenversicherung",
+      "Ja, immer vollständig",
+      "Nein, dafür ist ausschließlich das Sozialamt zuständig",
+      "Ja, aber nur bei Pflegegrad 5"
+    ],
+    "richtigeAntwort": "Nein, der Kostenträger hängt vom Zweck ab, oft ist es die Krankenversicherung",
+    "erklaerung": "Ein Rollstuhl ist häufig eine Leistung der Krankenversicherung, nicht automatisch der Pflegeversicherung.",
+    "quelleSeite": 9
+  },
+  {
+    "id": 72,
+    "thema": "leistungen",
+    "kategorie": "mythen",
+    "typ": "multiple-choice",
+    "frage": "Müssen Angehörige bei stationärer Pflege automatisch sämtliche Restkosten übernehmen?",
+    "antworten": [
+      "Nein, zunächst trägt die pflegebedürftige Person Eigenanteile, bei Bedürftigkeit kann Sozialhilfe greifen",
+      "Ja, immer und in voller Höhe",
+      "Nein, die Pflegeversicherung übernimmt immer alle Kosten",
+      "Ja, aber nur Kinder, keine Ehepartner"
+    ],
+    "richtigeAntwort": "Nein, zunächst trägt die pflegebedürftige Person Eigenanteile, bei Bedürftigkeit kann Sozialhilfe greifen",
+    "erklaerung": "Zunächst trägt die pflegebedürftige Person die Eigenanteile; bei Bedürftigkeit kann Sozialhilfe greifen. Die Angehörigenhaftung ist gesondert geregelt.",
+    "quelleSeite": 9
+  }
+]

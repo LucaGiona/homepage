@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1,
+    "thema": "kehlkopf",
+    "kategorie": "aufbau",
+    "typ": "multiple-choice",
+    "frage": "Auf Höhe welcher Halswirbel liegt der Kehlkopf beim Erwachsenen etwa?",
+    "antworten": ["1.–3. Halswirbel", "4.–6. Halswirbel", "7.–9. Halswirbel", "Höhe des Zungenbeins"],
+    "richtigeAntwort": "4.–6. Halswirbel",
+    "erklaerung": "Der Kehlkopf liegt beim Erwachsenen etwa auf Höhe des 4. bis 6. Halswirbels.",
+    "quelleSeite": 3
+  },
+  {
+    "id": 2,
+    "thema": "kehlkopf",
+    "kategorie": "knorpel",
+    "typ": "multiple-choice",
+    "frage": "Welcher Kehlkopfknorpel bildet den bei Männern sichtbaren Adamsapfel?",
+    "antworten": ["Ringknorpel", "Stellknorpel", "Schildknorpel", "Kehldeckel"],
+    "richtigeAntwort": "Schildknorpel",
+    "erklaerung": "Der Schildknorpel (Cartilago thyroidea) ist der größte Kehlkopfknorpel und bildet den Adamsapfel.",
+    "quelleSeite": 4
+  },
+  {
+    "id": 3,
+    "thema": "kehlkopf",
+    "kategorie": "knorpel",
+    "typ": "text",
+    "frage": "Wie lautet der Fachbegriff für den Kehldeckel?",
+    "akzeptierteAntworten": ["Epiglottis"],
+    "erklaerung": "Der Kehldeckel wird als Epiglottis bezeichnet und verschließt den Kehlkopf beim Schlucken.",
+    "quelleSeite": 4
+  },
+  {
+    "id": 4,
+    "thema": "kehlkopf",
+    "kategorie": "knorpel",
+    "typ": "multiple-choice",
+    "frage": "Zwischen welchen Strukturen sind die Stimmbänder aufgespannt?",
+    "antworten": [
+      "Stellknorpel und Schildknorpel",
+      "Ringknorpel und Kehldeckel",
+      "Nur am Ringknorpel",
+      "Nur am Kehldeckel"
+    ],
+    "richtigeAntwort": "Stellknorpel und Schildknorpel",
+    "erklaerung": "Die Stimmbänder sind zwischen dem jeweiligen Stellknorpel und der Innenseite des Schildknorpels aufgespannt.",
+    "quelleSeite": 6
+  },
+  {
+    "id": 5,
+    "thema": "kehlkopf",
+    "kategorie": "glottis",
+    "typ": "multiple-choice",
+    "frage": "Wie wird der Spalt zwischen den beiden Stimmfalten genannt?",
+    "antworten": ["Taschenritze", "Stimmritze (Rima glottidis)", "Rima vestibuli", "Choane"],
+    "richtigeAntwort": "Stimmritze (Rima glottidis)",
+    "erklaerung": "Der Spalt zwischen den beiden Stimmfalten heißt Stimmritze (Rima glottidis).",
+    "quelleSeite": 6
+  },
+  {
+    "id": 6,
+    "thema": "kehlkopf",
+    "kategorie": "glottis",
+    "typ": "text",
+    "frage": "Wie werden Stimmfalten inklusive der Stimmbänder gemeinsam bezeichnet?",
+    "akzeptierteAntworten": ["Glottis"],
+    "erklaerung": "Der Bereich der beiden Stimmfalten inklusive der Stimmbänder wird als Glottis bezeichnet.",
+    "quelleSeite": 6
+  },
+  {
+    "id": 7,
+    "thema": "kehlkopf",
+    "kategorie": "muskeln_feinbau",
+    "typ": "multiple-choice",
+    "frage": "Aus welcher Knorpelart besteht die Epiglottis, im Unterschied zu den übrigen Kehlkopfknorpeln?",
+    "antworten": ["Hyaliner Knorpel", "Elastischer Knorpel", "Faserknorpel", "Bindegewebsknorpel"],
+    "richtigeAntwort": "Elastischer Knorpel",
+    "erklaerung": "Bis auf die Epiglottis, die aus elastischem Knorpel besteht, sind fast alle Kehlkopfknorpel aus hyalinem Knorpel aufgebaut.",
+    "quelleSeite": 7
+  },
+  {
+    "id": 8,
+    "thema": "kehlkopf",
+    "kategorie": "gefaesse_nerven",
+    "typ": "multiple-choice",
+    "frage": "Welcher Nerv versorgt fast alle inneren Kehlkopfmuskeln und ist bei der Rekurrensparese betroffen?",
+    "antworten": ["N. laryngeus superior", "N. laryngeus recurrens", "N. glossopharyngeus", "N. accessorius"],
+    "richtigeAntwort": "N. laryngeus recurrens",
+    "erklaerung": "Der N. laryngeus recurrens versorgt fast alle inneren Kehlkopfmuskeln; sein Ausfall führt zur Rekurrensparese.",
+    "quelleSeite": 8
+  },
+  {
+    "id": 9,
+    "thema": "kehlkopf",
+    "kategorie": "funktionen",
+    "typ": "multiple-choice",
+    "frage": "Wodurch entsteht beim Sprechen ein höherer Ton im Kehlkopf?",
+    "antworten": [
+      "Weniger stark gespannte Stimmlippen",
+      "Stärker gespannte Stimmlippen",
+      "Ein weit geöffneter Kehldeckel",
+      "Eine Entzündung der Epiglottis"
+    ],
+    "richtigeAntwort": "Stärker gespannte Stimmlippen",
+    "erklaerung": "Je stärker die Stimmlippen gespannt sind, desto höher wird der erzeugte Ton.",
+    "quelleSeite": 9
+  },
+  {
+    "id": 10,
+    "thema": "kehlkopf",
+    "kategorie": "patho",
+    "typ": "multiple-choice",
+    "frage": "Welche Erkrankung entsteht durch eine akute bakterielle Entzündung des Kehlkopfdeckels, vor allem bei Kindern?",
+    "antworten": ["Glottisödem", "Epiglottitis", "Rekurrensparese", "Sinusitis"],
+    "richtigeAntwort": "Epiglottitis",
+    "erklaerung": "Die Epiglottitis ist eine akute bakterielle Entzündung der Epiglottis, die vor allem bei Kindern zwischen 2 und 7 Jahren auftritt und lebensbedrohlich sein kann.",
+    "quelleSeite": 5
+  },
+  {
+    "id": 11,
+    "thema": "kehlkopf",
+    "kategorie": "patho",
+    "typ": "text",
+    "frage": "Wie wird ein Ausfall des N. laryngeus recurrens fachsprachlich bezeichnet?",
+    "akzeptierteAntworten": ["Rekurrensparese"],
+    "erklaerung": "Ein Ausfall des N. laryngeus recurrens wird als Rekurrensparese bezeichnet und führt u. a. zu Heiserkeit.",
+    "quelleSeite": 8
+  },
+  {
+    "id": 12,
+    "thema": "kehlkopf",
+    "kategorie": "aufbau",
+    "typ": "multiple-choice",
+    "frage": "Welche Struktur liegt dorsal (hinter) dem Kehlkopf?",
+    "antworten": ["Schilddrüse", "Eingang der Speiseröhre", "A. carotis", "Zungenbein"],
+    "richtigeAntwort": "Eingang der Speiseröhre",
+    "erklaerung": "Dorsal des Kehlkopfs befindet sich der Eingang der Speiseröhre.",
+    "quelleSeite": 3
+  }
+]

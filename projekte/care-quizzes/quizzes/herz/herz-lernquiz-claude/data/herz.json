@@ -1,0 +1,663 @@
+[
+  {
+    "id": 1,
+    "thema": "anatomie",
+    "kategorie": "herzwand",
+    "typ": "multiple-choice",
+    "frage": "Aus welchen drei Schichten besteht die Herzwand von innen nach außen?",
+    "antworten": [
+      "Endokard, Myokard, Perikard",
+      "Perikard, Myokard, Endokard",
+      "Myokard, Endokard, Perikard",
+      "Endokard, Perikard, Myokard"
+    ],
+    "richtigeAntwort": "Endokard, Myokard, Perikard",
+    "erklaerung": "Die Herzwand ist von innen nach außen aus Herzinnenhaut (Endokard), Herzmuskulatur (Myokard) und Herzbeutel (Perikard) aufgebaut.",
+    "quelleSeite": null
+  },
+  {
+    "id": 2,
+    "thema": "anatomie",
+    "kategorie": "koronararterien",
+    "typ": "multiple-choice",
+    "frage": "Wie groß ist der Durchmesser einer Koronararterie in der Regel?",
+    "antworten": [
+      "Selten über drei bis vier Millimeter",
+      "Etwa ein bis zwei Zentimeter",
+      "Etwa fünf Zentimeter",
+      "Unter einem halben Millimeter"
+    ],
+    "richtigeAntwort": "Selten über drei bis vier Millimeter",
+    "erklaerung": "Trotz ihrer enormen Bedeutung für die Versorgung des Herzmuskels sind die Herzkranzgefäße recht klein, ihr Durchmesser liegt selten über drei bis vier Millimetern.",
+    "quelleSeite": 63
+  },
+  {
+    "id": 3,
+    "thema": "anatomie",
+    "kategorie": "koronararterien",
+    "typ": "text",
+    "frage": "Wie werden die Blutgefäße genannt, die den Herzmuskel selbst mit sauerstoffreichem Blut versorgen?",
+    "akzeptierteAntworten": [
+      "Herzkranzgefäße",
+      "Koronararterien",
+      "Koronargefäße"
+    ],
+    "erklaerung": "Die Herzkranzgefäße bzw. Koronararterien umgeben das Herz wie ein Kranz und versorgen den Herzmuskel mit Sauerstoff.",
+    "quelleSeite": 63
+  },
+  {
+    "id": 4,
+    "thema": "anatomie",
+    "kategorie": "erregungsleitung",
+    "typ": "multiple-choice",
+    "frage": "Wo liegt der Sinusknoten, der Taktgeber des Herzens?",
+    "antworten": [
+      "Im rechten Vorhof",
+      "In der linken Herzkammer",
+      "Im Herzbeutel",
+      "In der Aorta"
+    ],
+    "richtigeAntwort": "Im rechten Vorhof",
+    "erklaerung": "Der Sinusknoten liegt im rechten Vorhof und ist das primäre Erregungsbildungszentrum, das den Herzrhythmus vorgibt.",
+    "quelleSeite": null
+  },
+  {
+    "id": 5,
+    "thema": "anatomie",
+    "kategorie": "erregungsleitung",
+    "typ": "multiple-choice",
+    "frage": "Welche Aufgabe hat der AV-Knoten?",
+    "antworten": [
+      "Er verzögert die Erregungsweiterleitung vom Vorhof zur Kammer",
+      "Er pumpt das Blut in die Aorta",
+      "Er bildet die Herzklappen",
+      "Er speichert Sauerstoff für den Herzmuskel"
+    ],
+    "richtigeAntwort": "Er verzögert die Erregungsweiterleitung vom Vorhof zur Kammer",
+    "erklaerung": "Der AV-Knoten (Atrioventrikularknoten) leitet die elektrische Erregung verzögert von den Vorhöfen auf die Kammern weiter, damit sich Vorhöfe und Kammern zeitversetzt zusammenziehen.",
+    "quelleSeite": null
+  },
+  {
+    "id": 6,
+    "thema": "physiologie",
+    "kategorie": "herzzyklus",
+    "typ": "multiple-choice",
+    "frage": "Wie wird die Anspannungs- und Austreibungsphase des Herzens bezeichnet, in der Blut ausgeworfen wird?",
+    "antworten": [
+      "Systole",
+      "Diastole",
+      "Perfusion",
+      "Repolarisation"
+    ],
+    "richtigeAntwort": "Systole",
+    "erklaerung": "In der Systole zieht sich der Herzmuskel zusammen und wirft Blut in die Kreislaufgefäße aus.",
+    "quelleSeite": null
+  },
+  {
+    "id": 7,
+    "thema": "physiologie",
+    "kategorie": "diagnostik_grundlagen",
+    "typ": "multiple-choice",
+    "frage": "Was gilt laut den europäischen Leitlinien als optimaler Blutdruck?",
+    "antworten": [
+      "Unter 120/70 mmHg",
+      "140/90 mmHg",
+      "160/100 mmHg",
+      "100/50 mmHg"
+    ],
+    "richtigeAntwort": "Unter 120/70 mmHg",
+    "erklaerung": "Als optimaler Blutdruck gilt ein Wert unter 120/70 mmHg. Bluthochdruck besteht ab 140/90 mmHg.",
+    "quelleSeite": 113
+  },
+  {
+    "id": 8,
+    "thema": "risikofaktoren",
+    "kategorie": "cac_score",
+    "typ": "multiple-choice",
+    "frage": "Wofür steht der sogenannte CAC-Score (auch Agatston-Score genannt)?",
+    "antworten": [
+      "Für das Ausmaß der Verkalkung der Herzkranzgefäße",
+      "Für die Pumpleistung des Herzens",
+      "Für den Cholesterinspiegel im Blut",
+      "Für die Herzfrequenz unter Belastung"
+    ],
+    "richtigeAntwort": "Für das Ausmaß der Verkalkung der Herzkranzgefäße",
+    "erklaerung": "Der Kalzium- bzw. Agatston-Score gibt Auskunft über Ausmaß, Lokalisation und Anzahl verkalkter Ablagerungen in den Herzkranzgefäßen und dient der Risikoeinschätzung.",
+    "quelleSeite": 56
+  },
+  {
+    "id": 9,
+    "thema": "risikofaktoren",
+    "kategorie": "cac_score",
+    "typ": "multiple-choice",
+    "frage": "Welche Risikoeinstufung gilt bei einem CAC-Score über 1000?",
+    "antworten": [
+      "Extrem hohes Risiko",
+      "Sehr niedriges Risiko",
+      "Niedriges Risiko",
+      "Mäßiges Risiko"
+    ],
+    "richtigeAntwort": "Extrem hohes Risiko",
+    "erklaerung": "Ein CAC-Score über 1000 entspricht einem extrem hohen Risiko für eine schwere Herzkrankheit; ein Score von 0 gilt als sehr niedriges Risiko.",
+    "quelleSeite": 36
+  },
+  {
+    "id": 10,
+    "thema": "risikofaktoren",
+    "kategorie": "genetik",
+    "typ": "multiple-choice",
+    "frage": "Wie hoch ist der vererbte Anteil des Risikos für eine koronare Herzkrankheit ungefähr?",
+    "antworten": [
+      "Rund 50 Prozent",
+      "Rund 5 Prozent",
+      "Rund 90 Prozent",
+      "Praktisch 0 Prozent"
+    ],
+    "richtigeAntwort": "Rund 50 Prozent",
+    "erklaerung": "Unter dem Strich sind etwa 50 Prozent des Risikos für die koronare Herzkrankheit durch Lebensstil vermeidbar und 50 Prozent durch die vererbte Veranlagung erklärbar.",
+    "quelleSeite": 39
+  },
+  {
+    "id": 11,
+    "thema": "praevention",
+    "kategorie": "lebensstil",
+    "typ": "multiple-choice",
+    "frage": "Welcher Body-Mass-Index gilt laut den vorgestellten Empfehlungen als herzgesundes Normalgewicht?",
+    "antworten": [
+      "18,5 bis 24,9",
+      "25 bis 30",
+      "15 bis 18",
+      "30 bis 35"
+    ],
+    "richtigeAntwort": "18,5 bis 24,9",
+    "erklaerung": "Ein BMI zwischen 18,5 und 24,9 (Normalgewicht) ist der Herzgesundheit zuträglich.",
+    "quelleSeite": 48
+  },
+  {
+    "id": 12,
+    "thema": "praevention",
+    "kategorie": "lebensstil",
+    "typ": "multiple-choice",
+    "frage": "Wie viele Minuten moderate körperliche Aktivität pro Woche gelten für Erwachsene als optimal?",
+    "antworten": [
+      "Mindestens 150 Minuten",
+      "Mindestens 30 Minuten",
+      "Mindestens 500 Minuten",
+      "Mindestens 60 Minuten"
+    ],
+    "richtigeAntwort": "Mindestens 150 Minuten",
+    "erklaerung": "Als optimal gelten mindestens 150 Minuten moderate körperliche Aktivität pro Woche oder 75 Minuten anstrengende bis intensive Bewegung.",
+    "quelleSeite": 48
+  },
+  {
+    "id": 13,
+    "thema": "praevention",
+    "kategorie": "lebensstil",
+    "typ": "text",
+    "frage": "Welche Ernährungsform gilt für Herz und Gefäße als besonders gesund?",
+    "akzeptierteAntworten": [
+      "Mediterrane Küche",
+      "Mediterrane Ernährung"
+    ],
+    "erklaerung": "Die mediterrane Küche mit viel Gemüse, Hülsenfrüchten, wenig tierischen Fetten, mehr Pflanzenölen, Nüssen, Obst, Fisch und Vollkornprodukten gilt als besonders herzgesund.",
+    "quelleSeite": 45
+  },
+  {
+    "id": 14,
+    "thema": "praevention",
+    "kategorie": "lebensstil",
+    "typ": "multiple-choice",
+    "frage": "Wie viel könnte ein gesunder Lebensstil laut den im Text genannten Studien die Lebenserwartung im Schnitt erhöhen?",
+    "antworten": [
+      "Um etwa neun Jahre",
+      "Um etwa einen Monat",
+      "Um etwa ein Jahr",
+      "Um etwa 30 Jahre"
+    ],
+    "richtigeAntwort": "Um etwa neun Jahre",
+    "erklaerung": "Eine europäische Studie mit über 100 000 Teilnehmenden zeigte, dass ein gesunder Lebensstil die Lebenserwartung im Durchschnitt um etwa neun Jahre erhöht.",
+    "quelleSeite": 43
+  },
+  {
+    "id": 15,
+    "thema": "khk",
+    "kategorie": "definition",
+    "typ": "multiple-choice",
+    "frage": "Was versteht man unter der koronaren Herzkrankheit (KHK)?",
+    "antworten": [
+      "Alle Erkrankungen der Herzkranzgefäße, insbesondere durch Arteriosklerose",
+      "Eine angeborene Fehlbildung der Herzklappen",
+      "Eine Entzündung des Herzbeutels",
+      "Eine Erkrankung der Lunge, die das Herz belastet"
+    ],
+    "richtigeAntwort": "Alle Erkrankungen der Herzkranzgefäße, insbesondere durch Arteriosklerose",
+    "erklaerung": "Die koronare Herzkrankheit umfasst alle Erkrankungen der Herzkranzgefäße, vor allem die Verkalkung (Arteriosklerose) der Gefäße mit Ablagerungen (Plaques), die den Blutfluss behindern.",
+    "quelleSeite": 55
+  },
+  {
+    "id": 16,
+    "thema": "khk",
+    "kategorie": "angina_pectoris",
+    "typ": "multiple-choice",
+    "frage": "Wodurch unterscheidet sich die instabile Angina pectoris von der stabilen Form?",
+    "antworten": [
+      "Sie tritt plötzlich, länger andauernd oder zunehmend auf, auch in Ruhe",
+      "Sie tritt ausschließlich bei sehr starker körperlicher Belastung auf",
+      "Sie ist grundsätzlich ungefährlich",
+      "Sie kommt nur bei jungen Menschen vor"
+    ],
+    "richtigeAntwort": "Sie tritt plötzlich, länger andauernd oder zunehmend auf, auch in Ruhe",
+    "erklaerung": "Die instabile Angina pectoris unterscheidet sich von der stabilen Form durch plötzliches, länger andauerndes oder zunehmendes Auftreten der Beschwerden, auch in Ruhe oder länger als 20 Minuten – sie gilt als Vorstufe des Herzinfarkts.",
+    "quelleSeite": 84
+  },
+  {
+    "id": 17,
+    "thema": "khk",
+    "kategorie": "plaque",
+    "typ": "multiple-choice",
+    "frage": "Was bezeichnet man als Plaqueruptur?",
+    "antworten": [
+      "Das plötzliche Aufreißen der Oberfläche einer arteriosklerotischen Ablagerung",
+      "Das langsame Wachstum eines Gefäßes",
+      "Die Bildung eines neuen Herzkranzgefäßes",
+      "Die Verkalkung der Herzklappen"
+    ],
+    "richtigeAntwort": "Das plötzliche Aufreißen der Oberfläche einer arteriosklerotischen Ablagerung",
+    "erklaerung": "Bei rund 65 Prozent der Menschen mit einem akuten Herzinfarkt ist eine Plaqueruptur der Auslöser: Der Inhalt der Ablagerung wird freigelegt und es bildet sich sofort ein Blutgerinnsel.",
+    "quelleSeite": 80
+  },
+  {
+    "id": 18,
+    "thema": "khk",
+    "kategorie": "diagnostik",
+    "typ": "multiple-choice",
+    "frage": "Welche Untersuchung gehört zur diagnostischen Basisdiagnostik bei Verdacht auf eine koronare Herzkrankheit?",
+    "antworten": [
+      "Anamnese, körperliche Untersuchung, EKG und Ultraschall",
+      "Ausschließlich eine Herzkatheteruntersuchung",
+      "Eine Röntgenaufnahme des Brustkorbs allein",
+      "Ein Bluttest ohne weitere Untersuchungen"
+    ],
+    "richtigeAntwort": "Anamnese, körperliche Untersuchung, EKG und Ultraschall",
+    "erklaerung": "Zur Basisdiagnostik gehören zuallererst die Anamnese, die körperliche Untersuchung sowie erste apparative Untersuchungen wie EKG, Belastungstest und Ultraschall (Echokardiographie).",
+    "quelleSeite": 59
+  },
+  {
+    "id": 19,
+    "thema": "khk",
+    "kategorie": "mikrovaskulaer",
+    "typ": "multiple-choice",
+    "frage": "Was beschreibt der Begriff mikrovaskuläre Angina pectoris?",
+    "antworten": [
+      "Eine Fehlfunktion der kleinen Herzgefäße ohne Engstellen der großen Herzkranzgefäße",
+      "Eine Verengung der großen Herzkranzarterien",
+      "Eine Entzündung des Herzbeutels",
+      "Einen angeborenen Herzfehler"
+    ],
+    "richtigeAntwort": "Eine Fehlfunktion der kleinen Herzgefäße ohne Engstellen der großen Herzkranzgefäße",
+    "erklaerung": "Bei der mikrovaskulären Angina pectoris liegt die Ursache der Brustschmerzen in einer Fehlfunktion der kleinen, etwa einen halben Millimeter durchmessenden Herzgefäße; die großen Herzkranzgefäße zeigen keine Engstellen (auch ANOCA genannt).",
+    "quelleSeite": 71
+  },
+  {
+    "id": 20,
+    "thema": "herzinfarkt",
+    "kategorie": "definition",
+    "typ": "multiple-choice",
+    "frage": "Was passiert beim Herzinfarkt (Myokardinfarkt)?",
+    "antworten": [
+      "Die Blutversorgung des Herzmuskels wird akut unterbrochen, Herzgewebe stirbt ab",
+      "Das Herz schlägt dauerhaft zu langsam",
+      "Die Herzklappen schließen nicht mehr richtig",
+      "Der Herzbeutel füllt sich mit Flüssigkeit"
+    ],
+    "richtigeAntwort": "Die Blutversorgung des Herzmuskels wird akut unterbrochen, Herzgewebe stirbt ab",
+    "erklaerung": "Ein Herzinfarkt tritt auf, wenn die Blutversorgung des Herzmuskels akut, also plötzlich, unterbrochen wird. Das führt zu einem unmittelbaren Sauerstoffmangel im betroffenen Bereich, der zu dauerhaften Schäden oder zum Absterben von Herzgewebe führen kann.",
+    "quelleSeite": 83
+  },
+  {
+    "id": 21,
+    "thema": "herzinfarkt",
+    "kategorie": "klassifikation",
+    "typ": "multiple-choice",
+    "frage": "Welche drei Krankheitsbilder umfasst der Oberbegriff 'akutes Koronarsyndrom'?",
+    "antworten": [
+      "Instabile Angina pectoris, NSTEMI und STEMI",
+      "Herzinsuffizienz, Endokarditis und Perikarditis",
+      "Bluthochdruck, Diabetes und Arteriosklerose",
+      "Vorhofflimmern, Extrasystolen und Bradykardie"
+    ],
+    "richtigeAntwort": "Instabile Angina pectoris, NSTEMI und STEMI",
+    "erklaerung": "Das akute Koronarsyndrom ist der Oberbegriff für instabile Angina pectoris, den Nicht-ST-Hebungsinfarkt (NSTEMI) und den ST-Hebungsinfarkt (STEMI), die ineinander übergehen können.",
+    "quelleSeite": 83
+  },
+  {
+    "id": 22,
+    "thema": "herzinfarkt",
+    "kategorie": "klassifikation",
+    "typ": "multiple-choice",
+    "frage": "Wofür steht die Abkürzung STEMI?",
+    "antworten": [
+      "ST-Hebungsinfarkt",
+      "Stabile Angina pectoris",
+      "Standard-Test für Myokardischämie",
+      "Systolische Thromboembolie"
+    ],
+    "richtigeAntwort": "ST-Hebungsinfarkt",
+    "erklaerung": "STEMI steht für ST-Elevation Myocardial Infarction, zu Deutsch ST-Hebungsinfarkt, benannt nach der typischen Hebung der ST-Strecke im EKG.",
+    "quelleSeite": 84
+  },
+  {
+    "id": 23,
+    "thema": "herzinfarkt",
+    "kategorie": "typen",
+    "typ": "multiple-choice",
+    "frage": "Wie viele verschiedene Herzinfarkttypen unterscheidet die Klassifikation der Europäischen Gesellschaft für Kardiologie?",
+    "antworten": [
+      "Fünf",
+      "Zwei",
+      "Zehn",
+      "Drei"
+    ],
+    "richtigeAntwort": "Fünf",
+    "erklaerung": "Die Europäische Gesellschaft für Kardiologie unterscheidet fünf verschiedene Herzinfarkttypen, unter anderem nach der zugrunde liegenden Ursache der Durchblutungsstörung.",
+    "quelleSeite": 85
+  },
+  {
+    "id": 24,
+    "thema": "herzinfarkt",
+    "kategorie": "typen",
+    "typ": "multiple-choice",
+    "frage": "Was ist die häufigste Ursache des klassischen Typ-1-Herzinfarkts?",
+    "antworten": [
+      "Ein Blutgerinnsel an einer aufgebrochenen arteriosklerotischen Plaque",
+      "Eine angeborene Fehlbildung der Herzkranzgefäße",
+      "Ein Missverhältnis zwischen Sauerstoffangebot und -bedarf ohne Plaque",
+      "Eine Komplikation während einer Bypassoperation"
+    ],
+    "richtigeAntwort": "Ein Blutgerinnsel an einer aufgebrochenen arteriosklerotischen Plaque",
+    "erklaerung": "Der arteriothrombotische Typ-1-Herzinfarkt entsteht durch einen kompletten oder teilweisen Verschluss der Koronararterie durch ein Blutgerinnsel infolge einer arteriosklerotischen Plaqueruptur – der häufigste Grund für einen Herzinfarkt.",
+    "quelleSeite": 85
+  },
+  {
+    "id": 25,
+    "thema": "herzinfarkt",
+    "kategorie": "sofortmassnahmen",
+    "typ": "text",
+    "frage": "Welche Notrufnummer sollte bei Verdacht auf einen Herzinfarkt sofort gewählt werden?",
+    "akzeptierteAntworten": [
+      "112"
+    ],
+    "erklaerung": "Bei jedem Alarmzeichen für einen Herzinfarkt sollte sofort die 112 gewählt werden, da bei einem Herzinfarkt jede Sekunde zählt (\"Time is Muscle\").",
+    "quelleSeite": 84
+  },
+  {
+    "id": 26,
+    "thema": "herzinfarkt",
+    "kategorie": "symptome",
+    "typ": "multiple-choice",
+    "frage": "Welche Symptome können neben Brustschmerzen auf einen Herzinfarkt hinweisen?",
+    "antworten": [
+      "Schmerzen in Kiefer, Nacken oder Rücken, Atemnot, Übelkeit und Kaltschweißigkeit",
+      "Ausschließlich Husten und Schnupfen",
+      "Nur Muskelkater in den Beinen",
+      "Ausschließlich Hautausschlag"
+    ],
+    "richtigeAntwort": "Schmerzen in Kiefer, Nacken oder Rücken, Atemnot, Übelkeit und Kaltschweißigkeit",
+    "erklaerung": "Neben typischen Angina-pectoris-Beschwerden können bei einem Herzinfarkt auch Schmerzen im Kiefer, Nacken, Rücken, in den Armen oder im Oberbauch sowie Atemnot, Schwindel, Übelkeit und Kaltschweißigkeit auftreten.",
+    "quelleSeite": 87
+  },
+  {
+    "id": 27,
+    "thema": "diagnostik",
+    "kategorie": "troponin",
+    "typ": "multiple-choice",
+    "frage": "Wozu dient die Messung von Troponin im Blut?",
+    "antworten": [
+      "Zum Nachweis einer Schädigung des Herzmuskels",
+      "Zur Messung des Blutzuckers",
+      "Zur Bestimmung der Blutgruppe",
+      "Zur Messung der Nierenfunktion"
+    ],
+    "richtigeAntwort": "Zum Nachweis einer Schädigung des Herzmuskels",
+    "erklaerung": "Troponin T und I sind herzspezifische Eiweiße, die bei einer Schädigung von Herzmuskelzellen ins Blut freigesetzt werden. Steigende Troponin-Werte gelten als sicherer Nachweis eines Herzinfarkts.",
+    "quelleSeite": 91
+  },
+  {
+    "id": 28,
+    "thema": "diagnostik",
+    "kategorie": "ekg",
+    "typ": "multiple-choice",
+    "frage": "Was zeigt eine ST-Hebung im EKG typischerweise an?",
+    "antworten": [
+      "Den frischen Verschluss eines größeren Herzkranzgefäßes",
+      "Eine normale Herzfunktion",
+      "Eine Blutarmut",
+      "Eine Erkrankung der Nieren"
+    ],
+    "richtigeAntwort": "Den frischen Verschluss eines größeren Herzkranzgefäßes",
+    "erklaerung": "ST-Hebungen im EKG bei einem Herzinfarkt zeigen in der Regel den frischen Verschluss eines größeren Herzkranzgefäßes an; dieser Infarkttyp heißt deshalb ST-Hebungsmyokardinfarkt (STEMI).",
+    "quelleSeite": 90
+  },
+  {
+    "id": 29,
+    "thema": "diagnostik",
+    "kategorie": "bildgebung",
+    "typ": "multiple-choice",
+    "frage": "Wie wird die Ultraschalluntersuchung des Herzens fachsprachlich bezeichnet?",
+    "antworten": [
+      "Echokardiographie",
+      "Koronarangiographie",
+      "Szintigraphie",
+      "Myokardszintigraphie"
+    ],
+    "richtigeAntwort": "Echokardiographie",
+    "erklaerung": "Die Echokardiographie ist die Ultraschalluntersuchung des Herzens, mit der unter anderem die Pumpleistung und die Herzklappen beurteilt werden können.",
+    "quelleSeite": 60
+  },
+  {
+    "id": 30,
+    "thema": "diagnostik",
+    "kategorie": "bildgebung",
+    "typ": "multiple-choice",
+    "frage": "Wie lange dauert eine CT-Angiographie des Herzens (CCTA) ungefähr?",
+    "antworten": [
+      "Etwa zehn Minuten",
+      "Etwa eine Stunde",
+      "Etwa einen ganzen Tag",
+      "Etwa eine Sekunde"
+    ],
+    "richtigeAntwort": "Etwa zehn Minuten",
+    "erklaerung": "Bei einer Computertomographie des Herzens wird das Kontrastmittel über einen venösen Zugang injiziert, die Untersuchung dauert insgesamt etwa zehn Minuten.",
+    "quelleSeite": 65
+  },
+  {
+    "id": 31,
+    "thema": "diagnostik",
+    "kategorie": "herzkatheter",
+    "typ": "multiple-choice",
+    "frage": "Über welchen Zugangsweg wird eine Herzkatheteruntersuchung heute bevorzugt durchgeführt, weil er weniger Komplikationen mit sich bringt?",
+    "antworten": [
+      "Über das Handgelenk",
+      "Über die Halsschlagader",
+      "Über den Bauchnabel",
+      "Über das Ohr"
+    ],
+    "richtigeAntwort": "Über das Handgelenk",
+    "erklaerung": "Der Zugangsweg über das Handgelenk ist bei einer Herzkatheteruntersuchung mit deutlich weniger Komplikationen verbunden als der Zugang über die Leiste.",
+    "quelleSeite": 69
+  },
+  {
+    "id": 32,
+    "thema": "therapie",
+    "kategorie": "medikamente",
+    "typ": "multiple-choice",
+    "frage": "Wie wirken Statine?",
+    "antworten": [
+      "Sie blockieren ein Enzym in der Leber, das für die Cholesterinherstellung nötig ist",
+      "Sie erweitern direkt die Herzkranzgefäße",
+      "Sie senken ausschließlich den Blutzucker",
+      "Sie hemmen die Blutgerinnung"
+    ],
+    "richtigeAntwort": "Sie blockieren ein Enzym in der Leber, das für die Cholesterinherstellung nötig ist",
+    "erklaerung": "Statine blockieren das Enzym HMG-CoA-Reduktase in der Leber, das für die Herstellung von Cholesterin gebraucht wird, wodurch die Leber weniger Cholesterin produziert.",
+    "quelleSeite": 115
+  },
+  {
+    "id": 33,
+    "thema": "therapie",
+    "kategorie": "medikamente",
+    "typ": "multiple-choice",
+    "frage": "Wofür wird Acetylsalicylsäure (ASS) in der Herz-Kreislauf-Medizin vor allem eingesetzt?",
+    "antworten": [
+      "Zur Hemmung der Blutplättchen und Vorbeugung von Blutgerinnseln",
+      "Zur Senkung des Blutzuckers",
+      "Zur Erweiterung der Bronchien",
+      "Zur Behandlung von Bluthochdruck"
+    ],
+    "richtigeAntwort": "Zur Hemmung der Blutplättchen und Vorbeugung von Blutgerinnseln",
+    "erklaerung": "Acetylsalicylsäure (ASS) ist ein Thrombozytenaggregationshemmer, der die Verklumpung von Blutplättchen verringert und so Blutgerinnseln in den Gefäßen vorbeugt.",
+    "quelleSeite": 116
+  },
+  {
+    "id": 34,
+    "thema": "therapie",
+    "kategorie": "medikamente",
+    "typ": "multiple-choice",
+    "frage": "Welche Medikamentengruppe blockiert die Stresshormone Adrenalin und Noradrenalin und senkt so den Blutdruck?",
+    "antworten": [
+      "Betablocker",
+      "Statine",
+      "Diuretika",
+      "Thrombozytenaggregationshemmer"
+    ],
+    "richtigeAntwort": "Betablocker",
+    "erklaerung": "Betablocker wie Metoprolol oder Bisoprolol senken den Blutdruck, indem sie die Wirkung der Stresshormone Adrenalin und Noradrenalin blockieren.",
+    "quelleSeite": 114
+  },
+  {
+    "id": 35,
+    "thema": "therapie",
+    "kategorie": "interventionell",
+    "typ": "multiple-choice",
+    "frage": "Was versteht man unter einer perkutanen Koronarintervention (PCI)?",
+    "antworten": [
+      "Das Öffnen und Aufdehnen eines Herzkranzgefäßes mittels Ballon und meist Stent",
+      "Die Bypassoperation am offenen Herzen",
+      "Die medikamentöse Senkung des Blutdrucks",
+      "Die Rehabilitation nach einem Herzinfarkt"
+    ],
+    "richtigeAntwort": "Das Öffnen und Aufdehnen eines Herzkranzgefäßes mittels Ballon und meist Stent",
+    "erklaerung": "Bei der PCI werden mittels eines Katheters Verengungen oder Verschlüsse der Herzkranzgefäße mit einem Ballon aufgedehnt und meist anschließend mit einem Stent versorgt.",
+    "quelleSeite": 111
+  },
+  {
+    "id": 36,
+    "thema": "therapie",
+    "kategorie": "interventionell",
+    "typ": "multiple-choice",
+    "frage": "Wer führte 1977 die erste erfolgreiche Ballonerweiterung eines Herzkranzgefäßes durch?",
+    "antworten": [
+      "Andreas Grüntzig",
+      "Thomas Meinertz",
+      "Hugo Katus",
+      "Raimund Erbel"
+    ],
+    "richtigeAntwort": "Andreas Grüntzig",
+    "erklaerung": "Der Kardiologe Andreas Grüntzig führte im September 1977 in Zürich bei einem Patienten erstmals einen selbstgebastelten Ballon durch einen Katheter in ein Herzkranzgefäß ein.",
+    "quelleSeite": 119
+  },
+  {
+    "id": 37,
+    "thema": "therapie",
+    "kategorie": "operativ",
+    "typ": "multiple-choice",
+    "frage": "In etwa wie viel Prozent der Fälle ist bei einer koronaren Herzkrankheit statt einer Kathetertechnik eine Bypassoperation notwendig?",
+    "antworten": [
+      "In rund zehn Prozent der Fälle",
+      "In rund 90 Prozent der Fälle",
+      "In rund 50 Prozent der Fälle",
+      "Nie, Bypassoperationen werden nicht mehr durchgeführt"
+    ],
+    "richtigeAntwort": "In rund zehn Prozent der Fälle",
+    "erklaerung": "Die meisten Verengungen der Herzkranzgefäße können heute mittels Kathetertechnik behandelt werden, in rund zehn Prozent der Fälle ist allerdings eine Bypassoperation notwendig.",
+    "quelleSeite": 118
+  },
+  {
+    "id": 38,
+    "thema": "rehabilitation",
+    "kategorie": "reha_bausteine",
+    "typ": "multiple-choice",
+    "frage": "Welche Maßnahmen umfasst eine kardiologische Rehabilitation typischerweise?",
+    "antworten": [
+      "Medizinische Betreuung, Physio- und Ergotherapie, Ernährungsberatung, psychosoziale Unterstützung sowie Aufklärung",
+      "Ausschließlich Bettruhe ohne Bewegung",
+      "Nur eine einmalige ärztliche Untersuchung",
+      "Ausschließlich eine medikamentöse Therapie ohne Beratung"
+    ],
+    "richtigeAntwort": "Medizinische Betreuung, Physio- und Ergotherapie, Ernährungsberatung, psychosoziale Unterstützung sowie Aufklärung",
+    "erklaerung": "Eine kardiologische Rehabilitation umfasst unter anderem medizinische Betreuung, Physio- und Ergotherapie, Ernährungsberatung, psychosoziale Unterstützung sowie Aufklärung und Schulung über die Erkrankung.",
+    "quelleSeite": 98
+  },
+  {
+    "id": 39,
+    "thema": "rehabilitation",
+    "kategorie": "reha_bausteine",
+    "typ": "text",
+    "frage": "Wie werden die von Fachkräften geleiteten und ärztlich betreuten Sportgruppen für Herzpatientinnen und Herzpatienten umgangssprachlich genannt?",
+    "akzeptierteAntworten": [
+      "Herzgruppen",
+      "Herzsportgruppen",
+      "Herzsport"
+    ],
+    "erklaerung": "Eine wichtige Rolle spielt der Rehabilitationssport in sogenannten Herzgruppen, oft einfach Herzsport genannt, die von ausgebildeten Fachkräften geleitet und ärztlich betreut werden.",
+    "quelleSeite": 99
+  },
+  {
+    "id": 40,
+    "thema": "herzinfarkt",
+    "kategorie": "folgen",
+    "typ": "multiple-choice",
+    "frage": "Welche mögliche Spätfolge eines Herzinfarkts wird im Text besonders hervorgehoben?",
+    "antworten": [
+      "Herzinsuffizienz (Herzschwäche)",
+      "Nierensteine",
+      "Grauer Star",
+      "Schilddrüsenüberfunktion"
+    ],
+    "richtigeAntwort": "Herzinsuffizienz (Herzschwäche)",
+    "erklaerung": "Je früher die Behandlung eines Herzinfarkts einsetzt, desto geringer fallen die Langzeitschäden aus – insbesondere das Risiko einer Herzinsuffizienz (Herzschwäche).",
+    "quelleSeite": 84
+  },
+  {
+    "id": 41,
+    "thema": "risikofaktoren",
+    "kategorie": "cholesterin",
+    "typ": "multiple-choice",
+    "frage": "Welche Cholesterinart gilt als wichtigster Risikofaktor für die koronare Herzkrankheit, wenn ihr Wert im Blut zu hoch ist?",
+    "antworten": [
+      "LDL-Cholesterin",
+      "HDL-Cholesterin",
+      "Gesamtprotein",
+      "Blutzucker"
+    ],
+    "richtigeAntwort": "LDL-Cholesterin",
+    "erklaerung": "Erhöhte Cholesterinwerte im Blut, insbesondere das sogenannte 'schlechte' LDL-Cholesterin, stellen den wichtigsten Risikofaktor für die koronare Herzkrankheit dar.",
+    "quelleSeite": 40
+  },
+  {
+    "id": 42,
+    "thema": "khk",
+    "kategorie": "stumme_infarkte",
+    "typ": "multiple-choice",
+    "frage": "Was ist ein 'stummer Herzinfarkt'?",
+    "antworten": [
+      "Ein Herzinfarkt ohne spürbare Beschwerden, der erst im Nachhinein entdeckt wird",
+      "Ein Herzinfarkt, der nie diagnostiziert werden kann",
+      "Ein Herzinfarkt ausschließlich bei jungen, gesunden Sportlern",
+      "Ein Herzinfarkt, der keine Schäden am Herzmuskel hinterlässt"
+    ],
+    "richtigeAntwort": "Ein Herzinfarkt ohne spürbare Beschwerden, der erst im Nachhinein entdeckt wird",
+    "erklaerung": "Stumme Herzinfarkte rufen keine oder kaum Beschwerden hervor und werden oft nur zufällig im EKG oder Echokardiogramm entdeckt, besonders bei Menschen mit Bluthochdruck oder Diabetes Typ 2.",
+    "quelleSeite": 81
+  }
+]
