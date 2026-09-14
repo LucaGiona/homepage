@@ -40,6 +40,10 @@ Kurzer Verlauf, was wann gemacht wurde. Ältere Historie davor: siehe `git log`.
 - Kontakt (E-Mail + Telefon, mit Icons) als eigene Injection `templates/contact-info.html` ergänzt — bewusst getrennt vom Footer, damit sie später auch auf einer eigenen Kontaktformular-Seite wiederverwendet werden kann, ohne auf jeder Seite zu laufen.
 - Footer auf `about.html` und `services.html` nachgerüstet (fehlte komplett); `services.html` fehlte zusätzlich das `<body>`-Tag — beides behoben, Titel "Certifacts" → "Services".
 - Navigation ist jetzt sticky (bleibt beim Scrollen oben sichtbar).
+- Regel "README nach jeder Aufgabe nachziehen" in `AGENTS.md` ergänzt (Abschnitt "Dokumentation").
+- Nav-Reihenfolge geändert: Home, About, Services, Projekte, Galerie, Drinks, Blog, Zertifikationen.
+- Nav-Reihenfolge nochmal angepasst, About ans Ende: Home, Services, Projekte, Galerie, Drinks, Blog, Zertifikationen, About.
+- Nav-Reihenfolge nochmal angepasst, Galerie hinter Blog: Home, Services, Projekte, Drinks, Blog, Galerie, Zertifikationen, About.
 
 ### Ideen / offene Punkte (noch nicht umgesetzt)
 - Kontaktformular als eigene Injection (`templates/contact-form.html`), nur auf einer Kontakt-Seite, nicht überall.
