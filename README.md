@@ -73,6 +73,7 @@ Kurzer Verlauf, was wann gemacht wurde. Ältere Historie davor: siehe `git log`.
 - "Funk und Presse"-Links auf der Startseite von losen `<a>`-Tags auf eine echte `<ul class="press-links">`-Liste umgebaut: mehr Abstand zwischen den Einträgen (Flex-Gap) plus Punkt-Trenner (`•`) per `::before` zwischen den Listenelementen, wenn sie nebeneinander liegen.
 - Siebtes Projekt: "Skulptur + Raum" — Website-Neuaufbau für den Bildhauer Gøran Thie (eigenes, separates Repo `raum_skulpturen`, nicht in dieses Repo kopiert). Wie bei Melody Nelson nur Screenshot + Link, kein Code eingebettet — hier aber `repoUrl` statt `siteUrl`, weil das Projekt ein laufendes Kundenprojekt ist und noch nicht auf die eigentliche Domain deployed wurde (die aktuell dort noch live Seite ist die alte Version, nicht dieser Neuaufbau). Screenshot per Headless-Chrome vom lokal laufenden Stand erzeugt.
 - "Skulptur + Raum" in der Projekte-Reihenfolge vor "Sigismondo" gezogen. Bei Sigismondo "Bar" durchgängig zu "Kaffee-Bistro" korrigiert (Summary + Detailtext), inkl. Artikel-Anpassung ("ein Kaffee-Bistro" statt "eine Bar").
+- Screenshot für "Diese Website" (`assets/projekte/homepage.png`) aktualisiert — der alte Stand war veraltet (kein Portrait, alte Nav-Reihenfolge, unterstrichene Links). Neuer Screenshot per Headless-Chrome vom aktuellen lokalen Stand erzeugt und auf 1280×800 zugeschnitten.
 
 ### Ideen / offene Punkte (noch nicht umgesetzt)
 - Echte Profil-URLs für die Social-Media-Icons hinterlegen (aktuell `href="#"`), sobald die Accounts existieren/feststehen.
