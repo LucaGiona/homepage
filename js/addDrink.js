@@ -133,7 +133,7 @@ function addDrinkToDOM(drink) {
   const cardHTML = `
   <div class="card" data-custom="true" data-drink-id="${drink.id}" data-title="${drink.name}" hidden>
     <h3 class="drink__name">${drink.name} <span class="custom-badge"><small>(Eigenkreation)</small></span></h3>
-    <ul class="drink-list" role="list" aria-label="Drink Characteristics">
+    <ul class="drink-list" role="list" aria-label="Eigenschaften">
       <li data-alcohol="${drink.alcohol}">
         <span class="visually-hidden">Dieser Drink ${drink.alcohol === "alcoholic" ? "enthält" : "ist ohne"}</span>
         ${drink.alcohol === "alcoholic" ? "Alkohol" : "ohne Alkohol"}
