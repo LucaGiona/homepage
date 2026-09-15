@@ -59,14 +59,25 @@ const projects = [
     ]
   },
   {
+    title: "Skulptur + Raum",
+    image: "/assets/projekte/skulptur-raum.png",
+    summary: "Website-Neuaufbau für den Bildhauer Gøran Thie – technisch und strukturell komplett überarbeitet, bestehende Gestaltungsidee bewahrt.",
+    stack: ["HTML", "CSS", "JavaScript", "PHP"],
+    repoUrl: "https://github.com/LucaGiona/raum_skulpturen",
+    detail: [
+      "Kompletter technischer Neuaufbau der Website des Bildhauers Gøran Thie (Skulptur + Raum, Berlin) – bestehende Gestaltungsidee und Bildsprache bewahrt, aber sauber neu strukturiert: Startseite mit Hero, Skulpturen-Galerie mit Lightbox, Bio-Sektion und Kontaktformular (PHPMailer), dazu eine Gästebuch-Unterseite mit den eingescannten Original-Einträgen.",
+      "Eigener Admin-Bereich zur Verwaltung der Galerie-Bilder (Upload, Sortieren, Löschen) mit Login, dazu Sprachumschaltung Deutsch/Englisch und Hell-/Dunkelmodus. Laufendes Kundenprojekt – das Deployment auf die bestehende Domain steht noch bevor, deshalb hier nur der Code-Link statt eines Live-Links auf die aktuell noch alte Version."
+    ]
+  },
+  {
     title: "Sigismondo – Design-Varianten",
     image: "/assets/projekte/sigismondo.png",
-    summary: "Vier unterschiedliche visuelle Design-Richtungen für dieselbe Bar-Website, mit Theme-Toggle direkt umschaltbar.",
+    summary: "Vier unterschiedliche visuelle Design-Richtungen für dieselbe Kaffee-Bistro-Website, mit Theme-Toggle direkt umschaltbar.",
     stack: ["HTML", "CSS", "JavaScript", "Design"],
     demoUrl: "/projekte/sigismondo/index.html",
     repoUrl: "https://github.com/LucaGiona/salvatore",
     detail: [
-      "Demo-Projekt für eine Bar/Salumeria: dieselbe Seitenstruktur (Startseite, Menüs, Anfahrt, Galerie) in vier komplett unterschiedlichen visuellen Design-Richtungen umgesetzt – Blue-Azul, Italian, Art Nouveau und Comic/Pop-Art. Über das Menü lässt sich live zwischen allen Varianten wechseln.",
+      "Demo-Projekt für ein Kaffee-Bistro/Salumeria: dieselbe Seitenstruktur (Startseite, Menüs, Anfahrt, Galerie) in vier komplett unterschiedlichen visuellen Design-Richtungen umgesetzt – Blue-Azul, Italian, Art Nouveau und Comic/Pop-Art. Über das Menü lässt sich live zwischen allen Varianten wechseln.",
       "Zeigt, wie stark sich Typografie, Farbwelt und Bildsprache auf die Wirkung derselben Inhalte auswirken – von elegant-italienisch über verspielten Comic-Stil bis zu floraler Jugendstil-Ästhetik. Explizit als Demo gekennzeichnet (siehe Impressum der Seite), keine reale Adresse oder Kontaktdaten."
     ]
   }
