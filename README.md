@@ -77,6 +77,10 @@ Kurzer Verlauf, was wann gemacht wurde. Ältere Historie davor: siehe `git log`.
 - Datenschutz/Impressum-Links im Footer zentriert (`.footer-links { justify-content: center; }` in `css/style.css`). Da `templates/footer.html` auf jeder Seite gleich eingebunden wird, wirkt das automatisch überall. Kontakt-Infos (`.footer-contact`) bewusst unverändert links ausgerichtet gelassen.
 - Gleiches für die Social-Media-Icons: `.social-links { justify-content: center; }` ergänzt, damit sie auf allen Seiten zentriert stehen (betrifft auch die Icons selbst dort, wo sie inline im Footer laufen; die Floating-Sidebar-Variante auf der Galerie-Seite bleibt davon optisch unberührt, da dort Position/Ausrichtung über `.social-links--floating` läuft).
 - ARIA-Audit übers ganze HTML gemacht (auf Nachfrage, nicht aktiv gesucht): einzige gefundene Inkonsistenz war `aria-label="Drink Characteristics"` auf Englisch, obwohl die Seite durchgehend Deutsch ist (`lang="de"`). Zu `aria-label="Eigenschaften"` korrigiert — 9× in `html/drinks.html` (statische Karten) und 1× im Karten-Template in `js/addDrink.js` (für neu hinzugefügte eigene Drinks).
+- Platzhalter-Tab-Titel auf `index.html` gefunden und behoben: `<title>test</title>` → `<title>Luca Maranta</title>`.
+- Falscher Name im Tab-Titel von `html/galerie.html` korrigiert: `"Mara - Galerie"` → `"Luca - Galerie"`.
+- Erstes Favicon der Seite ergänzt (war vorher komplett unbestückt, siehe "Ideen/offene Punkte") — der Astronauten-Affe (`assets/portraits/affePortrait.webp`) als Motiv. Aus dem Originalbild per ImageMagick `assets/favicon/favicon-16.png`, `favicon-32.png` und `apple-touch-icon.png` (180×180) erzeugt, dazu ein kombiniertes `favicon.ico` (16/32/48) im Projekt-Root für den automatischen Browser-Fallback. `<link rel="icon">`/`<link rel="apple-touch-icon">` in den `<head>` aller 10 Hauptseiten ergänzt; die eingebetteten Projekte-Unterseiten (`projekte/*`) bewusst nicht angefasst, die greifen über den Root-Fallback automatisch mit.
+- Favicon nachträglich rund gemacht: kreisrunde Alpha-Maske per ImageMagick (`-compose CopyOpacity`) auf das Originalbild gelegt, davon alle Größen neu erzeugt. `favicon-16/32.png` + `favicon.ico` transparent außerhalb des Kreises (Tab/Bookmark-Icons vertragen Transparenz problemlos); `apple-touch-icon.png` bewusst stattdessen auf die Seiten-Hintergrundfarbe (`--color-bg`, `#faf8f5`) geflattet statt transparent gelassen, weil iOS bei transparenten Touch-Icons die leeren Bereiche schwarz auffüllt.
 
 ### Ideen / offene Punkte (noch nicht umgesetzt)
 - Echte Profil-URLs für die Social-Media-Icons hinterlegen (aktuell `href="#"`), sobald die Accounts existieren/feststehen.
@@ -86,7 +90,7 @@ Kurzer Verlauf, was wann gemacht wurde. Ältere Historie davor: siehe `git log`.
 - `html/galerie.html`: Tippfehler `green_water_ducks02.webpp` (doppeltes p) — Bild lädt bei größeren Viewports nicht (echtes Broken-Image).
 - `html/about.html` und `html/services.html`: totes Script `js/certifications.js` eingebunden, obwohl die Seiten keine passenden Elemente haben.
 - Drinks-Daten: 9 Start-Drinks sind hartcodiertes HTML, eigene Drinks laufen über LocalStorage/JS — zwei parallele Datenmodelle für dieselbe Sache.
-- Kein Favicon, keine Meta-Description/Open-Graph-Tags.
+- Keine Meta-Description/Open-Graph-Tags.
 - Seite ist aktuell nicht live/öffentlich geteilt (Stand 2026-09-13).
 
 ## Autor
