@@ -14,6 +14,11 @@
   --color-danger: #a6341f;
   --color-danger-hover: #85291a;
   --color-danger-soft: #f6e3de;
+  --color-success: #3f7a4f;
+  --color-success-hover: #336640;
+  --color-warning: #c2710d;
+  --color-warning-hover: #a15c09;
+  --color-warning-soft: #fbe8d2;
 
   --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
@@ -353,7 +358,6 @@ button:disabled {
 }
 
 #reset-filters,
-#cancel-edit,
 .edit-custom-drink {
   color: var(--color-text);
   background-color: var(--color-surface);
@@ -361,20 +365,50 @@ button:disabled {
 }
 
 #reset-filters:hover,
-#cancel-edit:hover,
 .edit-custom-drink:hover {
   background-color: var(--color-accent-soft);
   border-color: var(--color-accent);
 }
 
-#clearMyDrinks,
+#cancel-edit {
+  color: var(--color-warning-hover);
+  background-color: var(--color-warning-soft);
+  border-color: var(--color-warning);
+}
+
+#cancel-edit:hover {
+  background-color: var(--color-warning);
+  border-color: var(--color-warning);
+  color: var(--color-surface);
+}
+
+#toggle-add-drink {
+  background-color: var(--color-success);
+  border-color: var(--color-success);
+}
+
+#toggle-add-drink:hover {
+  background-color: var(--color-success-hover);
+  border-color: var(--color-success-hover);
+}
+
+#clearMyDrinks {
+  background-color: var(--color-danger);
+  color: var(--color-surface);
+  border-color: var(--color-danger);
+}
+
+#clearMyDrinks:hover {
+  background-color: var(--color-danger-hover);
+  border-color: var(--color-danger-hover);
+}
+
 .delete-custom-drink {
   background-color: var(--color-surface);
   color: var(--color-danger);
   border-color: var(--color-danger);
 }
 
-#clearMyDrinks:hover,
 .delete-custom-drink:hover {
   background-color: var(--color-danger-soft);
   border-color: var(--color-danger-hover);
@@ -391,7 +425,7 @@ label {
   margin-bottom: var(--space-1);
 }
 
-input,
+input:not([type="checkbox"]):not([type="radio"]),
 select,
 textarea {
   font: inherit;
@@ -429,6 +463,20 @@ fieldset label {
   margin-right: var(--space-4);
 }
 
+.season-fieldset {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-2) var(--space-4);
+}
+
+.season-fieldset label {
+  margin-right: 0;
+}
+
+.season-all-label {
+  grid-column: 1 / -1;
+}
+
 legend {
   font-weight: 600;
   padding-inline: var(--space-1);
@@ -437,7 +485,26 @@ legend {
 .help-text {
   color: var(--color-text-muted);
   font-size: 0.85rem;
-  margin: calc(var(--space-1) * -1) 0 var(--space-4);
+  margin: var(--space-2) 0 var(--space-4);
+}
+
+.section-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-1) var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.section-header h2 {
+  margin-bottom: 0;
+}
+
+.drinks-count {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--color-text-muted);
 }
 
 .add-drink {
@@ -453,8 +520,10 @@ legend {
   margin-bottom: var(--space-4);
 }
 
-.add-drink button {
-  margin-right: var(--space-2);
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
 }
 
 /* ==========================================================================
@@ -482,6 +551,13 @@ legend {
   width: auto;
   margin-bottom: 0;
   min-width: 12rem;
+}
+
+.drink-selection .flow .filter-actions {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
 }
 
 .cards {
@@ -857,6 +933,10 @@ details[open] summary {
   .drink-selection .flow select,
   .drink-selection .flow button {
     width: 100%;
+  }
+
+  .drink-selection .flow .filter-actions {
+    flex-direction: column;
   }
 
   .card-actions {

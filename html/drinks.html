@@ -11,6 +11,7 @@
     <script src="/js/script.js" defer></script>
     <script src="/js/drinkFilter.js" defer></script>
     <script src="/js/addDrink.js" defer></script>
+    <script src="/js/drinksCount.js" defer></script>
    
    
     <title>Drinks</title>
@@ -43,12 +44,17 @@
                             <option value="non-alcoholic">ohne Alkohol</option>   
                         </select>
 
+                        <div class="filter-actions">
                             <button id="apply-filters" type="button">Filter anwenden</button>
                             <button id="reset-filters" type="button">Zurücksetzen</button>
+                        </div>
 
             <section>
                 <div>
-                    <h2>Eigene Drinks hinzufügen:</h2>
+                    <div class="section-header">
+                        <h2>Eigene Drinks hinzufügen:</h2>
+                        <span id="custom-drinks-count" class="drinks-count" role="status"></span>
+                    </div>
                     <button type="button" id="toggle-add-drink" aria-expanded="false" aria-controls="add-drink-form">
                         Drink hinzufügen</button>
 
@@ -67,9 +73,9 @@
                         </div>
 
                         <div>
-                            <fieldset>
+                            <fieldset class="season-fieldset">
                                 <legend>Jahreszeit <small>(eine oder mehrere)</small></legend>
-                                <label><input type="checkbox" name="seasons" value="all" id="season-all">Ganzes Jahr</label>
+                                <label class="season-all-label"><input type="checkbox" name="seasons" value="all" id="season-all">Ganzes Jahr</label>
                                 <label><input type="checkbox" name="seasons" value="spring" id="season-spring">Frühling</label>
                                 <label><input type="checkbox" name="seasons" value="summer" id="season-summer">Sommer</label>
                                 <label><input type="checkbox" name="seasons" value="autumn" id="season-autumn">Herbst</label>
@@ -108,9 +114,11 @@
                          </div>
 
                          <!-- Buttons -->
-                          <button type="submit">Drink speichern</button>
-                          <button type="button" id="cancel-edit">Abbrechen</button>
-                          <button type="button" id="clearMyDrinks">Meine Drinks löschen</button>
+                         <div class="form-actions">
+                             <button type="submit">Drink speichern</button>
+                             <button type="button" id="cancel-edit">Abbrechen</button>
+                             <button type="button" id="clearMyDrinks">Meine Drinks löschen</button>
+                         </div>
 
                     </form>
                 </div>

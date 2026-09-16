@@ -106,10 +106,11 @@ addDrinkForm.addEventListener("submit", (e) => {
   toggleButton.setAttribute("aria-expanded", "false");
   toggleButton.textContent = "Drink hinzufügen";
 
-  // Nachziehen: Titel, Sortierung, Filter
+  // Nachziehen: Titel, Sortierung, Filter, Zähler
   if (typeof setMissingDataTitles === "function") setMissingDataTitles();
   if (typeof sortCardsByTitle   === "function") sortCardsByTitle();
   if (typeof filterCards        === "function") filterCards();
+  if (typeof updateDrinksCount  === "function") updateDrinksCount();
 
   //console.log("Custom Drink gespeichert.");
 });
@@ -266,6 +267,7 @@ function deleteCustomDrink(drinkId) {
   if (typeof filterCards        === "function") filterCards();
   if (typeof setMissingDataTitles === "function") setMissingDataTitles();
   if (typeof sortCardsByTitle   === "function") sortCardsByTitle();
+  if (typeof updateDrinksCount  === "function") updateDrinksCount();
 
   //console.log("Custom Drink gelöscht:", drinkId);
 }
@@ -291,6 +293,7 @@ clearButton?.addEventListener("click", () => {
   if (typeof filterCards        === "function") filterCards();
   if (typeof setMissingDataTitles === "function") setMissingDataTitles();
   if (typeof sortCardsByTitle   === "function") sortCardsByTitle();
+  if (typeof updateDrinksCount  === "function") updateDrinksCount();
 
   //console.log("Alle Custom Drinks gelöscht");
 });
